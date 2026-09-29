@@ -1,0 +1,2027 @@
+[
+ {
+  "id": "0xsline/OpenChatCut",
+  "path": null,
+  "category_source": "editing",
+  "safety_upstream": "safe",
+  "description_source": "Open-source, local-first conversational AI video editor with a professional multi-track timeline, Agent Skills, MCP integration, and Remotion rendering.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "aaronyi97/image-story-video-wizard",
+  "path": null,
+  "category_source": "story",
+  "safety_upstream": "safe",
+  "description_source": "A confirmation-gated Codex and WorkBuddy skill for audio-first image-story video production.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "acelera-agency/html-animation",
+  "path": null,
+  "category_source": "motion",
+  "safety_upstream": "safe",
+  "description_source": "Motion graphics as code. An agent skill for building frame-exact animated logos, kinetic typography and brand videos as a single HTML file, then exporting them to MP4 in 1:1, 4:5 and 9:16.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "adithya-s-k/manim_skill",
+  "path": null,
+  "category_source": "explainer",
+  "safety_upstream": "safe",
+  "description_source": "Agent skills for Manim to create 3Blue1Brown style animations.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "adityaarsharma/youtube-marketing-skills",
+  "path": null,
+  "category_source": "craft",
+  "safety_upstream": "safe",
+  "description_source": "Open-source agent-agnostic YouTube growth toolkit — 21 AI commands + live channel MCP. Works with Claude Code, Cursor, Codex, Windsurf, Gemini CLI & any MCP client. SEO, scripts, Shorts, thumbnails, analytics, WordPress publishing. Free VidIQ/TubeBuddy alternative.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "adriiita/vertical-video-editing-skill",
+  "path": null,
+  "category_source": "shorts",
+  "safety_upstream": "safe",
+  "description_source": "Claude skill: turn a script + talking-head media into a polished, creator-grade vertical 9:16 short with HyperFrames — editorial look, A-roll/B-roll cutting, eased camera moves, themed motion graphics, SFX, and a render verification gate.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "Agentchengfeng/chengfeng-videocut-skills",
+  "path": null,
+  "category_source": "editing",
+  "safety_upstream": "safe",
+  "description_source": "用 Claude Code Skills 做的视频剪辑 Agent",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "AgriciDaniel/claude-gif",
+  "path": null,
+  "category_source": "motion",
+  "safety_upstream": "safe",
+  "description_source": "Ultimate GIF creator skill for Claude Code. 6 generation pipelines: Remotion, Veo 3.1, SVG-to-transparent-GIF, FFmpeg, image sequences, AI frames. Palette optimization, perfect loops, platform sizing.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "AgriciDaniel/claude-shorts",
+  "path": null,
+  "category_source": "editing",
+  "safety_upstream": "safe",
+  "description_source": "Interactive longform-to-shortform video creator — Claude Code skill with Remotion-rendered animated captions, AI segment scoring, cursor tracking, and audio-aware boundary snapping",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "AgriciDaniel/lipnardo",
+  "path": null,
+  "category_source": "avatar",
+  "safety_upstream": "safe",
+  "description_source": "HeyGen avatar video generation skill for Claude Code. Batch, templates, translation, photo avatars, TTS. Stdlib-only Python.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "ahmdd4vd/MotionCraft",
+  "path": null,
+  "category_source": "explainer",
+  "safety_upstream": "safe",
+  "description_source": "Clean, high-taste motion graphics videos made by your AI agent with Remotion. One-command Agent Skill: npx skills add ahmdd4vd/motioncraft",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "aijiduonadegou/Paper-Cut",
+  "path": null,
+  "category_source": "explainer",
+  "safety_upstream": "safe",
+  "description_source": "无需视频模型，即可制作拼贴动画的skill。用图像模型定稿、原图拆层与 HyperFrames 代码动画制作可编辑 Paper Cut / Vox 风格纸拼贴科普视频；支持三阶段审批、旁白、音效、文字动效与确定性 QA。",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "AKMessi/vex",
+  "path": null,
+  "category_source": "editing",
+  "safety_upstream": "safe",
+  "description_source": "claude code for video editing",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "alexgreensh/anidoodle",
+  "path": null,
+  "category_source": "motion",
+  "safety_upstream": "safe",
+  "description_source": "Art and animation, written as code. Illustrations, loops, interactive web art, stickers and scored films in dozens of styles, identical on every render.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "Alisa0808/vox-director",
+  "path": null,
+  "category_source": "explainer",
+  "safety_upstream": "safe",
+  "description_source": "Turn one topic into a finished Vox-style paper-collage explainer/ad video — automated end to end on Atlas Cloud + ffmpeg. An agent skill.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "AllenAI2014/remotion-guofeng-starter",
+  "path": null,
+  "category_source": "story",
+  "safety_upstream": "safe",
+  "description_source": "国风纸片动画：Remotion 风格资产库 + 制作流程 Skill。给 AI 一首诗/成语，照这套国风纸片拼贴风格从零出片，全程代码渲染不进剪辑。",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "AmazingAng/ccvideo",
+  "path": null,
+  "category_source": "promo",
+  "safety_upstream": "safe",
+  "description_source": "Claude-style promo videos from ground-truth captures — a Claude Code skill (Remotion)",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "Anil-matcha/vox-ai-motion-graphics-generator",
+  "path": null,
+  "category_source": "explainer",
+  "safety_upstream": "safe",
+  "description_source": "🎬 Turn any topic into a finished Vox-style paper-collage explainer / motion graphics video — script, collage keyframes, animation, voice-over, music & captions, all automated. An agent skill for Claude Code, Codex & other coding agents.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "Anil-matcha/zack-d-films-ai-video-generator",
+  "path": null,
+  "category_source": "explainer",
+  "safety_upstream": "safe",
+  "description_source": "🎬 Turn any topic into a finished Zack D Films-style 3D animated short — curiosity-loop script, character sheets, 3D keyframes, Veo 3.1 motion, voiceover, captions & punchy edits, all automated. An agent skill for Claude Code, Codex & other coding agents. Powered by MuAPI + ffmpeg.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "Arman-Luthra/aftr",
+  "path": null,
+  "category_source": "promo",
+  "safety_upstream": "safe",
+  "description_source": "Puppeteer for After Effects. Use AE with Claude Code to make production-ready videos.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "AsadMoulviDev/reel-video",
+  "path": null,
+  "category_source": "story",
+  "safety_upstream": "safe",
+  "description_source": "Create AI videos with Claude Code, Codex, Cursor, and Grok Build, with no extra generation fees beyond the plans you already pay for",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "ayushozha/AdobePremiereProMCP",
+  "path": null,
+  "category_source": "editing",
+  "safety_upstream": "safe",
+  "description_source": "🎬 AI-powered MCP server for Adobe Premiere Pro — 1,027 tools for timeline editing, color grading, audio mixing, effects, export & more. Control video editing with natural language via Claude, GPT, or any AI assistant. The most comprehensive MCP server for any NLE.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "bangtutorial/bang-motion",
+  "path": null,
+  "category_source": "general",
+  "safety_upstream": "safe",
+  "description_source": "Agent skill for browser motion graphics — openers, promos, bumpers, kinetic typography, and five explainer styles that move like video, not slides. Single index.html output. Works with Claude Code, Codex, Gemini CLI, Cursor.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "BayramAnnakov/remotion-video-director",
+  "path": null,
+  "category_source": "promo",
+  "safety_upstream": "safe",
+  "description_source": "Interactive Claude Code skill for creating Remotion videos through expert-guided deliberation",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "bbylw/hyperframes-cn",
+  "path": null,
+  "category_source": "general",
+  "safety_upstream": "safe",
+  "description_source": "HyperFrames 是一个开源框架，可将 HTML、CSS、媒体与可定位（seekable）动画转化为确定性的 MP4 视频。你可以在本地通过 CLI 使用它，让 AI 编程智能体借助 skills 使用它，或者把它作为托管创作工作流背后的渲染核心。",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "bestagentkits/motion-video-skill",
+  "path": null,
+  "category_source": "promo",
+  "safety_upstream": "safe",
+  "description_source": "Agent skill that produces beat-synced 1080p motion-graphic videos in HyperFrames (HTML + GSAP) with an AI voice-over, karaoke captions, SFX and generated music. MIT.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "blixvip/easyedit",
+  "path": null,
+  "category_source": "editing",
+  "safety_upstream": "safe",
+  "description_source": "Type a movie, get a captioned speech + beat-cut fan edit. Local-first, no API keys, works with your AI bot (Claude Code / Codex).",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "BusyBee3333/animated-explainer-skills",
+  "path": null,
+  "category_source": "explainer",
+  "safety_upstream": "safe",
+  "description_source": "Build Kurzgesagt-quality animated explainer videos as one self-contained HTML file — GSAP choreography patterns, YouTube-retention method, overlap auditor, ElevenLabs VO pipeline. Claude Code skills + standalone tools. MIT.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "calesthio/OpenMontage",
+  "path": null,
+  "category_source": "general",
+  "safety_upstream": "safe",
+  "description_source": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "cartesiancs/cartcut",
+  "path": null,
+  "category_source": "editing",
+  "safety_upstream": "safe",
+  "description_source": "Video Editor for AI agents, built on the belief that open source can beat commercial tools",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "Cassette-Editor/oh-my-cassette",
+  "path": null,
+  "category_source": "editing",
+  "safety_upstream": "safe",
+  "description_source": "你的随身 AI 剪辑搭档 | Pocket AI co-editor for video montage — AI video editing plugin & MCP server for Claude Code, Codex, Hermes & OpenCode",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "cclank/lanshu-create-ai-presenter-video",
+  "path": null,
+  "category_source": "avatar",
+  "safety_upstream": "safe",
+  "description_source": "Provider-neutral Codex Skill for producing verified AI presenter videos from a script and an authorized presenter image.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ],
+  "must_feature": true
+ },
+ {
+  "id": "cclank/lanshu-html2video-skill",
+  "path": null,
+  "category_source": "explainer",
+  "safety_upstream": "safe",
+  "description_source": "Turn web articles into polished 1080p videos with Codex and Remotion",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "centraltowerlabs/diagram-tour",
+  "path": null,
+  "category_source": "explainer",
+  "safety_upstream": "safe",
+  "description_source": "This Claude Skill makes it easy to generate explainer video tours of your codebase (or any other complex system)",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "chenmisss/laoxu-video-script",
+  "path": null,
+  "category_source": "craft",
+  "safety_upstream": "safe",
+  "description_source": "老徐·自媒体起号方法论 skill：定位/选题/破立合成稿/五维诊断/去车轱辘话/112条母题库。零基础起号，Claude Code/Codex skill。",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "ChenShuo2004/cs-shotcraft-skill",
+  "path": null,
+  "category_source": "promo",
+  "safety_upstream": "safe",
+  "description_source": "CS Skills 产品宣传片 skill：真实产品界面、镜头表运镜、152 张镜头配方卡与 Ink Press 模板。Remotion 出片，配乐默认可选。",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "chenyuxiaojin/cyxj-hyperframes",
+  "path": null,
+  "category_source": "explainer",
+  "safety_upstream": "safe",
+  "description_source": "Open-source HTML+GSAP video projects & reusable toolkit for Claude Code tutorial videos, powered by HeyGen HyperFrames.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "chenyuxiaojin/cyxj-remotion-starter",
+  "path": null,
+  "category_source": "general",
+  "safety_upstream": "safe",
+  "description_source": "用 Claude Code 指挥 Remotion 出视频的工作台脚手架:三层架构 + hooks 守规矩 + skills 编排流程 | by 陈与小金",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "cocolayuan/videoclip-AI-skill",
+  "path": null,
+  "category_source": "editing",
+  "safety_upstream": "safe",
+  "description_source": "Claude Skill-powered video editing toolkit - 视频全自动剪辑",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "coding-ax/docvideoer",
+  "path": null,
+  "category_source": "explainer",
+  "safety_upstream": "safe",
+  "description_source": "文档转视频 skills。用于把文档 URL、网页文章、Markdown 或粘贴文本转换成带中文旁白的 Remotion 讲解视频，包含正文提取、分镜生成、免费 TTS、视频项目搭建和 MP4 渲染。",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "cymcymcymcym/notes-to-video",
+  "path": null,
+  "category_source": "explainer",
+  "safety_upstream": "safe",
+  "description_source": "Turn notes into animated explainer videos in the style popularized by 3Blue1Brown. Claude Code skill + Manim + TTS + ffmpeg.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "darrenli6/JJKoubo",
+  "path": null,
+  "category_source": "editing",
+  "safety_upstream": "safe",
+  "description_source": "JJ Koubo (JJ口播) is a local-first collection of video editing Skills for talking-head, interview, knowledge-sharing, and other videos centered on spoken content. The Skills can be used through Codex or other compatible Agent environments.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "davidcervinka/vibe-editing",
+  "path": null,
+  "category_source": "general",
+  "safety_upstream": "safe",
+  "description_source": "Vibe coding, but for video. Launch films, aftermovies & reels — cut, scored and shipped by talking to Claude Code. Full stack + flow.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "derrickgong87/demo-video-creation-skill",
+  "path": null,
+  "category_source": "promo",
+  "safety_upstream": "safe",
+  "description_source": "A reusable Codex skill for creating polished SaaS and product demo videos from a company URL, screenshots, and product flows.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "diffusionstudio/lottie",
+  "path": null,
+  "category_source": "motion",
+  "safety_upstream": "safe",
+  "description_source": "Generate production-ready Lottie animations with Claude Code or Codex",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "digitalsamba/claude-code-video-toolkit",
+  "path": null,
+  "category_source": "general",
+  "safety_upstream": "safe",
+  "description_source": "AI-native video production toolkit for Claude Code",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "dlazy-ai/ai-product-video",
+  "path": null,
+  "category_source": "promo",
+  "safety_upstream": "safe",
+  "description_source": "AI agent skill (Claude Code / Codex) that turns your product into a cinematic promo video: 152 shot recipe cards, 209 style variants, tuned Remotion implementations, 149 SFX, a validated 10-shot template, plus music, voiceover, captions and B-roll via the dLazy CLI.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "doublesq97-ui/su-card-to-video",
+  "path": null,
+  "category_source": "general",
+  "safety_upstream": "safe",
+  "description_source": "Minimal HTML/CSS card-to-video starter skill using HyperFrames, GSAP, and FFmpeg.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "erduo1998-cell/erduo-broll-loop-engineering",
+  "path": null,
+  "category_source": "editing",
+  "safety_upstream": "safe",
+  "description_source": "SRT 驱动的双后端 B-roll Agent Skill：自动路由 HyperFrames / Remotion，集成 152 张 Shotcraft 镜头卡",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "erduo1998-cell/video-script-builder",
+  "path": null,
+  "category_source": "craft",
+  "safety_upstream": "safe",
+  "description_source": "把中文视频逐字稿转换为可执行 HyperFrames 分镜规格的 AI Agent Skill",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "eternityspring/reelbench-skills",
+  "path": null,
+  "category_source": "craft",
+  "safety_upstream": "safe",
+  "description_source": "Learning notes and tooling skills for AI video - AI 视频相关的学习与工具 skill",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "EverMind-AI/Raven",
+  "path": "skills/git-story-film",
+  "category_source": "explainer",
+  "safety_upstream": "safe",
+  "description_source": "Direct a two-minute hand-drawn animated film from a repository's Git history: story, character, storyboard, HTML review studio, then a 4K/60fps MP4.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "Fagan1024/smart-video-editor",
+  "path": null,
+  "category_source": "editing",
+  "safety_upstream": "safe",
+  "description_source": "AI video editing skill that watches your footage before cutting. Vision model analyzes every frame, scores usability, drops bad takes, reorders by narrative, then renders with ffmpeg. For Claude Code, Cola, OpenClaw. 会看画面的 AI 自动剪辑 Skill——先用视觉模型看懂素材再决定剪哪几秒。",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "fernandokaraka/remotion-motion-graphics-skill",
+  "path": null,
+  "category_source": "motion",
+  "safety_upstream": "safe",
+  "description_source": "Claude Code skill: build animated motion graphics as real video with Remotion — title cards, lower thirds, overlays with real alpha for Premiere/FCP/CapCut.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "Finderchangchang/promo-video-skill",
+  "path": null,
+  "category_source": "promo",
+  "safety_upstream": "safe",
+  "description_source": "精酿 BrewReel：让 DeepSeek 这类便宜模型也能做出好看的竖版宣传片。写一份产品简报，AI 挑镜头、写文案，一条命令出片。3 种配方、6 个行业、广告法校验，开源可商用。",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "FireRedTeam/FireRed-OpenStoryline",
+  "path": null,
+  "category_source": "editing",
+  "safety_upstream": "safe",
+  "description_source": "FireRed-OpenStoryline is an AI video editing agent that transforms manual editing into intention-driven directing through natural language interaction, LLM-powered planning, and precise tool orchestration. It facilitates transparent, human-in-the-loop creation with reusable Style Skills for consistent, professional storytelling.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "geekjourneyx/hyperframes-motion-director",
+  "path": null,
+  "category_source": "promo",
+  "safety_upstream": "safe",
+  "description_source": "Agent Skill for Chinese-first HyperFrames motion-video production from articles, products, websites, and README files.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "gloweaseco-leo/hyperdirector",
+  "path": null,
+  "category_source": "general",
+  "safety_upstream": "safe",
+  "description_source": "Hermes Skill Pack for structured AI video production on HyperFrames — brief → storyboard → HTML → lint/render.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "gnipbao/minimax-h3-video-reverse-skill",
+  "path": null,
+  "category_source": "craft",
+  "safety_upstream": null,
+  "description_source": null,
+  "sources": [
+   "live-page"
+  ]
+ },
+ {
+  "id": "gnipbao/story-to-handdrawn-video",
+  "path": null,
+  "category_source": "story",
+  "safety_upstream": "safe",
+  "description_source": "Agent skill: convert Chinese story copy or ordered images into a hand-drawn diary-comic animation (silent MP4 picture track).",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "GordenSun/react-bits-video",
+  "path": null,
+  "category_source": "general",
+  "safety_upstream": "safe",
+  "description_source": "结合react-bits、remotion、hyperframe整合的Skill，可以生成华丽的视频。",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "gorkem-bwl/onboarding-video-generator",
+  "path": null,
+  "category_source": "promo",
+  "safety_upstream": "safe",
+  "description_source": "Claude Code skill for column-sized web app onboarding videos in Remotion",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "hahadu4520/newcut-video-clipping-skill",
+  "path": null,
+  "category_source": "editing",
+  "safety_upstream": "safe",
+  "description_source": "Open-source Codex skill for semantic Chinese video clipping with hooks, captions, cleanup, and FFmpeg rendering",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "hahadu4520/vlog-cut",
+  "path": null,
+  "category_source": "editing",
+  "safety_upstream": "safe",
+  "description_source": "Narration-driven video editing pipeline for Claude Code · 给 Claude Code 用的「按文案剪辑」流水线",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "hassancs91/claude-faceless-shorts-creator",
+  "path": null,
+  "category_source": "shorts",
+  "safety_upstream": "safe",
+  "description_source": "A faceless YouTube-Shorts factory driven by Claude Code: pure-TSX Remotion visuals, ElevenLabs voice with word-exact captions, library-first sound design. 12 complete example shorts included.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "hassancs91/claude-youtube-editor",
+  "path": null,
+  "category_source": "editing",
+  "safety_upstream": "safe",
+  "description_source": "Record the talking head, Claude Code does the rest: the cut, the visuals, the voice, the sound effects, the thumbnail, and the YouTube upload. Every screen moment is built as Remotion TSX code, never screen-recorded.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "hetpatel-11/Adobe_Premiere_Pro_MCP",
+  "path": null,
+  "category_source": "editing",
+  "safety_upstream": "safe",
+  "description_source": "Adobe Premiere Pro MCP. Tools for AI-driven video editing via MCP, for Codex, Claude, and other MCP clients.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "heygen-com/hyperframes",
+  "path": null,
+  "category_source": "general",
+  "safety_upstream": "safe",
+  "description_source": "Write HTML. Render video. Built for agents.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "heygen-com/skills",
+  "path": null,
+  "category_source": "avatar",
+  "safety_upstream": "safe",
+  "description_source": "HeyGen AI agent skills — avatar creation and video production via the v3 Video Agent pipeline",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "hi-nikola/hand-drawn-explainer-video-nikola",
+  "path": null,
+  "category_source": "explainer",
+  "safety_upstream": "safe",
+  "description_source": "中文手绘知识讲解视频 Codex Skill：逐笔故事、双语义岛、让怪诞小黑动起来与程序动画",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "holy-templar/vox-animated-ad-mcp",
+  "path": null,
+  "category_source": "explainer",
+  "safety_upstream": "safe",
+  "description_source": "Vox-style paper-collage animated video skill for AI agents — Claude + MaxFusion AI MCP (Google Omni). One sentence in, a full explainer or ad out, entirely from chat.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "hypit-ai/hypit",
+  "path": null,
+  "category_source": "general",
+  "safety_upstream": "safe",
+  "description_source": "Clone any viral video with AI agents. Not just a script, the whole workflow: swap the face, the words, the B-roll, ship 100 variants in one command, and get your 100M views.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "iart-ai/ad-video-skills",
+  "path": null,
+  "category_source": "promo",
+  "safety_upstream": "safe",
+  "description_source": "Claude Code skills for ad / advertising video — turn one motion-graphics template into batches of on-brand, A/B-testable ad creative, launch films, and testimonial clips.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "iart-ai/data-animation-skills",
+  "path": null,
+  "category_source": "general",
+  "safety_upstream": "safe",
+  "description_source": "Data video / animated infographic skills for Claude Code — turn a CSV into a chart that moves, with exact, accurate numbers on every frame.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "iart-ai/explainer-video-skills",
+  "path": null,
+  "category_source": "explainer",
+  "safety_upstream": "safe",
+  "description_source": "Explainer video skills for Claude Code: script, storyboard, and render narrated explainers, year-in-review recaps, and animated diagrams.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "iart-ai/motion-design-skills",
+  "path": null,
+  "category_source": "general",
+  "safety_upstream": "safe",
+  "description_source": "Motion design fundamentals, engines, and brand elements as installable Claude Code skills — timing, typography, color, composition, After Effects, Remotion, logos, and backgrounds.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "iart-ai/motion-skills",
+  "path": null,
+  "category_source": "general",
+  "safety_upstream": "safe",
+  "description_source": "50 open-source skills that teach your AI coding agent to make motion graphics, animation & video — kinetic typography, data-viz, explainers, TikTok/Reels, WebGL, Manim. 14 installable packs. By iart.ai, the AI motion agent.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "iart-ai/tiktok-video-skills",
+  "path": null,
+  "category_source": "shorts",
+  "safety_upstream": "safe",
+  "description_source": "Short-form video skills for Claude Code — engineer Reels, TikToks, and YouTube Shorts that survive the swipe.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "icytear-svg/podcast-to-video",
+  "path": null,
+  "category_source": "shorts",
+  "safety_upstream": "safe",
+  "description_source": "Codex skill for turning podcast episodes into platform-ready captioned videos",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "inematds/skill-video-plan-editor",
+  "path": null,
+  "category_source": "shorts",
+  "safety_upstream": "safe",
+  "description_source": "Skill que transforma assunto/link em plano profissional de edição de vídeo (renderer-agnóstico) + render opcional via FFmpeg/Auto-Editor/HyperFrames",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "intelligent-iterations/ii-content-engine",
+  "path": null,
+  "category_source": "shorts",
+  "safety_upstream": "safe",
+  "description_source": "AI-powered content generation and auto-posting engine built for Claude Code and Codex. Generate viral videos, carousels, and reels for TikTok, Instagram, and X using Grok. No API keys needed — uses browser cookies for both generation and posting. Template-first, agent-driven, free and open source.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "jackjls/jtxvideo-skill",
+  "path": null,
+  "category_source": "editing",
+  "safety_upstream": "safe",
+  "description_source": "Codex + HyperFrames 口播视频制作 Skill：按 SRT、结构、分镜、设计、渲染的审核流程生成 AI 金融短视频",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "jaxxchen003/book-video-factory",
+  "path": null,
+  "category_source": "shorts",
+  "safety_upstream": "safe",
+  "description_source": "Portable Codex skill for auditable, rights-aware Chinese book-review short-video workflows.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "jhartquist/claude-remotion-kickstart",
+  "path": null,
+  "category_source": "general",
+  "safety_upstream": "safe",
+  "description_source": "Create videos programmatically with Claude Code and Remotion",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "JimLiu/baocut",
+  "path": null,
+  "category_source": "editing",
+  "safety_upstream": "safe",
+  "description_source": "Open-source Agent Skill that drives the BaoCut macOS app CLI (transcribe · subtitle · translate · cut) from Claude Code, Codex, and other agents",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "JimLiu/taohuayuan",
+  "path": null,
+  "category_source": "story",
+  "safety_upstream": "safe",
+  "description_source": "桃花源记 3D 网页",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "jincheng2026/jc-remotion-skills",
+  "path": null,
+  "category_source": "editing",
+  "safety_upstream": "safe",
+  "description_source": "Remotion Koubo Skill — 口播视频的 AI 成片工作流（Codex / Claude Code 双端）：粗剪+SRT 进，带 MG 包装、音效、母带的成片出",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "jinjin1/scenewright",
+  "path": null,
+  "category_source": "explainer",
+  "safety_upstream": "safe",
+  "description_source": "Claude Code-native pipeline: a source text → narrated, Remotion-rendered YouTube explainer video. Any topic, ~$0/video, local Korean TTS (Supertonic), JSON-as-contract stages.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "JohnHeibel/ClaudeAnimationBase",
+  "path": null,
+  "category_source": "story",
+  "safety_upstream": "safe",
+  "description_source": "A starter kit for animating hand-painted cartoons with Claude: p5.js + p5.brush, the Clawd character, 31 acted emotions and a guide for the model",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "JohnHeibel/PDoomVideo",
+  "path": null,
+  "category_source": "music",
+  "safety_upstream": "safe",
+  "description_source": "Source code for the Claude Opus 5.5 music video for I'm Upping My P(doom)",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "Johnson-Jia/video-clipforge",
+  "path": null,
+  "category_source": "general",
+  "safety_upstream": "safe",
+  "description_source": " AI 驱动的短视频制作系统。给它一个想法，它帮你写稿、配音、做画面、出成片。9 阶段 DAG 管线 + 自进化评分，支持每日自动执行。基于 Claude Code + HyperFrames。",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "jtydhr88/screenwriting-skills",
+  "path": null,
+  "category_source": "craft",
+  "safety_upstream": "safe",
+  "description_source": "Professional agent skills for screenwriting, television writing and dramaturgy",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "JUNKDOGE-JOE/after-effects-mcp",
+  "path": null,
+  "category_source": "editing",
+  "safety_upstream": "safe",
+  "description_source": "Agent-driven Adobe After Effects automation. MCP server + CEP plugin enabling Codex/Cursor/Claude Code to drive AE through 30 ae.* tools.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "kakaxi12/vox-director-codex",
+  "path": null,
+  "category_source": "explainer",
+  "safety_upstream": "safe",
+  "description_source": "Codex skill for creating Vox-style editorial paper-collage videos with ImageGen, HyperFrames, and MiniMax narration.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "kangarooking/director-skills",
+  "path": null,
+  "category_source": "general",
+  "safety_upstream": "safe",
+  "description_source": "导演Skill：面向 AI 视频创作的开源 Agent Skills | Director Skills: Open-source Agent Skills for AI video creation.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "kangarooking/promo-creator-skills",
+  "path": null,
+  "category_source": "promo",
+  "safety_upstream": "safe",
+  "description_source": "产品宣传视频创作 Skills：从产品判断、分镜、素材、HyperFrames 剪辑到 BGM 设计的完整 Agent 工作流",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "Kappaemme-git/codex-video-short-maker-skill",
+  "path": null,
+  "category_source": "editing",
+  "safety_upstream": "safe",
+  "description_source": null,
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "kiki-lgtm-dot/cinematic-product-promo-skill",
+  "path": null,
+  "category_source": "promo",
+  "safety_upstream": "safe",
+  "description_source": "Remotion 产品宣传片 Agent Skill：150+ 镜头配方、200+ 动效预览、2.5D 运镜、节奏剪辑与声音设计。",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "kingselyjoe/video-shotcraft-dsh",
+  "path": null,
+  "category_source": "promo",
+  "safety_upstream": "safe",
+  "description_source": "面向 DeepSeek Harness 的电影感产品视频 Agent Skill，包含 152 张镜头配方卡、Remotion 模板、代码组件和音频资产。",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "krusemediallc/video-editor-agent",
+  "path": null,
+  "category_source": "editing",
+  "safety_upstream": "safe",
+  "description_source": "Claude Code skill pack: edit short-form videos end to end — style-clone a reference reel, build a branded motion-graphics edit, ElevenLabs sound design, frame-level QA, timeline-comment review loop",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "kurbaitaev/ghost-editor",
+  "path": null,
+  "category_source": "editing",
+  "safety_upstream": "safe",
+  "description_source": "AI video editor for talking-head reels: 7 styles, face-safe captions, motion scenes, reverse-engineer any reference edit. A Claude Code / agent skill on HyperFrames.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "leancoderkavy/premiere-pro-mcp",
+  "path": null,
+  "category_source": "editing",
+  "safety_upstream": "safe",
+  "description_source": "Adobe Premiere Pro MCP — independent, local-first server for supported workflows. Connect Claude, Codex, or Cursor through a local CEP bridge.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "ledbetterljoshua/functional-emotions-video",
+  "path": null,
+  "category_source": "music",
+  "safety_upstream": "safe",
+  "description_source": "A painted music video for \"Functional Emotions\", made by Claude Opus 5.5: custom GPU brushstroke renderer, storyboard, and 7 parallel chapter agents.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "lemomo-ai/lemo-opuscar",
+  "path": null,
+  "category_source": "story",
+  "safety_upstream": "safe",
+  "description_source": "39 film styles, each a reusable style prompt plus a short film made entirely in code by Claude Opus 5.5. Pick a style, bring your own story, and let your agent direct. | Opus5.5 x 39 种影片风格：风格提示词 + 纯代码样片 + 导演与技术指南",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "leosssvip-dot/remotion-ad-video-skill",
+  "path": null,
+  "category_source": "promo",
+  "safety_upstream": "safe",
+  "description_source": "Create Remotion ad video projects from a URL with an AI coding agent, no video-generation AI required.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "LetMeHappyCode/auto-video-agent",
+  "path": null,
+  "category_source": "story",
+  "safety_upstream": "safe",
+  "description_source": "自动流水线化生成成套「分镜插画提示词 → AI 生图 → 拼接成片」的视频，基于 Agent / Skill / Workflow 编排。",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "Liamrjohnston/remotion-motion-graphics-skill",
+  "path": null,
+  "category_source": "motion",
+  "safety_upstream": "safe",
+  "description_source": "Production-ready Remotion motion graphics skills for AI video workflows",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "liangdabiao/story-handdrawn-remotion",
+  "path": null,
+  "category_source": "story",
+  "safety_upstream": "safe",
+  "description_source": "视频SKILL: 把一段 中文/英文 故事文本变成  「手绘日记漫画风」竖屏视频。  核心方法论：**不是把一张漂亮图配文字朗读，而是把每句故事拆成「文字 → 黑白画稿 → 彩色插画」三阶段横向擦除揭示，让一句话被画出三次。",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "liangdabiao/story-handdrawn-video",
+  "path": null,
+  "category_source": "shorts",
+  "safety_upstream": "safe",
+  "description_source": "把一段 中文/英文 故事文本变成 9:16 竖屏（720×1280）手绘蜡笔风短视频。Remotion 技术的视频 Skill。基于 Agnes Video V2.0（纯文生视频，当前 $0/秒）+ edge-tts（免费旁白）的全免费视频制作方案。",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "liangdabiao/wechat-article-remotion",
+  "path": null,
+  "category_source": "shorts",
+  "safety_upstream": "safe",
+  "description_source": "动画skill:  把任意一篇微信公众号文章 转成 Studio 风格的 Remotion 视频 —— 暖白画布 + 上下镜像透视格子 + 顶部章节进度 + 公众号原文图完整保留",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "liuliu-66-create/ll-video-decomposer",
+  "path": null,
+  "category_source": "craft",
+  "safety_upstream": "safe",
+  "description_source": "专业的五层视频拆解 Codex Skill：支持视频链接、本地媒体和逐字稿。",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "liyue-aigc/xianxia-cinematic-video-director",
+  "path": null,
+  "category_source": "story",
+  "safety_upstream": "safe",
+  "description_source": "Codex Skill for Eastern xianxia storyboards, camera movement and video continuity.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "louisedesadeleer/cut-video",
+  "path": null,
+  "category_source": "editing",
+  "safety_upstream": "safe",
+  "description_source": "Claude Code skill: tighten long recordings — remove silences, ums, dead air. Preserves laughs and comedic pauses. Fast on Apple Silicon.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "Maartenlouis/remotion-ads",
+  "path": null,
+  "category_source": "shorts",
+  "safety_upstream": "safe",
+  "description_source": "Claude Code skill for creating Instagram Reels & Carousel ads with Remotion",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "magichourhq/skills",
+  "path": null,
+  "category_source": "general",
+  "safety_upstream": "safe",
+  "description_source": "AI media generation skills for Codex, Claude Code and other agents. Images, video and audio workflows using Magic Hour MCP or API.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "manthanpatelll/leadgenman-video-skills",
+  "path": null,
+  "category_source": "editing",
+  "safety_upstream": "safe",
+  "description_source": "Six Claude Code skills for an automated video content pipeline: produce, srt, ytdescription, igcaption, reel-overlay, new-series. By @LeadGenMan.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "marketcalls/story-telling",
+  "path": null,
+  "category_source": "shorts",
+  "safety_upstream": "safe",
+  "description_source": "Turn a context into a narrated story video: Sarvam AI voiceover, FLUX 2 artwork, Remotion render. Ships Claude Code skills.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "mattivilola/brag-codex",
+  "path": null,
+  "category_source": "promo",
+  "safety_upstream": "safe",
+  "description_source": "Codex-compatible clone of latent-spaces/brag for Hyperframes launch videos",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "MegaTroll222/VOX-COLLAGE-BROLL",
+  "path": null,
+  "category_source": "motion",
+  "safety_upstream": "safe",
+  "description_source": "Turn one spoken line into a paper-collage explainer video — Claude Code skill + MaxFusion MCP. English adaptation of gbro-collage-broll by pyang5166.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "memex-lab/product-launch-video-skill",
+  "path": null,
+  "category_source": "promo",
+  "safety_upstream": "safe",
+  "description_source": "AI agent skill for creating cinematic product launch videos with Remotion",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "misbahsy/tiktok-ig-shorts",
+  "path": null,
+  "category_source": "editing",
+  "safety_upstream": "safe",
+  "description_source": "Generate Viral Tiktok and Instagram Shorts using Hyperframes with Claude and Codex",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "Mng-dev-ai/explainer-video",
+  "path": null,
+  "category_source": "explainer",
+  "safety_upstream": "safe",
+  "description_source": "AI skill that turns any topic into an animated narrated explainer video. Runs locally, free, works with Claude Code / Codex / Cursor.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "molkex/mcp-flow-google",
+  "path": null,
+  "category_source": "general",
+  "safety_upstream": "safe",
+  "description_source": "MCP server for Google Flow — Veo video and Nano Banana images inside Claude Code, Cursor or any MCP client. Runs on your own Google account: images free, video on your credits.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "Monet-AI-Editor/Monet",
+  "path": null,
+  "category_source": "editing",
+  "safety_upstream": "safe",
+  "description_source": "Edit Videos and Design Images with Claude code or Codex",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "Mr-funny/hbg-douyin-code-explainer-video",
+  "path": null,
+  "category_source": "explainer",
+  "safety_upstream": "safe",
+  "description_source": "HBG Codex skill for deterministic Chinese 9:16 HyperFrames explainer videos with dialogue TTS, global Whisper sync, stable BGM and final visual QA.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "Mr-funny/hbg-life-simulation",
+  "path": null,
+  "category_source": "story",
+  "safety_upstream": "safe",
+  "description_source": "HBG Agent Skill for Chinese life-simulation narrative videos with consistent comic IP, rapid multi-life openings, Edge TTS, synchronized captions, zoom/pan motion and final MP4 QA.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "mrieck/demoday-claude-plugin",
+  "path": null,
+  "category_source": "promo",
+  "safety_upstream": "safe",
+  "description_source": "Claude Code plugin that creates demo videos for your projects.  Claude is given tools to drive the browser/cli, make recordings, and uses FAL.ai, ElevenLabs, and remotion to build a demo video with scene transitions.   ",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "naive-kun/naive-video-skill",
+  "path": null,
+  "category_source": "editing",
+  "safety_upstream": "safe",
+  "description_source": "A Codex skill for turning talking-head videos into captioned, animated final videos.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "NarratorAI-Studio/narrator-ai-cli-skill",
+  "path": null,
+  "category_source": "general",
+  "safety_upstream": "safe",
+  "description_source": "AI 解说大师 — Agent skill；封装 narrator-ai-cli 供 Claude/Codex 等工具调用",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "new-xp/ultrademo",
+  "path": null,
+  "category_source": "promo",
+  "safety_upstream": "safe",
+  "description_source": "Ultrademo is an automated demo video generator for any websites, SaaS applications, etc. - executed conveniently through a Claude Code skill.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "ninestonelee/youtube-shorts-factory",
+  "path": null,
+  "category_source": "shorts",
+  "safety_upstream": "safe",
+  "description_source": "Claude Code skill — YouTube reference video analysis → benchmarking → 30%+ adaptation → AI Shorts production workflow",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "nolangz/pixel2motion",
+  "path": null,
+  "category_source": "motion",
+  "safety_upstream": "safe",
+  "description_source": "AI logo animation skill: turn raster logos into smooth SVG animation, animated HTML demos, GIF/video previews, and motion QA evidence.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "norahe0304-art/30x-video",
+  "path": null,
+  "category_source": "promo",
+  "safety_upstream": "safe",
+  "description_source": "One URL in, an agency-grade launch video out. A Claude Code skill (Remotion + React) with a 16-law taste codex — 12 brands, 12 worlds, zero templates.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "op7418/guizang-product-video-skill",
+  "path": null,
+  "category_source": "promo",
+  "safety_upstream": "safe",
+  "description_source": "归藏 product video skill：复用真实产品组件和设计语言，用代码制作软件更新宣传片。包含分镜文案、原创配乐、动作音效与视频渲染，支持 Claude Code 和 Codex。",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "ops120/video-recap-skills-plus",
+  "path": null,
+  "category_source": "editing",
+  "safety_upstream": "caution",
+  "description_source": "Clip any video into a narration recap with claude code skill｜用claude code skill把任何视频剪辑成中文解说视频，支持剪映导出",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "opus-pro/opus-video-studio",
+  "path": null,
+  "category_source": "promo",
+  "safety_upstream": "safe",
+  "description_source": "Opus Video Tools for Codex and Claude Code, with 43 open-source video templates and motion components, gallery previews, and demos.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "patraxo/ltx2-vidgen-skill",
+  "path": null,
+  "category_source": "general",
+  "safety_upstream": "safe",
+  "description_source": "Own your AI video pipeline. LTX-2.3 (22B) self-hosted on your Modal GPU via a Claude Code skill — t2v, i2v, keyframes, v2v + synced audio. ~$0.02 per 5s clip, idle = $0.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "Phantomlau3674/voxstylehub-steven",
+  "path": null,
+  "category_source": "explainer",
+  "safety_upstream": "safe",
+  "description_source": "Standalone Codex skill for Vox-inspired editorial collage knowledge videos with deterministic Remotion assembly and optional generated motion.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "pjecuacion/script-to-video-skill",
+  "path": null,
+  "category_source": "explainer",
+  "safety_upstream": "safe",
+  "description_source": "Public script-to-video skill for HyperFrames workflows with sanitized paths and secret-free examples.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "PoetCoderJun/MotionTalk",
+  "path": null,
+  "category_source": "editing",
+  "safety_upstream": "safe",
+  "description_source": "Turn an edited talking video into a polished motion-graphics video with one Agent Skill.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "pyang5166/gbro-collage-broll",
+  "path": null,
+  "category_source": "motion",
+  "safety_upstream": "safe",
+  "description_source": "半调纸拼贴 B-roll 生成 skill：三闸门审批，Gemini Omni Flash 首尾帧组装动画 | Editorial halftone paper-collage B-roll agent skill",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "pyang5166/gbro-collage-info",
+  "path": null,
+  "category_source": "shorts",
+  "safety_upstream": "safe",
+  "description_source": "半调纸拼贴风信息动画 Agent Skill · Halftone paper-collage info-graphic animations from voiceover scripts (HyperFrames, no image models)",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "qingyunAGI/qingyun-cine-skill",
+  "path": null,
+  "category_source": "editing",
+  "safety_upstream": "safe",
+  "description_source": "qingyun-cine-skill: PLAN-FIRST cinematic video editing Codex skill for trailers, beat-sync edits, promos, and highlights.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "remotion-dev/skills",
+  "path": null,
+  "category_source": "general",
+  "safety_upstream": "safe",
+  "description_source": "Agent Skills",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "resemble-ai/remotion-resemble-skill",
+  "path": null,
+  "category_source": "general",
+  "safety_upstream": "safe",
+  "description_source": null,
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "riffkit/skill",
+  "path": null,
+  "category_source": "shorts",
+  "safety_upstream": "safe",
+  "description_source": "Official Riffkit skill — riff a winning TikTok into your own short video from your AI agent (Claude Code, Cursor) or the browser. Riff the formula, not the video.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "runesleo/claude-video-kit",
+  "path": null,
+  "category_source": "explainer",
+  "safety_upstream": "safe",
+  "description_source": "Agent Skill + Remotion pipeline: brief/script → review receipt → narrated 9:16 explainer. RC: video-explainer skill.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "Samin12/samin-reel-engine-plugin",
+  "path": null,
+  "category_source": "shorts",
+  "safety_upstream": "safe",
+  "description_source": "A modular Codex plugin for source-backed reels: research, scripting, real B-roll, fast edits, quality review and giveaway handoffs.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "santmun/video-vox",
+  "path": null,
+  "category_source": "explainer",
+  "safety_upstream": "safe",
+  "description_source": "Crea shorts verticales animados estilo Vox sobre cualquier tema con Claude Code + Remotion (cartoon + voz + música + SFX)",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "sharon-laicc/viral-video-decomposer",
+  "path": null,
+  "category_source": "craft",
+  "safety_upstream": "safe",
+  "description_source": "拆解爆款短视频，生成镜头级拉片、爆款机制、AI 生产蓝图和视频生成 brief 的 Codex/Claude skill。｜A Codex/Claude skill for decomposing hot short videos into shot-by-shot analysis, reusable production blueprints, and AI-ready video generation briefs.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "shuyicc/MathLens",
+  "path": null,
+  "category_source": "explainer",
+  "safety_upstream": "safe",
+  "description_source": "MathLens 是一个专注于数学题目视频讲解的 Agent Skill。你只需粘贴一道数学题（图片或文字），它就能自动完成从题目分析、可视化讲解、配音脚本到 Manim 动画视频的全流程制作。单条视频1-10 分钟，成本 0.2-1 元以内。",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "smit-vanani/claude-promo-video",
+  "path": null,
+  "category_source": "promo",
+  "safety_upstream": "safe",
+  "description_source": "Turn a website URL into a premium, beat-locked product promo video with Remotion — original design system every time, music-onset-locked scenes, self-verifying renders, 16:9 + 9:16 + thumbnails.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "smwbev/framewright",
+  "path": null,
+  "category_source": "general",
+  "safety_upstream": "safe",
+  "description_source": "Agent skill + template: short videos made entirely from code. One HTML file, every frame a pure function of (frame, seed, width). Claude Code, Codex, Gemini CLI, Cursor.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "ssrajadh/paperview",
+  "path": null,
+  "category_source": "explainer",
+  "safety_upstream": "safe",
+  "description_source": "Turn research papers, codebases, etc. into explainer videos, local rendering + TTS, Claude Code plugin.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "sukai213/bilibili-ai-video",
+  "path": null,
+  "category_source": "explainer",
+  "safety_upstream": "safe",
+  "description_source": "AI 科技测评视频制作与 B 站自动发布技能（Codex Skill）：原创文案 / Qwen3-TTS 配音 / 全息幻灯片 / ffmpeg 剪辑 / 投稿 API 自动发布",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "sunxiayi/make-blender-education-video-skill",
+  "path": null,
+  "category_source": "explainer",
+  "safety_upstream": "safe",
+  "description_source": "A Codex and Claude Code skill for creating fact-checked cinematic educational videos with Blender",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "taylorzhou16/video-gen",
+  "path": null,
+  "category_source": "story",
+  "safety_upstream": "safe",
+  "description_source": "AI Video Editing Skill for Claude Code",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "toufuim/personal-ip-brand-intro-skill",
+  "path": null,
+  "category_source": "motion",
+  "safety_upstream": "safe",
+  "description_source": "開源 Codex Skill：用文字、原創插圖或使用者圖片製作個人 IP 品牌開場，支援上傳音樂對拍與無音樂自主節拍。",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "trunghaiy/appshot",
+  "path": null,
+  "category_source": "promo",
+  "safety_upstream": "safe",
+  "description_source": "Generate App Store & Google Play preview videos and screenshots from a simple TypeScript config. Built on Remotion + React + Tailwind. Ships with AI agent skills for Claude Code — scan your app, direct the creative, render to MP4.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "tugrawork-creator/saas-motion-kit",
+  "path": null,
+  "category_source": "promo",
+  "safety_upstream": "safe",
+  "description_source": "Promo & motion videos for software products with HyperFrames + Claude Code. No two films should feel the same: tone matrix, variety audit, 24-transition atlas, 100 storyboard themes.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "tuzhechen2005/opus-video-skills",
+  "path": null,
+  "category_source": "story",
+  "safety_upstream": "safe",
+  "description_source": "Video-making skills for Claude Opus 5.5 in Claude Code — every frame and note generated in code, one skill per style: hand-painted animation, kinetic-typography reels | 用 Claude Opus 5.5 以代码制作视频的技能合集",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "Upload-Post/avatar-mix",
+  "path": null,
+  "category_source": "avatar",
+  "safety_upstream": "safe",
+  "description_source": "Generate 16:9 & 9:16 videos with your HeyGen avatar, animated backgrounds (HyperFrames), music, SFX and Hormozi captions — then publish them to every social network. Reusable skill.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "VasiniDevi/motion-skills",
+  "path": null,
+  "category_source": "general",
+  "safety_upstream": "safe",
+  "description_source": "Programmatic motion design skills for AI agents — motion graphics, kinetic typography, data viz, slide decks in Python",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "vibe-motion/remotion-code-motion-explainer",
+  "path": null,
+  "category_source": "explainer",
+  "safety_upstream": "safe",
+  "description_source": "AI Agent skill for continuous, editable Remotion explainers — created by Bingo",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "vibe-motion/remotion-starter",
+  "path": null,
+  "category_source": "general",
+  "safety_upstream": "safe",
+  "description_source": "用 Claude Code 指挥 Remotion 出视频的工作台脚手架:三层架构 + hooks 守规矩 + skills 编排流程 | maintained by 陈与小金",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "vibe-motion/skills",
+  "path": null,
+  "category_source": "general",
+  "safety_upstream": "safe",
+  "description_source": "agent skills for vibe motion",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "video-db/skills",
+  "path": null,
+  "category_source": "general",
+  "safety_upstream": "safe",
+  "description_source": "Server-side video workflows for agents: ingest, understand, search, edit, stream.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "Vincentwei1021/video-shotcraft",
+  "path": null,
+  "category_source": "promo",
+  "safety_upstream": "safe",
+  "description_source": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 152 shot recipe cards, 209 motion previews, a production-ready template",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "Vincentwei1021/video-talkcraft",
+  "path": null,
+  "category_source": "explainer",
+  "safety_upstream": "safe",
+  "description_source": "Agent skill that turns Claude Code / Codex into a motion-design studio for voiceover-driven explainer videos — word-level voiceover sync, 109 motion recipe cards, an anti-slideshow camera system, Remotion rendering.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "wendymardigian-prog/Editor-IA-Pro",
+  "path": null,
+  "category_source": "shorts",
+  "safety_upstream": "safe",
+  "description_source": "AI-powered video editor built with Remotion and Claude Code",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "wocha-xiaoli/video-shot-analysis-feishu",
+  "path": null,
+  "category_source": "craft",
+  "safety_upstream": "safe",
+  "description_source": "视频拉片到飞书 Base：自动抽帧、逐镜头分析、倒推分镜与视频生成提示词的 Codex/OpenCode skill",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "wshuyi/remotion-video-skill",
+  "path": null,
+  "category_source": "explainer",
+  "safety_upstream": "caution",
+  "description_source": "A Claude Code Skill for creating programmatic videos with Remotion framework",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "wyuzhi/qisi-video-remix",
+  "path": null,
+  "category_source": "craft",
+  "safety_upstream": "safe",
+  "description_source": "视频创意改编 Agent Skill：参考视频 → 剧本 → 分镜 → 分段生成提示词。By qisi.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "YeJe-cpu/SeeCut",
+  "path": null,
+  "category_source": "editing",
+  "safety_upstream": "safe",
+  "description_source": "An AI editor that watches its own cut: talking-head / AI-avatar video → auto-edited short video. 网感口播精剪：数字人/真人口播 → AI 自动精剪成网感动效短视频 → 可选剪映分层草稿",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ],
+  "must_feature": true
+ },
+ {
+  "id": "Yuuhann1999/codex-storyboard",
+  "path": null,
+  "category_source": "shorts",
+  "safety_upstream": "safe",
+  "description_source": "本地多项目 Codex 视频分镜工作台，支持图片/视频生成任务、HyperFrames 与 Remotion 自动回填。Local multi-project storyboard workspace for Codex.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "yuwenbin121/book-video-production-skill",
+  "path": null,
+  "category_source": "shorts",
+  "safety_upstream": "safe",
+  "description_source": "A Codex skill for producing fact-based vertical book videos",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "zenstory-ai/video-recap-skills",
+  "path": null,
+  "category_source": "editing",
+  "safety_upstream": "safe",
+  "description_source": "Claude Code / Codex skills that turn a video into a Chinese narration recap (视频解说): scene detection, ASR, VLM, script, TTS, ffmpeg assembly, optional editable JianYing / CapCut draft export (剪映草稿导出). Local ffmpeg + one MiMo key, no GPU. | 用 Claude Code skills 把视频做成中文解说成片，可选一键导出可编辑剪映草稿。",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "zhenwusw/orca-motion-skill",
+  "path": null,
+  "category_source": "motion",
+  "safety_upstream": "safe",
+  "description_source": "Agent skill for in-scene motion graphics built from abstract, design-token-driven shapes; pairs with orca-transition-skill.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "zhouyuechuan2025-ui/ai-self-media-video-packaging-skill",
+  "path": null,
+  "category_source": "general",
+  "safety_upstream": "safe",
+  "description_source": "Open Agent Skill for packaging talking-head videos with Remotion, optional HyperFrames, seek-safe motion, and line illustrations.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "ZiadAbdelkarim/beat-synced-edit",
+  "path": null,
+  "category_source": "editing",
+  "safety_upstream": "safe",
+  "description_source": "Automatic beat-synced video editing: feed it a song and raw footage, it analyzes beats, energy, and scenes, then cuts a ready-to-post edit. Pure Python/ffmpeg CLI, plus a bundled Claude Code skill for natural-language editing.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "zlong6943-commits/football-prediction-avatar-video",
+  "path": null,
+  "category_source": "avatar",
+  "safety_upstream": "safe",
+  "description_source": "Codex skill for verified Chinese football prediction avatar videos with official logos, captions, motion graphics, and approval gates.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "znyupup/ai-video-editing-skill",
+  "path": null,
+  "category_source": "editing",
+  "safety_upstream": "safe",
+  "description_source": "AI Agent Skill for automated vlog editing. Feed raw footage, get a finished video. Powered by ffmpeg + Whisper + Vision API.",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "znyupup/knowledge-explainer-skill",
+  "path": null,
+  "category_source": "explainer",
+  "safety_upstream": "safe",
+  "description_source": "把一份 markdown 文稿，自动生成讲解动画视频 — Powered by Remotion + AI Agent",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ },
+ {
+  "id": "zoglmk/codex-video-pipeline",
+  "path": null,
+  "category_source": "shorts",
+  "safety_upstream": "safe",
+  "description_source": "从选题、脚本和素材到成片、封面与发布包的 AI 视频生产流水线 Skill",
+  "sources": [
+   "upstream-skills.json",
+   "live-page"
+  ]
+ }
+]

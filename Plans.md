@@ -12,16 +12,16 @@ Rule: after finishing each **phase**, send a report to the PM (SendMessage → p
 
 | Task | Content | DoD | Depends | Status |
 |------|---------|-----|---------|--------|
-| 0.1 | Read upstream `zhuyansen/awesome-claude-video-skills`: LICENSE, README, data files (json/yaml/csv), and how it builds | Report states the license name and whether derivation with attribution is allowed, plus the data file path. **If derivation is not allowed, stop and report** | - | pm:依頼中 |
-| 0.2 | `git init`, create dirs per spec Layout, add `.gitignore` (ignore `.claude/state/`, `.env*`, `experiments/**/raw/`) | `git status` clean after the first commit; all dirs exist | 0.1 | pm:依頼中 |
-| 0.3 | Check lint baseline: `python3 -m py_compile` for scripts and a markdown link check tool (use lychee or a stdlib script, no global installs without asking) | The chosen check commands are written in CONTRIBUTING.md | 0.2 | pm:依頼中 |
+| 0.1 | Read upstream `zhuyansen/awesome-claude-video-skills`: LICENSE, README, data files (json/yaml/csv), and how it builds | Report states the license name and whether derivation with attribution is allowed, plus the data file path. **If derivation is not allowed, stop and report** | - | cc:完了 |
+| 0.2 | `git init`, create dirs per spec Layout, add `.gitignore` (ignore `.claude/state/`, `.env*`, `experiments/**/raw/`) | `git status` clean after the first commit; all dirs exist | 0.1 | cc:完了 |
+| 0.3 | Check lint baseline: `python3 -m py_compile` for scripts and a markdown link check tool (use lychee or a stdlib script, no global installs without asking) | The chosen check commands are written in CONTRIBUTING.md | 0.2 | cc:完了 |
 
 ## Phase 1: Data [tdd:skip:data-curation]
 
 | Task | Content | DoD | Depends | Status |
 |------|---------|-----|---------|--------|
-| 1.1 | Build the candidate list: upstream data ∪ live page ∪ must-feature repos | List count reported; per-category counts compared against the targets in handoff-facts (29/26/32/37/19/5/13/11/10/2); every diff explained | 0.1 | pm:依頼中 |
-| 1.2 | Enrich via `gh api` (stars, license, language, pushed_at, archived, default branch); save raw READMEs to `sources/readmes/<owner>__<repo>.md` (gitignored) | Every entry has `checked_at`; 404s and renames are listed in the report | 1.1 | pm:依頼中 |
+| 1.1 | Build the candidate list: upstream data ∪ live page ∪ must-feature repos | List count reported; per-category counts compared against the targets in handoff-facts (29/26/32/37/19/5/13/11/10/2); every diff explained | 0.1 | cc:完了 |
+| 1.2 | Enrich via `gh api` (stars, license, language, pushed_at, archived, default branch); save raw READMEs to `sources/readmes/<owner>__<repo>.md` (gitignored) | Every entry has `checked_at`; 404s and renames are listed in the report | 1.1 | cc:WIP |
 | 1.3 | Extract `install` / `usage` **verbatim** from each README, with a section anchor URL; otherwise null | Every non-null value has a `source_url`; 10 random entries re-checked against their README with 0 mismatches | 1.2 | pm:依頼中 |
 | 1.4 | Write `description_en` in our own words (≤25 words), map `category_en`, `type`, `render_base`, `safety_upstream`, and `featured` (~25: top per category + SeeCut + lanshu + the article highlights) | `data/repos.json` validates against the spec schema (write a small stdlib validator in scripts/) | 1.2 | pm:依頼中 |
 

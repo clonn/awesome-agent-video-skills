@@ -1,0 +1,926 @@
+{
+ "fetched": "2026-09-29",
+ "url": "https://agentskillshub.top/best/claude-video-skills/",
+ "cards": [
+  {
+   "repo": "JohnHeibel/ClaudeAnimationBase",
+   "kind": "story",
+   "stars": 559
+  },
+  {
+   "repo": "JohnHeibel/PDoomVideo",
+   "kind": "music",
+   "stars": 1446
+  },
+  {
+   "repo": "heygen-com/hyperframes",
+   "kind": "general",
+   "stars": 53951
+  },
+  {
+   "repo": "remotion-dev/skills",
+   "kind": "general",
+   "stars": 4758
+  },
+  {
+   "repo": "Vincentwei1021/video-shotcraft",
+   "kind": "promo",
+   "stars": 9850
+  },
+  {
+   "repo": "op7418/guizang-product-video-skill",
+   "kind": "promo",
+   "stars": 557
+  },
+  {
+   "repo": "calesthio/OpenMontage",
+   "kind": "general",
+   "stars": 56323
+  },
+  {
+   "repo": "hypit-ai/hypit",
+   "kind": "general",
+   "stars": 17280
+  },
+  {
+   "repo": "diffusionstudio/lottie",
+   "kind": "motion",
+   "stars": 5493
+  },
+  {
+   "repo": "FireRedTeam/FireRed-OpenStoryline",
+   "kind": "editing",
+   "stars": 3215
+  },
+  {
+   "repo": "Agentchengfeng/chengfeng-videocut-skills",
+   "kind": "editing",
+   "stars": 3017
+  },
+  {
+   "repo": "NarratorAI-Studio/narrator-ai-cli-skill",
+   "kind": "general",
+   "stars": 2671
+  },
+  {
+   "repo": "digitalsamba/claude-code-video-toolkit",
+   "kind": "general",
+   "stars": 2144
+  },
+  {
+   "repo": "0xsline/OpenChatCut",
+   "kind": "editing",
+   "stars": 2041
+  },
+  {
+   "repo": "gnipbao/story-to-handdrawn-video",
+   "kind": "story",
+   "stars": 2028
+  },
+  {
+   "repo": "nolangz/pixel2motion",
+   "kind": "motion",
+   "stars": 2016
+  },
+  {
+   "repo": "cclank/lanshu-create-ai-presenter-video",
+   "kind": "avatar",
+   "stars": 1964
+  },
+  {
+   "repo": "jtydhr88/screenwriting-skills",
+   "kind": "craft",
+   "stars": 1346
+  },
+  {
+   "repo": "vibe-motion/skills",
+   "kind": "general",
+   "stars": 1278
+  },
+  {
+   "repo": "Alisa0808/vox-director",
+   "kind": "explainer",
+   "stars": 1252
+  },
+  {
+   "repo": "Vincentwei1021/video-talkcraft",
+   "kind": "explainer",
+   "stars": 1191
+  },
+  {
+   "repo": "adithya-s-k/manim_skill",
+   "kind": "explainer",
+   "stars": 1109
+  },
+  {
+   "repo": "pyang5166/gbro-collage-broll",
+   "kind": "motion",
+   "stars": 1042
+  },
+  {
+   "repo": "eternityspring/reelbench-skills",
+   "kind": "craft",
+   "stars": 846
+  },
+  {
+   "repo": "cartesiancs/cartcut",
+   "kind": "editing",
+   "stars": 756
+  },
+  {
+   "repo": "alexgreensh/anidoodle",
+   "kind": "motion",
+   "stars": 666
+  },
+  {
+   "repo": "hetpatel-11/Adobe_Premiere_Pro_MCP",
+   "kind": "editing",
+   "stars": 606
+  },
+  {
+   "repo": "lemomo-ai/lemo-opuscar",
+   "kind": "story",
+   "stars": 545
+  },
+  {
+   "repo": "zenstory-ai/video-recap-skills",
+   "kind": "editing",
+   "stars": 541
+  },
+  {
+   "repo": "JimLiu/baocut",
+   "kind": "editing",
+   "stars": 521
+  },
+  {
+   "repo": "iart-ai/motion-skills",
+   "kind": "general",
+   "stars": 497
+  },
+  {
+   "repo": "geekjourneyx/hyperframes-motion-director",
+   "kind": "promo",
+   "stars": 449
+  },
+  {
+   "repo": "heygen-com/skills",
+   "kind": "avatar",
+   "stars": 387
+  },
+  {
+   "repo": "wshuyi/remotion-video-skill",
+   "kind": "explainer",
+   "stars": 384
+  },
+  {
+   "repo": "shuyicc/MathLens",
+   "kind": "explainer",
+   "stars": 356
+  },
+  {
+   "repo": "Yuuhann1999/codex-storyboard",
+   "kind": "shorts",
+   "stars": 345
+  },
+  {
+   "repo": "aaronyi97/image-story-video-wizard",
+   "kind": "story",
+   "stars": 344
+  },
+  {
+   "repo": "bangtutorial/bang-motion",
+   "kind": "general",
+   "stars": 322
+  },
+  {
+   "repo": "leancoderkavy/premiere-pro-mcp",
+   "kind": "editing",
+   "stars": 302
+  },
+  {
+   "repo": "hassancs91/claude-youtube-editor",
+   "kind": "editing",
+   "stars": 274
+  },
+  {
+   "repo": "LetMeHappyCode/auto-video-agent",
+   "kind": "story",
+   "stars": 222
+  },
+  {
+   "repo": "MegaTroll222/VOX-COLLAGE-BROLL",
+   "kind": "motion",
+   "stars": 213
+  },
+  {
+   "repo": "liyue-aigc/xianxia-cinematic-video-director",
+   "kind": "story",
+   "stars": 189
+  },
+  {
+   "repo": "erduo1998-cell/erduo-broll-loop-engineering",
+   "kind": "editing",
+   "stars": 185
+  },
+  {
+   "repo": "Anil-matcha/vox-ai-motion-graphics-generator",
+   "kind": "explainer",
+   "stars": 181
+  },
+  {
+   "repo": "AgriciDaniel/claude-shorts",
+   "kind": "editing",
+   "stars": 177
+  },
+  {
+   "repo": "tugrawork-creator/saas-motion-kit",
+   "kind": "promo",
+   "stars": 137
+  },
+  {
+   "repo": "Mr-funny/hbg-life-simulation",
+   "kind": "story",
+   "stars": 136
+  },
+  {
+   "repo": "hassancs91/claude-faceless-shorts-creator",
+   "kind": "shorts",
+   "stars": 134
+  },
+  {
+   "repo": "znyupup/ai-video-editing-skill",
+   "kind": "editing",
+   "stars": 133
+  },
+  {
+   "repo": "Cassette-Editor/oh-my-cassette",
+   "kind": "editing",
+   "stars": 131
+  },
+  {
+   "repo": "gnipbao/minimax-h3-video-reverse-skill",
+   "kind": "craft",
+   "stars": 131
+  },
+  {
+   "repo": "Upload-Post/avatar-mix",
+   "kind": "avatar",
+   "stars": 130
+  },
+  {
+   "repo": "video-db/skills",
+   "kind": "general",
+   "stars": 120
+  },
+  {
+   "repo": "runesleo/claude-video-kit",
+   "kind": "explainer",
+   "stars": 120
+  },
+  {
+   "repo": "jhartquist/claude-remotion-kickstart",
+   "kind": "general",
+   "stars": 120
+  },
+  {
+   "repo": "YeJe-cpu/SeeCut",
+   "kind": "editing",
+   "stars": 117
+  },
+  {
+   "repo": "Monet-AI-Editor/Monet",
+   "kind": "editing",
+   "stars": 110
+  },
+  {
+   "repo": "leosssvip-dot/remotion-ad-video-skill",
+   "kind": "promo",
+   "stars": 109
+  },
+  {
+   "repo": "bestagentkits/motion-video-skill",
+   "kind": "promo",
+   "stars": 102
+  },
+  {
+   "repo": "kangarooking/promo-creator-skills",
+   "kind": "promo",
+   "stars": 101
+  },
+  {
+   "repo": "wyuzhi/qisi-video-remix",
+   "kind": "craft",
+   "stars": 93
+  },
+  {
+   "repo": "naive-kun/naive-video-skill",
+   "kind": "editing",
+   "stars": 92
+  },
+  {
+   "repo": "jaxxchen003/book-video-factory",
+   "kind": "shorts",
+   "stars": 92
+  },
+  {
+   "repo": "ayushozha/AdobePremiereProMCP",
+   "kind": "editing",
+   "stars": 90
+  },
+  {
+   "repo": "blixvip/easyedit",
+   "kind": "editing",
+   "stars": 89
+  },
+  {
+   "repo": "louisedesadeleer/cut-video",
+   "kind": "editing",
+   "stars": 88
+  },
+  {
+   "repo": "AKMessi/vex",
+   "kind": "editing",
+   "stars": 85
+  },
+  {
+   "repo": "Liamrjohnston/remotion-motion-graphics-skill",
+   "kind": "motion",
+   "stars": 75
+  },
+  {
+   "repo": "JUNKDOGE-JOE/after-effects-mcp",
+   "kind": "editing",
+   "stars": 72
+  },
+  {
+   "repo": "kangarooking/director-skills",
+   "kind": "general",
+   "stars": 72
+  },
+  {
+   "repo": "kurbaitaev/ghost-editor",
+   "kind": "editing",
+   "stars": 63
+  },
+  {
+   "repo": "norahe0304-art/30x-video",
+   "kind": "promo",
+   "stars": 61
+  },
+  {
+   "repo": "hi-nikola/hand-drawn-explainer-video-nikola",
+   "kind": "explainer",
+   "stars": 58
+  },
+  {
+   "repo": "ledbetterljoshua/functional-emotions-video",
+   "kind": "music",
+   "stars": 56
+  },
+  {
+   "repo": "Maartenlouis/remotion-ads",
+   "kind": "shorts",
+   "stars": 54
+  },
+  {
+   "repo": "pyang5166/gbro-collage-info",
+   "kind": "shorts",
+   "stars": 52
+  },
+  {
+   "repo": "hahadu4520/vlog-cut",
+   "kind": "editing",
+   "stars": 49
+  },
+  {
+   "repo": "liangdabiao/story-handdrawn-video",
+   "kind": "shorts",
+   "stars": 48
+  },
+  {
+   "repo": "adityaarsharma/youtube-marketing-skills",
+   "kind": "craft",
+   "stars": 46
+  },
+  {
+   "repo": "sunxiayi/make-blender-education-video-skill",
+   "kind": "explainer",
+   "stars": 45
+  },
+  {
+   "repo": "znyupup/knowledge-explainer-skill",
+   "kind": "explainer",
+   "stars": 45
+  },
+  {
+   "repo": "trunghaiy/appshot",
+   "kind": "promo",
+   "stars": 43
+  },
+  {
+   "repo": "BayramAnnakov/remotion-video-director",
+   "kind": "promo",
+   "stars": 41
+  },
+  {
+   "repo": "Johnson-Jia/video-clipforge",
+   "kind": "general",
+   "stars": 39
+  },
+  {
+   "repo": "ops120/video-recap-skills-plus",
+   "kind": "editing",
+   "stars": 39
+  },
+  {
+   "repo": "Anil-matcha/zack-d-films-ai-video-generator",
+   "kind": "explainer",
+   "stars": 39
+  },
+  {
+   "repo": "kingselyjoe/video-shotcraft-dsh",
+   "kind": "promo",
+   "stars": 37
+  },
+  {
+   "repo": "wocha-xiaoli/video-shot-analysis-feishu",
+   "kind": "craft",
+   "stars": 36
+  },
+  {
+   "repo": "iart-ai/motion-design-skills",
+   "kind": "general",
+   "stars": 36
+  },
+  {
+   "repo": "liangdabiao/story-handdrawn-remotion",
+   "kind": "story",
+   "stars": 35
+  },
+  {
+   "repo": "Kappaemme-git/codex-video-short-maker-skill",
+   "kind": "editing",
+   "stars": 35
+  },
+  {
+   "repo": "zhouyuechuan2025-ui/ai-self-media-video-packaging-skill",
+   "kind": "general",
+   "stars": 34
+  },
+  {
+   "repo": "darrenli6/JJKoubo",
+   "kind": "editing",
+   "stars": 32
+  },
+  {
+   "repo": "mattivilola/brag-codex",
+   "kind": "promo",
+   "stars": 32
+  },
+  {
+   "repo": "santmun/video-vox",
+   "kind": "explainer",
+   "stars": 32
+  },
+  {
+   "repo": "vibe-motion/remotion-code-motion-explainer",
+   "kind": "explainer",
+   "stars": 31
+  },
+  {
+   "repo": "Mr-funny/hbg-douyin-code-explainer-video",
+   "kind": "explainer",
+   "stars": 31
+  },
+  {
+   "repo": "gorkem-bwl/onboarding-video-generator",
+   "kind": "promo",
+   "stars": 31
+  },
+  {
+   "repo": "new-xp/ultrademo",
+   "kind": "promo",
+   "stars": 29
+  },
+  {
+   "repo": "JimLiu/taohuayuan",
+   "kind": "story",
+   "stars": 29
+  },
+  {
+   "repo": "bbylw/hyperframes-cn",
+   "kind": "general",
+   "stars": 28
+  },
+  {
+   "repo": "GordenSun/react-bits-video",
+   "kind": "general",
+   "stars": 28
+  },
+  {
+   "repo": "AgriciDaniel/claude-gif",
+   "kind": "motion",
+   "stars": 28
+  },
+  {
+   "repo": "AsadMoulviDev/reel-video",
+   "kind": "story",
+   "stars": 28
+  },
+  {
+   "repo": "tuzhechen2005/opus-video-skills",
+   "kind": "story",
+   "stars": 27
+  },
+  {
+   "repo": "iart-ai/explainer-video-skills",
+   "kind": "explainer",
+   "stars": 27
+  },
+  {
+   "repo": "AllenAI2014/remotion-guofeng-starter",
+   "kind": "story",
+   "stars": 25
+  },
+  {
+   "repo": "Phantomlau3674/voxstylehub-steven",
+   "kind": "explainer",
+   "stars": 24
+  },
+  {
+   "repo": "liuliu-66-create/ll-video-decomposer",
+   "kind": "craft",
+   "stars": 24
+  },
+  {
+   "repo": "Finderchangchang/promo-video-skill",
+   "kind": "promo",
+   "stars": 24
+  },
+  {
+   "repo": "AgriciDaniel/lipnardo",
+   "kind": "avatar",
+   "stars": 22
+  },
+  {
+   "repo": "Arman-Luthra/aftr",
+   "kind": "promo",
+   "stars": 22
+  },
+  {
+   "repo": "smwbev/framewright",
+   "kind": "general",
+   "stars": 21
+  },
+  {
+   "repo": "toufuim/personal-ip-brand-intro-skill",
+   "kind": "motion",
+   "stars": 20
+  },
+  {
+   "repo": "AmazingAng/ccvideo",
+   "kind": "promo",
+   "stars": 20
+  },
+  {
+   "repo": "Mng-dev-ai/explainer-video",
+   "kind": "explainer",
+   "stars": 19
+  },
+  {
+   "repo": "derrickgong87/demo-video-creation-skill",
+   "kind": "promo",
+   "stars": 19
+  },
+  {
+   "repo": "holy-templar/vox-animated-ad-mcp",
+   "kind": "explainer",
+   "stars": 19
+  },
+  {
+   "repo": "krusemediallc/video-editor-agent",
+   "kind": "editing",
+   "stars": 19
+  },
+  {
+   "repo": "doublesq97-ui/su-card-to-video",
+   "kind": "general",
+   "stars": 18
+  },
+  {
+   "repo": "manthanpatelll/leadgenman-video-skills",
+   "kind": "editing",
+   "stars": 18
+  },
+  {
+   "repo": "yuwenbin121/book-video-production-skill",
+   "kind": "shorts",
+   "stars": 17
+  },
+  {
+   "repo": "gloweaseco-leo/hyperdirector",
+   "kind": "general",
+   "stars": 17
+  },
+  {
+   "repo": "chenyuxiaojin/cyxj-hyperframes",
+   "kind": "explainer",
+   "stars": 16
+  },
+  {
+   "repo": "aijiduonadegou/Paper-Cut",
+   "kind": "explainer",
+   "stars": 16
+  },
+  {
+   "repo": "cclank/lanshu-html2video-skill",
+   "kind": "explainer",
+   "stars": 15
+  },
+  {
+   "repo": "smit-vanani/claude-promo-video",
+   "kind": "promo",
+   "stars": 14
+  },
+  {
+   "repo": "jincheng2026/jc-remotion-skills",
+   "kind": "editing",
+   "stars": 14
+  },
+  {
+   "repo": "dlazy-ai/ai-product-video",
+   "kind": "promo",
+   "stars": 14
+  },
+  {
+   "repo": "kiki-lgtm-dot/cinematic-product-promo-skill",
+   "kind": "promo",
+   "stars": 14
+  },
+  {
+   "repo": "intelligent-iterations/ii-content-engine",
+   "kind": "shorts",
+   "stars": 14
+  },
+  {
+   "repo": "cocolayuan/videoclip-AI-skill",
+   "kind": "editing",
+   "stars": 13
+  },
+  {
+   "repo": "memex-lab/product-launch-video-skill",
+   "kind": "promo",
+   "stars": 12
+  },
+  {
+   "repo": "PoetCoderJun/MotionTalk",
+   "kind": "editing",
+   "stars": 12
+  },
+  {
+   "repo": "kakaxi12/vox-director-codex",
+   "kind": "explainer",
+   "stars": 11
+  },
+  {
+   "repo": "fernandokaraka/remotion-motion-graphics-skill",
+   "kind": "motion",
+   "stars": 11
+  },
+  {
+   "repo": "iart-ai/tiktok-video-skills",
+   "kind": "shorts",
+   "stars": 11
+  },
+  {
+   "repo": "ZiadAbdelkarim/beat-synced-edit",
+   "kind": "editing",
+   "stars": 10
+  },
+  {
+   "repo": "misbahsy/tiktok-ig-shorts",
+   "kind": "editing",
+   "stars": 10
+  },
+  {
+   "repo": "qingyunAGI/qingyun-cine-skill",
+   "kind": "editing",
+   "stars": 10
+  },
+  {
+   "repo": "adriiita/vertical-video-editing-skill",
+   "kind": "shorts",
+   "stars": 10
+  },
+  {
+   "repo": "taylorzhou16/video-gen",
+   "kind": "story",
+   "stars": 9
+  },
+  {
+   "repo": "erduo1998-cell/video-script-builder",
+   "kind": "craft",
+   "stars": 9
+  },
+  {
+   "repo": "zlong6943-commits/football-prediction-avatar-video",
+   "kind": "avatar",
+   "stars": 9
+  },
+  {
+   "repo": "resemble-ai/remotion-resemble-skill",
+   "kind": "general",
+   "stars": 9
+  },
+  {
+   "repo": "ssrajadh/paperview",
+   "kind": "explainer",
+   "stars": 9
+  },
+  {
+   "repo": "chenmisss/laoxu-video-script",
+   "kind": "craft",
+   "stars": 9
+  },
+  {
+   "repo": "patraxo/ltx2-vidgen-skill",
+   "kind": "general",
+   "stars": 8
+  },
+  {
+   "repo": "Samin12/samin-reel-engine-plugin",
+   "kind": "shorts",
+   "stars": 8
+  },
+  {
+   "repo": "iart-ai/ad-video-skills",
+   "kind": "promo",
+   "stars": 8
+  },
+  {
+   "repo": "zhenwusw/orca-motion-skill",
+   "kind": "motion",
+   "stars": 8
+  },
+  {
+   "repo": "riffkit/skill",
+   "kind": "shorts",
+   "stars": 7
+  },
+  {
+   "repo": "vibe-motion/remotion-starter",
+   "kind": "general",
+   "stars": 7
+  },
+  {
+   "repo": "magichourhq/skills",
+   "kind": "general",
+   "stars": 7
+  },
+  {
+   "repo": "ahmdd4vd/MotionCraft",
+   "kind": "explainer",
+   "stars": 7
+  },
+  {
+   "repo": "pjecuacion/script-to-video-skill",
+   "kind": "explainer",
+   "stars": 7
+  },
+  {
+   "repo": "Fagan1024/smart-video-editor",
+   "kind": "editing",
+   "stars": 7
+  },
+  {
+   "repo": "opus-pro/opus-video-studio",
+   "kind": "promo",
+   "stars": 7
+  },
+  {
+   "repo": "sharon-laicc/viral-video-decomposer",
+   "kind": "craft",
+   "stars": 6
+  },
+  {
+   "repo": "molkex/mcp-flow-google",
+   "kind": "general",
+   "stars": 6
+  },
+  {
+   "repo": "chenyuxiaojin/cyxj-remotion-starter",
+   "kind": "general",
+   "stars": 6
+  },
+  {
+   "repo": "davidcervinka/vibe-editing",
+   "kind": "general",
+   "stars": 6
+  },
+  {
+   "repo": "iart-ai/data-animation-skills",
+   "kind": "general",
+   "stars": 6
+  },
+  {
+   "repo": "jinjin1/scenewright",
+   "kind": "explainer",
+   "stars": 6
+  },
+  {
+   "repo": "sukai213/bilibili-ai-video",
+   "kind": "explainer",
+   "stars": 6
+  },
+  {
+   "repo": "zoglmk/codex-video-pipeline",
+   "kind": "shorts",
+   "stars": 6
+  },
+  {
+   "repo": "hahadu4520/newcut-video-clipping-skill",
+   "kind": "editing",
+   "stars": 6
+  },
+  {
+   "repo": "VasiniDevi/motion-skills",
+   "kind": "general",
+   "stars": 6
+  },
+  {
+   "repo": "acelera-agency/html-animation",
+   "kind": "motion",
+   "stars": 6
+  },
+  {
+   "repo": "BusyBee3333/animated-explainer-skills",
+   "kind": "explainer",
+   "stars": 6
+  },
+  {
+   "repo": "mrieck/demoday-claude-plugin",
+   "kind": "promo",
+   "stars": 6
+  },
+  {
+   "repo": "cymcymcymcym/notes-to-video",
+   "kind": "explainer",
+   "stars": 5
+  },
+  {
+   "repo": "jackjls/jtxvideo-skill",
+   "kind": "editing",
+   "stars": 5
+  },
+  {
+   "repo": "icytear-svg/podcast-to-video",
+   "kind": "shorts",
+   "stars": 5
+  },
+  {
+   "repo": "marketcalls/story-telling",
+   "kind": "shorts",
+   "stars": 5
+  },
+  {
+   "repo": "inematds/skill-video-plan-editor",
+   "kind": "shorts",
+   "stars": 5
+  },
+  {
+   "repo": "liangdabiao/wechat-article-remotion",
+   "kind": "shorts",
+   "stars": 5
+  },
+  {
+   "repo": "ChenShuo2004/cs-shotcraft-skill",
+   "kind": "promo",
+   "stars": 5
+  },
+  {
+   "repo": "coding-ax/docvideoer",
+   "kind": "explainer",
+   "stars": 5
+  },
+  {
+   "repo": "ninestonelee/youtube-shorts-factory",
+   "kind": "shorts",
+   "stars": 5
+  },
+  {
+   "repo": "centraltowerlabs/diagram-tour",
+   "kind": "explainer",
+   "stars": 5
+  },
+  {
+   "repo": "wendymardigian-prog/Editor-IA-Pro",
+   "kind": "shorts",
+   "stars": 5
+  },
+  {
+   "repo": "EverMind-AI/Raven",
+   "kind": "explainer",
+   "stars": 0
+  }
+ ]
+}

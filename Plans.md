@@ -71,13 +71,13 @@ Rules: read the live docs first (https://docs.typesafe.ai/llms.txt, how-to-build
 | 5.2 | CJK grep on rendered files (`[\p{Han}]`) | Only glossed proper nouns remain | Phase 3, 4 | pm:確認済 |
 | 5.3 | Build idempotency + schema validation + category count check | All pass; output pasted into the report | Phase 3 | pm:確認済 |
 | 5.4 | Spot-check 10 random cards against their README | 0 factual mismatches | Phase 3 | pm:確認済 |
-| 5.5 | PM fix: remove ffmpeg from the "Built with" column in README and catalog tables. It's a dependency, not a render base. Keep it in data and show it on cards as "Also uses: ffmpeg"; mention it in the table legend. Re-run qa.py | qa.py PASS; 'ffmpeg' does not appear in any table Built-with cell | 5.4 | cc:完了 |
+| 5.5 | PM fix: remove ffmpeg from the "Built with" column in README and catalog tables. It's a dependency, not a render base. Keep it in data and show it on cards as "Also uses: ffmpeg"; mention it in the table legend. Re-run qa.py | qa.py PASS; 'ffmpeg' does not appear in any table Built-with cell | 5.4 | pm:確認済 |
 
 ## Phase 6: Publish — GATED (user approval required)
 
 | Task | Content | DoD | Depends | Status |
 |------|---------|-----|---------|--------|
-| 6.1 | `gh repo create` + push | User has approved in the PM session | Phase 5 | blocked (awaiting user approval) |
+| 6.1 | `gh repo create` + push | User has approved in the PM session | Phase 5 | pm:依頼中 (user approved 2026-09-29 in PM session: public, clonn/awesome-agent-video-skills, copyright holder "clonn") |
 
 ## Backlog / Optional
 - i18n: zh-TW / zh-CN READMEs from `description_zh_source`.

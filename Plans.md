@@ -67,10 +67,10 @@ Rules: read the live docs first (https://docs.typesafe.ai/llms.txt, how-to-build
 
 | Task | Content | DoD | Depends | Status |
 |------|---------|-----|---------|--------|
-| 5.1 | Link check on every URL | 0 broken, or each broken link is listed with a reason | Phase 3, 4 | pm:依頼中 |
-| 5.2 | CJK grep on rendered files (`[\p{Han}]`) | Only glossed proper nouns remain | Phase 3, 4 | pm:依頼中 |
-| 5.3 | Build idempotency + schema validation + category count check | All pass; output pasted into the report | Phase 3 | pm:依頼中 |
-| 5.4 | Spot-check 10 random cards against their README | 0 factual mismatches | Phase 3 | pm:依頼中 |
+| 5.1 | Link check on every URL | 0 broken, or each broken link is listed with a reason | Phase 3, 4 | cc:完了 |
+| 5.2 | CJK grep on rendered files (`[\p{Han}]`) | Only glossed proper nouns remain | Phase 3, 4 | cc:完了 |
+| 5.3 | Build idempotency + schema validation + category count check | All pass; output pasted into the report | Phase 3 | cc:完了 |
+| 5.4 | Spot-check 10 random cards against their README | 0 factual mismatches | Phase 3 | cc:完了 |
 
 ## Phase 6: Publish — GATED (user approval required)
 

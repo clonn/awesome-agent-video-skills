@@ -31,7 +31,7 @@ Scope `local` (the default) and `user` are stored in `~/.claude.json`; `project`
 Codex reads skills from `.agents/skills` in your repository (and parent directories), `$HOME/.agents/skills` for your personal skills, and `/etc/codex/skills` for machine-wide skills. Invoke a skill with `$skill-name` or `/skills`; `$skill-installer <name>` installs curated skills. Codex detects skill changes automatically; restart it if an update does not appear. Source: [Codex skills](https://learn.chatgpt.com/docs/build-skills) (the older address developers.openai.com/codex/skills redirects there).
 
 ## 5. The `npx skills add` CLI
-`npx skills add <owner/repo>` is a cross-agent installer from Vercel Labs ([repo](https://github.com/vercel-labs/skills), MIT, [skills.sh](https://skills.sh)). Useful options from its README:
+`npx skills add <owner/repo>` is a cross-agent installer from Vercel Labs ([repo](https://github.com/vercel-labs/skills), MIT, [skills.sh](https://www.skills.sh/)). Useful options from its README:
 
 | Option | Meaning |
 |---|---|

@@ -1,0 +1,1402 @@
+{
+ "0xsline/OpenChatCut": {
+  "install": null,
+  "usage": {
+   "snippet": "git clone https://github.com/0xsline/OpenChatCut.git\ncd OpenChatCut\nnpm install\ncp .env.example .env.local\nnpm run dev",
+   "source_url": "https://github.com/0xsline/OpenChatCut/blob/main/README.md#run-from-source",
+   "section": "Run from source"
+  }
+ },
+ "aaronyi97/image-story-video-wizard": {
+  "install": null,
+  "usage": null
+ },
+ "acelera-agency/html-animation": {
+  "install": {
+   "command": "# Claude Code\ngit clone https://github.com/acelera-agency/html-animation.git ~/.claude/skills/motion-graphics\n# Codex\ngit clone https://github.com/acelera-agency/html-animation.git ~/.codex/skills/motion-graphics\n# Cursor\ngit clone https://github.com/acelera-agency/html-animation.git ~/.cursor/skills/motion-graphics",
+   "source_url": "https://github.com/acelera-agency/html-animation/blob/main/README.md#install",
+   "section": "Install"
+  },
+  "usage": null
+ },
+ "adithya-s-k/manim_skill": {
+  "install": {
+   "command": "brew install ffmpeg",
+   "source_url": "https://github.com/adithya-s-k/manim_skill/blob/main/README.md#install-ffmpeg",
+   "section": "Install FFmpeg"
+  },
+  "usage": null
+ },
+ "adityaarsharma/youtube-marketing-skills": {
+  "install": {
+   "command": "# 1. Clone + install\ngit clone https://github.com/adityaarsharma/youtube-marketing-skills.git\ncd youtube-marketing-skills && npm install\n\n# 2. Drop your Google OAuth credentials.json into the directory\n\n# 3. Authenticate — opens browser once, saves tokens locally\nnode auth.js\n\n# 4. Install the skill files into your agent\ncp -r skills/youtube-marketing ~/.claude/skills/",
+   "source_url": "https://github.com/adityaarsharma/youtube-marketing-skills/blob/main/README.md#quick-start",
+   "section": "Quick Start"
+  },
+  "usage": {
+   "snippet": "# 1. Clone + install\ngit clone https://github.com/adityaarsharma/youtube-marketing-skills.git\ncd youtube-marketing-skills && npm install\n\n# 2. Drop your Google OAuth credentials.json into the directory\n\n# 3. Authenticate — opens browser once, saves tokens locally\nnode auth.js\n\n# 4. Install the skill files into your agent\ncp -r skills/youtube-marketing ~/.claude/skills/",
+   "source_url": "https://github.com/adityaarsharma/youtube-marketing-skills/blob/main/README.md#quick-start",
+   "section": "Quick Start"
+  }
+ },
+ "adriiita/vertical-video-editing-skill": {
+  "install": {
+   "command": "# Global / user-level (installs to ~/.claude/skills/video-editing)\nnpx vertical-video-editing-skill\n\n# …or into the current project only (./.claude/skills/video-editing)\nnpx vertical-video-editing-skill --project\n\n# …or a custom skills directory\nnpx vertical-video-editing-skill --dir /path/to/skills",
+   "source_url": "https://github.com/adriiita/vertical-video-editing-skill/blob/main/README.md#1-install-the-skill",
+   "section": "1. Install the skill"
+  },
+  "usage": null
+ },
+ "Agentchengfeng/chengfeng-videocut-skills": {
+  "install": null,
+  "usage": null
+ },
+ "AgriciDaniel/claude-gif": {
+  "install": {
+   "command": "git clone --depth 1 https://github.com/AgriciDaniel/claude-gif.git\nbash claude-gif/install.sh",
+   "source_url": "https://github.com/AgriciDaniel/claude-gif/blob/main/README.md#manual-install-unixmacoslinux",
+   "section": "Manual Install (Unix/macOS/Linux)"
+  },
+  "usage": {
+   "snippet": "# Interactive mode (detects intent, routes to the right pipeline)\n/gif\n\n# Convert a video to GIF\n/gif convert video.mp4\n\n# Create a programmatic animation\n/gif create \"loading spinner with bounce easing\"\n\n# Generate AI video and convert to GIF\n/gif generate \"coffee steam rising from a mug, close-up, loop\"\n\n# Optimize for Discord (under 256KB)\n/gif optimize large.gif --platform discord\n\n# Convert animated SVG to transparent GIF\n/gif convert animation.svg",
+   "source_url": "https://github.com/AgriciDaniel/claude-gif/blob/main/README.md#quick-start",
+   "section": "Quick Start"
+  }
+ },
+ "AgriciDaniel/claude-shorts": {
+  "install": {
+   "command": "# Clone the repository\ngit clone https://github.com/AgriciDaniel/claude-shorts.git\ncd claude-shorts\n\n# Install Python + Node.js dependencies\nbash setup.sh\n\n# Install as a Claude Code skill\nbash install.sh",
+   "source_url": "https://github.com/AgriciDaniel/claude-shorts/blob/main/README.md#installation",
+   "section": "Installation"
+  },
+  "usage": {
+   "snippet": "/shorts",
+   "source_url": "https://github.com/AgriciDaniel/claude-shorts/blob/main/README.md#usage",
+   "section": "Usage"
+  }
+ },
+ "AgriciDaniel/lipnardo": {
+  "install": {
+   "command": "git clone https://github.com/AgriciDaniel/lipnardo.git\ncd lipnardo\nbash install.sh",
+   "source_url": "https://github.com/AgriciDaniel/lipnardo/blob/main/README.md#step-2-download-and-install",
+   "section": "Step 2: Download and install"
+  },
+  "usage": {
+   "snippet": "/lipnardo generate <prompt>      Video Agent (v3) generation\n/lipnardo studio <config.json>   Multi-scene Studio (v2)\n/lipnardo batch <file.csv>       Batch generation from CSV/JSON\n/lipnardo template list          List HeyGen templates\n/lipnardo template inspect <id>  Show template variables\n/lipnardo template generate <id> Generate from template\n/lipnardo translate <id> <lang>  Translate with lip-sync\n/lipnardo tts <text>             Starfish TTS\n/lipnardo avatar create <photo>  Photo Avatar IV pipeline\n/lipnardo avatar list            List available avatars\n/lipnardo avatar voices          List TTS voices\n/lipnardo assets upload <file>   Upload to HeyGen\n/lipnardo assets list            List uploaded assets\n/lipnardo credits                API balance check\n/lipnardo credits estimate       Pre-flight cost estimate\n/lipnardo download <id>          Download video before URL expires\n/lipnardo webhook register <url> Register webhook endpoint\n/lipnardo setup                  Validate API key and configuration",
+   "source_url": "https://github.com/AgriciDaniel/lipnardo/blob/main/README.md#commands-reference",
+   "section": "Commands Reference"
+  }
+ },
+ "ahmdd4vd/MotionCraft": {
+  "install": {
+   "command": "npx skills add ahmdd4vd/motioncraft",
+   "source_url": "https://github.com/ahmdd4vd/MotionCraft/blob/main/README.md#install",
+   "section": "Install"
+  },
+  "usage": null
+ },
+ "aijiduonadegou/Paper-Cut": {
+  "install": null,
+  "usage": null
+ },
+ "AKMessi/vex": {
+  "install": {
+   "command": "pipx install vex-video",
+   "source_url": "https://github.com/AKMessi/vex/blob/main/README.md#install-vex",
+   "section": "Install Vex"
+  },
+  "usage": {
+   "snippet": "vex",
+   "source_url": "https://github.com/AKMessi/vex/blob/main/README.md#first-run",
+   "section": "First run"
+  }
+ },
+ "alexgreensh/anidoodle": {
+  "install": {
+   "command": "/plugin marketplace add alexgreensh/anidoodle\n/plugin install anidoodle@alexgreensh-anidoodle",
+   "source_url": "https://github.com/alexgreensh/anidoodle/blob/main/README.md#get-started",
+   "section": "Get started"
+  },
+  "usage": null
+ },
+ "Alisa0808/vox-director": {
+  "install": {
+   "command": "git clone https://github.com/Alisa0808/vox-director.git ~/.claude/skills/vox-director",
+   "source_url": "https://github.com/Alisa0808/vox-director/blob/main/README.md#install",
+   "section": "Install"
+  },
+  "usage": null
+ },
+ "AllenAI2014/remotion-guofeng-starter": {
+  "install": null,
+  "usage": null
+ },
+ "AmazingAng/ccvideo": {
+  "install": {
+   "command": "npx skills add AmazingAng/ccvideo",
+   "source_url": "https://github.com/AmazingAng/ccvideo/blob/main/README.md#install",
+   "section": "Install"
+  },
+  "usage": null
+ },
+ "Anil-matcha/vox-ai-motion-graphics-generator": {
+  "install": {
+   "command": "export MUAPI_API_KEY=\"your-api-key\"     # image / video / voice / music models — key from muapi.ai\nexport OPENAI_API_KEY=\"your-openai-key\"  # story planning & ASR",
+   "source_url": "https://github.com/Anil-matcha/vox-ai-motion-graphics-generator/blob/main/README.md#quick-start",
+   "section": "🚀 Quick Start"
+  },
+  "usage": {
+   "snippet": "export MUAPI_API_KEY=\"your-api-key\"     # image / video / voice / music models — key from muapi.ai\nexport OPENAI_API_KEY=\"your-openai-key\"  # story planning & ASR",
+   "source_url": "https://github.com/Anil-matcha/vox-ai-motion-graphics-generator/blob/main/README.md#quick-start",
+   "section": "🚀 Quick Start"
+  }
+ },
+ "Anil-matcha/zack-d-films-ai-video-generator": {
+  "install": {
+   "command": "brew install ffmpeg                 # macOS\npython3 -m venv .venv\nsource .venv/bin/activate\npip install requests pillow",
+   "source_url": "https://github.com/Anil-matcha/zack-d-films-ai-video-generator/blob/main/README.md#1-install-local-tools",
+   "section": "1. Install local tools"
+  },
+  "usage": {
+   "snippet": "# Discover or validate a topic\npython3 scripts/trend_research.py \"mosquitoes\"\n\n# Create and review the script breakdown\npython3 scripts/script_generator.py out/mosquitoes --topic \"How Mosquitoes Drink Your Blood\"\n\n# Generate references, keyframes, motion, audio, and the final cut\npython3 scripts/character_sheets.py out/mosquitoes\npython3 scripts/keyframes.py out/mosquitoes\npython3 scripts/clips.py out/mosquitoes\npython3 scripts/audio.py out/mosquitoes --voice-sample voice_recording.mp3\npython3 scripts/assemble.py out/mosquitoes",
+   "source_url": "https://github.com/Anil-matcha/zack-d-films-ai-video-generator/blob/main/README.md#4-run-the-stages-manually",
+   "section": "4. Run the stages manually"
+  }
+ },
+ "Arman-Luthra/aftr": {
+  "install": {
+   "command": "git clone https://github.com/Arman-Luthra/aftr.git\ncd aftr\nnpm install\n\n# 1) prove it's healthy with NO After Effects (headless simulator + tests)\nnpm run build:jsx && npm test\n\n# 2) install the panel into AE (self-signs + deploys on Windows and macOS)\nnpm run deploy:panel        # then quit and relaunch AE, Window > Extensions > aftr\n\n# 3) start the bridge + open the UI\nnpm run controller          # http://127.0.0.1:8787",
+   "source_url": "https://github.com/Arman-Luthra/aftr/blob/main/README.md#get-started-in-60-seconds",
+   "section": "Get started in 60 seconds"
+  },
+  "usage": {
+   "snippet": "   npm run controller        # http://127.0.0.1:8787",
+   "source_url": "https://github.com/Arman-Luthra/aftr/blob/main/README.md#5-run-order",
+   "section": "5. Run order"
+  }
+ },
+ "AsadMoulviDev/reel-video": {
+  "install": {
+   "command": "git clone https://github.com/AsadMoulviDev/reel-video.git\ncd reel-video\nnpm install",
+   "source_url": "https://github.com/AsadMoulviDev/reel-video/blob/main/README.md#1-install-reel-video",
+   "section": "1. Install Reel Video"
+  },
+  "usage": {
+   "snippet": "npm run canvas -- init \"my short\"\nnpm run canvas -- serve\n\nnpm run canvas -- add image --provider codex --aspect 16:9 --id img-1 \\\n  --prompt \"ONE single image: 8-panel storyboard … same character … NO text\"\nnpm run canvas -- storyboard set img-1\nnpm run canvas -- scene add --name \"Opening\" --panels 1-4 --provider codex --duration 6\n\nnpm run canvas -- status",
+   "source_url": "https://github.com/AsadMoulviDev/reel-video/blob/main/README.md#what-commands-does-the-agent-run",
+   "section": "What commands does the agent run?"
+  }
+ },
+ "ayushozha/AdobePremiereProMCP": {
+  "install": {
+   "command": "# Clone the repository\ngit clone https://github.com/ayushozha/AdobePremiereProMCP.git\ncd AdobePremiereProMCP\n\n# Copy env template\ncp .env.example .env\n\n# Install dependencies\njust install\n\n# Generate protobuf stubs\njust proto\n\n# Build all components\njust build\n\n# Run tests\njust test\n\n# Install the CEP panel into Premiere Pro\njust install-panel",
+   "source_url": "https://github.com/ayushozha/AdobePremiereProMCP/blob/main/README.md#quick-start",
+   "section": "Quick Start"
+  },
+  "usage": {
+   "snippet": "# Clone the repository\ngit clone https://github.com/ayushozha/AdobePremiereProMCP.git\ncd AdobePremiereProMCP\n\n# Copy env template\ncp .env.example .env\n\n# Install dependencies\njust install\n\n# Generate protobuf stubs\njust proto\n\n# Build all components\njust build\n\n# Run tests\njust test\n\n# Install the CEP panel into Premiere Pro\njust install-panel",
+   "source_url": "https://github.com/ayushozha/AdobePremiereProMCP/blob/main/README.md#quick-start",
+   "section": "Quick Start"
+  }
+ },
+ "bangtutorial/bang-motion": {
+  "install": null,
+  "usage": {
+   "snippet": "Make a 30-second opener for my note-taking app. Logo and screenshots attached.",
+   "source_url": "https://github.com/bangtutorial/bang-motion/blob/main/README.md#example-prompts",
+   "section": "Example prompts"
+  }
+ },
+ "BayramAnnakov/remotion-video-director": {
+  "install": {
+   "command": "npx skills add BayramAnnakov/remotion-video-director",
+   "source_url": "https://github.com/BayramAnnakov/remotion-video-director/blob/main/README.md#install",
+   "section": "Install"
+  },
+  "usage": {
+   "snippet": "You: \"I need a 30-second launch video for my SaaS product\"\n\nVideo Director:\n  Phase 1 - Think:\n    1. \"What is this video for?\" (waits for your answer)\n    2. Offers creative direction: Minimal/Jobs, Bloomberg, Warm, Terminal\n    3. \"Any reference videos you like?\" (optional)\n    4. Assembles expert panel, generates creative brief\n    5. You confirm or adjust the brief\n\n  Phase 2 - Design:\n    6. Designs 6-scene scenario with timing and data model\n\n  Phase 3 - Build:\n    7. Scaffolds Remotion project, builds scene components\n    8. Adds background music with scene-adaptive volume\n    9. Renders MP4\n\n  Phase 4 - Review:\n    10. Multi-expert review with scorecard\n    11. You review, give feedback, iterate until satisfied",
+   "source_url": "https://github.com/BayramAnnakov/remotion-video-director/blob/main/README.md#example",
+   "section": "Example"
+  }
+ },
+ "bbylw/hyperframes-cn": {
+  "install": null,
+  "usage": null
+ },
+ "bestagentkits/motion-video-skill": {
+  "install": {
+   "command": "Make a 100-second launch video for the 3.34 release with a voice-over,\ncaptions and music, in the comic multiverse style.",
+   "source_url": "https://github.com/bestagentkits/motion-video-skill/blob/main/README.md#quick-start",
+   "section": "Quick start"
+  },
+  "usage": {
+   "snippet": "Make a 100-second launch video for the 3.34 release with a voice-over,\ncaptions and music, in the comic multiverse style.",
+   "source_url": "https://github.com/bestagentkits/motion-video-skill/blob/main/README.md#quick-start",
+   "section": "Quick start"
+  }
+ },
+ "blixvip/easyedit": {
+  "install": {
+   "command": "git clone https://github.com/blixvip/easyedit && cd easyedit\nnpm install\npip install -r requirements.txt\npython -m easyedit.doctor     # checks everything and tells you what to fix",
+   "source_url": "https://github.com/blixvip/easyedit/blob/main/README.md#setup",
+   "section": "Setup"
+  },
+  "usage": {
+   "snippet": "# fully automatic\npython -m easyedit \"Fight Club\"\n\n# steer any stage: local file, URL, or your own search query\npython -m easyedit \"Interstellar\" \\\n  --speech \"interstellar do not go gentle scene\" \\\n  --montage ~/clips/interstellar-trailer.mp4 \\\n  --music \"https://www.youtube.com/watch?v=...\"\n\n# fast iteration\npython -m easyedit \"Scarface\" --draft                 # 30fps, draft quality\npython -m easyedit \"Scarface\" --preview 15 25         # render only 15s-25s\npython -m easyedit \"Scarface\" --no-render             # build footage + edit.js only",
+   "source_url": "https://github.com/blixvip/easyedit/blob/main/README.md#usage",
+   "section": "Usage"
+  }
+ },
+ "BusyBee3333/animated-explainer-skills": {
+  "install": null,
+  "usage": null
+ },
+ "calesthio/OpenMontage": {
+  "install": {
+   "command": "git clone https://github.com/calesthio/OpenMontage.git\ncd OpenMontage\nmake setup",
+   "source_url": "https://github.com/calesthio/OpenMontage/blob/main/README.md#install--run",
+   "section": "Install & Run"
+  },
+  "usage": {
+   "snippet": "git clone https://github.com/calesthio/OpenMontage.git\ncd OpenMontage\nmake setup",
+   "source_url": "https://github.com/calesthio/OpenMontage/blob/main/README.md#install--run",
+   "section": "Install & Run"
+  }
+ },
+ "cartesiancs/cartcut": {
+  "install": {
+   "command": "npm install",
+   "source_url": "https://github.com/cartesiancs/cartcut/blob/main/README.md#installation",
+   "section": "Installation"
+  },
+  "usage": null
+ },
+ "Cassette-Editor/oh-my-cassette": {
+  "install": {
+   "command": "# Claude Code\nclaude plugin marketplace add Cassette-Editor/oh-my-cassette\nclaude plugin install oh-my-cassette@cassette-editor",
+   "source_url": "https://github.com/Cassette-Editor/oh-my-cassette/blob/main/README.md#install-in-30-seconds",
+   "section": "⚡ Install in 30 seconds"
+  },
+  "usage": {
+   "snippet": "python3 scripts/setup_local_mcp.py --email you@example.com",
+   "source_url": "https://github.com/Cassette-Editor/oh-my-cassette/blob/main/README.md#first-run-authentication",
+   "section": "First-run authentication"
+  }
+ },
+ "cclank/lanshu-create-ai-presenter-video": {
+  "install": {
+   "command": "git clone https://github.com/cclank/lanshu-create-ai-presenter-video.git \\\n  ~/.claude/skills/lanshu-create-ai-presenter-video",
+   "source_url": "https://github.com/cclank/lanshu-create-ai-presenter-video/blob/main/README.md#installation",
+   "section": "Installation"
+  },
+  "usage": {
+   "snippet": "Turn this script and portrait into a 30-second 16:9 presenter video with live captions.",
+   "source_url": "https://github.com/cclank/lanshu-create-ai-presenter-video/blob/main/README.md#quick-start",
+   "section": "Quick start"
+  }
+ },
+ "cclank/lanshu-html2video-skill": {
+  "install": null,
+  "usage": null
+ },
+ "centraltowerlabs/diagram-tour": {
+  "install": {
+   "command": "git clone https://github.com/centraltowerlabs/diagram-tour ~/.claude/skills/diagram-tour\n~/.claude/skills/diagram-tour/install.sh",
+   "source_url": "https://github.com/centraltowerlabs/diagram-tour/blob/main/README.md#install",
+   "section": "Install"
+  },
+  "usage": {
+   "snippet": "/diagram-tour explain this codebase",
+   "source_url": "https://github.com/centraltowerlabs/diagram-tour/blob/main/README.md#quick-start",
+   "section": "Quick start"
+  }
+ },
+ "chenmisss/laoxu-video-script": {
+  "install": null,
+  "usage": null
+ },
+ "ChenShuo2004/cs-shotcraft-skill": {
+  "install": {
+   "command": "Use $cs-shotcraft-skill to create a 30-second launch video for my product.\nUse $cs-shotcraft-skill with the deck-deal-flyin and row-embed shot cards to present this feature.\nUse $cs-shotcraft-skill to design a close-up inspired by spotlight-hero-card for this page.",
+   "source_url": "https://github.com/ChenShuo2004/cs-shotcraft-skill/blob/main/README.md#quick-start-in-codex",
+   "section": "🚀 Quick start in Codex"
+  },
+  "usage": {
+   "snippet": "Use $cs-shotcraft-skill to create a 30-second launch video for my product.\nUse $cs-shotcraft-skill with the deck-deal-flyin and row-embed shot cards to present this feature.\nUse $cs-shotcraft-skill to design a close-up inspired by spotlight-hero-card for this page.",
+   "source_url": "https://github.com/ChenShuo2004/cs-shotcraft-skill/blob/main/README.md#quick-start-in-codex",
+   "section": "🚀 Quick start in Codex"
+  }
+ },
+ "chenyuxiaojin/cyxj-hyperframes": {
+  "install": {
+   "command": "# 1. Verify the HyperFrames CLI is available (downloads on first run)\nnpx hyperframes --version\n\n# 2. Scaffold a blank project under 视频项目/在制/\nDATE=$(date +%Y-%m-%d)\ncd 视频项目/在制\nnpx hyperframes init \"$DATE-my-first-video\" --example blank\ncd \"$DATE-my-first-video\"\n\n# 3. Edit meta.json: change the `id` field to something unique\n# 4. Author compositions/*.html following the hyperframes skill's minimal skeleton\n\n# 5. Validate and preview\nnpx hyperframes lint\nnpx hyperframes preview   # opens http://localhost:3002\n\n# 6. Render\nnpx hyperframes render --quality standard --format mp4 \\\n  --output renders/final.mp4\n\n# 7. When done, archive into 视频项目/已发布/\nmv \"../$DATE-my-first-video\" \"../../已发布/$DATE-my-first-video\"",
+   "source_url": "https://github.com/chenyuxiaojin/cyxj-hyperframes/blob/main/README.md#quick-start",
+   "section": "Quick Start"
+  },
+  "usage": {
+   "snippet": "# 1. Verify the HyperFrames CLI is available (downloads on first run)\nnpx hyperframes --version\n\n# 2. Scaffold a blank project under 视频项目/在制/\nDATE=$(date +%Y-%m-%d)\ncd 视频项目/在制\nnpx hyperframes init \"$DATE-my-first-video\" --example blank\ncd \"$DATE-my-first-video\"\n\n# 3. Edit meta.json: change the `id` field to something unique\n# 4. Author compositions/*.html following the hyperframes skill's minimal skeleton\n\n# 5. Validate and preview\nnpx hyperframes lint\nnpx hyperframes preview   # opens http://localhost:3002\n\n# 6. Render\nnpx hyperframes render --quality standard --format mp4 \\\n  --output renders/final.mp4\n\n# 7. When done, archive into 视频项目/已发布/\nmv \"../$DATE-my-first-video\" \"../../已发布/$DATE-my-first-video\"",
+   "source_url": "https://github.com/chenyuxiaojin/cyxj-hyperframes/blob/main/README.md#quick-start",
+   "section": "Quick Start"
+  }
+ },
+ "chenyuxiaojin/cyxj-remotion-starter": {
+  "install": null,
+  "usage": null
+ },
+ "cocolayuan/videoclip-AI-skill": {
+  "install": null,
+  "usage": null
+ },
+ "coding-ax/docvideoer": {
+  "install": {
+   "command": "npx skills add coding-ax/docvideoer --skill docvideoer -g -a codex -y\nnpx skills add https://github.com/remotion-dev/skills --skill remotion-best-practices -g -a codex -y",
+   "source_url": "https://github.com/coding-ax/docvideoer/blob/main/README.md#install-as-an-agent-skill",
+   "section": "Install as an Agent Skill"
+  },
+  "usage": {
+   "snippet": "npm run docvideoer -- build \\\n  --storyboard examples/storyboard.example.json \\\n  --project-dir docvideo-output/example \\\n  --install",
+   "source_url": "https://github.com/coding-ax/docvideoer/blob/main/README.md#quick-start",
+   "section": "Quick Start"
+  }
+ },
+ "cymcymcymcym/notes-to-video": {
+  "install": {
+   "command": "npx notes-to-video",
+   "source_url": "https://github.com/cymcymcymcym/notes-to-video/blob/main/README.md#install",
+   "section": "Install"
+  },
+  "usage": {
+   "snippet": "   make a 3b1b-style video from my_notes.tex",
+   "source_url": "https://github.com/cymcymcymcym/notes-to-video/blob/main/README.md#quick-start",
+   "section": "Quick Start"
+  }
+ },
+ "darrenli6/JJKoubo": {
+  "install": {
+   "command": "skills/\n├── kbcut/\n└── kbcut-style/",
+   "source_url": "https://github.com/darrenli6/JJKoubo/blob/master/README.md#installation",
+   "section": "Installation"
+  },
+  "usage": null
+ },
+ "davidcervinka/vibe-editing": {
+  "install": {
+   "command": "# Easiest: paste this line into Claude Code and let it do the setup —\n#   \"Set up https://github.com/browser-use/video-use for me.\"\n\n# Or manually:\ngit clone https://github.com/browser-use/video-use ~/Developer/video-use\nln -sfn ~/Developer/video-use ~/.claude/skills/video-use\ncd ~/Developer/video-use && uv sync        # or: pip install -e .",
+   "source_url": "https://github.com/davidcervinka/vibe-editing/blob/main/README.md#1-video-use--the-editing-skill-install-first",
+   "section": "1. video-use — the editing skill (install first)"
+  },
+  "usage": {
+   "snippet": "# Easiest: paste this line into Claude Code and let it do the setup —\n#   \"Set up https://github.com/browser-use/video-use for me.\"\n\n# Or manually:\ngit clone https://github.com/browser-use/video-use ~/Developer/video-use\nln -sfn ~/Developer/video-use ~/.claude/skills/video-use\ncd ~/Developer/video-use && uv sync        # or: pip install -e .",
+   "source_url": "https://github.com/davidcervinka/vibe-editing/blob/main/README.md#1-video-use--the-editing-skill-install-first",
+   "section": "1. video-use — the editing skill (install first)"
+  }
+ },
+ "derrickgong87/demo-video-creation-skill": {
+  "install": {
+   "command": "Copy-Item -Recurse .\\demo-video-creation-skill \"$env:USERPROFILE\\.codex\\skills\\demo-video-creation-skill\"",
+   "source_url": "https://github.com/derrickgong87/demo-video-creation-skill/blob/main/README.md#install",
+   "section": "Install"
+  },
+  "usage": {
+   "snippet": "Use $demo-video-creation-skill to create a 60-90 second 4K demo video for https://example.com.",
+   "source_url": "https://github.com/derrickgong87/demo-video-creation-skill/blob/main/README.md#example-prompts",
+   "section": "Example Prompts"
+  }
+ },
+ "diffusionstudio/lottie": {
+  "install": {
+   "command": "npx skills add diffusionstudio/lottie",
+   "source_url": "https://github.com/diffusionstudio/lottie/blob/main/README.md#quick-start",
+   "section": "Quick Start"
+  },
+  "usage": {
+   "snippet": "npx skills add diffusionstudio/lottie",
+   "source_url": "https://github.com/diffusionstudio/lottie/blob/main/README.md#quick-start",
+   "section": "Quick Start"
+  }
+ },
+ "digitalsamba/claude-code-video-toolkit": {
+  "install": {
+   "command": "git clone https://github.com/digitalsamba/claude-code-video-toolkit.git\ncd claude-code-video-toolkit\nuv sync   # Optional: AI voiceover, image gen, music, moviepy examples\nclaude    # Open Claude Code in the toolkit",
+   "source_url": "https://github.com/digitalsamba/claude-code-video-toolkit/blob/main/README.md#quick-start",
+   "section": "Quick Start"
+  },
+  "usage": {
+   "snippet": "git clone https://github.com/digitalsamba/claude-code-video-toolkit.git\ncd claude-code-video-toolkit\nuv sync   # Optional: AI voiceover, image gen, music, moviepy examples\nclaude    # Open Claude Code in the toolkit",
+   "source_url": "https://github.com/digitalsamba/claude-code-video-toolkit/blob/main/README.md#quick-start",
+   "section": "Quick Start"
+  }
+ },
+ "dlazy-ai/ai-product-video": {
+  "install": {
+   "command": "Install this skill for me: https://github.com/dlazy-ai/ai-product-video",
+   "source_url": "https://github.com/dlazy-ai/ai-product-video/blob/main/README.md#quick-start",
+   "section": "🚀 Quick start"
+  },
+  "usage": {
+   "snippet": "Install this skill for me: https://github.com/dlazy-ai/ai-product-video",
+   "source_url": "https://github.com/dlazy-ai/ai-product-video/blob/main/README.md#quick-start",
+   "section": "🚀 Quick start"
+  }
+ },
+ "doublesq97-ui/su-card-to-video": {
+  "install": null,
+  "usage": null
+ },
+ "erduo1998-cell/erduo-broll-loop-engineering": {
+  "install": null,
+  "usage": null
+ },
+ "erduo1998-cell/video-script-builder": {
+  "install": null,
+  "usage": null
+ },
+ "eternityspring/reelbench-skills": {
+  "install": null,
+  "usage": null
+ },
+ "EverMind-AI/Raven": {
+  "install": {
+   "command": "Read https://evermind-ai.github.io/Raven/quick-start/ and follow it to install Raven, or to update it if it is already installed.",
+   "source_url": "https://github.com/EverMind-AI/Raven/blob/main/README.md#install-with-your-agent",
+   "section": "🤖 Install with Your Agent"
+  },
+  "usage": null
+ },
+ "Fagan1024/smart-video-editor": {
+  "install": null,
+  "usage": null
+ },
+ "fernandokaraka/remotion-motion-graphics-skill": {
+  "install": {
+   "command": "git clone https://github.com/fernandokaraka/remotion-motion-graphics-skill.git\ncp -r remotion-motion-graphics-skill/skills/remotion-motion-graphics ~/.claude/skills/",
+   "source_url": "https://github.com/fernandokaraka/remotion-motion-graphics-skill/blob/main/README.md#install",
+   "section": "Install"
+  },
+  "usage": {
+   "snippet": "# Full scene → MP4\nnpx remotion render <CompId> out/<name>.mp4 --codec=h264 --crf=18\n\n# Overlay with real alpha → Premiere / FCP / DaVinci / AE\nnpx remotion render <CompId> out/<name>.mov --codec=prores \\\n  --prores-profile=4444 --pixel-format=yuva444p10le --image-format=png\n\n# Overlay → PNG sequence (CapCut and friends)\nnpx remotion render <CompId> out/<name>/frame-%04d.png --image-format=png\n\n# Check one frame before committing to a full render\nnpx remotion still <CompId> out/check.png --frame=45",
+   "source_url": "https://github.com/fernandokaraka/remotion-motion-graphics-skill/blob/main/README.md#export-commands-it-sets-up",
+   "section": "Export commands it sets up"
+  }
+ },
+ "Finderchangchang/promo-video-skill": {
+  "install": null,
+  "usage": null
+ },
+ "FireRedTeam/FireRed-OpenStoryline": {
+  "install": {
+   "command": "sh build_env.sh",
+   "source_url": "https://github.com/FireRedTeam/FireRed-OpenStoryline/blob/main/README.md#31-automatic-installation-linux-and-macos-only",
+   "section": "3.1 Automatic Installation (Linux and macOS only)"
+  },
+  "usage": null
+ },
+ "geekjourneyx/hyperframes-motion-director": {
+  "install": {
+   "command": "npx skills add geekjourneyx/hyperframes-motion-director",
+   "source_url": "https://github.com/geekjourneyx/hyperframes-motion-director/blob/main/README.md#install",
+   "section": "Install"
+  },
+  "usage": {
+   "snippet": "Turn this README into a 12-second Chinese vertical HyperFrames promo.\nStart with the brief/design proposal and wait for confirmation.",
+   "source_url": "https://github.com/geekjourneyx/hyperframes-motion-director/blob/main/README.md#use",
+   "section": "Use"
+  }
+ },
+ "gloweaseco-leo/hyperdirector": {
+  "install": {
+   "command": "curl -fsSL https://raw.githubusercontent.com/gloweaseco-leo/hyperdirector/main/install.sh | bash",
+   "source_url": "https://github.com/gloweaseco-leo/hyperdirector/blob/main/README.md#one-command-install-skill-pack-only",
+   "section": "One-command install (Skill Pack only)"
+  },
+  "usage": {
+   "snippet": "curl -fsSL https://raw.githubusercontent.com/gloweaseco-leo/hyperdirector/main/install.sh | bash",
+   "source_url": "https://github.com/gloweaseco-leo/hyperdirector/blob/main/README.md#one-command-install-skill-pack-only",
+   "section": "One-command install (Skill Pack only)"
+  }
+ },
+ "gnipbao/minimax-h3-video-reverse-skill": {
+  "install": null,
+  "usage": null
+ },
+ "gnipbao/story-to-handdrawn-video": {
+  "install": null,
+  "usage": null
+ },
+ "GordenSun/react-bits-video": {
+  "install": {
+   "command": "git clone https://github.com/GordenSun/react-bits-video.git\ncd react-bits-video\nnpm install                          # ~30s – installs puppeteer\nnode scripts/install-fonts.mjs       # ~30s – downloads 12 Chinese fonts\n\n# scaffold a new video\nnode scripts/new-video.mjs my-video --duration 12 --fps 30 --bg aurora\n\n# preview live in a browser\nnode scripts/preview.mjs examples/my-video/index.html\n#  → http://localhost:5173/examples/my-video/index.html\n\n# render to MP4 (deterministic, frame-accurate)\nnode scripts/render.mjs examples/my-video/index.html examples/my-video/output.mp4 \\\n     fps=30 crf=18 preset=medium",
+   "source_url": "https://github.com/GordenSun/react-bits-video/blob/main/README.md#quick-start-for-humans",
+   "section": "Quick start (for humans)"
+  },
+  "usage": {
+   "snippet": "<!-- ✅ Good -->\n<div class=\"mvm-card-light\"><h2>清晰可见</h2></div>\n\n<!-- ❌ Bad — text inherits white, becomes invisible -->\n<div style=\"background: white\"><h2>看不见</h2></div>",
+   "source_url": "https://github.com/GordenSun/react-bits-video/blob/main/README.md#use-paired-utility-classes--never-write-a-half-pair",
+   "section": "Use paired utility classes — never write a half-pair"
+  }
+ },
+ "gorkem-bwl/onboarding-video-generator": {
+  "install": {
+   "command": "git clone https://github.com/gorkem-bwl/onboarding-video-generator.git \\\n  ~/.claude/skills/create-onboarding-video",
+   "source_url": "https://github.com/gorkem-bwl/onboarding-video-generator/blob/main/README.md#install-as-a-claude-code-skill",
+   "section": "Install (as a Claude Code skill)"
+  },
+  "usage": null
+ },
+ "hahadu4520/newcut-video-clipping-skill": {
+  "install": null,
+  "usage": null
+ },
+ "hahadu4520/vlog-cut": {
+  "install": null,
+  "usage": null
+ },
+ "hassancs91/claude-faceless-shorts-creator": {
+  "install": {
+   "command": "git clone https://github.com/hassancs91/claude-faceless-shorts-creator\ncd claude-faceless-shorts-creator\ncp .env.example .env          # add your keys\ncd remotion && npm install && npm run gen && cd ..\n\nclaude                        # open the repo in Claude Code, then:",
+   "source_url": "https://github.com/hassancs91/claude-faceless-shorts-creator/blob/main/README.md#quickstart",
+   "section": "Quickstart"
+  },
+  "usage": {
+   "snippet": "git clone https://github.com/hassancs91/claude-faceless-shorts-creator\ncd claude-faceless-shorts-creator\ncp .env.example .env          # add your keys\ncd remotion && npm install && npm run gen && cd ..\n\nclaude                        # open the repo in Claude Code, then:",
+   "source_url": "https://github.com/hassancs91/claude-faceless-shorts-creator/blob/main/README.md#quickstart",
+   "section": "Quickstart"
+  }
+ },
+ "hassancs91/claude-youtube-editor": {
+  "install": {
+   "command": "git clone https://github.com/hassancs91/claude-youtube-editor\ncd claude-youtube-editor\n\npython -m venv venv\nvenv/Scripts/python -m pip install -r requirements.txt   # Windows (./venv/bin/pip on macOS/Linux)\n\ncd remotion && npm install && npm run gen && cd ..       # build the Remotion registry\n\ncp .env.example .env                                     # add your keys\n\nclaude                                                   # open in Claude Code, then:",
+   "source_url": "https://github.com/hassancs91/claude-youtube-editor/blob/main/README.md#quickstart",
+   "section": "Quickstart"
+  },
+  "usage": {
+   "snippet": "git clone https://github.com/hassancs91/claude-youtube-editor\ncd claude-youtube-editor\n\npython -m venv venv\nvenv/Scripts/python -m pip install -r requirements.txt   # Windows (./venv/bin/pip on macOS/Linux)\n\ncd remotion && npm install && npm run gen && cd ..       # build the Remotion registry\n\ncp .env.example .env                                     # add your keys\n\nclaude                                                   # open in Claude Code, then:",
+   "source_url": "https://github.com/hassancs91/claude-youtube-editor/blob/main/README.md#quickstart",
+   "section": "Quickstart"
+  }
+ },
+ "hetpatel-11/Adobe_Premiere_Pro_MCP": {
+  "install": {
+   "command": "npm install -g adobe-premiere-pro-mcp\npremiere-pro-mcp --install-cep\npremiere-pro-mcp --doctor",
+   "source_url": "https://github.com/hetpatel-11/Adobe_Premiere_Pro_MCP/blob/main/README.md#install",
+   "section": "Install"
+  },
+  "usage": null
+ },
+ "heygen-com/hyperframes": {
+  "install": null,
+  "usage": null
+ },
+ "heygen-com/skills": {
+  "install": {
+   "command": "Read https://raw.githubusercontent.com/heygen-com/skills/master/INSTALL_FOR_AGENTS.md and follow it.\nAsk me for any API keys you need.",
+   "source_url": "https://github.com/heygen-com/skills/blob/master/README.md#install",
+   "section": "Install"
+  },
+  "usage": null
+ },
+ "hi-nikola/hand-drawn-explainer-video-nikola": {
+  "install": null,
+  "usage": null
+ },
+ "holy-templar/vox-animated-ad-mcp": {
+  "install": {
+   "command": "mkdir -p ~/.claude/skills/vox-animated-ad-mcp\ncurl -o ~/.claude/skills/vox-animated-ad-mcp/SKILL.md \\\n  https://raw.githubusercontent.com/holy-templar/vox-animated-ad-mcp/main/SKILL.md",
+   "source_url": "https://github.com/holy-templar/vox-animated-ad-mcp/blob/main/README.md#install",
+   "section": "Install"
+  },
+  "usage": null
+ },
+ "hypit-ai/hypit": {
+  "install": {
+   "command": "npx skills add hypit-ai/hypit -g",
+   "source_url": "https://github.com/hypit-ai/hypit/blob/main/README.md#install-once",
+   "section": "Install once"
+  },
+  "usage": {
+   "snippet": "/hypit Clone this video: /path/to/video.mp4, and replace the ranking content with a comparison of Hypit (official website: hypit.ai) with other AI video products.",
+   "source_url": "https://github.com/hypit-ai/hypit/blob/main/README.md#use-the-hypit-skill",
+   "section": "Use the Hypit skill"
+  }
+ },
+ "iart-ai/ad-video-skills": {
+  "install": {
+   "command": "npx skills add iart-ai/ad-video-skills",
+   "source_url": "https://github.com/iart-ai/ad-video-skills/blob/main/README.md#install",
+   "section": "Install"
+  },
+  "usage": null
+ },
+ "iart-ai/data-animation-skills": {
+  "install": {
+   "command": "npx skills add iart-ai/data-animation-skills",
+   "source_url": "https://github.com/iart-ai/data-animation-skills/blob/main/README.md#install",
+   "section": "Install"
+  },
+  "usage": null
+ },
+ "iart-ai/explainer-video-skills": {
+  "install": {
+   "command": "npx skills add iart-ai/explainer-video-skills",
+   "source_url": "https://github.com/iart-ai/explainer-video-skills/blob/main/README.md#install",
+   "section": "Install"
+  },
+  "usage": null
+ },
+ "iart-ai/motion-design-skills": {
+  "install": {
+   "command": "npx skills add iart-ai/motion-design-skills",
+   "source_url": "https://github.com/iart-ai/motion-design-skills/blob/main/README.md#install",
+   "section": "Install"
+  },
+  "usage": null
+ },
+ "iart-ai/motion-skills": {
+  "install": {
+   "command": "npx skills add iart-ai/tiktok-video-skills\nnpx skills add iart-ai/data-animation-skills\n# …or any pack above",
+   "source_url": "https://github.com/iart-ai/motion-skills/blob/master/README.md#install",
+   "section": "Install"
+  },
+  "usage": null
+ },
+ "iart-ai/tiktok-video-skills": {
+  "install": {
+   "command": "npx skills add iart-ai/tiktok-video-skills",
+   "source_url": "https://github.com/iart-ai/tiktok-video-skills/blob/main/README.md#install",
+   "section": "Install"
+  },
+  "usage": null
+ },
+ "icytear-svg/podcast-to-video": {
+  "install": null,
+  "usage": null
+ },
+ "inematds/skill-video-plan-editor": {
+  "install": null,
+  "usage": null
+ },
+ "intelligent-iterations/ii-content-engine": {
+  "install": {
+   "command": "npm install\npip install -r requirements.txt\nnpx playwright install chromium\ncp .env.example .env",
+   "source_url": "https://github.com/intelligent-iterations/ii-content-engine/blob/main/README.md#quick-start",
+   "section": "Quick Start"
+  },
+  "usage": {
+   "snippet": "npm install\npip install -r requirements.txt\nnpx playwright install chromium\ncp .env.example .env",
+   "source_url": "https://github.com/intelligent-iterations/ii-content-engine/blob/main/README.md#quick-start",
+   "section": "Quick Start"
+  }
+ },
+ "jackjls/jtxvideo-skill": {
+  "install": null,
+  "usage": null
+ },
+ "jaxxchen003/book-video-factory": {
+  "install": {
+   "command": "npx skills add jaxxchen003/book-video-factory --skill book-video-factory -g -y",
+   "source_url": "https://github.com/jaxxchen003/book-video-factory/blob/main/README.md#install",
+   "section": "Install"
+  },
+  "usage": null
+ },
+ "jhartquist/claude-remotion-kickstart": {
+  "install": null,
+  "usage": {
+   "snippet": "# Start development preview\npnpm run dev\n\n# Render a composition\npnpm exec remotion render <CompositionId>\n\n# Render a still frame\npnpm exec remotion still <CompositionId>\n\n# Lint code\npnpm run lint\n\n# Upgrade Remotion\npnpm run upgrade",
+   "source_url": "https://github.com/jhartquist/claude-remotion-kickstart/blob/main/README.md#commands",
+   "section": "Commands"
+  }
+ },
+ "JimLiu/baocut": {
+  "install": null,
+  "usage": {
+   "snippet": "skills/baocut/bin/baocut --json auto talk.mp4 --lang zh\nskills/baocut/bin/baocut export <projectId> --srt --translated --lang zh",
+   "source_url": "https://github.com/JimLiu/baocut/blob/main/README.md#use-it",
+   "section": "Use it"
+  }
+ },
+ "JimLiu/taohuayuan": {
+  "install": null,
+  "usage": null
+ },
+ "jincheng2026/jc-remotion-skills": {
+  "install": null,
+  "usage": null
+ },
+ "jinjin1/scenewright": {
+  "install": null,
+  "usage": null
+ },
+ "JohnHeibel/ClaudeAnimationBase": {
+  "install": null,
+  "usage": {
+   "snippet": "npm install\nnode render.mjs --clip --out=out/video.mp4",
+   "source_url": "https://github.com/JohnHeibel/ClaudeAnimationBase/blob/main/README.md#run-it-yourself",
+   "section": "Run it yourself"
+  }
+ },
+ "JohnHeibel/PDoomVideo": {
+  "install": null,
+  "usage": null
+ },
+ "Johnson-Jia/video-clipforge": {
+  "install": null,
+  "usage": null
+ },
+ "jtydhr88/screenwriting-skills": {
+  "install": null,
+  "usage": {
+   "snippet": "# \"Break my 12-episode series into acts and place the act outs\"\n# → agent uses sw-series-structure\n\n# \"My dialogue is all on the nose, fix this scene\"\n# → agent uses sw-dialogue + sw-scene-craft\n\n# \"Turn this 400,000-word novel into a 40-episode Chinese drama outline\"\n# → agent uses sw-chinese-series-practice + sw-series-engine-bible\n\n# \"Set up a project and keep track of where I am\"\n# → agent uses sw-workflow",
+   "source_url": "https://github.com/jtydhr88/screenwriting-skills/blob/main/README.md#usage-examples",
+   "section": "Usage examples"
+  }
+ },
+ "JUNKDOGE-JOE/after-effects-mcp": {
+  "install": null,
+  "usage": null
+ },
+ "kakaxi12/vox-director-codex": {
+  "install": null,
+  "usage": null
+ },
+ "kangarooking/director-skills": {
+  "install": null,
+  "usage": null
+ },
+ "kangarooking/promo-creator-skills": {
+  "install": null,
+  "usage": null
+ },
+ "Kappaemme-git/codex-video-short-maker-skill": {
+  "install": {
+   "command": "npx --yes codex-video-short-maker-skill@latest --with-captions",
+   "source_url": "https://github.com/Kappaemme-git/codex-video-short-maker-skill/blob/main/README.md#installation",
+   "section": "Installation"
+  },
+  "usage": {
+   "snippet": "Use $video-short-maker to create a 30s vertical high quality short with English captions from /Users/me/Desktop/demo.mp4 using aggressive cut style.",
+   "source_url": "https://github.com/Kappaemme-git/codex-video-short-maker-skill/blob/main/README.md#usage",
+   "section": "Usage"
+  }
+ },
+ "kiki-lgtm-dot/cinematic-product-promo-skill": {
+  "install": {
+   "command": "Install this skill for me: https://github.com/kiki-lgtm-dot/cinematic-product-promo-skill",
+   "source_url": "https://github.com/kiki-lgtm-dot/cinematic-product-promo-skill/blob/main/README.md#quick-start",
+   "section": "🚀 Quick start"
+  },
+  "usage": {
+   "snippet": "Install this skill for me: https://github.com/kiki-lgtm-dot/cinematic-product-promo-skill",
+   "source_url": "https://github.com/kiki-lgtm-dot/cinematic-product-promo-skill/blob/main/README.md#quick-start",
+   "section": "🚀 Quick start"
+  }
+ },
+ "kingselyjoe/video-shotcraft-dsh": {
+  "install": null,
+  "usage": null
+ },
+ "krusemediallc/video-editor-agent": {
+  "install": null,
+  "usage": null
+ },
+ "kurbaitaev/ghost-editor": {
+  "install": null,
+  "usage": null
+ },
+ "leancoderkavy/premiere-pro-mcp": {
+  "install": {
+   "command": "npm install -g premiere-pro-mcp",
+   "source_url": "https://github.com/leancoderkavy/premiere-pro-mcp/blob/main/README.md#1-install",
+   "section": "1. Install"
+  },
+  "usage": null
+ },
+ "ledbetterljoshua/functional-emotions-video": {
+  "install": null,
+  "usage": null
+ },
+ "lemomo-ai/lemo-opuscar": {
+  "install": {
+   "command": "claude plugin marketplace add lemomo-ai/lemo-opuscar\nclaude plugin install lemo-opuscar@lemolab",
+   "source_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/README.md#option-1-install-the-skill-recommended--方式一装成-skill推荐",
+   "section": "Option 1: install the skill (recommended) · 方式一：装成 skill（推荐）"
+  },
+  "usage": null
+ },
+ "leosssvip-dot/remotion-ad-video-skill": {
+  "install": {
+   "command": "Install the remotion-ad-video skill from this repository into my available\nskills directory. Use a symlink if my agent supports it; otherwise copy\nskills/remotion-ad-video. After installing, tell me how to reload or restart the\nagent so the skill becomes available.",
+   "source_url": "https://github.com/leosssvip-dot/remotion-ad-video-skill/blob/main/README.md#install-with-your-ai-agent",
+   "section": "Install With Your AI Agent"
+  },
+  "usage": {
+   "snippet": "Use $remotion-ad-video to create a 15s vertical ad for:\nhttps://example.com/products/focus-lamp",
+   "source_url": "https://github.com/leosssvip-dot/remotion-ad-video-skill/blob/main/README.md#renderer-usage",
+   "section": "Renderer Usage"
+  }
+ },
+ "LetMeHappyCode/auto-video-agent": {
+  "install": null,
+  "usage": null
+ },
+ "Liamrjohnston/remotion-motion-graphics-skill": {
+  "install": {
+   "command": "curl -fsSL https://raw.githubusercontent.com/Liamrjohnston/remotion-motion-graphics-skill/main/install.sh | bash",
+   "source_url": "https://github.com/Liamrjohnston/remotion-motion-graphics-skill/blob/main/README.md#dont-have-remotion-yet-full-setup-in-one-command",
+   "section": "Don't have Remotion yet? Full setup in one command"
+  },
+  "usage": {
+   "snippet": "curl -fsSL https://raw.githubusercontent.com/Liamrjohnston/remotion-motion-graphics-skill/main/install.sh | bash",
+   "source_url": "https://github.com/Liamrjohnston/remotion-motion-graphics-skill/blob/main/README.md#dont-have-remotion-yet-full-setup-in-one-command",
+   "section": "Don't have Remotion yet? Full setup in one command"
+  }
+ },
+ "liangdabiao/story-handdrawn-remotion": {
+  "install": null,
+  "usage": null
+ },
+ "liangdabiao/story-handdrawn-video": {
+  "install": null,
+  "usage": null
+ },
+ "liangdabiao/wechat-article-remotion": {
+  "install": null,
+  "usage": null
+ },
+ "liuliu-66-create/ll-video-decomposer": {
+  "install": null,
+  "usage": null
+ },
+ "liyue-aigc/xianxia-cinematic-video-director": {
+  "install": null,
+  "usage": null
+ },
+ "louisedesadeleer/cut-video": {
+  "install": {
+   "command": "git clone https://github.com/louisedesadeleer/cut-video.git ~/.claude/skills/cut-video",
+   "source_url": "https://github.com/louisedesadeleer/cut-video/blob/main/README.md#install",
+   "section": "Install"
+  },
+  "usage": {
+   "snippet": "/cut-video",
+   "source_url": "https://github.com/louisedesadeleer/cut-video/blob/main/README.md#usage",
+   "section": "Usage"
+  }
+ },
+ "Maartenlouis/remotion-ads": {
+  "install": null,
+  "usage": {
+   "snippet": "# Generate all scenes with timestamps\nnode scripts/generate.js --scenes scenes.json --with-timestamps --output-dir public/audio/\n\n# Regenerate a single scene\nnode scripts/generate.js --scenes scenes.json --scene scene2 --output-dir public/audio/\n\n# Validate timing of generated audio\nnode scripts/generate.js --validate public/audio/ad-example/\n\n# List available voices\nnode scripts/generate.js --list-voices\n\n# Forced alignment on existing audio\nnode scripts/generate.js --align audio.mp3 --align-text \"Your transcript\"",
+   "source_url": "https://github.com/Maartenlouis/remotion-ads/blob/main/README.md#generatejs-commands",
+   "section": "generate.js commands"
+  }
+ },
+ "magichourhq/skills": {
+  "install": null,
+  "usage": null
+ },
+ "manthanpatelll/leadgenman-video-skills": {
+  "install": {
+   "command": "/plugin install github:manthanpatelll/leadgenman-video-skills",
+   "source_url": "https://github.com/manthanpatelll/leadgenman-video-skills/blob/main/README.md#install",
+   "section": "🚀 Install"
+  },
+  "usage": {
+   "snippet": "/produce:produce /path/to/raw-video.mp4\n/srt:srt /path/to/captions.srt\n/ytdescription:ytdescription            # paste or point at a transcript\n/igcaption:igcaption                    # paste or point at a transcript",
+   "source_url": "https://github.com/manthanpatelll/leadgenman-video-skills/blob/main/README.md#usage",
+   "section": "💬 Usage"
+  }
+ },
+ "marketcalls/story-telling": {
+  "install": {
+   "command": "# GitHub shorthand\nnpx skills add marketcalls/story-telling\n\n# Full GitHub URL\nnpx skills add https://github.com/marketcalls/story-telling",
+   "source_url": "https://github.com/marketcalls/story-telling/blob/main/README.md#quick-install",
+   "section": "Quick install"
+  },
+  "usage": {
+   "snippet": "npm run generate -- --slug jhunjhunwala",
+   "source_url": "https://github.com/marketcalls/story-telling/blob/main/README.md#example",
+   "section": "Example"
+  }
+ },
+ "mattivilola/brag-codex": {
+  "install": {
+   "command": "mkdir -p \"${CODEX_HOME:-$HOME/.codex}/skills\"\nrsync -a --exclude '.DS_Store' skills/brag/ \"${CODEX_HOME:-$HOME/.codex}/skills/brag/\"",
+   "source_url": "https://github.com/mattivilola/brag-codex/blob/main/README.md#install",
+   "section": "Install"
+  },
+  "usage": {
+   "snippet": "Use $brag to make a launch video for this project.",
+   "source_url": "https://github.com/mattivilola/brag-codex/blob/main/README.md#use",
+   "section": "Use"
+  }
+ },
+ "MegaTroll222/VOX-COLLAGE-BROLL": {
+  "install": {
+   "command": "   mkdir -p ~/.claude/skills/collage-broll-explainers\n   curl -o ~/.claude/skills/collage-broll-explainers/SKILL.md \\\n     https://raw.githubusercontent.com/MegaTroll222/VOX-COLLAGE-BROLL/main/SKILL.md",
+   "source_url": "https://github.com/MegaTroll222/VOX-COLLAGE-BROLL/blob/main/README.md#install",
+   "section": "Install"
+  },
+  "usage": null
+ },
+ "memex-lab/product-launch-video-skill": {
+  "install": {
+   "command": "npx skills add memex-lab/product-launch-video-skill --skill product-launch-video",
+   "source_url": "https://github.com/memex-lab/product-launch-video-skill/blob/main/README.md#quick-start",
+   "section": "Quick Start"
+  },
+  "usage": {
+   "snippet": "Create a 45-second product launch video for our noise-canceling headphones.\nAudience: commuters and frequent flyers. Tone: premium, calm, immersive.\nUse our product photos, show the material finish, and include voiceover.",
+   "source_url": "https://github.com/memex-lab/product-launch-video-skill/blob/main/README.md#example-prompts",
+   "section": "Example Prompts"
+  }
+ },
+ "misbahsy/tiktok-ig-shorts": {
+  "install": null,
+  "usage": {
+   "snippet": "Use $social-talking-head-video to turn my talking-head clip into a polished vertical social video.",
+   "source_url": "https://github.com/misbahsy/tiktok-ig-shorts/blob/main/README.md#use",
+   "section": "Use"
+  }
+ },
+ "Mng-dev-ai/explainer-video": {
+  "install": {
+   "command": "git clone https://github.com/Mng-dev-ai/explainer-video.git \\\n  ~/.agents/skills/explainer-video\n\nln -s ../../.agents/skills/explainer-video ~/.claude/skills/explainer-video\nln -s ../../.agents/skills/explainer-video ~/.codex/skills/explainer-video",
+   "source_url": "https://github.com/Mng-dev-ai/explainer-video/blob/main/README.md#universal-install-one-location-all-agents",
+   "section": "Universal install (one location, all agents)"
+  },
+  "usage": {
+   "snippet": "cd ~/.agents/skills/explainer-video/lib   # or wherever you cloned it\nnpm install --silent",
+   "source_url": "https://github.com/Mng-dev-ai/explainer-video/blob/main/README.md#first-run-setup",
+   "section": "First-run setup"
+  }
+ },
+ "molkex/mcp-flow-google": {
+  "install": null,
+  "usage": null
+ },
+ "Monet-AI-Editor/Monet": {
+  "install": null,
+  "usage": {
+   "snippet": "npm run setup:local-transcription",
+   "source_url": "https://github.com/Monet-AI-Editor/Monet/blob/main/README.md#run-from-source",
+   "section": "Run from source"
+  }
+ },
+ "Mr-funny/hbg-douyin-code-explainer-video": {
+  "install": null,
+  "usage": null
+ },
+ "Mr-funny/hbg-life-simulation": {
+  "install": null,
+  "usage": null
+ },
+ "mrieck/demoday-claude-plugin": {
+  "install": {
+   "command": "/plugin marketplace add mrieck/claude-plugins\n/plugin install demoday@productive-mark",
+   "source_url": "https://github.com/mrieck/demoday-claude-plugin/blob/main/README.md#install",
+   "section": "🚀 Install"
+  },
+  "usage": null
+ },
+ "naive-kun/naive-video-skill": {
+  "install": null,
+  "usage": null
+ },
+ "NarratorAI-Studio/narrator-ai-cli-skill": {
+  "install": {
+   "command": "pip install \"narrator-ai-cli @ git+https://github.com/NarratorAI-Studio/narrator-ai-cli.git\"",
+   "source_url": "https://github.com/NarratorAI-Studio/narrator-ai-cli-skill/blob/main/README.md#step-1-install-the-cli-tool",
+   "section": "Step 1: Install the CLI tool"
+  },
+  "usage": null
+ },
+ "new-xp/ultrademo": {
+  "install": {
+   "command": "npx skills add new-xp/ultrademo          # pick YOUR agent when prompted\nnpx skills add new-xp/ultrademo -a claude-code   # or skip the prompt (Claude Code)",
+   "source_url": "https://github.com/new-xp/ultrademo/blob/main/README.md#install",
+   "section": "Install"
+  },
+  "usage": null
+ },
+ "ninestonelee/youtube-shorts-factory": {
+  "install": {
+   "command": "# 프로젝트의 .claude/skills/ 디렉토리에 복사\ngit clone https://github.com/ninestonelee/youtube-shorts-factory.git \\\n  .claude/skills/youtube-shorts-factory",
+   "source_url": "https://github.com/ninestonelee/youtube-shorts-factory/blob/main/README.md#quick-install-recommended",
+   "section": "Quick Install (Recommended)"
+  },
+  "usage": null
+ },
+ "nolangz/pixel2motion": {
+  "install": null,
+  "usage": null
+ },
+ "norahe0304-art/30x-video": {
+  "install": {
+   "command": "# one-shot: harvest a brand and build the video\nnpx 30x-web-to-video https://your-brand.com --agent\n\n# or: install the skill user-wide, then just talk to Claude Code\nnpx 30x-web-to-video --global\n# → open Claude Code anywhere and say: \"make a launch video for your-brand.com\"",
+   "source_url": "https://github.com/norahe0304-art/30x-video/blob/master/README.md#quick-start",
+   "section": "Quick start"
+  },
+  "usage": {
+   "snippet": "# one-shot: harvest a brand and build the video\nnpx 30x-web-to-video https://your-brand.com --agent\n\n# or: install the skill user-wide, then just talk to Claude Code\nnpx 30x-web-to-video --global\n# → open Claude Code anywhere and say: \"make a launch video for your-brand.com\"",
+   "source_url": "https://github.com/norahe0304-art/30x-video/blob/master/README.md#quick-start",
+   "section": "Quick start"
+  }
+ },
+ "op7418/guizang-product-video-skill": {
+  "install": null,
+  "usage": null
+ },
+ "ops120/video-recap-skills-plus": {
+  "install": null,
+  "usage": null
+ },
+ "opus-pro/opus-video-studio": {
+  "install": {
+   "command": "/plugin marketplace add opus-pro/opusclip-video-tools\n/plugin install opus-video-studio@opus-pro",
+   "source_url": "https://github.com/opus-pro/opusclip-video-tools/blob/main/README.md#quick-start",
+   "section": "Quick start"
+  },
+  "usage": {
+   "snippet": "/plugin marketplace add opus-pro/opusclip-video-tools\n/plugin install opus-video-studio@opus-pro",
+   "source_url": "https://github.com/opus-pro/opusclip-video-tools/blob/main/README.md#quick-start",
+   "section": "Quick start"
+  }
+ },
+ "patraxo/ltx2-vidgen-skill": {
+  "install": {
+   "command": "npx skills add patraxo/ltx2-vidgen-skill        # or: cp -R skills/ltx2-video ~/.claude/skills/\npip install modal && modal token new            # Modal SDK + your account (free — $30/mo credits)",
+   "source_url": "https://github.com/patraxo/ltx2-vidgen-skill/blob/main/README.md#install",
+   "section": "Install"
+  },
+  "usage": null
+ },
+ "Phantomlau3674/voxstylehub-steven": {
+  "install": null,
+  "usage": null
+ },
+ "pjecuacion/script-to-video-skill": {
+  "install": null,
+  "usage": null
+ },
+ "PoetCoderJun/MotionTalk": {
+  "install": null,
+  "usage": null
+ },
+ "pyang5166/gbro-collage-broll": {
+  "install": null,
+  "usage": null
+ },
+ "pyang5166/gbro-collage-info": {
+  "install": null,
+  "usage": null
+ },
+ "qingyunAGI/qingyun-cine-skill": {
+  "install": {
+   "command": "git clone https://github.com/qingyunAGI/qingyun-cine-skill.git ~/.codex/skills/qingyun-cine-skill",
+   "source_url": "https://github.com/qingyunAGI/qingyun-cine-skill/blob/main/README.md#installation",
+   "section": "Installation"
+  },
+  "usage": {
+   "snippet": "帮我基于这些素材做一个 30 秒以内的电影级预告片。先不要渲染，先给我剪辑蓝图和镜头计划。",
+   "source_url": "https://github.com/qingyunAGI/qingyun-cine-skill/blob/main/README.md#example-prompts",
+   "section": "Example Prompts"
+  }
+ },
+ "remotion-dev/skills": {
+  "install": null,
+  "usage": null
+ },
+ "resemble-ai/remotion-resemble-skill": {
+  "install": {
+   "command": "npx skills add resemble-ai/remotion-resemble-skill",
+   "source_url": "https://github.com/resemble-ai/remotion-resemble-skill/blob/master/README.md#installation",
+   "section": "Installation"
+  },
+  "usage": {
+   "snippet": "\"Create a 30-second promotional video with voiceover about our product\"",
+   "source_url": "https://github.com/resemble-ai/remotion-resemble-skill/blob/master/README.md#usage",
+   "section": "Usage"
+  }
+ },
+ "riffkit/skill": {
+  "install": {
+   "command": "Read https://riffkit.ai/SKILL.md and follow the instructions to set up Riffkit.",
+   "source_url": "https://github.com/riffkit/skill/blob/main/README.md#quick-start-from-your-agent",
+   "section": "Quick start (from your agent)"
+  },
+  "usage": {
+   "snippet": "Read https://riffkit.ai/SKILL.md and follow the instructions to set up Riffkit.",
+   "source_url": "https://github.com/riffkit/skill/blob/main/README.md#quick-start-from-your-agent",
+   "section": "Quick start (from your agent)"
+  }
+ },
+ "runesleo/claude-video-kit": {
+  "install": {
+   "command": "git clone https://github.com/runesleo/claude-video-kit.git\ncd claude-video-kit\ncd remotion && npm install && cd ..\npip install -r scripts/requirements.txt\ncp .env.example .env   # fill FISH_AUDIO_API_KEY, FISH_AUDIO_VOICE_ID",
+   "source_url": "https://github.com/runesleo/claude-video-kit/blob/main/README.md#setup",
+   "section": "Setup"
+  },
+  "usage": null
+ },
+ "Samin12/samin-reel-engine-plugin": {
+  "install": {
+   "command": "git clone https://github.com/Samin12/samin-reel-engine-plugin.git\ncd samin-reel-engine-plugin\n\npython3.11 -m venv .venv\nsource .venv/bin/activate\npython -m pip install -r production/requirements.txt\nnpm ci --prefix production/editor\n\npython tools/build-plugin.py\npython plugins/samin-reel-engine/scripts/reel.py --project \"$PWD\" configure\ncodex plugin marketplace add \"$PWD\"\ncodex plugin add samin-reel-engine@samin-reel-engine",
+   "source_url": "https://github.com/Samin12/samin-reel-engine-plugin/blob/main/README.md#get-started",
+   "section": "Get started"
+  },
+  "usage": null
+ },
+ "santmun/video-vox": {
+  "install": null,
+  "usage": null
+ },
+ "sharon-laicc/viral-video-decomposer": {
+  "install": {
+   "command": "帮我拆解这个爆款视频：\nhttps://www.xiaohongshu.com/...",
+   "source_url": "https://github.com/sharon-laicc/viral-video-decomposer/blob/main/README.md#quickstart",
+   "section": "Quickstart"
+  },
+  "usage": {
+   "snippet": "Use the Viral Video Decomposer skill from:\nhttps://github.com/sharon-laicc/viral-video-decomposer",
+   "source_url": "https://github.com/sharon-laicc/viral-video-decomposer/blob/main/README.md#use-with-codex-or-other-coding-agents",
+   "section": "Use With Codex Or Other Coding Agents"
+  }
+ },
+ "shuyicc/MathLens": {
+  "install": null,
+  "usage": {
+   "snippet": "# Generate TTS audio\npython scripts/generate_tts.py audio_list.csv ./audio --voice xiaoxiao\n\n# Validate audio and write durations back to storyboard\npython scripts/validate_audio.py storyboard.md ./audio\n\n# Check Manim code structure\npython scripts/check.py\n\n# Render video\npython scripts/render.py",
+   "source_url": "https://github.com/shuyicc/MathLens/blob/main/README.md#run-scripts-manually",
+   "section": "Run Scripts Manually"
+  }
+ },
+ "smit-vanani/claude-promo-video": {
+  "install": {
+   "command": "/plugin marketplace add smit-vanani/claude-promo-video\n/plugin install promo-video@claude-promo-video",
+   "source_url": "https://github.com/smit-vanani/claude-promo-video/blob/master/README.md#install",
+   "section": "Install"
+  },
+  "usage": {
+   "snippet": "/promo-video https://your-product.com",
+   "source_url": "https://github.com/smit-vanani/claude-promo-video/blob/master/README.md#use",
+   "section": "Use"
+  }
+ },
+ "smwbev/framewright": {
+  "install": {
+   "command": "npx skills add smwbev/framewright -g",
+   "source_url": "https://github.com/smwbev/framewright/blob/main/README.md#install-the-skill-recommended",
+   "section": "Install the skill (recommended)"
+  },
+  "usage": {
+   "snippet": "npm install\nnpm run example        # writes shots/example-sheet.png",
+   "source_url": "https://github.com/smwbev/framewright/blob/main/README.md#examples",
+   "section": "Examples"
+  }
+ },
+ "ssrajadh/paperview": {
+  "install": {
+   "command": "/plugin marketplace add ssrajadh/paperview\n/plugin install ppv@paperview\n/reload-plugins",
+   "source_url": "https://github.com/ssrajadh/paperview/blob/main/README.md#getting-started",
+   "section": "Getting Started"
+  },
+  "usage": null
+ },
+ "sukai213/bilibili-ai-video": {
+  "install": null,
+  "usage": null
+ },
+ "sunxiayi/make-blender-education-video-skill": {
+  "install": {
+   "command": "mkdir -p ~/.codex/skills\ncp -R skills/make-blender-education-video ~/.codex/skills/",
+   "source_url": "https://github.com/sunxiayi/make-blender-education-video-skill/blob/main/README.md#install-for-codex",
+   "section": "Install for Codex"
+  },
+  "usage": {
+   "snippet": "Use $make-blender-education-video to create a cinematic explainer showing how a heat pump works.",
+   "source_url": "https://github.com/sunxiayi/make-blender-education-video-skill/blob/main/README.md#use",
+   "section": "Use"
+  }
+ },
+ "taylorzhou16/video-gen": {
+  "install": null,
+  "usage": null
+ },
+ "toufuim/personal-ip-brand-intro-skill": {
+  "install": null,
+  "usage": null
+ },
+ "trunghaiy/appshot": {
+  "install": {
+   "command": "npx skills add trunghaiy/appshot",
+   "source_url": "https://github.com/trunghaiy/appshot/blob/main/README.md#install",
+   "section": "Install"
+  },
+  "usage": {
+   "snippet": "# 1. Scaffold\nnpx create-appshot my-video\ncd my-video\n\n# 2. Edit src/app-config.ts with your app's info\n\n# 3. Preview in browser\nnpm run dev\n\n# 4. Render to MP4\nnpm run build                     # Both stores (if configured)\n# npm run build:app-store         # App Store only\n# npm run build:play-store        # Play Store only",
+   "source_url": "https://github.com/trunghaiy/appshot/blob/main/README.md#manual-quick-start",
+   "section": "Manual Quick Start"
+  }
+ },
+ "tugrawork-creator/saas-motion-kit": {
+  "install": {
+   "command": "# 1. get the kit\ngit clone https://github.com/tugrawork-creator/saas-motion-kit && cd saas-motion-kit\n\n# 2. install the HyperFrames skills for Claude Code (not vendored here)\nnpx skills add heygen-com/hyperframes\n\n# 3. try the example\ncd examples/acme-suite-loop\nnpx hyperframes preview          # live preview in the Studio\nnpx hyperframes render --quality delivery --resolution landscape-4k --output renders/loop-2160.mp4",
+   "source_url": "https://github.com/tugrawork-creator/saas-motion-kit/blob/main/README.md#quick-start",
+   "section": "Quick start"
+  },
+  "usage": {
+   "snippet": "# 1. get the kit\ngit clone https://github.com/tugrawork-creator/saas-motion-kit && cd saas-motion-kit\n\n# 2. install the HyperFrames skills for Claude Code (not vendored here)\nnpx skills add heygen-com/hyperframes\n\n# 3. try the example\ncd examples/acme-suite-loop\nnpx hyperframes preview          # live preview in the Studio\nnpx hyperframes render --quality delivery --resolution landscape-4k --output renders/loop-2160.mp4",
+   "source_url": "https://github.com/tugrawork-creator/saas-motion-kit/blob/main/README.md#quick-start",
+   "section": "Quick start"
+  }
+ },
+ "tuzhechen2005/opus-video-skills": {
+  "install": {
+   "command": "/plugin marketplace add tuzhechen2005/opus-video-skills\n/plugin install painted-animation@opus-video-skills\n/plugin install kinetic-reel@opus-video-skills",
+   "source_url": "https://github.com/tuzhechen2005/opus-video-skills/blob/main/README.md#installation",
+   "section": "Installation"
+  },
+  "usage": null
+ },
+ "Upload-Post/avatar-mix": {
+  "install": null,
+  "usage": {
+   "snippet": "# measure durations → backgrounds → edit. aspect: 16:9 | 9:16 | both\nbash scripts/run.sh <slug> assets/music.wav hyperframes both",
+   "source_url": "https://github.com/Upload-Post/avatar-mix/blob/main/README.md#usage",
+   "section": "🛠️ Usage"
+  }
+ },
+ "VasiniDevi/motion-skills": {
+  "install": {
+   "command": "npx skills add VasiniDevi/motion-skills -a replit\nnpx skills add VasiniDevi/motion-skills -a claude-code",
+   "source_url": "https://github.com/VasiniDevi/motion-skills/blob/main/README.md#installation",
+   "section": "Installation"
+  },
+  "usage": {
+   "snippet": "import sys, os\nsys.path.insert(0, os.path.expanduser(\"~/.claude/skills\"))\n\nfrom motion_templates.slides import SlideDeck, TitleSlide, StepSlide, SummarySlide\n\ndeck = SlideDeck(theme=\"dark_purple\")\ndeck.add(TitleSlide(\"Hello World\", subtitle=\"Motion Skills Demo\"))\ndeck.add(StepSlide(number=\"01\", title=\"Create\", desc=\"Build animations in Python\"))\ndeck.add(SummarySlide(items=[\"No browser needed\", \"Pure Python\", \"MP4 export\"]))\ndeck.render(\"output.mp4\")",
+   "source_url": "https://github.com/VasiniDevi/motion-skills/blob/main/README.md#quick-start",
+   "section": "Quick Start"
+  }
+ },
+ "vibe-motion/remotion-code-motion-explainer": {
+  "install": null,
+  "usage": null
+ },
+ "vibe-motion/remotion-starter": {
+  "install": null,
+  "usage": null
+ },
+ "vibe-motion/skills": {
+  "install": null,
+  "usage": null
+ },
+ "video-db/skills": {
+  "install": {
+   "command": "npx skills add video-db/skills",
+   "source_url": "https://github.com/video-db/skills/blob/main/README.md#step-1-install-the-skill",
+   "section": "Step 1: Install the skill"
+  },
+  "usage": null
+ },
+ "Vincentwei1021/video-shotcraft": {
+  "install": {
+   "command": "Install this skill for me: https://github.com/Vincentwei1021/video-shotcraft",
+   "source_url": "https://github.com/Vincentwei1021/video-shotcraft/blob/main/README.md#quick-start",
+   "section": "🚀 Quick start"
+  },
+  "usage": {
+   "snippet": "Install this skill for me: https://github.com/Vincentwei1021/video-shotcraft",
+   "source_url": "https://github.com/Vincentwei1021/video-shotcraft/blob/main/README.md#quick-start",
+   "section": "🚀 Quick start"
+  }
+ },
+ "Vincentwei1021/video-talkcraft": {
+  "install": null,
+  "usage": null
+ },
+ "wendymardigian-prog/Editor-IA-Pro": {
+  "install": {
+   "command": "git clone https://github.com/wendymardigian-prog/Claude-Editor-Pro.git\ncd Claude-Editor-Pro\nclaude\n/start",
+   "source_url": "https://github.com/wendymardigian-prog/Editor-IA-Pro/blob/main/README.md#quick-start",
+   "section": "Quick Start"
+  },
+  "usage": {
+   "snippet": "git clone https://github.com/wendymardigian-prog/Claude-Editor-Pro.git\ncd Claude-Editor-Pro\nclaude\n/start",
+   "source_url": "https://github.com/wendymardigian-prog/Editor-IA-Pro/blob/main/README.md#quick-start",
+   "section": "Quick Start"
+  }
+ },
+ "wocha-xiaoli/video-shot-analysis-feishu": {
+  "install": null,
+  "usage": null
+ },
+ "wshuyi/remotion-video-skill": {
+  "install": {
+   "command": "pip install edge-tts",
+   "source_url": "https://github.com/wshuyi/remotion-video-skill/blob/main/README.md#option-a-edge-tts-free-recommended-for-quick-start",
+   "section": "Option A: Edge TTS (Free, Recommended for Quick Start)"
+  },
+  "usage": {
+   "snippet": "pip install edge-tts",
+   "source_url": "https://github.com/wshuyi/remotion-video-skill/blob/main/README.md#option-a-edge-tts-free-recommended-for-quick-start",
+   "section": "Option A: Edge TTS (Free, Recommended for Quick Start)"
+  }
+ },
+ "wyuzhi/qisi-video-remix": {
+  "install": null,
+  "usage": null
+ },
+ "YeJe-cpu/SeeCut": {
+  "install": null,
+  "usage": null
+ },
+ "Yuuhann1999/codex-storyboard": {
+  "install": null,
+  "usage": null
+ },
+ "yuwenbin121/book-video-production-skill": {
+  "install": null,
+  "usage": null
+ },
+ "zenstory-ai/video-recap-skills": {
+  "install": null,
+  "usage": null
+ },
+ "zhenwusw/orca-motion-skill": {
+  "install": null,
+  "usage": null
+ },
+ "zhouyuechuan2025-ui/ai-self-media-video-packaging-skill": {
+  "install": null,
+  "usage": null
+ },
+ "ZiadAbdelkarim/beat-synced-edit": {
+  "install": {
+   "command": "pip install -r requirements.txt   # ffmpeg must be on PATH (brew install ffmpeg)\n\npython3 beat_map.py song.mp3\npython3 clip_tag.py footage.mp4 --thumbs\npython3 plan_edit.py song_beatmap.json footage_clips.json --html\npython3 render_edit.py footage_edl.json -a song.mp3 -v footage.mp4",
+   "source_url": "https://github.com/ZiadAbdelkarim/beat-synced-edit/blob/main/README.md#quickstart",
+   "section": "Quickstart"
+  },
+  "usage": {
+   "snippet": "pip install -r requirements.txt   # ffmpeg must be on PATH (brew install ffmpeg)\n\npython3 beat_map.py song.mp3\npython3 clip_tag.py footage.mp4 --thumbs\npython3 plan_edit.py song_beatmap.json footage_clips.json --html\npython3 render_edit.py footage_edl.json -a song.mp3 -v footage.mp4",
+   "source_url": "https://github.com/ZiadAbdelkarim/beat-synced-edit/blob/main/README.md#quickstart",
+   "section": "Quickstart"
+  }
+ },
+ "zlong6943-commits/football-prediction-avatar-video": {
+  "install": null,
+  "usage": null
+ },
+ "znyupup/ai-video-editing-skill": {
+  "install": null,
+  "usage": null
+ },
+ "znyupup/knowledge-explainer-skill": {
+  "install": null,
+  "usage": null
+ },
+ "zoglmk/codex-video-pipeline": {
+  "install": null,
+  "usage": null
+ }
+}

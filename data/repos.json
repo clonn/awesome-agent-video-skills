@@ -50,7 +50,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "aaronyi97/image-story-video-wizard",
@@ -102,7 +103,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "acelera-agency/html-animation",
@@ -158,7 +160,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "adithya-s-k/manim_skill",
@@ -213,7 +216,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "adityaarsharma/youtube-marketing-skills",
@@ -273,7 +277,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "adriiita/vertical-video-editing-skill",
@@ -328,7 +333,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "Agentchengfeng/chengfeng-videocut-skills",
@@ -374,7 +380,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "AgriciDaniel/claude-gif",
@@ -434,7 +441,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "AgriciDaniel/claude-shorts",
@@ -494,7 +502,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "AgriciDaniel/lipnardo",
@@ -551,7 +560,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "ahmdd4vd/MotionCraft",
@@ -603,7 +613,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "aijiduonadegou/Paper-Cut",
@@ -658,7 +669,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "AKMessi/vex",
@@ -727,7 +739,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "alexgreensh/anidoodle",
@@ -785,7 +798,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "Alisa0808/vox-director",
@@ -837,7 +851,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "AllenAI2014/remotion-guofeng-starter",
@@ -884,7 +899,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "AmazingAng/ccvideo",
@@ -936,7 +952,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "Anil-matcha/vox-ai-motion-graphics-generator",
@@ -959,15 +976,7 @@
   "description_zh_source": null,
   "license_detail": "No license file found",
   "noncommercial": false,
-  "install": {
-   "command": "export MUAPI_API_KEY=\"your-api-key\"     # image / video / voice / music models — key from muapi.ai\nexport OPENAI_API_KEY=\"your-openai-key\"  # story planning & ASR",
-   "source_url": "https://github.com/Anil-matcha/vox-ai-motion-graphics-generator/blob/main/README.md#quick-start",
-   "kind": "shell",
-   "display_command": "export MUAPI_API_KEY=\"your-api-key\"     # image / video / voice / music models — key from muapi.ai\nexport OPENAI_API_KEY=\"your-openai-key\"  # story planning & ASR",
-   "comments_omitted": false,
-   "cjk": false,
-   "gloss": null
-  },
+  "install": null,
   "usage": {
    "snippet": "export MUAPI_API_KEY=\"your-api-key\"     # image / video / voice / music models — key from muapi.ai\nexport OPENAI_API_KEY=\"your-openai-key\"  # story planning & ASR",
    "source_url": "https://github.com/Anil-matcha/vox-ai-motion-graphics-generator/blob/main/README.md#quick-start",
@@ -993,7 +1002,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "Anil-matcha/zack-d-films-ai-video-generator",
@@ -1050,7 +1060,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "Arman-Luthra/aftr",
@@ -1110,7 +1121,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "AsadMoulviDev/reel-video",
@@ -1167,7 +1179,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "ayushozha/AdobePremiereProMCP",
@@ -1227,7 +1240,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "bangtutorial/bang-motion",
@@ -1248,7 +1262,15 @@
   "description_zh_source": null,
   "license_detail": null,
   "noncommercial": false,
-  "install": null,
+  "install": {
+   "command": "/plugin marketplace add bangtutorial/bang-motion",
+   "source_url": "https://github.com/bangtutorial/bang-motion/blob/main/README.md",
+   "kind": "shell",
+   "display_command": "/plugin marketplace add bangtutorial/bang-motion",
+   "comments_omitted": false,
+   "cjk": false,
+   "gloss": null
+  },
   "usage": {
    "snippet": "Make a 30-second opener for my note-taking app. Logo and screenshots attached.",
    "source_url": "https://github.com/bangtutorial/bang-motion/blob/main/README.md#example-prompts",
@@ -1279,7 +1301,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "BayramAnnakov/remotion-video-director",
@@ -1339,7 +1362,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "bbylw/hyperframes-cn",
@@ -1401,7 +1425,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "bestagentkits/motion-video-skill",
@@ -1453,7 +1478,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "blixvip/easyedit",
@@ -1517,7 +1543,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "BusyBee3333/animated-explainer-skills",
@@ -1538,7 +1565,15 @@
   "description_zh_source": null,
   "license_detail": null,
   "noncommercial": false,
-  "install": null,
+  "install": {
+   "command": "cp -r skills/gsap-explainer skills/retention-pass /path/to/your/project/.claude/skills/",
+   "source_url": "https://github.com/BusyBee3333/animated-explainer-skills/blob/main/README.md",
+   "kind": "shell",
+   "display_command": "cp -r skills/gsap-explainer skills/retention-pass /path/to/your/project/.claude/skills/",
+   "comments_omitted": false,
+   "cjk": false,
+   "gloss": null
+  },
   "usage": null,
   "safety_upstream": "safe",
   "featured": false,
@@ -1561,7 +1596,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "calesthio/OpenMontage",
@@ -1634,7 +1670,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "cartesiancs/cartcut",
@@ -1690,7 +1727,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "Cassette-Editor/oh-my-cassette",
@@ -1747,7 +1785,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "cclank/lanshu-create-ai-presenter-video",
@@ -1806,7 +1845,8 @@
     "overridden_by_hand": true
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "cclank/lanshu-html2video-skill",
@@ -1858,7 +1898,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "centraltowerlabs/diagram-tour",
@@ -1915,7 +1956,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "chenmisss/laoxu-video-script",
@@ -1961,7 +2003,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "ChenShuo2004/cs-shotcraft-skill",
@@ -2010,7 +2053,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "chenyuxiaojin/cyxj-hyperframes",
@@ -2066,7 +2110,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "chenyuxiaojin/cyxj-remotion-starter",
@@ -2110,7 +2155,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "cocolayuan/videoclip-AI-skill",
@@ -2162,7 +2208,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "coding-ax/docvideoer",
@@ -2219,7 +2266,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "cymcymcymcym/notes-to-video",
@@ -2279,7 +2327,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "darrenli6/JJKoubo",
@@ -2326,7 +2375,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "davidcervinka/vibe-editing",
@@ -2357,7 +2407,8 @@
    "display_command": "git clone https://github.com/browser-use/video-use ~/Developer/video-use\nln -sfn ~/Developer/video-use ~/.claude/skills/video-use\ncd ~/Developer/video-use && uv sync        # or: pip install -e .",
    "comments_omitted": true,
    "cjk": false,
-   "gloss": null
+   "gloss": null,
+   "note": "Sets up the dependency browser-use/video-use."
   },
   "usage": {
    "snippet": "# Easiest: paste this line into Claude Code and let it do the setup —\n#   \"Set up https://github.com/browser-use/video-use for me.\"\n\n# Or manually:\ngit clone https://github.com/browser-use/video-use ~/Developer/video-use\nln -sfn ~/Developer/video-use ~/.claude/skills/video-use\ncd ~/Developer/video-use && uv sync        # or: pip install -e .",
@@ -2393,7 +2444,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "derrickgong87/demo-video-creation-skill",
@@ -2453,7 +2505,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "diffusionstudio/lottie",
@@ -2514,7 +2567,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "digitalsamba/claude-code-video-toolkit",
@@ -2574,7 +2628,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "dlazy-ai/ai-product-video",
@@ -2631,7 +2686,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "doublesq97-ui/su-card-to-video",
@@ -2695,7 +2751,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "erduo1998-cell/erduo-broll-loop-engineering",
@@ -2753,7 +2810,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "erduo1998-cell/video-script-builder",
@@ -2814,7 +2872,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "eternityspring/reelbench-skills",
@@ -2871,7 +2930,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "EverMind-AI/Raven",
@@ -2904,7 +2964,7 @@
   "usage": null,
   "safety_upstream": "safe",
   "featured": true,
-  "notes": "Upstream lists a sub-path: skills/git-story-film.",
+  "notes": "Upstream lists a sub-path: skills/git-story-film. The entry is the git-story-film skill path inside the larger Raven repository, not Raven as a whole.",
   "judgments": {
    "render_base": {
     "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
@@ -2917,7 +2977,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "Fagan1024/smart-video-editor",
@@ -2973,7 +3034,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "fernandokaraka/remotion-motion-graphics-skill",
@@ -3037,7 +3099,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "Finderchangchang/promo-video-skill",
@@ -3097,7 +3160,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "FireRedTeam/FireRed-OpenStoryline",
@@ -3149,7 +3213,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "geekjourneyx/hyperframes-motion-director",
@@ -3206,7 +3271,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "gloweaseco-leo/hyperdirector",
@@ -3269,7 +3335,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "gnipbao/minimax-h3-video-reverse-skill",
@@ -3326,7 +3393,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "gnipbao/story-to-handdrawn-video",
@@ -3386,7 +3454,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "GordenSun/react-bits-video",
@@ -3450,7 +3519,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "gorkem-bwl/onboarding-video-generator",
@@ -3502,7 +3572,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "hahadu4520/newcut-video-clipping-skill",
@@ -3559,7 +3630,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "hahadu4520/vlog-cut",
@@ -3582,7 +3654,15 @@
   "description_zh_source": "Narration-driven video editing pipeline for Claude Code · 给 Claude Code 用的「按文案剪辑」流水线",
   "license_detail": "PolyForm-Noncommercial-1.0.0",
   "noncommercial": true,
-  "install": null,
+  "install": {
+   "command": "brew install ffmpeg\nbrew install --cask font-lxgw-wenkai          # 字幕默认字体\ngit clone https://github.com/hahadu4520/vlog-cut.git\ncd vlog-cut && pip install -e .",
+   "source_url": "https://github.com/hahadu4520/vlog-cut/blob/main/README.md",
+   "kind": "shell",
+   "display_command": "brew install ffmpeg\nbrew install --cask font-lxgw-wenkai          # 字幕默认字体\ngit clone https://github.com/hahadu4520/vlog-cut.git\ncd vlog-cut && pip install -e .",
+   "comments_omitted": false,
+   "cjk": true,
+   "gloss": "The trailing Chinese comment 字幕默认字体 means \"default subtitle font\"."
+  },
   "usage": null,
   "safety_upstream": "safe",
   "featured": false,
@@ -3603,7 +3683,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "hassancs91/claude-faceless-shorts-creator",
@@ -3663,7 +3744,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "hassancs91/claude-youtube-editor",
@@ -3723,7 +3805,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "hetpatel-11/Adobe_Premiere_Pro_MCP",
@@ -3778,7 +3861,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "heygen-com/hyperframes",
@@ -3802,7 +3886,15 @@
   "description_zh_source": null,
   "license_detail": null,
   "noncommercial": false,
-  "install": null,
+  "install": {
+   "command": "npx skills add heygen-com/hyperframes",
+   "source_url": "https://github.com/heygen-com/hyperframes/blob/main/README.md",
+   "kind": "shell",
+   "display_command": "npx skills add heygen-com/hyperframes",
+   "comments_omitted": false,
+   "cjk": false,
+   "gloss": null
+  },
   "usage": null,
   "safety_upstream": "safe",
   "featured": true,
@@ -3835,7 +3927,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "heygen-com/skills",
@@ -3887,7 +3980,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "hi-nikola/hand-drawn-explainer-video-nikola",
@@ -3946,7 +4040,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "holy-templar/vox-animated-ad-mcp",
@@ -3992,7 +4087,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "hypit-ai/hypit",
@@ -4043,7 +4139,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "iart-ai/ad-video-skills",
@@ -4095,7 +4192,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "iart-ai/data-animation-skills",
@@ -4147,7 +4245,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "iart-ai/explainer-video-skills",
@@ -4199,7 +4298,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "iart-ai/motion-design-skills",
@@ -4257,7 +4357,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "iart-ai/motion-skills",
@@ -4316,7 +4417,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "iart-ai/tiktok-video-skills",
@@ -4368,7 +4470,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "icytear-svg/podcast-to-video",
@@ -4417,7 +4520,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "inematds/skill-video-plan-editor",
@@ -4441,7 +4545,15 @@
   "description_zh_source": null,
   "license_detail": "No license file found",
   "noncommercial": false,
-  "install": null,
+  "install": {
+   "command": "python3 -m venv .venv && . .venv/bin/activate\npip install -e \".[dev]\"",
+   "source_url": "https://github.com/inematds/skill-video-plan-editor/blob/main/README.md",
+   "kind": "shell",
+   "display_command": "python3 -m venv .venv && . .venv/bin/activate\npip install -e \".[dev]\"",
+   "comments_omitted": false,
+   "cjk": false,
+   "gloss": null
+  },
   "usage": null,
   "safety_upstream": "safe",
   "featured": false,
@@ -4468,7 +4580,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "intelligent-iterations/ii-content-engine",
@@ -4519,7 +4632,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "jackjls/jtxvideo-skill",
@@ -4579,7 +4693,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "jaxxchen003/book-video-factory",
@@ -4631,7 +4746,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "jhartquist/claude-remotion-kickstart",
@@ -4683,7 +4799,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "JimLiu/baocut",
@@ -4704,7 +4821,15 @@
   "description_zh_source": null,
   "license_detail": null,
   "noncommercial": false,
-  "install": null,
+  "install": {
+   "command": "npx skills add JimLiu/baocut -g -a claude-code codex -y",
+   "source_url": "https://github.com/JimLiu/baocut/blob/main/README.md",
+   "kind": "shell",
+   "display_command": "npx skills add JimLiu/baocut -g -a claude-code codex -y",
+   "comments_omitted": false,
+   "cjk": false,
+   "gloss": null
+  },
   "usage": {
    "snippet": "skills/baocut/bin/baocut --json auto talk.mp4 --lang zh\nskills/baocut/bin/baocut export <projectId> --srt --translated --lang zh",
    "source_url": "https://github.com/JimLiu/baocut/blob/main/README.md#use-it",
@@ -4726,7 +4851,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "JimLiu/taohuayuan",
@@ -4764,7 +4890,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "showcase"
+  "entry_kind": "showcase",
+  "safety_notes": []
  },
  {
   "id": "jincheng2026/jc-remotion-skills",
@@ -4824,7 +4951,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "jinjin1/scenewright",
@@ -4847,7 +4975,15 @@
   "description_zh_source": null,
   "license_detail": null,
   "noncommercial": false,
-  "install": null,
+  "install": {
+   "command": "git clone https://github.com/jinjin1/scenewright.git && cd scenewright\nnpm install\n# 로컬 TTS용 Python 환경\ncd python && uv venv && uv pip install -r requirements.txt && cd ..\ncp .env.example .env   # (선택) 스톡 API 키 입력",
+   "source_url": "https://github.com/jinjin1/scenewright/blob/main/README.md",
+   "kind": "shell",
+   "display_command": "git clone https://github.com/jinjin1/scenewright.git && cd scenewright\nnpm install\ncd python && uv venv && uv pip install -r requirements.txt && cd ..\ncp .env.example .env   # (선택) 스톡 API 키 입력",
+   "comments_omitted": true,
+   "cjk": true,
+   "gloss": "Korean comments: 로컬 TTS용 Python 환경 means \"Python environment for local TTS\"; (선택) 스톡 API 키 입력 means \"(optional) enter stock-footage API keys\"."
+  },
   "usage": null,
   "safety_upstream": "safe",
   "featured": false,
@@ -4868,7 +5004,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "JohnHeibel/ClaudeAnimationBase",
@@ -4920,7 +5057,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "JohnHeibel/PDoomVideo",
@@ -4967,7 +5105,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "showcase"
+  "entry_kind": "showcase",
+  "safety_notes": []
  },
  {
   "id": "Johnson-Jia/video-clipforge",
@@ -5027,7 +5166,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "jtydhr88/screenwriting-skills",
@@ -5048,7 +5188,15 @@
   "description_zh_source": null,
   "license_detail": null,
   "noncommercial": false,
-  "install": null,
+  "install": {
+   "command": "/plugin marketplace add jtydhr88/screenwriting-skills\n/plugin install screenwriting@screenwriting-skills",
+   "source_url": "https://github.com/jtydhr88/screenwriting-skills/blob/main/README.md",
+   "kind": "shell",
+   "display_command": "/plugin marketplace add jtydhr88/screenwriting-skills\n/plugin install screenwriting@screenwriting-skills",
+   "comments_omitted": false,
+   "cjk": false,
+   "gloss": null
+  },
   "usage": {
    "snippet": "# \"Break my 12-episode series into acts and place the act outs\"\n# → agent uses sw-series-structure\n\n# \"My dialogue is all on the nose, fix this scene\"\n# → agent uses sw-dialogue + sw-scene-craft\n\n# \"Turn this 400,000-word novel into a 40-episode Chinese drama outline\"\n# → agent uses sw-chinese-series-practice + sw-series-engine-bible\n\n# \"Set up a project and keep track of where I am\"\n# → agent uses sw-workflow",
    "source_url": "https://github.com/jtydhr88/screenwriting-skills/blob/main/README.md#usage-examples",
@@ -5070,7 +5218,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "JUNKDOGE-JOE/after-effects-mcp",
@@ -5091,7 +5240,15 @@
   "description_zh_source": null,
   "license_detail": null,
   "noncommercial": false,
-  "install": null,
+  "install": {
+   "command": "Install and configure ae-mcp for the current client receiving and executing\nthis prompt. Do not default to Claude Code or configure another client.\nBefore changing anything, inspect the local ae-mcp extension and native plug-in\nfiles and versions, plus this client's existing MCP registration and actual\nconnection, read-only. Existence alone does not prove readiness. Compare with\nthe latest official stable release assets available for my platform:\n- Client registration already correct: keep it; install only missing or damaged files.\n- Files complete and versions suitable: only add or repair client registration.\n- Both ready and current: verify without reinstalling.\n- Newer version available: upgrade existing components, preserving user settings\n  and other MCP configuration; do not downgrade. If versions cannot be established\n  or platform assets are unavailable, explain rather than blindly overwrite.\nUse the release ZXP and platform-native plug-in for needed file installation or\nupgrade, then open Window > Extensions > ae-mcp in After Effects.\nIdentify this client's configuration method and location, preserving all other\nMCP entries. Use http://127.0.0.1:11488/mcp if it supports Streamable HTTP;\nfor stdio only, configure `npx -y ae-mcp-jkdg` using this client's format.\nIf automatic editing is unavailable, give precise manual steps for this client.\nAsk which client only if the target truly cannot be identified; never silently\nfall back to Claude Code. Keep the AE panel open, refresh/reconnect or start a\nnew session as this client requires, then call ae_status to verify. If user\naction is required first, state that verification is still pending.",
+   "source_url": "https://github.com/JUNKDOGE-JOE/after-effects-mcp/blob/main/README.md",
+   "kind": "agent_prompt",
+   "display_command": "Install and configure ae-mcp for the current client receiving and executing\nthis prompt. Do not default to Claude Code or configure another client.\nBefore changing anything, inspect the local ae-mcp extension and native plug-in\nfiles and versions, plus this client's existing MCP registration and actual\nconnection, read-only. Existence alone does not prove readiness. Compare with\nthe latest official stable release assets available for my platform:\n- Client registration already correct: keep it; install only missing or damaged files.\n- Files complete and versions suitable: only add or repair client registration.\n- Both ready and current: verify without reinstalling.\n- Newer version available: upgrade existing components, preserving user settings\n  and other MCP configuration; do not downgrade. If versions cannot be established\n  or platform assets are unavailable, explain rather than blindly overwrite.\nUse the release ZXP and platform-native plug-in for needed file installation or\nupgrade, then open Window > Extensions > ae-mcp in After Effects.\nIdentify this client's configuration method and location, preserving all other\nMCP entries. Use http://127.0.0.1:11488/mcp if it supports Streamable HTTP;\nfor stdio only, configure `npx -y ae-mcp-jkdg` using this client's format.\nIf automatic editing is unavailable, give precise manual steps for this client.\nAsk which client only if the target truly cannot be identified; never silently\nfall back to Claude Code. Keep the AE panel open, refresh/reconnect or start a\nnew session as this client requires, then call ae_status to verify. If user\naction is required first, state that verification is still pending.",
+   "comments_omitted": false,
+   "cjk": false,
+   "gloss": null
+  },
   "usage": null,
   "safety_upstream": "safe",
   "featured": false,
@@ -5114,7 +5271,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "kakaxi12/vox-director-codex",
@@ -5178,7 +5336,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "kangarooking/director-skills",
@@ -5224,7 +5383,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "kangarooking/promo-creator-skills",
@@ -5248,7 +5408,15 @@
   "description_zh_source": "产品宣传视频创作 Skills：从产品判断、分镜、素材、HyperFrames 剪辑到 BGM 设计的完整 Agent 工作流",
   "license_detail": null,
   "noncommercial": false,
-  "install": null,
+  "install": {
+   "command": "npx skills add kangarooking/promo-creator-skills",
+   "source_url": "https://github.com/kangarooking/promo-creator-skills/blob/main/README.md",
+   "kind": "shell",
+   "display_command": "npx skills add kangarooking/promo-creator-skills",
+   "comments_omitted": false,
+   "cjk": false,
+   "gloss": null
+  },
   "usage": {
    "snippet": "用 promo-workflow 给这个 GitHub 仓库做一支 60 秒 Apple 风产品宣传片：\nhttps://github.com/owner/project",
    "source_url": "https://github.com/kangarooking/promo-creator-skills/blob/main/README.md#使用方式",
@@ -5276,7 +5444,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "Kappaemme-git/codex-video-short-maker-skill",
@@ -5333,7 +5502,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "kiki-lgtm-dot/cinematic-product-promo-skill",
@@ -5390,7 +5560,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "kingselyjoe/video-shotcraft-dsh",
@@ -5434,7 +5605,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "krusemediallc/video-editor-agent",
@@ -5481,7 +5653,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "kurbaitaev/ghost-editor",
@@ -5525,7 +5698,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "leancoderkavy/premiere-pro-mcp",
@@ -5583,7 +5757,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "ledbetterljoshua/functional-emotions-video",
@@ -5631,7 +5806,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "showcase"
+  "entry_kind": "showcase",
+  "safety_notes": []
  },
  {
   "id": "lemomo-ai/lemo-opuscar",
@@ -5683,7 +5859,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "leosssvip-dot/remotion-ad-video-skill",
@@ -5750,7 +5927,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "LetMeHappyCode/auto-video-agent",
@@ -5794,7 +5972,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "Liamrjohnston/remotion-motion-graphics-skill",
@@ -5851,7 +6030,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "liangdabiao/story-handdrawn-remotion",
@@ -5911,7 +6091,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "liangdabiao/story-handdrawn-video",
@@ -5968,7 +6149,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "liangdabiao/wechat-article-remotion",
@@ -6015,7 +6197,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "liuliu-66-create/ll-video-decomposer",
@@ -6059,7 +6242,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "liyue-aigc/xianxia-cinematic-video-director",
@@ -6080,7 +6264,16 @@
   "description_zh_source": null,
   "license_detail": "No license file found",
   "noncommercial": false,
-  "install": null,
+  "install": {
+   "command": "git clone https://github.com/liyue-aigc/xianxia-cinematic-video-director.git\nCopy-Item -Recurse -Force `\n  .\\xianxia-cinematic-video-director\\xianxia-cinematic-video-director `\n  \"$env:USERPROFILE\\.codex\\skills\\xianxia-cinematic-video-director\"",
+   "source_url": "https://github.com/liyue-aigc/xianxia-cinematic-video-director/blob/main/README.md",
+   "kind": "shell",
+   "display_command": "git clone https://github.com/liyue-aigc/xianxia-cinematic-video-director.git\nCopy-Item -Recurse -Force `\n  .\\xianxia-cinematic-video-director\\xianxia-cinematic-video-director `\n  \"$env:USERPROFILE\\.codex\\skills\\xianxia-cinematic-video-director\"",
+   "comments_omitted": false,
+   "cjk": false,
+   "gloss": null,
+   "note": "Windows PowerShell commands."
+  },
   "usage": {
    "snippet": "使用 $xianxia-cinematic-video-director。\n\n场景：雨夜竹林石阶，尽头连接悬空峡谷。\n主体：一名虚构成年剑修，月白长衣，右手持剑。\n变化：潜行时察觉追兵，沿石阶加速逃亡，跃出崖口后御剑脱身。\n感觉：先压抑，随后高速紧张，结尾短暂释放。\n时长与画幅：15秒，16:9。\n输出：标准完整格式；不要全程慢推，不要随机旋转。",
    "source_url": "https://github.com/liyue-aigc/xianxia-cinematic-video-director/blob/main/README.md#最小调用示例",
@@ -6102,7 +6295,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "louisedesadeleer/cut-video",
@@ -6159,7 +6353,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "Maartenlouis/remotion-ads",
@@ -6182,7 +6377,15 @@
   "description_zh_source": null,
   "license_detail": null,
   "noncommercial": false,
-  "install": null,
+  "install": {
+   "command": "# Install in your project\nclaude skill install remotion-ads\n\n# Or add the folder to your project's .claude/skills/ directory",
+   "source_url": "https://github.com/Maartenlouis/remotion-ads/blob/main/README.md",
+   "kind": "shell",
+   "display_command": "claude skill install remotion-ads",
+   "comments_omitted": true,
+   "cjk": false,
+   "gloss": null
+  },
   "usage": {
    "snippet": "# Generate all scenes with timestamps\nnode scripts/generate.js --scenes scenes.json --with-timestamps --output-dir public/audio/\n\n# Regenerate a single scene\nnode scripts/generate.js --scenes scenes.json --scene scene2 --output-dir public/audio/\n\n# Validate timing of generated audio\nnode scripts/generate.js --validate public/audio/ad-example/\n\n# List available voices\nnode scripts/generate.js --list-voices\n\n# Forced alignment on existing audio\nnode scripts/generate.js --align audio.mp3 --align-text \"Your transcript\"",
    "source_url": "https://github.com/Maartenlouis/remotion-ads/blob/main/README.md#generatejs-commands",
@@ -6208,7 +6411,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "magichourhq/skills",
@@ -6229,7 +6433,16 @@
   "description_zh_source": null,
   "license_detail": null,
   "noncommercial": false,
-  "install": null,
+  "install": {
+   "command": "npx skills add magichourhq/skills --skill magic-hour-image-to-video",
+   "source_url": "https://github.com/magichourhq/skills/blob/main/README.md",
+   "kind": "shell",
+   "display_command": "npx skills add magichourhq/skills --skill magic-hour-image-to-video",
+   "comments_omitted": false,
+   "cjk": false,
+   "gloss": null,
+   "note": "Installs one of several skills (image-to-video shown)."
+  },
   "usage": null,
   "safety_upstream": "safe",
   "featured": false,
@@ -6246,7 +6459,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "manthanpatelll/leadgenman-video-skills",
@@ -6303,7 +6517,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "marketcalls/story-telling",
@@ -6364,7 +6579,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "mattivilola/brag-codex",
@@ -6427,7 +6643,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "MegaTroll222/VOX-COLLAGE-BROLL",
@@ -6479,7 +6696,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "memex-lab/product-launch-video-skill",
@@ -6539,7 +6757,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "misbahsy/tiktok-ig-shorts",
@@ -6563,7 +6782,15 @@
   "description_zh_source": null,
   "license_detail": "No license file found",
   "noncommercial": false,
-  "install": null,
+  "install": {
+   "command": "npx skills add misbahsy/tiktok-ig-shorts -s social-talking-head-video -a codex\nnpx skills add misbahsy/tiktok-ig-shorts -s popout-talking-head-video -a codex\nnpx skills add misbahsy/tiktok-ig-shorts -s kinetic-caption-video -a codex\nnpx skills add misbahsy/tiktok-ig-shorts -s anthropic-talking-head-style -a codex",
+   "source_url": "https://github.com/misbahsy/tiktok-ig-shorts/blob/main/README.md",
+   "kind": "shell",
+   "display_command": "npx skills add misbahsy/tiktok-ig-shorts -s social-talking-head-video -a codex\nnpx skills add misbahsy/tiktok-ig-shorts -s popout-talking-head-video -a codex\nnpx skills add misbahsy/tiktok-ig-shorts -s kinetic-caption-video -a codex\nnpx skills add misbahsy/tiktok-ig-shorts -s anthropic-talking-head-style -a codex",
+   "comments_omitted": false,
+   "cjk": false,
+   "gloss": null
+  },
   "usage": {
    "snippet": "Use $social-talking-head-video to turn my talking-head clip into a polished vertical social video.",
    "source_url": "https://github.com/misbahsy/tiktok-ig-shorts/blob/main/README.md#use",
@@ -6591,7 +6818,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "Mng-dev-ai/explainer-video",
@@ -6648,7 +6876,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "molkex/mcp-flow-google",
@@ -6669,7 +6898,16 @@
   "description_zh_source": null,
   "license_detail": "MIT",
   "noncommercial": false,
-  "install": null,
+  "install": {
+   "command": "claude mcp add --transport http openflow https://openflowmcp.com/mcp",
+   "source_url": "https://github.com/molkex/mcp-flow-google/blob/main/README.md",
+   "kind": "shell",
+   "display_command": "claude mcp add --transport http openflow https://openflowmcp.com/mcp",
+   "comments_omitted": false,
+   "cjk": false,
+   "gloss": null,
+   "note": "Connects to a third-party hosted MCP server (openflowmcp.com)."
+  },
   "usage": null,
   "safety_upstream": "safe",
   "featured": false,
@@ -6686,7 +6924,10 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": [
+   "Connects to a third-party hosted MCP server (openflowmcp.com); review what data it receives."
+  ]
  },
  {
   "id": "Monet-AI-Editor/Monet",
@@ -6710,7 +6951,15 @@
   "description_zh_source": null,
   "license_detail": null,
   "noncommercial": false,
-  "install": null,
+  "install": {
+   "command": "curl -fsSL https://raw.githubusercontent.com/Monet-AI-Editor/Monet/main/install.sh | bash",
+   "source_url": "https://github.com/Monet-AI-Editor/Monet/blob/main/README.md",
+   "kind": "shell",
+   "display_command": "curl -fsSL https://raw.githubusercontent.com/Monet-AI-Editor/Monet/main/install.sh | bash",
+   "comments_omitted": false,
+   "cjk": false,
+   "gloss": null
+  },
   "usage": {
    "snippet": "npm run setup:local-transcription",
    "source_url": "https://github.com/Monet-AI-Editor/Monet/blob/main/README.md#run-from-source",
@@ -6742,7 +6991,10 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": [
+   "Install pipes a remote script into bash (curl ... | bash); read install.sh first."
+  ]
  },
  {
   "id": "Mr-funny/hbg-douyin-code-explainer-video",
@@ -6797,7 +7049,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "Mr-funny/hbg-life-simulation",
@@ -6857,7 +7110,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "mrieck/demoday-claude-plugin",
@@ -6912,7 +7166,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "naive-kun/naive-video-skill",
@@ -6971,7 +7226,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "NarratorAI-Studio/narrator-ai-cli-skill",
@@ -7017,7 +7273,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "new-xp/ultrademo",
@@ -7076,7 +7333,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "ninestonelee/youtube-shorts-factory",
@@ -7122,7 +7380,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "nolangz/pixel2motion",
@@ -7160,7 +7419,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "norahe0304-art/30x-video",
@@ -7220,7 +7480,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "op7418/guizang-product-video-skill",
@@ -7275,7 +7536,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "ops120/video-recap-skills-plus",
@@ -7327,7 +7589,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "opus-pro/opus-video-studio",
@@ -7384,7 +7647,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "patraxo/ltx2-vidgen-skill",
@@ -7430,7 +7694,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "Phantomlau3674/voxstylehub-steven",
@@ -7490,7 +7755,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "pjecuacion/script-to-video-skill",
@@ -7537,7 +7803,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "PoetCoderJun/MotionTalk",
@@ -7583,7 +7850,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "pyang5166/gbro-collage-broll",
@@ -7644,7 +7912,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "pyang5166/gbro-collage-info",
@@ -7703,7 +7972,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "qingyunAGI/qingyun-cine-skill",
@@ -7754,7 +8024,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "remotion-dev/skills",
@@ -7775,7 +8046,15 @@
   "description_zh_source": null,
   "license_detail": "No license file found",
   "noncommercial": false,
-  "install": null,
+  "install": {
+   "command": "npx skills add remotion-dev/skills",
+   "source_url": "https://github.com/remotion-dev/skills/blob/main/README.md",
+   "kind": "shell",
+   "display_command": "npx skills add remotion-dev/skills",
+   "comments_omitted": false,
+   "cjk": false,
+   "gloss": null
+  },
   "usage": null,
   "safety_upstream": "safe",
   "featured": false,
@@ -7798,7 +8077,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "resemble-ai/remotion-resemble-skill",
@@ -7855,7 +8135,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "riffkit/skill",
@@ -7906,7 +8187,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "runesleo/claude-video-kit",
@@ -7961,7 +8243,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "Samin12/samin-reel-engine-plugin",
@@ -8020,7 +8303,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "santmun/video-vox",
@@ -8044,7 +8328,15 @@
   "description_zh_source": null,
   "license_detail": "No license file found",
   "noncommercial": false,
-  "install": null,
+  "install": {
+   "command": "git clone https://github.com/santmun/video-vox ~/.claude/skills/video-vox\ncd ~/.claude/skills/video-vox && npm install && cp .env.example .env\nnode scripts/doctor.mjs --fix",
+   "source_url": "https://github.com/santmun/video-vox/blob/main/README.md",
+   "kind": "shell",
+   "display_command": "git clone https://github.com/santmun/video-vox ~/.claude/skills/video-vox\ncd ~/.claude/skills/video-vox && npm install && cp .env.example .env\nnode scripts/doctor.mjs --fix",
+   "comments_omitted": false,
+   "cjk": false,
+   "gloss": null
+  },
   "usage": null,
   "safety_upstream": "safe",
   "featured": false,
@@ -8067,7 +8359,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "sharon-laicc/viral-video-decomposer",
@@ -8110,7 +8403,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "shuyicc/MathLens",
@@ -8159,7 +8453,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "smit-vanani/claude-promo-video",
@@ -8219,7 +8514,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "smwbev/framewright",
@@ -8276,7 +8572,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "ssrajadh/paperview",
@@ -8331,7 +8628,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "sukai213/bilibili-ai-video",
@@ -8380,7 +8678,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "sunxiayi/make-blender-education-video-skill",
@@ -8440,7 +8739,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "taylorzhou16/video-gen",
@@ -8497,7 +8797,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "toufuim/personal-ip-brand-intro-skill",
@@ -8522,7 +8823,15 @@
   "description_zh_source": "開源 Codex Skill：用文字、原創插圖或使用者圖片製作個人 IP 品牌開場，支援上傳音樂對拍與無音樂自主節拍。",
   "license_detail": null,
   "noncommercial": false,
-  "install": null,
+  "install": {
+   "command": "請使用 $skill-installer，從下列 GitHub 儲存庫安裝 personal-ip-brand-intro：\nhttps://github.com/toufuim/personal-ip-brand-intro-skill\nSkill 路徑是 personal-ip-brand-intro。",
+   "source_url": "https://github.com/toufuim/personal-ip-brand-intro-skill/blob/main/README.md",
+   "kind": "agent_prompt",
+   "display_command": "請使用 $skill-installer，從下列 GitHub 儲存庫安裝 personal-ip-brand-intro：\nhttps://github.com/toufuim/personal-ip-brand-intro-skill\nSkill 路徑是 personal-ip-brand-intro。",
+   "comments_omitted": false,
+   "cjk": true,
+   "gloss": "Prompt (translated from the README): use $skill-installer to install personal-ip-brand-intro from the repo URL; the skill path is personal-ip-brand-intro."
+  },
   "usage": {
    "snippet": "使用 $personal-ip-brand-intro，搭配我上傳的人物圖片製作 9:16 品牌開場。\n請保留人物辨識度，並根據我的內容領域重新設計構圖、色彩與插圖。\n不要沿用其他品牌的版型。",
    "source_url": "https://github.com/toufuim/personal-ip-brand-intro-skill/blob/main/README.md#使用人物或-ip-圖片",
@@ -8552,7 +8861,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "trunghaiy/appshot",
@@ -8609,7 +8919,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "tugrawork-creator/saas-motion-kit",
@@ -8672,7 +8983,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "tuzhechen2005/opus-video-skills",
@@ -8727,7 +9039,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "Upload-Post/avatar-mix",
@@ -8782,7 +9095,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "VasiniDevi/motion-skills",
@@ -8839,7 +9153,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "vibe-motion/remotion-code-motion-explainer",
@@ -8862,7 +9177,15 @@
   "description_zh_source": null,
   "license_detail": null,
   "noncommercial": false,
-  "install": null,
+  "install": {
+   "command": "npx skills add vibe-motion/remotion-code-motion-explainer",
+   "source_url": "https://github.com/vibe-motion/remotion-code-motion-explainer/blob/main/README.md",
+   "kind": "shell",
+   "display_command": "npx skills add vibe-motion/remotion-code-motion-explainer",
+   "comments_omitted": false,
+   "cjk": false,
+   "gloss": null
+  },
   "usage": {
    "snippet": "npx skills add vibe-motion/remotion-code-motion-explainer",
    "source_url": "https://github.com/vibe-motion/remotion-code-motion-explainer/blob/main/README.md#使用方式",
@@ -8888,7 +9211,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "vibe-motion/remotion-starter",
@@ -8932,7 +9256,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "vibe-motion/skills",
@@ -8987,7 +9312,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "video-db/skills",
@@ -9039,7 +9365,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "Vincentwei1021/video-shotcraft",
@@ -9096,7 +9423,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "Vincentwei1021/video-talkcraft",
@@ -9156,7 +9484,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "wendymardigian-prog/Editor-IA-Pro",
@@ -9216,7 +9545,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "wocha-xiaoli/video-shot-analysis-feishu",
@@ -9273,7 +9603,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "wshuyi/remotion-video-skill",
@@ -9333,7 +9664,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "wyuzhi/qisi-video-remix",
@@ -9384,7 +9716,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "YeJe-cpu/SeeCut",
@@ -9446,7 +9779,8 @@
     "overridden_by_hand": true
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "Yuuhann1999/codex-storyboard",
@@ -9506,7 +9840,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "yuwenbin121/book-video-production-skill",
@@ -9565,7 +9900,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "zenstory-ai/video-recap-skills",
@@ -9613,7 +9949,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "zhenwusw/orca-motion-skill",
@@ -9659,7 +9996,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "zhouyuechuan2025-ui/ai-self-media-video-packaging-skill",
@@ -9721,7 +10059,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "ZiadAbdelkarim/beat-synced-edit",
@@ -9745,10 +10084,10 @@
   "license_detail": null,
   "noncommercial": false,
   "install": {
-   "command": "pip install -r requirements.txt   # ffmpeg must be on PATH (brew install ffmpeg)\n\npython3 beat_map.py song.mp3\npython3 clip_tag.py footage.mp4 --thumbs\npython3 plan_edit.py song_beatmap.json footage_clips.json --html\npython3 render_edit.py footage_edl.json -a song.mp3 -v footage.mp4",
+   "command": "pip install -r requirements.txt   # ffmpeg must be on PATH (brew install ffmpeg)",
    "source_url": "https://github.com/ZiadAbdelkarim/beat-synced-edit/blob/main/README.md#quickstart",
    "kind": "shell",
-   "display_command": "pip install -r requirements.txt   # ffmpeg must be on PATH (brew install ffmpeg)\n\npython3 beat_map.py song.mp3\npython3 clip_tag.py footage.mp4 --thumbs\npython3 plan_edit.py song_beatmap.json footage_clips.json --html\npython3 render_edit.py footage_edl.json -a song.mp3 -v footage.mp4",
+   "display_command": "pip install -r requirements.txt   # ffmpeg must be on PATH (brew install ffmpeg)",
    "comments_omitted": false,
    "cjk": false,
    "gloss": null
@@ -9778,7 +10117,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "zlong6943-commits/football-prediction-avatar-video",
@@ -9838,7 +10178,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "znyupup/ai-video-editing-skill",
@@ -9899,7 +10240,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "znyupup/knowledge-explainer-skill",
@@ -9954,7 +10296,8 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  },
  {
   "id": "zoglmk/codex-video-pipeline",
@@ -10009,6 +10352,7 @@
     "overridden_by_hand": false
    }
   },
-  "entry_kind": "tool"
+  "entry_kind": "tool",
+  "safety_notes": []
  }
 ]

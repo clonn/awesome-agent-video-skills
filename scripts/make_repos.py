@@ -90,9 +90,11 @@ def main():
         if s.get("install"):
             cmd = s["install"]["command"]
             body, omitted = strip_comments(cmd)
-            inst = {"command": cmd, "source_url": s["install"]["source_url"], "kind": install_kind(cmd),
+            inst = {"command": cmd, "source_url": s["install"]["source_url"], "kind": s["install"].get("kind") or install_kind(cmd),
                     "display_command": body, "comments_omitted": omitted, "cjk": bool(CJK.search(body)),
-                    "gloss": glosses.get(i, {}).get("install")}
+                    "gloss": s["install"].get("gloss") or glosses.get(i, {}).get("install")}
+            if s["install"].get("note"):
+                inst["note"] = s["install"]["note"]
             if s["install"].get("purpose"):
                 inst["purpose"] = s["install"]["purpose"]
         usg = None
@@ -116,7 +118,7 @@ def main():
             "install": inst, "usage": usg,
             "safety_upstream": c["safety_upstream"], "featured": i in featured,
             "notes": " ".join(note + ([ov["notes"]] if ov.get("notes") else [])) or None, "judgments": judgments,
-            "entry_kind": ov.get("entry_kind", "tool"),
+            "entry_kind": ov.get("entry_kind", "tool"), "safety_notes": ov.get("safety_notes", []),
         })
     (ROOT / "data/repos.json").write_text(json.dumps(out, indent=1, ensure_ascii=False) + "\n")
     print(len(out), "featured", sum(r["featured"] for r in out))

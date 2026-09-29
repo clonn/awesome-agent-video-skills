@@ -1,1 +1,164 @@
-{}
+{
+ "Anil-matcha/vox-ai-motion-graphics-generator": {
+  "install": null
+ },
+ "BusyBee3333/animated-explainer-skills": {
+  "install": {
+   "command": "cp -r skills/gsap-explainer skills/retention-pass /path/to/your/project/.claude/skills/",
+   "source_url": "https://github.com/BusyBee3333/animated-explainer-skills/blob/main/README.md"
+  }
+ },
+ "EverMind-AI/Raven": {
+  "notes": "The entry is the git-story-film skill path inside the larger Raven repository, not Raven as a whole."
+ },
+ "JUNKDOGE-JOE/after-effects-mcp": {
+  "install": {
+   "command": "Install and configure ae-mcp for the current client receiving and executing\nthis prompt. Do not default to Claude Code or configure another client.\nBefore changing anything, inspect the local ae-mcp extension and native plug-in\nfiles and versions, plus this client's existing MCP registration and actual\nconnection, read-only. Existence alone does not prove readiness. Compare with\nthe latest official stable release assets available for my platform:\n- Client registration already correct: keep it; install only missing or damaged files.\n- Files complete and versions suitable: only add or repair client registration.\n- Both ready and current: verify without reinstalling.\n- Newer version available: upgrade existing components, preserving user settings\n  and other MCP configuration; do not downgrade. If versions cannot be established\n  or platform assets are unavailable, explain rather than blindly overwrite.\nUse the release ZXP and platform-native plug-in for needed file installation or\nupgrade, then open Window > Extensions > ae-mcp in After Effects.\nIdentify this client's configuration method and location, preserving all other\nMCP entries. Use http://127.0.0.1:11488/mcp if it supports Streamable HTTP;\nfor stdio only, configure `npx -y ae-mcp-jkdg` using this client's format.\nIf automatic editing is unavailable, give precise manual steps for this client.\nAsk which client only if the target truly cannot be identified; never silently\nfall back to Claude Code. Keep the AE panel open, refresh/reconnect or start a\nnew session as this client requires, then call ae_status to verify. If user\naction is required first, state that verification is still pending.",
+   "kind": "agent_prompt",
+   "source_url": "https://github.com/JUNKDOGE-JOE/after-effects-mcp/blob/main/README.md"
+  }
+ },
+ "JimLiu/baocut": {
+  "install": {
+   "command": "npx skills add JimLiu/baocut -g -a claude-code codex -y",
+   "source_url": "https://github.com/JimLiu/baocut/blob/main/README.md"
+  }
+ },
+ "JimLiu/taohuayuan": {
+  "entry_kind": "showcase"
+ },
+ "JohnHeibel/PDoomVideo": {
+  "entry_kind": "showcase"
+ },
+ "Maartenlouis/remotion-ads": {
+  "install": {
+   "command": "# Install in your project\nclaude skill install remotion-ads\n\n# Or add the folder to your project's .claude/skills/ directory",
+   "source_url": "https://github.com/Maartenlouis/remotion-ads/blob/main/README.md"
+  }
+ },
+ "Monet-AI-Editor/Monet": {
+  "install": {
+   "command": "curl -fsSL https://raw.githubusercontent.com/Monet-AI-Editor/Monet/main/install.sh | bash",
+   "source_url": "https://github.com/Monet-AI-Editor/Monet/blob/main/README.md"
+  },
+  "safety_notes": [
+   "Install pipes a remote script into bash (curl ... | bash); read install.sh first."
+  ]
+ },
+ "ZiadAbdelkarim/beat-synced-edit": {
+  "install": {
+   "command": "pip install -r requirements.txt   # ffmpeg must be on PATH (brew install ffmpeg)",
+   "source_url": "https://github.com/ZiadAbdelkarim/beat-synced-edit/blob/main/README.md#quickstart"
+  }
+ },
+ "bangtutorial/bang-motion": {
+  "install": {
+   "command": "/plugin marketplace add bangtutorial/bang-motion",
+   "source_url": "https://github.com/bangtutorial/bang-motion/blob/main/README.md"
+  }
+ },
+ "davidcervinka/vibe-editing": {
+  "install": {
+   "command": "# Easiest: paste this line into Claude Code and let it do the setup —\n#   \"Set up https://github.com/browser-use/video-use for me.\"\n\n# Or manually:\ngit clone https://github.com/browser-use/video-use ~/Developer/video-use\nln -sfn ~/Developer/video-use ~/.claude/skills/video-use\ncd ~/Developer/video-use && uv sync        # or: pip install -e .",
+   "note": "Sets up the dependency browser-use/video-use.",
+   "source_url": "https://github.com/davidcervinka/vibe-editing/blob/main/README.md#1-video-use--the-editing-skill-install-first"
+  }
+ },
+ "hahadu4520/vlog-cut": {
+  "install": {
+   "command": "brew install ffmpeg\nbrew install --cask font-lxgw-wenkai          # 字幕默认字体\ngit clone https://github.com/hahadu4520/vlog-cut.git\ncd vlog-cut && pip install -e .",
+   "gloss": "The trailing Chinese comment 字幕默认字体 means \"default subtitle font\".",
+   "source_url": "https://github.com/hahadu4520/vlog-cut/blob/main/README.md"
+  }
+ },
+ "heygen-com/hyperframes": {
+  "install": {
+   "command": "npx skills add heygen-com/hyperframes",
+   "source_url": "https://github.com/heygen-com/hyperframes/blob/main/README.md"
+  }
+ },
+ "inematds/skill-video-plan-editor": {
+  "install": {
+   "command": "python3 -m venv .venv && . .venv/bin/activate\npip install -e \".[dev]\"",
+   "source_url": "https://github.com/inematds/skill-video-plan-editor/blob/main/README.md"
+  }
+ },
+ "jinjin1/scenewright": {
+  "install": {
+   "command": "git clone https://github.com/jinjin1/scenewright.git && cd scenewright\nnpm install\n# 로컬 TTS용 Python 환경\ncd python && uv venv && uv pip install -r requirements.txt && cd ..\ncp .env.example .env   # (선택) 스톡 API 키 입력",
+   "gloss": "Korean comments: 로컬 TTS용 Python 환경 means \"Python environment for local TTS\"; (선택) 스톡 API 키 입력 means \"(optional) enter stock-footage API keys\".",
+   "source_url": "https://github.com/jinjin1/scenewright/blob/main/README.md"
+  }
+ },
+ "jtydhr88/screenwriting-skills": {
+  "install": {
+   "command": "/plugin marketplace add jtydhr88/screenwriting-skills\n/plugin install screenwriting@screenwriting-skills",
+   "source_url": "https://github.com/jtydhr88/screenwriting-skills/blob/main/README.md"
+  }
+ },
+ "kangarooking/promo-creator-skills": {
+  "install": {
+   "command": "npx skills add kangarooking/promo-creator-skills",
+   "source_url": "https://github.com/kangarooking/promo-creator-skills/blob/main/README.md"
+  }
+ },
+ "ledbetterljoshua/functional-emotions-video": {
+  "entry_kind": "showcase"
+ },
+ "liyue-aigc/xianxia-cinematic-video-director": {
+  "install": {
+   "command": "git clone https://github.com/liyue-aigc/xianxia-cinematic-video-director.git\nCopy-Item -Recurse -Force `\n  .\\xianxia-cinematic-video-director\\xianxia-cinematic-video-director `\n  \"$env:USERPROFILE\\.codex\\skills\\xianxia-cinematic-video-director\"",
+   "note": "Windows PowerShell commands.",
+   "source_url": "https://github.com/liyue-aigc/xianxia-cinematic-video-director/blob/main/README.md"
+  }
+ },
+ "magichourhq/skills": {
+  "install": {
+   "command": "npx skills add magichourhq/skills --skill magic-hour-image-to-video",
+   "note": "Installs one of several skills (image-to-video shown).",
+   "source_url": "https://github.com/magichourhq/skills/blob/main/README.md"
+  }
+ },
+ "misbahsy/tiktok-ig-shorts": {
+  "install": {
+   "command": "npx skills add misbahsy/tiktok-ig-shorts -s social-talking-head-video -a codex\nnpx skills add misbahsy/tiktok-ig-shorts -s popout-talking-head-video -a codex\nnpx skills add misbahsy/tiktok-ig-shorts -s kinetic-caption-video -a codex\nnpx skills add misbahsy/tiktok-ig-shorts -s anthropic-talking-head-style -a codex",
+   "source_url": "https://github.com/misbahsy/tiktok-ig-shorts/blob/main/README.md"
+  }
+ },
+ "molkex/mcp-flow-google": {
+  "install": {
+   "command": "claude mcp add --transport http openflow https://openflowmcp.com/mcp",
+   "note": "Connects to a third-party hosted MCP server (openflowmcp.com).",
+   "source_url": "https://github.com/molkex/mcp-flow-google/blob/main/README.md"
+  },
+  "safety_notes": [
+   "Connects to a third-party hosted MCP server (openflowmcp.com); review what data it receives."
+  ]
+ },
+ "remotion-dev/skills": {
+  "install": {
+   "command": "npx skills add remotion-dev/skills",
+   "source_url": "https://github.com/remotion-dev/skills/blob/main/README.md"
+  }
+ },
+ "santmun/video-vox": {
+  "install": {
+   "command": "git clone https://github.com/santmun/video-vox ~/.claude/skills/video-vox\ncd ~/.claude/skills/video-vox && npm install && cp .env.example .env\nnode scripts/doctor.mjs --fix",
+   "source_url": "https://github.com/santmun/video-vox/blob/main/README.md"
+  }
+ },
+ "toufuim/personal-ip-brand-intro-skill": {
+  "install": {
+   "command": "請使用 $skill-installer，從下列 GitHub 儲存庫安裝 personal-ip-brand-intro：\nhttps://github.com/toufuim/personal-ip-brand-intro-skill\nSkill 路徑是 personal-ip-brand-intro。",
+   "gloss": "Prompt (translated from the README): use $skill-installer to install personal-ip-brand-intro from the repo URL; the skill path is personal-ip-brand-intro.",
+   "kind": "agent_prompt",
+   "source_url": "https://github.com/toufuim/personal-ip-brand-intro-skill/blob/main/README.md"
+  }
+ },
+ "vibe-motion/remotion-code-motion-explainer": {
+  "install": {
+   "command": "npx skills add vibe-motion/remotion-code-motion-explainer",
+   "source_url": "https://github.com/vibe-motion/remotion-code-motion-explainer/blob/main/README.md"
+  }
+ }
+}

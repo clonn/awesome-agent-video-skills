@@ -1,0 +1,121 @@
+{
+ "E1": {
+  "n": 20,
+  "accuracy_overall": 0.65,
+  "upstream_label_accuracy": 0.7,
+  "auto_accept_n(conf>0.9)": 8,
+  "auto_accept_accuracy": 1.0,
+  "wrong": [
+   [
+    "GordenSun/react-bits-video",
+    "motion",
+    "general",
+    0.85
+   ],
+   [
+    "Monet-AI-Editor/Monet",
+    "general",
+    "editing",
+    0.8
+   ],
+   [
+    "bestagentkits/motion-video-skill",
+    "promo",
+    "motion",
+    0.81
+   ],
+   [
+    "davidcervinka/vibe-editing",
+    "general",
+    "editing",
+    0.54
+   ],
+   [
+    "liangdabiao/wechat-article-remotion",
+    "shorts",
+    "explainer",
+    0.68
+   ],
+   [
+    "liyue-aigc/xianxia-cinematic-video-director",
+    "story",
+    "craft",
+    0.59
+   ],
+   [
+    "manthanpatelll/leadgenman-video-skills",
+    "shorts",
+    "editing",
+    0.85
+   ]
+  ]
+ },
+ "E2": {
+  "regex": {
+   "tp": 18,
+   "fp": 12,
+   "fn": 0,
+   "precision": 0.6,
+   "recall": 1.0,
+   "f1": 0.75
+  },
+  "noul_0.5": {
+   "tp": 17,
+   "fp": 4,
+   "fn": 1,
+   "precision": 0.81,
+   "recall": 0.944,
+   "f1": 0.872
+  },
+  "hybrid_regex_and_noul_0.3": {
+   "tp": 18,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0
+  },
+  "adopt_hybrid": true
+ },
+ "E3": {
+  "heuristic": 0.8,
+  "choice": 0.7,
+  "hybrid": 0.75,
+  "n": 20,
+  "with_install": 17,
+  "candidate_coverage_of_positives": "16/17",
+  "disagreement_rows_n8": {
+   "heuristic": 6,
+   "choice": 6,
+   "hybrid": 5
+  },
+  "adopt_hybrid": false,
+  "misses": [
+   [
+    "Anil-matcha/zack-d-films-ai-video-generator",
+    "none",
+    "heur=False choice=True hybrid=False"
+   ],
+   [
+    "davidcervinka/vibe-editing",
+    "none",
+    "heur=False choice=True hybrid=False"
+   ],
+   [
+    "lemomo-ai/lemo-opuscar",
+    "has_install",
+    "heur=True choice=False hybrid=False"
+   ],
+   [
+    "liangdabiao/wechat-article-remotion",
+    "has_install",
+    "heur=False choice=False hybrid=False"
+   ],
+   [
+    "znyupup/ai-video-editing-skill",
+    "none",
+    "heur=False choice=False hybrid=False"
+   ]
+  ]
+ }
+}

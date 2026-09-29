@@ -1,0 +1,237 @@
+[
+ {
+  "id": "Anil-matcha/zack-d-films-ai-video-generator",
+  "category_gold": "explainer",
+  "makes_video": true,
+  "render_base": [
+   "ffmpeg"
+  ],
+  "render_base_uncertain": [
+   "other"
+  ],
+  "install_contains": null,
+  "evidence": "Agent pipeline makes vertical 3D explainer shorts via MuAPI/Veo with local ffmpeg assembly; no install command for the project itself."
+ },
+ {
+  "id": "GordenSun/react-bits-video",
+  "category_gold": "general",
+  "makes_video": true,
+  "render_base": [
+   "ffmpeg",
+   "other"
+  ],
+  "render_base_uncertain": [
+   "Remotion",
+   "HyperFrames"
+  ],
+  "install_contains": "git clone https://github.com/GordenSun/react-bits-video.git",
+  "evidence": "Single-HTML compositions rendered by a Puppeteer renderer with FFmpeg encoding; Remotion/Hyperframes only cited as inspiration."
+ },
+ {
+  "id": "Mng-dev-ai/explainer-video",
+  "category_gold": "explainer",
+  "makes_video": true,
+  "render_base": [
+   "ffmpeg",
+   "other"
+  ],
+  "render_base_uncertain": [],
+  "install_contains": "git clone https://github.com/Mng-dev-ai/explainer-video.git",
+  "evidence": "Topic to narrated explainer MP4 via GSAP HTML page, headless Chromium recording and ffmpeg mux."
+ },
+ {
+  "id": "Monet-AI-Editor/Monet",
+  "category_gold": "editing",
+  "makes_video": true,
+  "render_base": [
+   "Remotion"
+  ],
+  "render_base_uncertain": [
+   "ffmpeg"
+  ],
+  "install_contains": "curl -fsSL https://raw.githubusercontent.com/Monet-AI-Editor/Monet/main/install.sh | bash",
+  "evidence": "Desktop AI video editor with timeline, captions, export; Remotion is built in for compositions."
+ },
+ {
+  "id": "bestagentkits/motion-video-skill",
+  "category_gold": "motion",
+  "makes_video": true,
+  "render_base": [
+   "HyperFrames"
+  ],
+  "render_base_uncertain": [
+   "ffmpeg"
+  ],
+  "install_contains": "npx skills add bestagentkits/motion-video-skill",
+  "evidence": "Skill produces beat-synced motion-graphic video rendered with HyperFrames."
+ },
+ {
+  "id": "davidcervinka/vibe-editing",
+  "category_gold": "editing",
+  "makes_video": true,
+  "render_base": [
+   "ffmpeg",
+   "HyperFrames"
+  ],
+  "render_base_uncertain": [
+   "Remotion"
+  ],
+  "install_contains": null,
+  "evidence": "Claude Code drives ffmpeg and HyperFrames to cut, caption, animate and render; Remotion is only an alternative; no install for this repo itself."
+ },
+ {
+  "id": "erduo1998-cell/video-script-builder",
+  "category_gold": "craft",
+  "makes_video": false,
+  "render_base": [],
+  "render_base_uncertain": [],
+  "install_contains": "git clone https://github.com/erduo1998-cell/video-script-builder.git",
+  "evidence": "Turns transcripts into storyboard specs; README says it is not a renderer and outputs no MP4."
+ },
+ {
+  "id": "fernandokaraka/remotion-motion-graphics-skill",
+  "category_gold": "motion",
+  "makes_video": true,
+  "render_base": [
+   "Remotion"
+  ],
+  "render_base_uncertain": [],
+  "install_contains": "git clone https://github.com/fernandokaraka/remotion-motion-graphics-skill.git",
+  "evidence": "Skill builds title cards, lower thirds and logo stings in Remotion, exporting MP4 or transparent ProRes."
+ },
+ {
+  "id": "geekjourneyx/hyperframes-motion-director",
+  "category_gold": "promo",
+  "makes_video": true,
+  "render_base": [
+   "HyperFrames"
+  ],
+  "render_base_uncertain": [],
+  "install_contains": "npx skills add geekjourneyx/hyperframes-motion-director",
+  "evidence": "Plans and produces vertical HyperFrames promo/launch motion videos."
+ },
+ {
+  "id": "iart-ai/motion-design-skills",
+  "category_gold": "motion",
+  "makes_video": true,
+  "render_base": [
+   "Remotion"
+  ],
+  "render_base_uncertain": [
+   "After Effects"
+  ],
+  "install_contains": "npx skills add iart-ai/motion-design-skills",
+  "evidence": "Skill pack for motion design with remotion-video, logo-animation and after-effects skills."
+ },
+ {
+  "id": "iart-ai/tiktok-video-skills",
+  "category_gold": "shorts",
+  "makes_video": true,
+  "render_base": [],
+  "render_base_uncertain": [
+   "Remotion"
+  ],
+  "install_contains": "npx skills add iart-ai/tiktok-video-skills",
+  "evidence": "Skills for TikTok/Reels/Shorts: hooks, karaoke captions, countdowns, lower thirds; no render tool named."
+ },
+ {
+  "id": "jinjin1/scenewright",
+  "category_gold": "explainer",
+  "makes_video": true,
+  "render_base": [
+   "Remotion"
+  ],
+  "render_base_uncertain": [],
+  "install_contains": "git clone https://github.com/jinjin1/scenewright.git",
+  "evidence": "Pipeline turning source text into narrated long-form YouTube explainer rendered with Remotion."
+ },
+ {
+  "id": "kingselyjoe/video-shotcraft-dsh",
+  "category_gold": "promo",
+  "makes_video": true,
+  "render_base": [
+   "Remotion"
+  ],
+  "render_base_uncertain": [],
+  "install_contains": "git clone https://github.com/kingselyjoe/video-shotcraft-dsh.git",
+  "evidence": "Skill crafts cinematic product promo/launch videos with Remotion shot recipes."
+ },
+ {
+  "id": "lemomo-ai/lemo-opuscar",
+  "category_gold": "story",
+  "makes_video": true,
+  "render_base": [
+   "other"
+  ],
+  "render_base_uncertain": [
+   "ffmpeg"
+  ],
+  "install_contains": "claude plugin marketplace add lemomo-ai/lemo-opuscar",
+  "evidence": "43 film styles, short films made in code with Canvas/WebGL pages rendered frame by frame plus TTS and music."
+ },
+ {
+  "id": "liangdabiao/wechat-article-remotion",
+  "category_gold": "explainer",
+  "makes_video": true,
+  "render_base": [
+   "Remotion",
+   "ffmpeg"
+  ],
+  "render_base_uncertain": [],
+  "install_contains": "安装skill: https://github.com/liangdabiao/wechat-article-remotion",
+  "evidence": "Converts WeChat articles into narrated vertical Remotion videos; ffmpeg used for TTS audio handling."
+ },
+ {
+  "id": "liyue-aigc/xianxia-cinematic-video-director",
+  "category_gold": "craft",
+  "makes_video": false,
+  "render_base": [],
+  "render_base_uncertain": [],
+  "install_contains": "git clone https://github.com/liyue-aigc/xianxia-cinematic-video-director.git",
+  "evidence": "Produces story spines, shot lists and per-shot prompts for xianxia video; planning rather than rendering."
+ },
+ {
+  "id": "manthanpatelll/leadgenman-video-skills",
+  "category_gold": "editing",
+  "makes_video": true,
+  "render_base": [
+   "ffmpeg"
+  ],
+  "render_base_uncertain": [],
+  "install_contains": "/plugin install github:manthanpatelll/leadgenman-video-skills",
+  "evidence": "Rough-cut engine removes retakes and dead air from face-cam footage, plus caption cleaning and overlays."
+ },
+ {
+  "id": "marketcalls/story-telling",
+  "category_gold": "story",
+  "makes_video": true,
+  "render_base": [
+   "Remotion"
+  ],
+  "render_base_uncertain": [],
+  "install_contains": "npx skills add marketcalls/story-telling",
+  "evidence": "Context to narrated story video (Sarvam voice, FLUX art) rendered with Remotion; README says no ffmpeg."
+ },
+ {
+  "id": "vibe-motion/remotion-code-motion-explainer",
+  "category_gold": "explainer",
+  "makes_video": true,
+  "render_base": [
+   "Remotion"
+  ],
+  "render_base_uncertain": [],
+  "install_contains": "npx skills add vibe-motion/remotion-code-motion-explainer",
+  "evidence": "Code-animation director skill producing Remotion explainer motion for processes, UI and science."
+ },
+ {
+  "id": "znyupup/ai-video-editing-skill",
+  "category_gold": "editing",
+  "makes_video": true,
+  "render_base": [
+   "ffmpeg"
+  ],
+  "render_base_uncertain": [],
+  "install_contains": null,
+  "evidence": "Agent skill auto-edits travel footage into a vlog with ffmpeg and Whisper; install is only 'git clone' without a URL."
+ }
+]

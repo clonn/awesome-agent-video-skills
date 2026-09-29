@@ -88,3 +88,16 @@ No rank correlation is reported: the PM-agreed 10-repo gold ranking does not exi
 
 ## What stays in code
 Candidate generation (fenced-block and command extraction, regex keyword hits), the enum of categories and bases, thresholds, fallback to the heuristic, human-review routing, and all verbatim output. The model only decides among candidates or answers a closed yes/no.
+
+## Holdout check (task 2.7)
+Thresholds and the adopt rule were committed before labeling (`holdout_prereg.json`, commit aa61bb4). Twenty new rows (not in the 30-row gold set) were labeled blind by a fresh subagent that saw no model outputs and no gold.json (`holdout_gold.json`). The 20 include 4 rows from the "extractor null / Choice found" set and 4 from "extractor value / Choice none". Coverage of categories is uneven (no avatar or music rows). Small n: treat differences of one or two rows as noise. Reproduce: `python3 experiments/typesafe/evaluate_holdout.py`.
+
+| Experiment | Preregistered rule | Holdout result | Baseline | Adopt? |
+|---|---|---|---|---|
+| E1 Choice category | auto-accept only at confidence > 0.9 | 8 of 20 rows above 0.9, **8/8 correct**; overall accuracy 65% (upstream label 70%) | upstream label | Yes, as a suggestion only (categories stay upstream's) |
+| E2 Render base | regex match AND Noul >= 0.3 | **F1 1.00** (P 1.00, R 1.00, 18 TP, 0 FP, 0 FN) | regex F1 0.75 (P 0.60, 12 FP); Noul alone 0.5: F1 0.87 | **Yes** |
+| E3 Install | Choice if confidence >= 0.7, else heuristic | overall 75% | heuristic 80%; Choice alone 70% | **No** (below baseline) |
+
+E3 detail: on the 8 disagreement rows, heuristic 6/8, Choice 6/8, hybrid 5/8. Candidate coverage 16/17 positives. Misses: zack-d-films and vibe-editing (gold says no install command; the heuristic and hybrid returned one), lemo-opuscar (Choice said none), wechat-article-remotion, ai-video-editing-skill. The 90% figure in the first evaluation was optimistic because the threshold was tuned on the same 30 rows; on unseen rows the hybrid does not beat the shipped heuristic. Do not replace the extractor with it. It is still useful as a **review signal**: rows where the extractor and Choice disagree go to the human review queue.
+
+E2 caveat: the hybrid's perfect score on 18 positives is a small sample, and regex gating means it can never add a base the README does not name.

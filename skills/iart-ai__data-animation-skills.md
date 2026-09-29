@@ -7,7 +7,7 @@ Skills for coding agents that turn CSV data into animated charts and infographic
 ## At a glance
 
 - **Category:** Frameworks & Toolkits (upstream's label)
-- **Best for (by category):** a general-purpose toolkit or framework for agent-made video
+- **Best for:** Animated charts and infographics from CSV data, with accurate numbers on every frame.
 - **Stack:** Not specified in the README (our judgment: named in the README and confirmed as actually used; see [methodology](../docs/methodology.md))
 - **Language:** HTML
 - **Last push:** 2026-06-22

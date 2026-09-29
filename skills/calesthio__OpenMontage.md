@@ -7,7 +7,7 @@ Open-source agentic video production system with many pipelines and tools that l
 ## At a glance
 
 - **Category:** Frameworks & Toolkits (upstream's label)
-- **Best for (by category):** a general-purpose toolkit or framework for agent-made video
+- **Best for:** Handing an end-to-end video project, research to composition, to a coding assistant using ready-made pipelines.
 - **Stack:** Remotion, HyperFrames, ffmpeg, Blender (our judgment: named in the README and confirmed as actually used; see [methodology](../docs/methodology.md))
 - **Language:** Python
 - **Last push:** 2026-09-06

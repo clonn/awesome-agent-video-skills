@@ -2,15 +2,15 @@
 
 [EverMind-AI/Raven](https://github.com/EverMind-AI/Raven) · AI Tool · 4.6k stars (checked 2026-09-29) · License: Apache-2.0
 
-Multi-agent orchestration host that coordinates built-in and third-party agents on research, coding and design tasks; video use is one showcase.
+Skill inside the larger Raven agent host that directs a two-minute animated film from a repository's Git history.
 
 > Note: Upstream lists a sub-path: skills/git-story-film. The entry is the git-story-film skill path inside the larger Raven repository, not Raven as a whole.
 
 ## At a glance
 
 - **Category:** Explainers & Education (upstream's label)
-- **Best for (by category):** knowledge videos, tutorials and narrated lessons
-- **Stack:** Not specified in the README (our judgment: named in the README and confirmed as actually used; see [methodology](../docs/methodology.md))
+- **Best for:** Multi-agent projects; only its git-story-film skill makes video, turning a repository's Git history into a short film.
+- **Stack:** other: a bundled hand-drawn canvas animation engine, not Remotion or HyperFrames (per the skill path's README) (hand-verified against the README)
 - **Language:** Python
 - **Last push:** 2026-09-29
 

@@ -442,7 +442,7 @@
  },
  {
   "id": "EverMind-AI/Raven",
-  "description_en": "Multi-agent orchestration host that coordinates built-in and third-party agents on research, coding and design tasks; video use is one showcase.",
+  "description_en": "Skill inside the larger Raven agent host that directs a two-minute animated film from a repository's Git history.",
   "type": "AI Tool",
   "render_base": [],
   "evidence": "'Host Agent' orchestrating agents; no renderer evidenced"

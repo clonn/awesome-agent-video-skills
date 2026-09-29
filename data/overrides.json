@@ -53,5 +53,12 @@
   },
   "JimLiu/taohuayuan": {
     "entry_kind": "showcase"
+  },
+  "EverMind-AI/Raven": {
+    "render_base": [
+      "other"
+    ],
+    "notes": "The entry is the git-story-film skill path (skills/git-story-film) inside the larger Raven repository, not Raven as a whole. Its own README states that it uses a bundled canvas animation engine rather than Remotion or HyperFrames.",
+    "stack_note": "a bundled hand-drawn canvas animation engine, not Remotion or HyperFrames (per the skill path's README)"
   }
 }

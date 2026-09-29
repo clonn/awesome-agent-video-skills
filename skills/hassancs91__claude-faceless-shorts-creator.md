@@ -7,7 +7,7 @@ Claude Code project for faceless short videos with three pipelines, Remotion cod
 ## At a glance
 
 - **Category:** Short-form & Talking-head (upstream's label)
-- **Best for (by category):** vertical short-form and talking-head videos for social platforms
+- **Best for:** Faceless short videos built in Claude Code with three pipelines and ElevenLabs-based captions.
 - **Stack:** Remotion, ffmpeg (our judgment: named in the README and confirmed as actually used; see [methodology](../docs/methodology.md))
 - **Language:** TypeScript
 - **Last push:** 2026-08-18

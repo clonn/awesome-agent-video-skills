@@ -7,7 +7,7 @@ Skill that builds software-update promo videos in code by reusing real product c
 ## At a glance
 
 - **Category:** Product Promos & Demos (upstream's label)
-- **Best for (by category):** product launch films, ads and feature demos
+- **Best for:** Software-update promo videos built in code from real product components, with music and sound effects.
 - **Stack:** HyperFrames, ffmpeg (our judgment: named in the README and confirmed as actually used; see [methodology](../docs/methodology.md))
 - **Language:** Python
 - **Last push:** 2026-09-25

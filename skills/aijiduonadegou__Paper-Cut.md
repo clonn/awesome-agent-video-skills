@@ -7,7 +7,7 @@ Codex skill for paper-cut style explainer videos, using image-model stills, extr
 ## At a glance
 
 - **Category:** Explainers & Education (upstream's label)
-- **Best for (by category):** knowledge videos, tutorials and narrated lessons
+- **Best for:** Paper-cut style explainer videos in Codex, with approval gates and quality checks between steps.
 - **Stack:** HyperFrames, ffmpeg (our judgment: named in the README and confirmed as actually used; see [methodology](../docs/methodology.md))
 - **Language:** Python
 - **Last push:** 2026-08-14

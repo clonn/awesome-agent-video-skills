@@ -7,7 +7,7 @@ Collection of Claude Code and Codex skills for video work, including shot-by-sho
 ## At a glance
 
 - **Category:** Scriptwriting & Film Study (upstream's label)
-- **Best for (by category):** planning before you shoot: scripts, shot analysis and learning from existing videos
+- **Best for:** Analyzing videos shot by shot and building synced storyboard videos with Claude Code or Codex.
 - **Stack:** ffmpeg (our judgment: named in the README and confirmed as actually used; see [methodology](../docs/methodology.md))
 - **Language:** JavaScript
 - **Last push:** 2026-09-21

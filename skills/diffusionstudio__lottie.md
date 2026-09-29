@@ -7,7 +7,7 @@ Agent skill and player workspace for generating Lottie animations from prompts w
 ## At a glance
 
 - **Category:** Motion Graphics & Logos (upstream's label)
-- **Best for (by category):** animated logos, titles, kinetic type and UI motion
+- **Best for:** Generating production-ready Lottie animations from prompts and previewing them live in a bundled player.
 - **Stack:** Lottie (our judgment: named in the README and confirmed as actually used; see [methodology](../docs/methodology.md))
 - **Language:** TypeScript
 - **Last push:** 2026-07-25

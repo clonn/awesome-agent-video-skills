@@ -52,6 +52,13 @@ def lic(r):
     return d or "Unknown", None
 
 
+def lic_short(r):
+    label, _ = lic(r)
+    if label == "No license file":
+        return "\u2014"
+    return label.replace(" (non-commercial)", "") + (" NC" if r["noncommercial"] else "")
+
+
 def lic_note(r):
     label, sentence = lic(r)
     if r["noncommercial"]:
@@ -117,8 +124,8 @@ def card(r):
         L += [f"> {n}", ""]
     L += ["## At a glance", "",
           f"- **Category:** {c[1]} (upstream's label)",
-          f"- **Best for (by category):** {c[3]}",
-          f"- **Stack:** {', '.join(r['render_base']) if r['render_base'] else 'Not specified in the README'}" + (" (our judgment: named in the README and confirmed as actually used; see [methodology](../docs/methodology.md))" if r["judgments"].get("render_base") and not r["judgments"]["render_base"]["overridden_by_hand"] else (" (hand-verified against the README)" if r["render_base"] else "")),
+          (f"- **Best for:** {r['best_for']}" if r["best_for"] else f"- **Best for (by category):** {c[3]}"),
+          f"- **Stack:** {(', '.join(r['render_base']) if r['render_base'] else 'Not specified in the README') if not r['stack_note'] else 'other: ' + r['stack_note']}" + (" (our judgment: named in the README and confirmed as actually used; see [methodology](../docs/methodology.md))" if r["judgments"].get("render_base") and not r["judgments"]["render_base"]["overridden_by_hand"] else (" (hand-verified against the README)" if r["render_base"] else "")),
           f"- **Language:** {r['language'] or 'Not reported'}",
           f"- **Last push:** {r['pushed_at'][:10]}" + (" (archived)" if r["archived"] else ""), "",
           "## Install", "", "_Not executed by us; copied from the README._", "", install_md(r), ""]
@@ -151,9 +158,8 @@ def row(r, cards):
     name = f"[{r['id']}]({r['url']})"
     if r["id"] in cards:
         name += f" ([card](skills/{slug(r)}.md))"
-    label, _ = lic(r)
-    tag = " *(showcase)*" if r["entry_kind"] == "showcase" else ""
-    return f"| {name}{tag} | {stars(r['stars'])} | {r['type']} | {', '.join(r['render_base']) or '-'} | {label} | {r['description_en']} |"
+    typ = r["type"] + (" (showcase)" if r["entry_kind"] == "showcase" else "")
+    return f"| {name} | {stars(r['stars'])} | {typ} | {', '.join(r['render_base']) or '-'} | {lic_short(r)} | {r['description_en']} |"
 
 
 HEAD = "| Repo | Stars | Type | Built with | License | What it does |\n|---|---:|---|---|---|---|"
@@ -170,18 +176,23 @@ def main():
                                 ("Selection criteria", "docs/criteria.md"), ("Safety", "docs/safety.md"), ("Guided tour by goal", "tour/README.md"),
                                 ("Worked examples", "examples/README.md")) if (ROOT / p).exists()]
     out = {}
+    start = [(t, p) for t, p in (("Tour", "tour/README.md"), ("Install", "docs/install.md"), ("Choosing a stack", "docs/choosing-a-stack.md")) if (ROOT / p).exists()]
+    credits = ["## Credits", "",
+               "- This list is based on [zhuyansen/awesome-claude-video-skills](https://github.com/zhuyansen/awesome-claude-video-skills) (CC0 1.0) and the live page [Agent Skills Hub](https://agentskillshub.top/best/claude-video-skills/). "
+               "Categories and security grades are **upstream's**, produced by upstream's own method; we label them as such.",
+               "- Source article (Chinese; title translated): \"107 hidden gems under 50 stars: 180 open-source skills that let Claude make video, fully categorized\" by Jason AI Chuhai.",
+               "- SeeCut is featured thanks to the author's announcement post (Chinese) by Leaf Yeah! (@leaf_sanren on X).",
+               "- What we add: per-tool cards, install and usage text copied from each README (with links), live facts, licenses, and clearly labeled judgments of our own. "
+               "See [methodology](docs/methodology.md)."]
     L = ["# awesome-agent-video-skills", "",
          "A curated, English-first list of open-source skills, plugins, MCP servers and toolkits that let coding agents (Claude Code, Codex and others) make, edit or animate video.", "",
-         f"**{len(repos)} repositories** in {len(CATS)} categories. Stars, licenses and push dates come from the GitHub API and were checked on {checked}.", "",
-         "## Credits", "",
-         "- This list is based on [zhuyansen/awesome-claude-video-skills](https://github.com/zhuyansen/awesome-claude-video-skills) (CC0 1.0) and the live page [Agent Skills Hub](https://agentskillshub.top/best/claude-video-skills/). "
-         "Categories and security grades are **upstream's**, produced by upstream's own method; we label them as such.",
-         "- Source article (Chinese; title translated): \"107 hidden gems under 50 stars: 180 open-source skills that let Claude make video, fully categorized\" by Jason AI Chuhai.",
-         "- SeeCut is featured thanks to the author's announcement post (Chinese) by Leaf Yeah! (@leaf_sanren on X).",
-         "- What we add: per-tool cards, install and usage text copied from each README (with links), live facts, licenses, and clearly labeled judgments of our own. "
-         "See [methodology](docs/methodology.md).", "",
-         "**How to read this list.** Install and usage text is copied from each repository's README and was **not executed by us**. If a README has none, we say \"See README\". "
-         "Upstream's SAFE/CAUTION grade covers the README and install steps only. Always read a tool's license and install steps before running it.", ""]
+         "Based on [zhuyansen/awesome-claude-video-skills](https://github.com/zhuyansen/awesome-claude-video-skills) (CC0) \u2014 see [Credits](#credits).", ""]
+    if start:
+        L += ["**Start here:** " + " \u00b7 ".join(f"[{t}]({p})" for t, p in start), ""]
+    L += [f"**{len(repos)} repositories** in {len(CATS)} categories. Stars, licenses and push dates come from the GitHub API and were checked on {checked}.", "",
+          "**How to read this list.** Install and usage text is copied from each repository's README and was **not executed by us**. If a README has none, we say \"See README\". "
+          "Upstream's SAFE/CAUTION grade covers the README and install steps only. Always read a tool's license and install steps before running it. "
+          "In the tables, `NC` after a license means non-commercial only, and `\u2014` means the repository has no license file (default copyright applies).", ""]
     if docs:
         L += ["## Guides", ""] + [f"- [{t}]({p})" for t, p in docs] + [""]
     L += ["## Quick picks", "", "Featured tools, each with a card (what it is, install, usage, license, safety).", "", HEAD]
@@ -191,6 +202,7 @@ def main():
         L.append(f"| {name} | {len(by_cat[sid])} | [catalog/{sl}.md](catalog/{sl}.md) |")
     L += ["", f"## All {len(repos)} repositories", "", HEAD]
     L += [row(r, cards) for r in sorted(repos, key=lambda r: (-r["stars"], r["id"].lower()))] + [""]
+    L += credits + [""]
     L += ["## License of this repository", "", "Documentation is CC-BY-4.0 and scripts are MIT. Each listed project keeps its own license; check it before reuse.", ""]
     out["README.md"] = "\n".join(L)
     for sid, name, sl, best in CATS:

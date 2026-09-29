@@ -13,7 +13,7 @@ TARGETS = {"Frameworks & Toolkits": 29, "Product Promos & Demos": 26, "Explainer
            "Story & Animation": 13, "Motion Graphics & Logos": 11, "Scriptwriting & Film Study": 10, "Music Videos": 2}
 FIELDS = ["id", "url", "name", "owner", "category_en", "category_source", "type", "language", "stars", "stars_checked_at",
           "license", "pushed_at", "archived", "render_base", "description_en", "description_zh_source", "install",
-          "usage", "safety_upstream", "featured", "notes", "judgments", "license_detail", "noncommercial", "entry_kind", "safety_notes"]
+          "usage", "safety_upstream", "featured", "notes", "judgments", "license_detail", "noncommercial", "entry_kind", "safety_notes", "best_for", "stack_note"]
 KINDS = {"shell", "agent_prompt", "config"}
 
 
@@ -51,6 +51,10 @@ def check(rows):
             errs.append(f"{i}: usage.cjk missing")
         if r.get("license") in (None, "Other") and not r.get("license_detail"):
             errs.append(f"{i}: license Other/null without license_detail")
+        if r.get("best_for") is not None and len(r["best_for"].split()) > 20:
+            errs.append(f"{i}: best_for >20 words")
+        if r.get("featured") and not r.get("best_for"):
+            errs.append(f"{i}: featured without best_for")
         if not isinstance(r.get("safety_notes"), list):
             errs.append(f"{i}: safety_notes")
         if r.get("entry_kind") not in ("tool", "showcase"):

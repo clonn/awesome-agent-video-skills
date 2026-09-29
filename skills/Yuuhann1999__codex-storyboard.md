@@ -7,7 +7,7 @@ Local storyboard workspace plugin for Codex that manages video projects and shot
 ## At a glance
 
 - **Category:** Short-form & Talking-head (upstream's label)
-- **Best for (by category):** vertical short-form and talking-head videos for social platforms
+- **Best for:** Managing short-video projects and shot lists in a local Codex workspace that fills in generated media.
 - **Stack:** Remotion, HyperFrames (our judgment: named in the README and confirmed as actually used; see [methodology](../docs/methodology.md))
 - **Language:** JavaScript
 - **Last push:** 2026-09-28

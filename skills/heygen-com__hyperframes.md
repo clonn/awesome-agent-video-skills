@@ -7,7 +7,7 @@ Open-source framework that renders HTML, CSS and seekable animations into determ
 ## At a glance
 
 - **Category:** Frameworks & Toolkits (upstream's label)
-- **Best for (by category):** a general-purpose toolkit or framework for agent-made video
+- **Best for:** Rendering HTML and CSS animation into deterministic MP4 from the command line, with agent skills included.
 - **Stack:** HyperFrames, ffmpeg (our judgment: named in the README and confirmed as actually used; see [methodology](../docs/methodology.md))
 - **Language:** TypeScript
 - **Last push:** 2026-09-29

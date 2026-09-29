@@ -51,7 +51,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "aaronyi97/image-story-video-wizard",
@@ -104,7 +106,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "acelera-agency/html-animation",
@@ -161,7 +165,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "adithya-s-k/manim_skill",
@@ -217,7 +223,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "adityaarsharma/youtube-marketing-skills",
@@ -278,7 +286,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "adriiita/vertical-video-editing-skill",
@@ -334,7 +344,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "Agentchengfeng/chengfeng-videocut-skills",
@@ -381,7 +393,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": "Cutting talking-head speech, subtitles and exports in Codex through a plugin backed by a separate runtime.",
+  "stack_note": null
  },
  {
   "id": "AgriciDaniel/claude-gif",
@@ -442,7 +456,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "AgriciDaniel/claude-shorts",
@@ -503,7 +519,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "AgriciDaniel/lipnardo",
@@ -561,7 +579,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "ahmdd4vd/MotionCraft",
@@ -614,7 +634,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "aijiduonadegou/Paper-Cut",
@@ -670,7 +692,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": "Paper-cut style explainer videos in Codex, with approval gates and quality checks between steps.",
+  "stack_note": null
  },
  {
   "id": "AKMessi/vex",
@@ -740,7 +764,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "alexgreensh/anidoodle",
@@ -799,7 +825,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "Alisa0808/vox-director",
@@ -852,7 +880,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": "Turning a topic into a paper-collage explainer video, from script through voice-over, music and captions.",
+  "stack_note": null
  },
  {
   "id": "AllenAI2014/remotion-guofeng-starter",
@@ -900,7 +930,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "AmazingAng/ccvideo",
@@ -953,7 +985,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "Anil-matcha/vox-ai-motion-graphics-generator",
@@ -1003,7 +1037,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "Anil-matcha/zack-d-films-ai-video-generator",
@@ -1061,7 +1097,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "Arman-Luthra/aftr",
@@ -1122,7 +1160,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "AsadMoulviDev/reel-video",
@@ -1180,7 +1220,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "ayushozha/AdobePremiereProMCP",
@@ -1241,7 +1283,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "bangtutorial/bang-motion",
@@ -1302,7 +1346,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "BayramAnnakov/remotion-video-director",
@@ -1363,7 +1409,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "bbylw/hyperframes-cn",
@@ -1426,7 +1474,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "bestagentkits/motion-video-skill",
@@ -1479,7 +1529,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "blixvip/easyedit",
@@ -1544,7 +1596,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "BusyBee3333/animated-explainer-skills",
@@ -1597,7 +1651,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "calesthio/OpenMontage",
@@ -1671,7 +1727,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": "Handing an end-to-end video project, research to composition, to a coding assistant using ready-made pipelines.",
+  "stack_note": null
  },
  {
   "id": "cartesiancs/cartcut",
@@ -1728,7 +1786,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "Cassette-Editor/oh-my-cassette",
@@ -1786,7 +1846,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "cclank/lanshu-create-ai-presenter-video",
@@ -1846,7 +1908,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": "Producing a checked presenter video from a script and one authorized portrait, with your choice of providers.",
+  "stack_note": null
  },
  {
   "id": "cclank/lanshu-html2video-skill",
@@ -1899,7 +1963,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "centraltowerlabs/diagram-tour",
@@ -1957,7 +2023,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "chenmisss/laoxu-video-script",
@@ -2004,7 +2072,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "ChenShuo2004/cs-shotcraft-skill",
@@ -2054,7 +2124,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "chenyuxiaojin/cyxj-hyperframes",
@@ -2111,7 +2183,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "chenyuxiaojin/cyxj-remotion-starter",
@@ -2156,7 +2230,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "cocolayuan/videoclip-AI-skill",
@@ -2209,7 +2285,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "coding-ax/docvideoer",
@@ -2267,7 +2345,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "cymcymcymcym/notes-to-video",
@@ -2328,7 +2408,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "darrenli6/JJKoubo",
@@ -2376,7 +2458,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "davidcervinka/vibe-editing",
@@ -2445,7 +2529,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "derrickgong87/demo-video-creation-skill",
@@ -2506,7 +2592,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "diffusionstudio/lottie",
@@ -2568,7 +2656,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": "Generating production-ready Lottie animations from prompts and previewing them live in a bundled player.",
+  "stack_note": null
  },
  {
   "id": "digitalsamba/claude-code-video-toolkit",
@@ -2629,7 +2719,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "dlazy-ai/ai-product-video",
@@ -2687,7 +2779,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "doublesq97-ui/su-card-to-video",
@@ -2752,7 +2846,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "erduo1998-cell/erduo-broll-loop-engineering",
@@ -2811,7 +2907,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "erduo1998-cell/video-script-builder",
@@ -2873,7 +2971,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "eternityspring/reelbench-skills",
@@ -2931,7 +3031,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": "Analyzing videos shot by shot and building synced storyboard videos with Claude Code or Codex.",
+  "stack_note": null
  },
  {
   "id": "EverMind-AI/Raven",
@@ -2947,8 +3049,10 @@
   "license": "Apache-2.0",
   "pushed_at": "2026-09-29T13:29:16Z",
   "archived": false,
-  "render_base": [],
-  "description_en": "Multi-agent orchestration host that coordinates built-in and third-party agents on research, coding and design tasks; video use is one showcase.",
+  "render_base": [
+   "other"
+  ],
+  "description_en": "Skill inside the larger Raven agent host that directs a two-minute animated film from a repository's Git history.",
   "description_zh_source": null,
   "license_detail": null,
   "noncommercial": false,
@@ -2974,11 +3078,13 @@
     "regex_hits": [],
     "noul": {},
     "vetoed": [],
-    "overridden_by_hand": false
+    "overridden_by_hand": true
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": "Multi-agent projects; only its git-story-film skill makes video, turning a repository's Git history into a short film.",
+  "stack_note": "a bundled hand-drawn canvas animation engine, not Remotion or HyperFrames (per the skill path's README)"
  },
  {
   "id": "Fagan1024/smart-video-editor",
@@ -3035,7 +3141,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "fernandokaraka/remotion-motion-graphics-skill",
@@ -3100,7 +3208,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "Finderchangchang/promo-video-skill",
@@ -3161,7 +3271,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "FireRedTeam/FireRed-OpenStoryline",
@@ -3214,7 +3326,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": "Editing videos through conversation, with an LLM planning the edits and reusable style skills.",
+  "stack_note": null
  },
  {
   "id": "geekjourneyx/hyperframes-motion-director",
@@ -3272,7 +3386,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "gloweaseco-leo/hyperdirector",
@@ -3336,7 +3452,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "gnipbao/minimax-h3-video-reverse-skill",
@@ -3394,7 +3512,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "gnipbao/story-to-handdrawn-video",
@@ -3455,7 +3575,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": "Turning Chinese stories or ordered images into portrait hand-drawn animations rendered with Remotion.",
+  "stack_note": null
  },
  {
   "id": "GordenSun/react-bits-video",
@@ -3520,7 +3642,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "gorkem-bwl/onboarding-video-generator",
@@ -3573,7 +3697,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "hahadu4520/newcut-video-clipping-skill",
@@ -3631,7 +3757,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "hahadu4520/vlog-cut",
@@ -3684,7 +3812,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "hassancs91/claude-faceless-shorts-creator",
@@ -3745,7 +3875,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": "Faceless short videos built in Claude Code with three pipelines and ElevenLabs-based captions.",
+  "stack_note": null
  },
  {
   "id": "hassancs91/claude-youtube-editor",
@@ -3806,7 +3938,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "hetpatel-11/Adobe_Premiere_Pro_MCP",
@@ -3862,7 +3996,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "heygen-com/hyperframes",
@@ -3928,7 +4064,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": "Rendering HTML and CSS animation into deterministic MP4 from the command line, with agent skills included.",
+  "stack_note": null
  },
  {
   "id": "heygen-com/skills",
@@ -3981,7 +4119,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": "Creating avatar videos through HeyGen's API from Claude Code, Codex or other agents.",
+  "stack_note": null
  },
  {
   "id": "hi-nikola/hand-drawn-explainer-video-nikola",
@@ -4041,7 +4181,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "holy-templar/vox-animated-ad-mcp",
@@ -4088,7 +4230,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "hypit-ai/hypit",
@@ -4140,7 +4284,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "iart-ai/ad-video-skills",
@@ -4193,7 +4339,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "iart-ai/data-animation-skills",
@@ -4246,7 +4394,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": "Animated charts and infographics from CSV data, with accurate numbers on every frame.",
+  "stack_note": null
  },
  {
   "id": "iart-ai/explainer-video-skills",
@@ -4299,7 +4449,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "iart-ai/motion-design-skills",
@@ -4358,7 +4510,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "iart-ai/motion-skills",
@@ -4418,7 +4572,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "iart-ai/tiktok-video-skills",
@@ -4471,7 +4627,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "icytear-svg/podcast-to-video",
@@ -4521,7 +4679,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "inematds/skill-video-plan-editor",
@@ -4581,7 +4741,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "intelligent-iterations/ii-content-engine",
@@ -4633,7 +4795,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "jackjls/jtxvideo-skill",
@@ -4694,7 +4858,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "jaxxchen003/book-video-factory",
@@ -4747,7 +4913,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "jhartquist/claude-remotion-kickstart",
@@ -4800,7 +4968,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "JimLiu/baocut",
@@ -4852,7 +5022,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "JimLiu/taohuayuan",
@@ -4891,7 +5063,9 @@
    }
   },
   "entry_kind": "showcase",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "jincheng2026/jc-remotion-skills",
@@ -4952,7 +5126,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "jinjin1/scenewright",
@@ -5005,7 +5181,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "JohnHeibel/ClaudeAnimationBase",
@@ -5058,7 +5236,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "JohnHeibel/PDoomVideo",
@@ -5106,7 +5286,9 @@
    }
   },
   "entry_kind": "showcase",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": "Studying how Claude generated a complete p5.js music video; it is source code, not a reusable tool.",
+  "stack_note": null
  },
  {
   "id": "Johnson-Jia/video-clipforge",
@@ -5167,7 +5349,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "jtydhr88/screenwriting-skills",
@@ -5219,7 +5403,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": "Planning scripts and television writing with 26 skills; it produces text, not video.",
+  "stack_note": null
  },
  {
   "id": "JUNKDOGE-JOE/after-effects-mcp",
@@ -5272,7 +5458,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "kakaxi12/vox-director-codex",
@@ -5337,7 +5525,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "kangarooking/director-skills",
@@ -5384,7 +5574,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "kangarooking/promo-creator-skills",
@@ -5445,7 +5637,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "Kappaemme-git/codex-video-short-maker-skill",
@@ -5503,7 +5697,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "kiki-lgtm-dot/cinematic-product-promo-skill",
@@ -5561,7 +5757,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "kingselyjoe/video-shotcraft-dsh",
@@ -5606,7 +5804,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "krusemediallc/video-editor-agent",
@@ -5654,7 +5854,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "kurbaitaev/ghost-editor",
@@ -5699,7 +5901,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "leancoderkavy/premiere-pro-mcp",
@@ -5758,7 +5962,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "ledbetterljoshua/functional-emotions-video",
@@ -5807,7 +6013,9 @@
    }
   },
   "entry_kind": "showcase",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": "Studying a painted music video made in Claude Code with a custom brushstroke renderer.",
+  "stack_note": null
  },
  {
   "id": "lemomo-ai/lemo-opuscar",
@@ -5860,7 +6068,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": "Directing a short film from your own story using ready-made film-style prompts.",
+  "stack_note": null
  },
  {
   "id": "leosssvip-dot/remotion-ad-video-skill",
@@ -5928,7 +6138,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "LetMeHappyCode/auto-video-agent",
@@ -5973,7 +6185,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "Liamrjohnston/remotion-motion-graphics-skill",
@@ -6031,7 +6245,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "liangdabiao/story-handdrawn-remotion",
@@ -6092,7 +6308,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "liangdabiao/story-handdrawn-video",
@@ -6150,7 +6368,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "liangdabiao/wechat-article-remotion",
@@ -6198,7 +6418,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "liuliu-66-create/ll-video-decomposer",
@@ -6243,7 +6465,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "liyue-aigc/xianxia-cinematic-video-director",
@@ -6296,7 +6520,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "louisedesadeleer/cut-video",
@@ -6354,7 +6580,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": "Tightening long recordings by removing silences and fillers while keeping laughs and comedic pauses.",
+  "stack_note": null
  },
  {
   "id": "Maartenlouis/remotion-ads",
@@ -6412,7 +6640,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "magichourhq/skills",
@@ -6460,7 +6690,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "manthanpatelll/leadgenman-video-skills",
@@ -6518,7 +6750,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "marketcalls/story-telling",
@@ -6580,7 +6814,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "mattivilola/brag-codex",
@@ -6644,7 +6880,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "MegaTroll222/VOX-COLLAGE-BROLL",
@@ -6697,7 +6935,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "memex-lab/product-launch-video-skill",
@@ -6758,7 +6998,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "misbahsy/tiktok-ig-shorts",
@@ -6819,7 +7061,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "Mng-dev-ai/explainer-video",
@@ -6877,7 +7121,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "molkex/mcp-flow-google",
@@ -6927,7 +7173,9 @@
   "entry_kind": "tool",
   "safety_notes": [
    "Connects to a third-party hosted MCP server (openflowmcp.com); review what data it receives."
-  ]
+  ],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "Monet-AI-Editor/Monet",
@@ -6994,7 +7242,9 @@
   "entry_kind": "tool",
   "safety_notes": [
    "Install pipes a remote script into bash (curl ... | bash); read install.sh first."
-  ]
+  ],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "Mr-funny/hbg-douyin-code-explainer-video",
@@ -7050,7 +7300,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "Mr-funny/hbg-life-simulation",
@@ -7111,7 +7363,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "mrieck/demoday-claude-plugin",
@@ -7167,7 +7421,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "naive-kun/naive-video-skill",
@@ -7227,7 +7483,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "NarratorAI-Studio/narrator-ai-cli-skill",
@@ -7274,7 +7532,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "new-xp/ultrademo",
@@ -7334,7 +7594,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "ninestonelee/youtube-shorts-factory",
@@ -7381,7 +7643,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "nolangz/pixel2motion",
@@ -7420,7 +7684,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": "Animating a logo: converts a raster logo to SVG, then produces animated HTML demos and previews.",
+  "stack_note": null
  },
  {
   "id": "norahe0304-art/30x-video",
@@ -7481,7 +7747,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "op7418/guizang-product-video-skill",
@@ -7537,7 +7805,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": "Software-update promo videos built in code from real product components, with music and sound effects.",
+  "stack_note": null
  },
  {
   "id": "ops120/video-recap-skills-plus",
@@ -7590,7 +7860,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "opus-pro/opus-video-studio",
@@ -7648,7 +7920,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "patraxo/ltx2-vidgen-skill",
@@ -7695,7 +7969,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "Phantomlau3674/voxstylehub-steven",
@@ -7756,7 +8032,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "pjecuacion/script-to-video-skill",
@@ -7804,7 +8082,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "PoetCoderJun/MotionTalk",
@@ -7851,7 +8131,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "pyang5166/gbro-collage-broll",
@@ -7913,7 +8195,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "pyang5166/gbro-collage-info",
@@ -7973,7 +8257,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "qingyunAGI/qingyun-cine-skill",
@@ -8025,7 +8311,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "remotion-dev/skills",
@@ -8078,7 +8366,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "resemble-ai/remotion-resemble-skill",
@@ -8136,7 +8426,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "riffkit/skill",
@@ -8188,7 +8480,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "runesleo/claude-video-kit",
@@ -8244,7 +8538,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "Samin12/samin-reel-engine-plugin",
@@ -8304,7 +8600,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "santmun/video-vox",
@@ -8360,7 +8658,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "sharon-laicc/viral-video-decomposer",
@@ -8404,7 +8704,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "shuyicc/MathLens",
@@ -8454,7 +8756,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "smit-vanani/claude-promo-video",
@@ -8515,7 +8819,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "smwbev/framewright",
@@ -8573,7 +8879,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "ssrajadh/paperview",
@@ -8629,7 +8937,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "sukai213/bilibili-ai-video",
@@ -8679,7 +8989,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "sunxiayi/make-blender-education-video-skill",
@@ -8740,7 +9052,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "taylorzhou16/video-gen",
@@ -8798,7 +9112,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "toufuim/personal-ip-brand-intro-skill",
@@ -8862,7 +9178,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "trunghaiy/appshot",
@@ -8920,7 +9238,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "tugrawork-creator/saas-motion-kit",
@@ -8984,7 +9304,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "tuzhechen2005/opus-video-skills",
@@ -9040,7 +9362,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "Upload-Post/avatar-mix",
@@ -9096,7 +9420,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "VasiniDevi/motion-skills",
@@ -9154,7 +9480,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "vibe-motion/remotion-code-motion-explainer",
@@ -9212,7 +9540,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "vibe-motion/remotion-starter",
@@ -9257,7 +9587,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "vibe-motion/skills",
@@ -9313,7 +9645,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "video-db/skills",
@@ -9366,7 +9700,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "Vincentwei1021/video-shotcraft",
@@ -9424,7 +9760,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": "Cinematic product promo videos in Remotion, guided by shot recipe cards and a template.",
+  "stack_note": null
  },
  {
   "id": "Vincentwei1021/video-talkcraft",
@@ -9485,7 +9823,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": "Voiceover-driven explainer videos with word-level sync, motion recipe cards and a camera system.",
+  "stack_note": null
  },
  {
   "id": "wendymardigian-prog/Editor-IA-Pro",
@@ -9546,7 +9886,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "wocha-xiaoli/video-shot-analysis-feishu",
@@ -9604,7 +9946,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "wshuyi/remotion-video-skill",
@@ -9665,7 +10009,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "wyuzhi/qisi-video-remix",
@@ -9717,7 +10063,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "YeJe-cpu/SeeCut",
@@ -9780,7 +10128,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": "Turning a 20-30 second talking-head clip into a motion-graphics short, with optional layered CapCut/Jianying draft export.",
+  "stack_note": null
  },
  {
   "id": "Yuuhann1999/codex-storyboard",
@@ -9841,7 +10191,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": "Managing short-video projects and shot lists in a local Codex workspace that fills in generated media.",
+  "stack_note": null
  },
  {
   "id": "yuwenbin121/book-video-production-skill",
@@ -9901,7 +10253,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "zenstory-ai/video-recap-skills",
@@ -9950,7 +10304,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "zhenwusw/orca-motion-skill",
@@ -9997,7 +10353,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "zhouyuechuan2025-ui/ai-self-media-video-packaging-skill",
@@ -10060,7 +10418,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "ZiadAbdelkarim/beat-synced-edit",
@@ -10118,7 +10478,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "zlong6943-commits/football-prediction-avatar-video",
@@ -10179,7 +10541,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "znyupup/ai-video-editing-skill",
@@ -10241,7 +10605,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "znyupup/knowledge-explainer-skill",
@@ -10297,7 +10663,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  },
  {
   "id": "zoglmk/codex-video-pipeline",
@@ -10353,6 +10721,8 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": []
+  "safety_notes": [],
+  "best_for": null,
+  "stack_note": null
  }
 ]

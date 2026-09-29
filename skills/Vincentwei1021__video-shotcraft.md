@@ -7,7 +7,7 @@ Agent skill with shot recipe cards, motion previews and a template for making ci
 ## At a glance
 
 - **Category:** Product Promos & Demos (upstream's label)
-- **Best for (by category):** product launch films, ads and feature demos
+- **Best for:** Cinematic product promo videos in Remotion, guided by shot recipe cards and a template.
 - **Stack:** Remotion (our judgment: named in the README and confirmed as actually used; see [methodology](../docs/methodology.md))
 - **Language:** TypeScript
 - **Last push:** 2026-09-28

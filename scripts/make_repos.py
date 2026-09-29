@@ -56,6 +56,7 @@ def main():
     dpath = ROOT / "data/review_decisions.json"
     decisions = json.loads(dpath.read_text()) if dpath.exists() else {}
     glosses = load("glosses.json")
+    best_for = load("best_for.json")
     by_cat = {}
     for i, c in cands.items():
         by_cat.setdefault(c["category_source"], []).append(i)
@@ -118,7 +119,7 @@ def main():
             "install": inst, "usage": usg,
             "safety_upstream": c["safety_upstream"], "featured": i in featured,
             "notes": " ".join(note + ([ov["notes"]] if ov.get("notes") else [])) or None, "judgments": judgments,
-            "entry_kind": ov.get("entry_kind", "tool"), "safety_notes": ov.get("safety_notes", []),
+            "entry_kind": ov.get("entry_kind", "tool"), "safety_notes": ov.get("safety_notes", []), "best_for": best_for.get(i), "stack_note": ov.get("stack_note"),
         })
     (ROOT / "data/repos.json").write_text(json.dumps(out, indent=1, ensure_ascii=False) + "\n")
     print(len(out), "featured", sum(r["featured"] for r in out))

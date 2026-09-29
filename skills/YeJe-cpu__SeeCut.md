@@ -11,7 +11,7 @@ Skill that automatically edits talking-head or avatar footage into short motion-
 ## At a glance
 
 - **Category:** Editing & Post-production (upstream's label)
-- **Best for (by category):** cutting, captions, B-roll and finishing footage you already have
+- **Best for:** Turning a 20-30 second talking-head clip into a motion-graphics short, with optional layered CapCut/Jianying draft export.
 - **Stack:** HyperFrames (hand-verified against the README)
 - **Language:** JavaScript
 - **Last push:** 2026-09-29

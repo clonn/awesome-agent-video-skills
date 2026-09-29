@@ -7,7 +7,7 @@ Agent skills for creating avatar videos and video production with HeyGen's API, 
 ## At a glance
 
 - **Category:** AI Avatars (upstream's label)
-- **Best for (by category):** videos presented by a digital human or AI avatar
+- **Best for:** Creating avatar videos through HeyGen's API from Claude Code, Codex or other agents.
 - **Stack:** HeyGen (our judgment: named in the README and confirmed as actually used; see [methodology](../docs/methodology.md))
 - **Language:** Shell
 - **Last push:** 2026-07-14

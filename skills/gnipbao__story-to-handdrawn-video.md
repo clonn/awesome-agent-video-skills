@@ -7,7 +7,7 @@ Skill that turns Chinese stories or images into portrait hand-drawn animated vid
 ## At a glance
 
 - **Category:** Story & Animation (upstream's label)
-- **Best for (by category):** animated stories, short dramas and cinematic scenes
+- **Best for:** Turning Chinese stories or ordered images into portrait hand-drawn animations rendered with Remotion.
 - **Stack:** Remotion, ffmpeg (our judgment: named in the README and confirmed as actually used; see [methodology](../docs/methodology.md))
 - **Language:** HTML
 - **Last push:** 2026-09-22

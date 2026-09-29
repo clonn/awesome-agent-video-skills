@@ -13,7 +13,8 @@ TARGETS = {"Frameworks & Toolkits": 29, "Product Promos & Demos": 26, "Explainer
            "Story & Animation": 13, "Motion Graphics & Logos": 11, "Scriptwriting & Film Study": 10, "Music Videos": 2}
 FIELDS = ["id", "url", "name", "owner", "category_en", "category_source", "type", "language", "stars", "stars_checked_at",
           "license", "pushed_at", "archived", "render_base", "description_en", "description_zh_source", "install",
-          "usage", "safety_upstream", "featured", "notes", "judgments"]
+          "usage", "safety_upstream", "featured", "notes", "judgments", "license_detail", "noncommercial"]
+KINDS = {"shell", "agent_prompt", "config"}
 
 
 def check(rows):
@@ -38,6 +39,20 @@ def check(rows):
             x = r.get(k)
             if x is not None and not (x.get(v) and str(x.get("source_url", "")).startswith("https://")):
                 errs.append(f"{i}: {k} without command/source_url")
+        ins = r.get("install")
+        if ins is not None:
+            if ins.get("kind") not in KINDS:
+                errs.append(f"{i}: install.kind")
+            if ins.get("cjk") and not ins.get("gloss"):
+                errs.append(f"{i}: install has CJK without English gloss")
+            if "display_command" not in ins or "comments_omitted" not in ins:
+                errs.append(f"{i}: install display fields")
+        if r.get("usage") is not None and "cjk" not in r["usage"]:
+            errs.append(f"{i}: usage.cjk missing")
+        if r.get("license") in (None, "Other") and not r.get("license_detail"):
+            errs.append(f"{i}: license Other/null without license_detail")
+        if not isinstance(r.get("noncommercial"), bool):
+            errs.append(f"{i}: noncommercial not bool")
         if not isinstance(r.get("featured"), bool):
             errs.append(f"{i}: featured not bool")
     return errs

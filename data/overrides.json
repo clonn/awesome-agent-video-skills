@@ -1,0 +1,48 @@
+{
+  "YeJe-cpu/SeeCut": {
+    "install": {
+      "command": "zsh skill/seecut/scripts/preflight.sh",
+      "source_url": "https://github.com/YeJe-cpu/SeeCut/blob/main/README.md#最快跑通",
+      "purpose": "README step 2 (environment check). Step 3 copies skill/seecut into ~/.claude/skills/ and is described in prose only."
+    },
+    "usage": {
+      "snippet": "/seecut 素材：<你的文件夹>",
+      "source_url": "https://github.com/YeJe-cpu/SeeCut/blob/main/README.md#最快跑通"
+    },
+    "render_base": [
+      "HyperFrames"
+    ],
+    "notes": "Hand-verified against the README: rendering uses the HyperFrames CLI; HeyGen is only the optional avatar step; license is PolyForm Noncommercial 1.0.0."
+  },
+  "icytear-svg/podcast-to-video": {
+    "install": null
+  },
+  "sukai213/bilibili-ai-video": {
+    "install": null
+  },
+  "chenyuxiaojin/cyxj-hyperframes": {
+    "install": null
+  },
+  "liuliu-66-create/ll-video-decomposer": {
+    "install": null
+  },
+  "zenstory-ai/video-recap-skills": {
+    "install": null
+  },
+  "sharon-laicc/viral-video-decomposer": {
+    "install": null
+  },
+  "darrenli6/JJKoubo": {
+    "install": null
+  },
+  "bestagentkits/motion-video-skill": {
+    "install": null
+  },
+  "ChenShuo2004/cs-shotcraft-skill": {
+    "install": null
+  },
+  "cclank/lanshu-create-ai-presenter-video": {
+    "render_base": [],
+    "notes": "Hand-verified: provider-neutral; HyperFrames is only an optional compositor and FFmpeg a required dependency for checks, so no render base is claimed."
+  }
+}

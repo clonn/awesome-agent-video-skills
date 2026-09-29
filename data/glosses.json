@@ -1,0 +1,41 @@
+{
+  "cocolayuan/videoclip-AI-skill": {
+    "install": "Slash command; the Chinese word 安装 means \"install\"."
+  },
+  "Johnson-Jia/video-clipforge": {
+    "install": "Chinese comments say: project-level install (default), then start Claude Code and the skill loads automatically; the last line asks the skill to make a video about a topic (XXX)."
+  },
+  "jincheng2026/jc-remotion-skills": {
+    "install": "Prompt to the agent: install and use this editing skill from the repo URL, then assemble your talking-head video and its .srt subtitle file."
+  },
+  "kakaxi12/vox-director-codex": {
+    "install": "Prompt to the agent: install this skill from the linked folder (vox-director)."
+  },
+  "kangarooking/director-skills": {
+    "install": "Prompt to the agent: help me install this skill (replace <skill-name> with the skill folder)."
+  },
+  "liangdabiao/story-handdrawn-remotion": {
+    "install": "Prompt to the agent: (WorkBuddy, Codex or Claude Code) install the skill from the repo URL."
+  },
+  "liangdabiao/story-handdrawn-video": {
+    "install": "Prompt to the agent: (WorkBuddy, Codex or Claude Code) install the skill from the repo URL."
+  },
+  "Mr-funny/hbg-douyin-code-explainer-video": {
+    "install": "Prompt to the agent: install the skill from the repo into the global skills directory (back up any old version), check its files and scripts, never read or upload local keys or media, then explain how to use it to turn a long Chinese script into a video."
+  },
+  "Mr-funny/hbg-life-simulation": {
+    "install": "Prompt to the agent: install the skill from the repo into the global skills directory (back up any old version), verify its files, never read or upload local keys, logs or media, then explain how to use it to turn a Chinese life-story script into a narrated comic video."
+  },
+  "Vincentwei1021/video-talkcraft": {
+    "install": "Prompt to the agent: help me install this skill from the repo URL."
+  },
+  "znyupup/ai-video-editing-skill": {
+    "install": "Prompt to the agent: clone the repo, read SKILL.md for the full workflow, then edit the footage in the footage/ folder into a travel vlog."
+  },
+  "taylorzhou16/video-gen": {
+    "usage": "素材目录 means \"footage folder\"."
+  },
+  "YeJe-cpu/SeeCut": {
+    "usage": "素材 means \"footage\"; 你的文件夹 means \"your folder\"."
+  }
+}

@@ -8,7 +8,7 @@ Codex plugin installer for a video-cutting agent; provides workflow skills for c
 
 - **Category:** Editing & Post-production (upstream's label)
 - **Best for:** Cutting talking-head speech, subtitles and exports in Codex through a plugin backed by a separate runtime.
-- **Stack:** Not specified in the README (our judgment: named in the README and confirmed as actually used; see [methodology](../docs/methodology.md))
+- **Stack:** Not specified in the README
 - **Language:** JavaScript
 - **Last push:** 2026-09-20
 

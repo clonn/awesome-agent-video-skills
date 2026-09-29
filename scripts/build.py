@@ -109,6 +109,17 @@ def usage_md(r):
     return f"```text\n{trunc(u['snippet'])}\n```\n\nSource: [README]({q(u['source_url'])})."
 
 
+def stack_line(r):
+    if r["stack_note"]:
+        return "other: " + r["stack_note"]
+    if not r["render_base"]:
+        return "Not specified in the README"
+    jr = r["judgments"].get("render_base")
+    tail = " (our judgment: named in the README and confirmed as actually used; see [methodology](../docs/methodology.md))" \
+        if jr and not jr["overridden_by_hand"] else " (hand-verified against the README)"
+    return ", ".join(r["render_base"]) + tail
+
+
 def card(r):
     c = CAT[r["category_source"]]
     label, _ = lic(r)
@@ -125,7 +136,7 @@ def card(r):
     L += ["## At a glance", "",
           f"- **Category:** {c[1]} (upstream's label)",
           (f"- **Best for:** {r['best_for']}" if r["best_for"] else f"- **Best for (by category):** {c[3]}"),
-          f"- **Stack:** {(', '.join(r['render_base']) if r['render_base'] else 'Not specified in the README') if not r['stack_note'] else 'other: ' + r['stack_note']}" + (" (our judgment: named in the README and confirmed as actually used; see [methodology](../docs/methodology.md))" if r["judgments"].get("render_base") and not r["judgments"]["render_base"]["overridden_by_hand"] else (" (hand-verified against the README)" if r["render_base"] else "")),
+          "- **Stack:** " + stack_line(r),
           f"- **Language:** {r['language'] or 'Not reported'}",
           f"- **Last push:** {r['pushed_at'][:10]}" + (" (archived)" if r["archived"] else ""), "",
           "## Install", "", "_Not executed by us; copied from the README._", "", install_md(r), ""]

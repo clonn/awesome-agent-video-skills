@@ -8,7 +8,7 @@ Collection of 26 agent skills for screenwriting and television writing, distille
 
 - **Category:** Scriptwriting & Film Study (upstream's label)
 - **Best for:** Planning scripts and television writing with 26 skills; it produces text, not video.
-- **Stack:** Not specified in the README (our judgment: named in the README and confirmed as actually used; see [methodology](../docs/methodology.md))
+- **Stack:** Not specified in the README
 - **Language:** Python
 - **Last push:** 2026-09-22
 

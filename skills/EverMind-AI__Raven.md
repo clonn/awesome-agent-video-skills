@@ -10,7 +10,7 @@ Skill inside the larger Raven agent host that directs a two-minute animated film
 
 - **Category:** Explainers & Education (upstream's label)
 - **Best for:** Multi-agent projects; only its git-story-film skill makes video, turning a repository's Git history into a short film.
-- **Stack:** other: a bundled hand-drawn canvas animation engine, not Remotion or HyperFrames (per the skill path's README) (hand-verified against the README)
+- **Stack:** other: a bundled hand-drawn canvas animation engine, not Remotion or HyperFrames (per the skill path's README)
 - **Language:** Python
 - **Last push:** 2026-09-29
 

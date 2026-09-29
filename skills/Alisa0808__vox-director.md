@@ -8,7 +8,7 @@ Agent skill that takes a topic and produces a paper-collage explainer video, cov
 
 - **Category:** Explainers & Education (upstream's label)
 - **Best for:** Turning a topic into a paper-collage explainer video, from script through voice-over, music and captions.
-- **Stack:** ffmpeg (our judgment: named in the README and confirmed as actually used; see [methodology](../docs/methodology.md))
+- **Stack:** No rendering framework named; also uses ffmpeg
 - **Language:** Python
 - **Last push:** 2026-08-11
 

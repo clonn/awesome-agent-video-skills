@@ -10,7 +10,8 @@ Agent skill making voiceover-driven explainer videos with word-level sync, motio
 
 - **Category:** Explainers & Education (upstream's label)
 - **Best for:** Voiceover-driven explainer videos with word-level sync, motion recipe cards and a camera system.
-- **Stack:** Remotion, ffmpeg (our judgment: named in the README and confirmed as actually used; see [methodology](../docs/methodology.md))
+- **Stack:** Remotion (our judgment: named in the README and confirmed as actually used; see [methodology](../docs/methodology.md))
+- **Also uses:** ffmpeg
 - **Language:** HTML
 - **Last push:** 2026-09-22
 

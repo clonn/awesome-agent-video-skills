@@ -10,7 +10,7 @@ Guides an agent from a script and one authorized portrait to a checked AI presen
 
 - **Category:** AI Avatars (upstream's label)
 - **Best for:** Producing a checked presenter video from a script and one authorized portrait, with your choice of providers.
-- **Stack:** Not specified in the README
+- **Stack:** No rendering framework named in the README
 - **Language:** Python
 - **Last push:** 2026-09-27
 

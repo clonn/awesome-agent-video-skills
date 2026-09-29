@@ -8,7 +8,7 @@ Claude Code skill that removes silences and filler from long recordings using fo
 
 - **Category:** Editing & Post-production (upstream's label)
 - **Best for:** Tightening long recordings by removing silences and fillers while keeping laughs and comedic pauses.
-- **Stack:** ffmpeg (our judgment: named in the README and confirmed as actually used; see [methodology](../docs/methodology.md))
+- **Stack:** No rendering framework named; also uses ffmpeg
 - **Language:** Python
 - **Last push:** 2026-07-09
 

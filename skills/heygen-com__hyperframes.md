@@ -8,7 +8,8 @@ Open-source framework that renders HTML, CSS and seekable animations into determ
 
 - **Category:** Frameworks & Toolkits (upstream's label)
 - **Best for:** Rendering HTML and CSS animation into deterministic MP4 from the command line, with agent skills included.
-- **Stack:** HyperFrames, ffmpeg (our judgment: named in the README and confirmed as actually used; see [methodology](../docs/methodology.md))
+- **Stack:** HyperFrames (our judgment: named in the README and confirmed as actually used; see [methodology](../docs/methodology.md))
+- **Also uses:** ffmpeg
 - **Language:** TypeScript
 - **Last push:** 2026-09-29
 

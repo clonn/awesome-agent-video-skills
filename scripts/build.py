@@ -112,12 +112,14 @@ def usage_md(r):
 def stack_line(r):
     if r["stack_note"]:
         return "other: " + r["stack_note"]
-    if not r["render_base"]:
-        return "Not specified in the README"
+    bases = [x for x in r["render_base"] if x != "ffmpeg"]
+    also = "ffmpeg" in r["render_base"]
+    if not bases:
+        return "No rendering framework named" + ("; also uses ffmpeg" if also else " in the README")
     jr = r["judgments"].get("render_base")
     tail = " (our judgment: named in the README and confirmed as actually used; see [methodology](../docs/methodology.md))" \
         if jr and not jr["overridden_by_hand"] else " (hand-verified against the README)"
-    return ", ".join(r["render_base"]) + tail
+    return ", ".join(bases) + tail + ("\n- **Also uses:** ffmpeg" if also else "")
 
 
 def card(r):
@@ -169,8 +171,9 @@ def row(r, cards):
     name = f"[{r['id']}]({r['url']})"
     if r["id"] in cards:
         name += f" ([card](skills/{slug(r)}.md))"
+    bases = [x for x in r["render_base"] if x != "ffmpeg"]
     typ = r["type"] + (" (showcase)" if r["entry_kind"] == "showcase" else "")
-    return f"| {name} | {stars(r['stars'])} | {typ} | {', '.join(r['render_base']) or '-'} | {lic_short(r)} | {r['description_en']} |"
+    return f"| {name} | {stars(r['stars'])} | {typ} | {', '.join(bases) or '-'} | {lic_short(r)} | {r['description_en']} |"
 
 
 HEAD = "| Repo | Stars | Type | Built with | License | What it does |\n|---|---:|---|---|---|---|"
@@ -203,7 +206,8 @@ def main():
     L += [f"**{len(repos)} repositories** in {len(CATS)} categories. Stars, licenses and push dates come from the GitHub API and were checked on {checked}.", "",
           "**How to read this list.** Install and usage text is copied from each repository's README and was **not executed by us**. If a README has none, we say \"See README\". "
           "Upstream's SAFE/CAUTION grade covers the README and install steps only. Always read a tool's license and install steps before running it. "
-          "In the tables, `NC` after a license means non-commercial only, and `\u2014` means the repository has no license file (default copyright applies).", ""]
+          "In the tables, `NC` after a license means non-commercial only, and `\u2014` means the repository has no license file (default copyright applies). "
+          "The \"Built with\" column lists rendering frameworks and services; ffmpeg is omitted because so many tools use it as a helper (cards show it under \"Also uses\").", ""]
     if docs:
         L += ["## Guides", ""] + [f"- [{t}]({p})" for t, p in docs] + [""]
     L += ["## Quick picks", "", "Featured tools, each with a card (what it is, install, usage, license, safety).", "", HEAD]

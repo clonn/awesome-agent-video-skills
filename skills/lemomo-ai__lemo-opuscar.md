@@ -8,7 +8,7 @@ Library of film-style prompts, each with a short film built entirely in code by 
 
 - **Category:** Story & Animation (upstream's label)
 - **Best for:** Directing a short film from your own story using ready-made film-style prompts.
-- **Stack:** ffmpeg (our judgment: named in the README and confirmed as actually used; see [methodology](../docs/methodology.md))
+- **Stack:** No rendering framework named; also uses ffmpeg
 - **Language:** JavaScript
 - **Last push:** 2026-09-29
 

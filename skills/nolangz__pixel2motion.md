@@ -8,7 +8,7 @@ Codex and Claude skill that converts raster logos into clean SVG, then produces 
 
 - **Category:** Motion Graphics & Logos (upstream's label)
 - **Best for:** Animating a logo: converts a raster logo to SVG, then produces animated HTML demos and previews.
-- **Stack:** Not specified in the README
+- **Stack:** No rendering framework named in the README
 - **Language:** Python
 - **Last push:** 2026-08-21
 

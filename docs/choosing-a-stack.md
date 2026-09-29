@@ -1,6 +1,6 @@
 # Choosing a stack
 
-Most tools in this list do not render video themselves. They give a coding agent instructions (a "skill") and lean on a rendering base. Picking the base first narrows the list quickly. Counts below come from the "Built with" column, which is our judgment (a base counts only if the README names it and it is actually used; see [methodology](methodology.md)), as of the check date on the [README](../README.md). ffmpeg is the most common dependency (it appears in about 106 rows, often as a helper for cutting or encoding), so it is not a reason to choose a tool.
+Most tools in this list do not render video themselves. They give a coding agent instructions (a "skill") and lean on a rendering base. Picking the base first narrows the list quickly. Counts below come from the "Built with" column, which is our judgment (a base counts only if the README names it and it is actually used; see [methodology](methodology.md)), as of the check date on the [README](../README.md). ffmpeg is the most common dependency (it appears in about 106 rows, often as a helper for cutting or encoding), so it is not a reason to choose a tool and is left out of the "Built with" column (cards show it under "Also uses").
 
 | Base | What it is | Rows | Good fit | Watch out for |
 |---|---|---:|---|---|

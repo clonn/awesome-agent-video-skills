@@ -8,7 +8,7 @@ Conversational AI video editing agent that plans edits with an LLM, orchestrates
 
 - **Category:** Editing & Post-production (upstream's label)
 - **Best for:** Editing videos through conversation, with an LLM planning the edits and reusable style skills.
-- **Stack:** ffmpeg (our judgment: named in the README and confirmed as actually used; see [methodology](../docs/methodology.md))
+- **Stack:** No rendering framework named; also uses ffmpeg
 - **Language:** Python
 - **Last push:** 2026-07-31
 

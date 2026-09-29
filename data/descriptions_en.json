@@ -1,0 +1,1558 @@
+[
+ {
+  "id": "0xsline/OpenChatCut",
+  "description_en": "Local-first video editor with a multitrack timeline that Claude Code, Codex or a built-in agent can drive through skills and MCP.",
+  "type": "AI Tool",
+  "render_base": [
+   "Remotion"
+  ],
+  "evidence": "upstream desc: Remotion rendering; agent/MCP integration"
+ },
+ {
+  "id": "aaronyi97/image-story-video-wizard",
+  "description_en": "Step-by-step Codex and WorkBuddy skill guiding audio-first image-story videos from topic through script, images and final render.",
+  "type": "Codex Skill",
+  "render_base": [],
+  "evidence": "Codex/WorkBuddy skill; no render framework named"
+ },
+ {
+  "id": "acelera-agency/html-animation",
+  "description_en": "Skill that lets agents author animated logos and kinetic type as one HTML file, with MP4 export at square, portrait and other ratios.",
+  "type": "Claude Skill",
+  "render_base": [],
+  "evidence": "installs to ~/.claude/skills; HTML to MP4"
+ },
+ {
+  "id": "adithya-s-k/manim_skill",
+  "description_en": "Agent skills for creating mathematical animations with Manim Community Edition and ManimGL, with practices and code examples.",
+  "type": "Claude Skill",
+  "render_base": [
+   "Manim"
+  ],
+  "evidence": "'Agent skills for Manim'; 'npx skills add'"
+ },
+ {
+  "id": "adityaarsharma/youtube-marketing-skills",
+  "description_en": "Agent-agnostic YouTube growth toolkit with 21 commands and an MCP server connecting to live channel analytics for SEO, scripts and publishing.",
+  "type": "MCP Server",
+  "render_base": [],
+  "evidence": "skill suite plus youtube-channel-mcp; no rendering"
+ },
+ {
+  "id": "adriiita/vertical-video-editing-skill",
+  "description_en": "Claude skill that edits scripts and talking-head footage into polished vertical shorts, rendered through HyperFrames.",
+  "type": "Claude Skill",
+  "render_base": [
+   "HyperFrames"
+  ],
+  "evidence": "Claude Code skill; rendered with HyperFrames"
+ },
+ {
+  "id": "Agentchengfeng/chengfeng-videocut-skills",
+  "description_en": "Codex plugin installer for a video-cutting agent; provides workflow skills for cutting speech, subtitles, visuals and export, with a separate runtime.",
+  "type": "Codex Skill",
+  "render_base": [],
+  "evidence": "README: 'Codex Plugin 安装入口'; runtime separate, no renderer named"
+ },
+ {
+  "id": "AgriciDaniel/claude-gif",
+  "description_en": "Claude Code skill that makes GIFs through several pipelines, including Remotion animation, AI video, SVG capture and FFmpeg conversion, with palette tuning and looping.",
+  "type": "Claude Skill",
+  "render_base": [
+   "Remotion",
+   "ffmpeg"
+  ],
+  "evidence": "Claude Code Skill badge; pipelines list Remotion and FFmpeg"
+ },
+ {
+  "id": "AgriciDaniel/claude-shorts",
+  "description_en": "Claude Code skill that cuts long videos into vertical shorts, scoring segments with Claude and rendering animated captions.",
+  "type": "Claude Skill",
+  "render_base": [
+   "Remotion",
+   "ffmpeg"
+  ],
+  "evidence": "Claude Code skill; Remotion renders 1080x1920, FFmpeg stream copy"
+ },
+ {
+  "id": "AgriciDaniel/lipnardo",
+  "description_en": "Claude Code skill for generating HeyGen avatar videos, including batch runs, templates, photo avatars, translation and credit estimates.",
+  "type": "Claude Skill",
+  "render_base": [
+   "HeyGen"
+  ],
+  "evidence": "'Claude Code skill' powered by HeyGen REST API"
+ },
+ {
+  "id": "ahmdd4vd/MotionCraft",
+  "description_en": "Agent skill that researches a topic, scripts it, generates music and effects, then builds and renders a motion graphics video with Remotion.",
+  "type": "Claude Skill",
+  "render_base": [
+   "Remotion"
+  ],
+  "evidence": "'Agent Skill' via npx skills; built with Remotion"
+ },
+ {
+  "id": "aijiduonadegou/Paper-Cut",
+  "description_en": "Codex skill for paper-cut style explainer videos, using image-model stills, extracted layers and code animation, with approval gates and QA.",
+  "type": "Codex Skill",
+  "render_base": [
+   "HyperFrames"
+  ],
+  "evidence": "'面向 Codex 的开源 skill'; HyperFrames GSAP project"
+ },
+ {
+  "id": "AKMessi/vex",
+  "description_en": "Terminal video-editing agent that edits footage copies via an LLM tool loop, with generated visuals for scenes and shorts.",
+  "type": "Agent Tool",
+  "render_base": [
+   "ffmpeg",
+   "HyperFrames",
+   "Manim",
+   "Remotion"
+  ],
+  "evidence": "edits with FFmpeg; Hyperframes, Manim, or Remotion generation"
+ },
+ {
+  "id": "alexgreensh/anidoodle",
+  "description_en": "Agent skill that generates hand-drawn style illustrations, drawing films and interactive art as deterministic code in 31 styles, with generated music.",
+  "type": "Claude Skill",
+  "render_base": [],
+  "evidence": "works in Claude Code/Codex as skill; render engine not shown"
+ },
+ {
+  "id": "Alisa0808/vox-director",
+  "description_en": "Agent skill that takes a topic and produces a paper-collage explainer video, covering script, keyframes, motion, voice-over, music and captions.",
+  "type": "Claude Skill",
+  "render_base": [
+   "ffmpeg"
+  ],
+  "evidence": "'agent skill' using Atlas Cloud API + local ffmpeg"
+ },
+ {
+  "id": "AllenAI2014/remotion-guofeng-starter",
+  "description_en": "Remotion asset library and workflow skill for producing Chinese paper-collage style animated videos from a poem or idiom via a single render command.",
+  "type": "Claude Skill",
+  "render_base": [
+   "Remotion"
+  ],
+  "evidence": "SKILL.md for Claude Code/Codex; npm run render with Remotion components"
+ },
+ {
+  "id": "AmazingAng/ccvideo",
+  "description_en": "Claude Code skill producing terminal-style product promo videos from real captured runs, with props verified against raw output.",
+  "type": "Claude Skill",
+  "render_base": [
+   "Remotion"
+  ],
+  "evidence": "Claude Code skill; rebuilt in Remotion"
+ },
+ {
+  "id": "Anil-matcha/vox-ai-motion-graphics-generator",
+  "description_en": "Agent skill that takes a topic and produces a narrated, captioned paper-collage explainer video through script, keyframe, animation and audio stages.",
+  "type": "Claude Skill",
+  "render_base": [],
+  "evidence": "'agent skill for Claude Code, Codex'; renderer not named"
+ },
+ {
+  "id": "Anil-matcha/zack-d-films-ai-video-generator",
+  "description_en": "Agent skill that generates a 3D animated explainer short from a topic, including scripts, character sheets, keyframes, narration and edits.",
+  "type": "Claude Skill",
+  "render_base": [
+   "ffmpeg"
+  ],
+  "evidence": "'agent skill' via SKILL.md; MuAPI + ffmpeg"
+ },
+ {
+  "id": "Arman-Luthra/aftr",
+  "description_en": "Controller that lets Claude Code drive Adobe After Effects through a WebSocket panel, exposing an MCP endpoint and an automated render-review-revise pipeline.",
+  "type": "MCP Server",
+  "render_base": [
+   "After Effects"
+  ],
+  "evidence": "Node controller serves MCP endpoint; CEP panel runs ExtendScript in AE"
+ },
+ {
+  "id": "AsadMoulviDev/reel-video",
+  "description_en": "Local CLI and browser review board where coding agents turn an idea into storyboard, keyframes and short AI-generated videos.",
+  "type": "Agent Tool",
+  "render_base": [],
+  "evidence": "TypeScript CLI for agents; generation via Grok Build, no render framework named"
+ },
+ {
+  "id": "ayushozha/AdobePremiereProMCP",
+  "description_en": "MCP server exposing over a thousand tools to control Adobe Premiere Pro timelines, audio, effects and exports from AI clients.",
+  "type": "MCP Server",
+  "render_base": [
+   "Premiere Pro"
+  ],
+  "evidence": "MCP server for Adobe Premiere Pro"
+ },
+ {
+  "id": "bangtutorial/bang-motion",
+  "description_en": "Agent skill that makes browser-based motion graphics such as openers and explainers as a single index.html, with style and structure rules.",
+  "type": "Claude Skill",
+  "render_base": [],
+  "evidence": "'agent skill'; single index.html output"
+ },
+ {
+  "id": "BayramAnnakov/remotion-video-director",
+  "description_en": "Interactive Claude Code skill that guides video creation from creative brief and scene design through Remotion builds to a rendered MP4.",
+  "type": "Claude Skill",
+  "render_base": [
+   "Remotion"
+  ],
+  "evidence": "'Claude Code skill'; Remotion patterns, rendered MP4"
+ },
+ {
+  "id": "bbylw/hyperframes-cn",
+  "description_en": "Chinese translation of the HyperFrames framework docs, which turns HTML, CSS and seekable animation into deterministic MP4 video, with agent skills.",
+  "type": "Claude Skill",
+  "render_base": [
+   "HyperFrames"
+  ],
+  "evidence": "'npx skills add heygen-com/hyperframes'; HTML to MP4"
+ },
+ {
+  "id": "bestagentkits/motion-video-skill",
+  "description_en": "Builds 1080p motion-graphic videos in HyperFrames, timed to a music beat, with synthetic narration, subtitles, sound effects and a generated soundtrack.",
+  "type": "Claude Skill",
+  "render_base": [
+   "HyperFrames"
+  ],
+  "evidence": "npx skills add; author index.html for HyperFrames"
+ },
+ {
+  "id": "blixvip/easyedit",
+  "description_en": "Local tool that builds a captioned movie-speech and beat-cut fan edit from a movie name, planned by Claude Code or Codex.",
+  "type": "Agent Tool",
+  "render_base": [],
+  "evidence": "python -m easyedit CLI; render tooling not evidenced"
+ },
+ {
+  "id": "BusyBee3333/animated-explainer-skills",
+  "description_en": "Skills and tools for building animated explainer videos as a single self-contained HTML file with GSAP animation, overlap checking and ElevenLabs narration.",
+  "type": "Claude Skill",
+  "render_base": [
+   "other"
+  ],
+  "evidence": "'Claude Code skills'; GSAP-driven self-contained HTML"
+ },
+ {
+  "id": "calesthio/OpenMontage",
+  "description_en": "Open-source agentic video production system with many pipelines and tools that lets a coding assistant handle research, scripting, assets, editing and composition.",
+  "type": "Agent Tool",
+  "render_base": [],
+  "evidence": "'agentic video production system'; renderer not shown in head"
+ },
+ {
+  "id": "cartesiancs/cartcut",
+  "description_en": "Cross-platform desktop video editor with layers, keyframes and captions that exposes its timeline over MCP for Claude Code.",
+  "type": "Agent Tool",
+  "render_base": [
+   "ffmpeg"
+  ],
+  "evidence": "'Fast rendering with FFmpeg'; timeline over MCP"
+ },
+ {
+  "id": "Cassette-Editor/oh-my-cassette",
+  "description_en": "Plugin and local MCP server that lets coding agents edit a folder of raw clips into a beat-synced finished cut.",
+  "type": "MCP Server",
+  "render_base": [
+   "ffmpeg"
+  ],
+  "evidence": "plugin and local MCP server; needs ffmpeg"
+ },
+ {
+  "id": "cclank/lanshu-create-ai-presenter-video",
+  "description_en": "Guides an agent from a script and one authorized portrait to a checked AI presenter video, with interchangeable voice and video providers.",
+  "type": "Codex Skill",
+  "render_base": [
+   "ffmpeg"
+  ],
+  "evidence": "Agent Skill SKILL.md; FFmpeg Required badge"
+ },
+ {
+  "id": "cclank/lanshu-html2video-skill",
+  "description_en": "Codex skill converting web articles into 1080p videos using a storyboard file and an included Remotion project.",
+  "type": "Codex Skill",
+  "render_base": [
+   "Remotion"
+  ],
+  "evidence": "Codex Skill badge; Remotion render pipeline"
+ },
+ {
+  "id": "centraltowerlabs/diagram-tour",
+  "description_en": "Claude Code skill that analyzes a codebase, writes a Graphviz diagram and narration, and renders a narrated architecture-tour video with Piper voice.",
+  "type": "Claude Skill",
+  "render_base": [
+   "ffmpeg"
+  ],
+  "evidence": "'Claude Code skill'; deterministic ffmpeg pipeline"
+ },
+ {
+  "id": "chenmisss/laoxu-video-script",
+  "description_en": "Skill teaching account positioning, topic selection, spoken-script writing and review for beginner social media creators.",
+  "type": "Claude Skill",
+  "render_base": [],
+  "evidence": "'skill'; installs via npx skills add; no rendering"
+ },
+ {
+  "id": "ChenShuo2004/cs-shotcraft-skill",
+  "description_en": "Codex skill for cinematic product promo videos, offering shot recipe cards, camera-table motion and a template built on Remotion.",
+  "type": "Codex Skill",
+  "render_base": [
+   "Remotion"
+  ],
+  "evidence": "turns Codex into motion studio with Remotion"
+ },
+ {
+  "id": "chenyuxiaojin/cyxj-hyperframes",
+  "description_en": "Reusable HyperFrames and GSAP video projects for Claude Code tutorials; the maintainer now treats the repo as maintenance-only.",
+  "type": "Agent Tool",
+  "render_base": [
+   "HyperFrames"
+  ],
+  "evidence": "Renderer HeyGen HyperFrames badge"
+ },
+ {
+  "id": "chenyuxiaojin/cyxj-remotion-starter",
+  "description_en": "Scaffold for directing Remotion video production from Claude Code, with layered architecture, guard hooks and workflow skills.",
+  "type": "Agent Tool",
+  "render_base": [
+   "Remotion"
+  ],
+  "evidence": "Claude Code workbench; Remotion studio/render commands"
+ },
+ {
+  "id": "cocolayuan/videoclip-AI-skill",
+  "description_en": "Set of Claude skills that transcribe talking videos, flag filler and silence, cut with FFmpeg, and add subtitles with keyword highlighting.",
+  "type": "Claude Skill",
+  "render_base": [
+   "ffmpeg"
+  ],
+  "evidence": "'Claude Skill'; 'videocut' skills execute FFmpeg cuts"
+ },
+ {
+  "id": "coding-ax/docvideoer",
+  "description_en": "Agent skill and CLI that turns documents or storyboards into narrated Remotion videos, including text fetching, free TTS and MP4 rendering.",
+  "type": "Claude Skill",
+  "render_base": [
+   "Remotion"
+  ],
+  "evidence": "'Agent Skill and local CLI'; Remotion project generation"
+ },
+ {
+  "id": "cymcymcymcym/notes-to-video",
+  "description_en": "Claude Code skill converting LaTeX, PDF or text notes into narrated 3Blue1Brown-style explainer videos with Manim, TTS and ffmpeg.",
+  "type": "Claude Skill",
+  "render_base": [
+   "Manim",
+   "ffmpeg"
+  ],
+  "evidence": "Claude Code skill; Manim + TTS + ffmpeg pipeline"
+ },
+ {
+  "id": "darrenli6/JJKoubo",
+  "description_en": "Codex skill set for editing talking-head videos locally, covering transcription, recuts, hook selection and HyperFrames motion captions.",
+  "type": "Codex Skill",
+  "render_base": [
+   "HyperFrames"
+  ],
+  "evidence": "Skills for Codex; HyperFrames motion captions"
+ },
+ {
+  "id": "davidcervinka/vibe-editing",
+  "description_en": "Documents a workflow where Claude Code edits, scores, captions and animates videos using ffmpeg, ElevenLabs and HyperFrames.",
+  "type": "Agent Tool",
+  "render_base": [
+   "ffmpeg",
+   "HyperFrames"
+  ],
+  "evidence": "'Claude Code drives ffmpeg, ElevenLabs, HyperFrames'"
+ },
+ {
+  "id": "derrickgong87/demo-video-creation-skill",
+  "description_en": "Codex skill producing SaaS product demos from a company URL and screenshots via Remotion and FFmpeg, with quality-check scripts.",
+  "type": "Codex Skill",
+  "render_base": [
+   "Remotion",
+   "ffmpeg"
+  ],
+  "evidence": "Copy to '.codex/skills'; 'build the video with Remotion and FFmpeg'"
+ },
+ {
+  "id": "diffusionstudio/lottie",
+  "description_en": "Agent skill and player workspace for generating Lottie animations from prompts with Claude Code, Codex or similar coding agents.",
+  "type": "Claude Skill",
+  "render_base": [
+   "Lottie"
+  ],
+  "evidence": "npx skills add; scenes stored as lottie.json"
+ },
+ {
+  "id": "digitalsamba/claude-code-video-toolkit",
+  "description_en": "Claude Code workspace of skills, commands and templates that scripts, voices and renders complete videos on open models.",
+  "type": "Agent Tool",
+  "render_base": [],
+  "evidence": "toolkit for Claude Code; render framework not shown in head"
+ },
+ {
+  "id": "dlazy-ai/ai-product-video",
+  "description_en": "Skill for Claude Code or Codex that plans and builds cinematic product promo videos from shot recipe cards using Remotion components.",
+  "type": "Claude Skill",
+  "render_base": [
+   "Remotion"
+  ],
+  "evidence": "'AI agent skill'; Remotion implementations"
+ },
+ {
+  "id": "doublesq97-ui/su-card-to-video",
+  "description_en": "Minimal template and skill that turns HTML/CSS cards and audio into a 16:9 video via HyperFrames, GSAP and FFmpeg.",
+  "type": "Codex Skill",
+  "render_base": [
+   "HyperFrames",
+   "ffmpeg"
+  ],
+  "evidence": "'Skill / 模板'; Codex use; HyperFrames + FFmpeg workflow"
+ },
+ {
+  "id": "erduo1998-cell/erduo-broll-loop-engineering",
+  "description_en": "Agent skill that turns an SRT and design brief into editable B-roll, per-shot clips and a preview via multi-role review loops.",
+  "type": "Claude Skill",
+  "render_base": [
+   "HyperFrames",
+   "Remotion"
+  ],
+  "evidence": "upstream: dual backend HyperFrames/Remotion; hosts Codex, Claude Code"
+ },
+ {
+  "id": "erduo1998-cell/video-script-builder",
+  "description_en": "Agent skill converting Chinese video transcripts into framework-specific storyboard specs for HyperFrames or Remotion agents.",
+  "type": "Claude Skill",
+  "render_base": [],
+  "evidence": "AI Agent Skill producing specs only; renders elsewhere"
+ },
+ {
+  "id": "eternityspring/reelbench-skills",
+  "description_en": "Collection of Claude Code and Codex skills for video work, including shot-by-shot analysis, synced storyboard videos and metadata cleaning.",
+  "type": "Claude Skill",
+  "render_base": [],
+  "evidence": "'Claude Code / Codex skill'; ffmpeg only measures cuts"
+ },
+ {
+  "id": "EverMind-AI/Raven",
+  "description_en": "Multi-agent orchestration host that coordinates built-in and third-party agents on research, coding and design tasks; video use is one showcase.",
+  "type": "AI Tool",
+  "render_base": [],
+  "evidence": "'Host Agent' orchestrating agents; no renderer evidenced"
+ },
+ {
+  "id": "Fagan1024/smart-video-editor",
+  "description_en": "Video editing skill that analyzes sampled frames with a vision model, drops unusable takes, reorders clips by narrative, then renders the cut.",
+  "type": "Claude Skill",
+  "render_base": [
+   "ffmpeg"
+  ],
+  "evidence": "skill workflow '抽帧...渲染'; upstream mentions ffmpeg render"
+ },
+ {
+  "id": "fernandokaraka/remotion-motion-graphics-skill",
+  "description_en": "Claude Code skill for building animated motion graphics with Remotion, exporting MP4 or transparent ProRes and PNG overlays.",
+  "type": "Claude Skill",
+  "render_base": [
+   "Remotion"
+  ],
+  "evidence": "'a Claude Code skill'; Remotion export"
+ },
+ {
+  "id": "Finderchangchang/promo-video-skill",
+  "description_en": "Turns a product brief into a vertical promo video with AI-selected shots and copy, using three recipes, industry presets and ad-law checks.",
+  "type": "Agent Tool",
+  "render_base": [
+   "Remotion"
+  ],
+  "evidence": "Remotion 4.0 badge; one-command render from brief"
+ },
+ {
+  "id": "FireRedTeam/FireRed-OpenStoryline",
+  "description_en": "Conversational AI video editing agent that plans edits with an LLM, orchestrates tools and reuses style skills.",
+  "type": "AI Tool",
+  "render_base": [],
+  "evidence": "AI video editing agent; no render framework in readme head"
+ },
+ {
+  "id": "geekjourneyx/hyperframes-motion-director",
+  "description_en": "Agent skill for planning, producing and reviewing HyperFrames motion videos from articles, products, websites or READMEs, defaulting to vertical Chinese promos.",
+  "type": "Claude Skill",
+  "render_base": [
+   "HyperFrames"
+  ],
+  "evidence": "Agent Skill badge; HyperFrames motion-video production"
+ },
+ {
+  "id": "gloweaseco-leo/hyperdirector",
+  "description_en": "Hermes skill pack that structures video production from brief to storyboard, HTML project, checks and HyperFrames render.",
+  "type": "Agent Tool",
+  "render_base": [
+   "HyperFrames"
+  ],
+  "evidence": "Hermes Skill Pack on HyperFrames, lint/render"
+ },
+ {
+  "id": "gnipbao/minimax-h3-video-reverse-skill",
+  "description_en": "Skill that reverse-engineers a reference video into MiniMax H3 video-generation prompts after confirming the agent's understanding with the user.",
+  "type": "Codex Skill",
+  "render_base": [],
+  "evidence": "installs to Codex skills; SKILL.md; no renderer"
+ },
+ {
+  "id": "gnipbao/story-to-handdrawn-video",
+  "description_en": "Skill that turns Chinese stories or images into portrait hand-drawn animated videos, rendered through Remotion.",
+  "type": "Claude Skill",
+  "render_base": [
+   "Remotion"
+  ],
+  "evidence": "'Agent Skill'; 'Remotion 渲染'"
+ },
+ {
+  "id": "GordenSun/react-bits-video",
+  "description_en": "Skill for authoring animated videos as one standalone HTML file with text effects, backgrounds and shader presets, rendered deterministically to MP4.",
+  "type": "Claude Skill",
+  "render_base": [],
+  "evidence": "'Cursor / Codex / Claude Code Skill'; renderer unnamed"
+ },
+ {
+  "id": "gorkem-bwl/onboarding-video-generator",
+  "description_en": "Claude Code skill producing short silent looping web-app onboarding videos sized for page columns using Remotion.",
+  "type": "Claude Skill",
+  "render_base": [
+   "Remotion"
+  ],
+  "evidence": "Claude Code skill produces videos in Remotion"
+ },
+ {
+  "id": "hahadu4520/newcut-video-clipping-skill",
+  "description_en": "Codex skill cutting Chinese long videos into viewpoint clips with transcription, cleanup, captions and titles rendered by FFmpeg.",
+  "type": "Codex Skill",
+  "render_base": [
+   "ffmpeg"
+  ],
+  "evidence": "Codex skill; FFmpeg batch rendering"
+ },
+ {
+  "id": "hahadu4520/vlog-cut",
+  "description_en": "Set of Claude Code skills that voice a script, tag footage, cut clips to match narration and add Chinese subtitles for vlogs.",
+  "type": "Claude Skill",
+  "render_base": [
+   "ffmpeg"
+  ],
+  "evidence": "'Claude Code skill'; requires ffmpeg"
+ },
+ {
+  "id": "hassancs91/claude-faceless-shorts-creator",
+  "description_en": "Claude Code project for faceless short videos with three pipelines, Remotion code visuals, generative clips and paper collage, plus ElevenLabs captions.",
+  "type": "Claude Skill",
+  "render_base": [
+   "Remotion"
+  ],
+  "evidence": "'/make-short' TSX track is 'a Remotion composition'"
+ },
+ {
+  "id": "hassancs91/claude-youtube-editor",
+  "description_en": "Open-source pipeline in which Claude Code edits a talking-head recording, builds Remotion screen visuals and voice, and uploads to YouTube.",
+  "type": "Agent Tool",
+  "render_base": [
+   "Remotion"
+  ],
+  "evidence": "screen moments built as Remotion TSX composited over cut"
+ },
+ {
+  "id": "hetpatel-11/Adobe_Premiere_Pro_MCP",
+  "description_en": "MCP server operating local Adobe Premiere Pro projects through a CEP bridge for Codex, Claude and other clients.",
+  "type": "MCP Server",
+  "render_base": [
+   "Premiere Pro"
+  ],
+  "evidence": "MCP Bridge for Adobe Premiere Pro"
+ },
+ {
+  "id": "heygen-com/hyperframes",
+  "description_en": "Open-source framework that renders HTML, CSS and seekable animations into deterministic MP4 via a CLI, with agent skills and plugins.",
+  "type": "Agent Tool",
+  "render_base": [
+   "HyperFrames"
+  ],
+  "evidence": "'HTML to deterministic MP4', CLI plus skills"
+ },
+ {
+  "id": "heygen-com/skills",
+  "description_en": "Agent skills for creating avatar videos and video production with HeyGen's API, usable from Claude Code, Codex and other agents.",
+  "type": "Claude Skill",
+  "render_base": [
+   "HeyGen"
+  ],
+  "evidence": "'AI agent skills'; HeyGen avatar and video"
+ },
+ {
+  "id": "hi-nikola/hand-drawn-explainer-video-nikola",
+  "description_en": "Codex skill for Chinese hand-drawn explainer videos, offering stroke-by-stroke story animation or programmatic HTML/SVG/GSAP animation with MP4 and subtitles.",
+  "type": "Codex Skill",
+  "render_base": [],
+  "evidence": "Codex Skill; HTML/SVG/GSAP routes, no named engine"
+ },
+ {
+  "id": "holy-templar/vox-animated-ad-mcp",
+  "description_en": "Claude skill using an image and video generation MCP to build Vox-style paper-collage explainers and ads from one sentence.",
+  "type": "Claude Skill",
+  "render_base": [],
+  "evidence": "skill using MaxFusion MCP; no render framework"
+ },
+ {
+  "id": "hypit-ai/hypit",
+  "description_en": "Toolkit letting coding agents clone or write videos as word-anchored workflows with captions, B-roll and effects, and produce many variants.",
+  "type": "Agent Tool",
+  "render_base": [],
+  "evidence": "'gives AI agents a language and system to create video'"
+ },
+ {
+  "id": "iart-ai/ad-video-skills",
+  "description_en": "Claude Code skills for advertising video: one motion template becomes many branded variants, launch films and customer-testimonial clips.",
+  "type": "Claude Skill",
+  "render_base": [],
+  "evidence": "'npx skills add'; Claude Code plugin marketplace; renderer not named"
+ },
+ {
+  "id": "iart-ai/data-animation-skills",
+  "description_en": "Skills for coding agents that turn CSV data into animated charts and infographics with accurate numbers on every frame.",
+  "type": "Claude Skill",
+  "render_base": [],
+  "evidence": "npx skills add; Claude Code plugin marketplace"
+ },
+ {
+  "id": "iart-ai/explainer-video-skills",
+  "description_en": "Skills for coding agents that script, storyboard and render narrated explainers, recaps and animated diagrams.",
+  "type": "Claude Skill",
+  "render_base": [],
+  "evidence": "npx skills / Claude Code plugin; renderer not named in head"
+ },
+ {
+  "id": "iart-ai/motion-design-skills",
+  "description_en": "Installable skills covering motion design fundamentals, After Effects, Remotion engines, logos and backgrounds for coding agents.",
+  "type": "Claude Skill",
+  "render_base": [
+   "After Effects",
+   "Remotion"
+  ],
+  "evidence": "'installable skills'; After Effects, Remotion in list"
+ },
+ {
+  "id": "iart-ai/motion-skills",
+  "description_en": "Collection of about fifty motion graphics skills for coding agents, covering typography, charts, explainers, social video, 3D and web motion.",
+  "type": "Claude Skill",
+  "render_base": [],
+  "evidence": "'open-source skills' packs; renderer not specified in head"
+ },
+ {
+  "id": "iart-ai/tiktok-video-skills",
+  "description_en": "Skills for coding agents on engineering short-form videos for TikTok, Reels and Shorts, covering hook and retention structure.",
+  "type": "Claude Skill",
+  "render_base": [],
+  "evidence": "npx skills add; Claude Code plugin marketplace"
+ },
+ {
+  "id": "icytear-svg/podcast-to-video",
+  "description_en": "Codex skill turning podcast audio, cover art and subtitles into captioned waveform videos for vertical or horizontal platforms.",
+  "type": "Codex Skill",
+  "render_base": [
+   "ffmpeg"
+  ],
+  "evidence": "Codex skill; FFmpeg composites video"
+ },
+ {
+  "id": "inematds/skill-video-plan-editor",
+  "description_en": "Claude Code skill that converts a topic or link into a renderer-agnostic edit plan JSON, with optional rendering via HyperFrames or FFmpeg.",
+  "type": "Claude Skill",
+  "render_base": [
+   "HyperFrames",
+   "ffmpeg"
+  ],
+  "evidence": "'Skill (Claude Code)'; render via HyperFrames/FFmpeg"
+ },
+ {
+  "id": "intelligent-iterations/ii-content-engine",
+  "description_en": "Content engine for Claude Code or Codex that generates and schedules videos and carousels from plain-English prompts using Grok.",
+  "type": "Agent Tool",
+  "render_base": [],
+  "evidence": "'Open the repo in Claude Code or Codex'; renderer not named"
+ },
+ {
+  "id": "jackjls/jtxvideo-skill",
+  "description_en": "Codex skill for making Chinese talking-head finance videos in HyperFrames, following reviewed SRT, structure, storyboard and design steps.",
+  "type": "Codex Skill",
+  "render_base": [
+   "HyperFrames"
+  ],
+  "evidence": "Codex + HyperFrames skill; HTML/CSS/GSAP project"
+ },
+ {
+  "id": "jaxxchen003/book-video-factory",
+  "description_en": "Codex skill for rights-aware Chinese book-review short videos, with auditable evidence, approvals and two visual styles.",
+  "type": "Codex Skill",
+  "render_base": [],
+  "evidence": "installable Codex skill; no render framework named"
+ },
+ {
+  "id": "jhartquist/claude-remotion-kickstart",
+  "description_en": "Remotion starter kit for Claude Code with prebuilt components, AI asset generation commands and transcript-timed captions for programmatic videos.",
+  "type": "Agent Tool",
+  "render_base": [
+   "Remotion"
+  ],
+  "evidence": "'starter kit with Claude Code and Remotion'"
+ },
+ {
+  "id": "JimLiu/baocut",
+  "description_en": "Agent skill that lets Claude Code or Codex operate the BaoCut macOS app CLI for transcription, subtitles, translation, cutting and export.",
+  "type": "Claude Skill",
+  "render_base": [
+   "other"
+  ],
+  "evidence": "Agent Skill driving BaoCut bcut CLI"
+ },
+ {
+  "id": "JimLiu/taohuayuan",
+  "description_en": "Interactive real-time 3D web scroll of the classical Chinese story Peach Blossom Spring, built with three.js.",
+  "type": "AI Tool",
+  "render_base": [
+   "other"
+  ],
+  "evidence": "three.js WebGL scene, npm build to dist"
+ },
+ {
+  "id": "jincheng2026/jc-remotion-skills",
+  "description_en": "Claude Code and Codex workflow that turns talking-head rough cuts and SRT files into finished videos with Remotion graphics and sound design.",
+  "type": "Claude Skill",
+  "render_base": [
+   "Remotion"
+  ],
+  "evidence": "'Remotion Koubo Skill'; 6 Skills; Remotion rendering"
+ },
+ {
+  "id": "jinjin1/scenewright",
+  "description_en": "Claude Code pipeline turning source text into narrated Remotion-rendered Korean explainer videos using local TTS and JSON stage files.",
+  "type": "Claude Skill",
+  "render_base": [
+   "Remotion"
+  ],
+  "evidence": "slash commands in Claude Code; Remotion render"
+ },
+ {
+  "id": "JohnHeibel/ClaudeAnimationBase",
+  "description_en": "Starter kit and guide for having Claude animate a hand-painted cartoon character using p5.js and p5.brush, outputting an MP4.",
+  "type": "Agent Tool",
+  "render_base": [
+   "p5.js"
+  ],
+  "evidence": "p5.js + p5.brush kit; agent guide"
+ },
+ {
+  "id": "JohnHeibel/PDoomVideo",
+  "description_en": "Source code for an animated music video generated by Claude, with scenes, storyboard and animation guide.",
+  "type": "AI Tool",
+  "render_base": [
+   "p5.js"
+  ],
+  "evidence": "Storyboard told to use 'P5 brushstrokes'"
+ },
+ {
+  "id": "Johnson-Jia/video-clipforge",
+  "description_en": "Short-video production system that writes scripts, narrates, animates and renders finished videos through a nine-stage pipeline, with scheduled daily runs.",
+  "type": "Agent Tool",
+  "render_base": [
+   "HyperFrames"
+  ],
+  "evidence": "README/upstream: built on Claude Code + HyperFrames"
+ },
+ {
+  "id": "jtydhr88/screenwriting-skills",
+  "description_en": "Collection of 26 agent skills for screenwriting and television writing, distilled from craft books and scripts.",
+  "type": "Claude Skill",
+  "render_base": [],
+  "evidence": "SKILL.md files, Claude Code plugin; not a video renderer"
+ },
+ {
+  "id": "JUNKDOGE-JOE/after-effects-mcp",
+  "description_en": "MCP server with an After Effects CEP plugin that lets coding agents control After Effects through about thirty tools.",
+  "type": "MCP Server",
+  "render_base": [
+   "After Effects"
+  ],
+  "evidence": "'MCP server + CEP plugin'; drives After Effects"
+ },
+ {
+  "id": "kakaxi12/vox-director-codex",
+  "description_en": "Codex skill directing Vox-style paper-collage videos with generated images, MiniMax narration and music, animated in HyperFrames or Remotion.",
+  "type": "Codex Skill",
+  "render_base": [
+   "HyperFrames",
+   "Remotion"
+  ],
+  "evidence": "'Codex skill'; HyperFrames animation, Remotion optional"
+ },
+ {
+  "id": "kangarooking/director-skills",
+  "description_en": "Agent skills for AI video direction, covering travel films, cinematic asset prompts, fight-scene prompts and dependable video generation.",
+  "type": "Claude Skill",
+  "render_base": [],
+  "evidence": "'Agent Skills' for Claude Code/Codex; no renderer"
+ },
+ {
+  "id": "kangarooking/promo-creator-skills",
+  "description_en": "Set of agent skills for product promo videos covering positioning, storyboard, assets, HyperFrames editing and BGM design.",
+  "type": "Claude Skill",
+  "render_base": [
+   "HyperFrames"
+  ],
+  "evidence": "npx skills add; HyperFrames editing workflow"
+ },
+ {
+  "id": "Kappaemme-git/codex-video-short-maker-skill",
+  "description_en": "Codex skill that removes dead air from local videos, exports vertical shorts and burns in local Whisper captions.",
+  "type": "Codex Skill",
+  "render_base": [],
+  "evidence": "Codex skill in ~/.codex/skills; H.264 export, tools not named"
+ },
+ {
+  "id": "kiki-lgtm-dot/cinematic-product-promo-skill",
+  "description_en": "Agent skill for cinematic product promo videos with shot recipe cards, camera motion and sound design, rendered in Remotion.",
+  "type": "Claude Skill",
+  "render_base": [
+   "Remotion"
+  ],
+  "evidence": "Claude Code or Codex skill; Remotion"
+ },
+ {
+  "id": "kingselyjoe/video-shotcraft-dsh",
+  "description_en": "Agent skill for DeepSeek Harness with shot recipe cards, Remotion templates and audio assets for cinematic product videos.",
+  "type": "Agent Tool",
+  "render_base": [
+   "Remotion"
+  ],
+  "evidence": "'DeepSeek Harness agent skill'; Remotion demos"
+ },
+ {
+  "id": "krusemediallc/video-editor-agent",
+  "description_en": "Claude Code skill pack that edits short-form videos from raw footage, with style cloning, ElevenLabs sound design and frame-level QA.",
+  "type": "Claude Skill",
+  "render_base": [],
+  "evidence": "'A Claude Code skill pack'; renderer not named"
+ },
+ {
+  "id": "kurbaitaev/ghost-editor",
+  "description_en": "Agent skill on HyperFrames that edits talking-head videos into reels, with captions, motion graphics, several styles and reference-edit imitation.",
+  "type": "Claude Skill",
+  "render_base": [
+   "HyperFrames"
+  ],
+  "evidence": "upstream: agent skill on HyperFrames"
+ },
+ {
+  "id": "leancoderkavy/premiere-pro-mcp",
+  "description_en": "MCP server that lets Claude, Cursor and Codex automate local Adobe Premiere Pro editing, organization and export checks.",
+  "type": "MCP Server",
+  "render_base": [
+   "Premiere Pro"
+  ],
+  "evidence": "Premiere Pro MCP server via CEP bridge"
+ },
+ {
+  "id": "ledbetterljoshua/functional-emotions-video",
+  "description_en": "Source code for a painted music video generated by Claude in Claude Code, including a custom GPU brushstroke renderer and storyboard.",
+  "type": "AI Tool",
+  "render_base": [],
+  "evidence": "'made by Claude Opus 5.5'; custom renderer, no named base"
+ },
+ {
+  "id": "lemomo-ai/lemo-opuscar",
+  "description_en": "Library of film-style prompts, each with a short film built entirely in code by Claude, for agents to direct your story.",
+  "type": "AI Tool",
+  "render_base": [],
+  "evidence": "style prompts plus code-made films; renderer not named"
+ },
+ {
+  "id": "leosssvip-dot/remotion-ad-video-skill",
+  "description_en": "Agent workflow that plans an ad from a URL and renders it with either Remotion or HyperFrames, selecting the renderer automatically.",
+  "type": "Claude Skill",
+  "render_base": [
+   "Remotion",
+   "HyperFrames"
+  ],
+  "evidence": "skill renders with Remotion or Hyperframes"
+ },
+ {
+  "id": "LetMeHappyCode/auto-video-agent",
+  "description_en": "Claude Code agents and workflows that turn SRT subtitles into shot lists, illustration prompts, generated images and a stitched silent video.",
+  "type": "Agent Tool",
+  "render_base": [],
+  "evidence": "Agents in .claude/agents, workflows; compositor not named"
+ },
+ {
+  "id": "Liamrjohnston/remotion-motion-graphics-skill",
+  "description_en": "Set of agent skills for producing motion graphics such as kinetic text, diagrams and camera moves as rendered Remotion clips.",
+  "type": "Claude Skill",
+  "render_base": [
+   "Remotion"
+  ],
+  "evidence": "'Four Agent Skills'; 'Made with Remotion'"
+ },
+ {
+  "id": "liangdabiao/story-handdrawn-remotion",
+  "description_en": "Skill turning story text into hand-drawn diary-comic vertical videos with progressive reveal layers, rendered in Remotion.",
+  "type": "Claude Skill",
+  "render_base": [
+   "Remotion",
+   "ffmpeg"
+  ],
+  "evidence": "Remotion render; ffmpeg splits layers"
+ },
+ {
+  "id": "liangdabiao/story-handdrawn-video",
+  "description_en": "Skill turning a story text into a vertical crayon-style short video using text-to-video clips, free TTS narration and Remotion assembly.",
+  "type": "Claude Skill",
+  "render_base": [
+   "Remotion"
+  ],
+  "evidence": "'Remotion 4.x' assembles clips, subtitles, audio"
+ },
+ {
+  "id": "liangdabiao/wechat-article-remotion",
+  "description_en": "Agent skill that converts a WeChat article into a Remotion video with a warm canvas, chapter progress and preserved original images.",
+  "type": "Claude Skill",
+  "render_base": [
+   "Remotion"
+  ],
+  "evidence": "'这是一个 Agent Skill'; 'Remotion 视频'"
+ },
+ {
+  "id": "liuliu-66-create/ll-video-decomposer",
+  "description_en": "Codex skill that analyzes videos, local media or transcripts across five layers, covering transcript, visuals, shots, captions and audio.",
+  "type": "Codex Skill",
+  "render_base": [],
+  "evidence": "Codex skill with $ll-video-decomposer trigger; analysis only"
+ },
+ {
+  "id": "liyue-aigc/xianxia-cinematic-video-director",
+  "description_en": "Codex skill directing Eastern xianxia videos with shot lists, camera movement plans and continuity locks; outputs prompts only.",
+  "type": "Codex Skill",
+  "render_base": [],
+  "evidence": "Codex/Agent Skill; prompt output, no renderer"
+ },
+ {
+  "id": "louisedesadeleer/cut-video",
+  "description_en": "Claude Code skill that removes silences and filler from long recordings using forced-alignment word timing, while keeping laughs and comedic pauses.",
+  "type": "Claude Skill",
+  "render_base": [],
+  "evidence": "'A Claude Code skill'; transcodes proxy, tool not named"
+ },
+ {
+  "id": "Maartenlouis/remotion-ads",
+  "description_en": "Claude Code skill for building Instagram Reels, explainers and carousel ads in Remotion with ElevenLabs voiceover and animated captions.",
+  "type": "Claude Skill",
+  "render_base": [
+   "Remotion"
+  ],
+  "evidence": "Claude Code skill; Remotion install and formats table"
+ },
+ {
+  "id": "magichourhq/skills",
+  "description_en": "Agent skills for image, video and audio generation through Magic Hour's MCP or API, with result inspection and file saving.",
+  "type": "Claude Skill",
+  "render_base": [],
+  "evidence": "'skills' using Magic Hour MCP or API; no render base"
+ },
+ {
+  "id": "manthanpatelll/leadgenman-video-skills",
+  "description_en": "Six Claude Code skills for a content pipeline from face-cam recording to posted Reel or YouTube upload, including SRT, captions and overlays.",
+  "type": "Claude Skill",
+  "render_base": [],
+  "evidence": "Claude Code skills list; rendering engine not named"
+ },
+ {
+  "id": "marketcalls/story-telling",
+  "description_en": "Agent skills that generate narrated story videos from a context using Sarvam voiceover, FLUX artwork and a Remotion render.",
+  "type": "Claude Skill",
+  "render_base": [
+   "Remotion"
+  ],
+  "evidence": "npx skills; Remotion render"
+ },
+ {
+  "id": "mattivilola/brag-codex",
+  "description_en": "Codex-compatible port of the brag skill that makes short launch videos for a project's website or app using HyperFrames.",
+  "type": "Codex Skill",
+  "render_base": [
+   "HyperFrames"
+  ],
+  "evidence": "'Codex skills directory'; Hyperframes launch video"
+ },
+ {
+  "id": "MegaTroll222/VOX-COLLAGE-BROLL",
+  "description_en": "Claude Code skill turning one spoken line into a five-second paper-collage explainer clip via image and video generation MCP.",
+  "type": "Claude Skill",
+  "render_base": [],
+  "evidence": "Claude Code skill + MaxFusion MCP; no render framework"
+ },
+ {
+  "id": "memex-lab/product-launch-video-skill",
+  "description_en": "Agent skill for cinematic product launch videos, from brief and assets through storyboard to a rendered Remotion video.",
+  "type": "Claude Skill",
+  "render_base": [
+   "Remotion"
+  ],
+  "evidence": "'AI agent skill'; 'art-directed Remotion launch video'"
+ },
+ {
+  "id": "misbahsy/tiktok-ig-shorts",
+  "description_en": "Collection of agent skills that edit talking-head footage into vertical shorts with captions, B-roll, picture-in-picture and motion graphics using HyperFrames.",
+  "type": "Claude Skill",
+  "render_base": [
+   "HyperFrames"
+  ],
+  "evidence": "upstream: Shorts using Hyperframes with Claude and Codex"
+ },
+ {
+  "id": "Mng-dev-ai/explainer-video",
+  "description_en": "Agent skill that writes an HTML/GSAP animation and free voiceover for a topic, records it headlessly and merges audio with ffmpeg.",
+  "type": "Claude Skill",
+  "render_base": [
+   "ffmpeg"
+  ],
+  "evidence": "'AI skill'; merges audio with ffmpeg"
+ },
+ {
+  "id": "molkex/mcp-flow-google",
+  "description_en": "MCP server giving Claude Code and Cursor access to Google Flow for Veo video and Nano Banana image generation.",
+  "type": "MCP Server",
+  "render_base": [],
+  "evidence": "MCP server; generation service, no render framework"
+ },
+ {
+  "id": "Monet-AI-Editor/Monet",
+  "description_en": "Local-first macOS video editor and design canvas with an embedded terminal so Claude Code or Codex can edit via editorctl, API bridge and MCP.",
+  "type": "Agent Tool",
+  "render_base": [],
+  "evidence": "'editorctl, local API bridge, and MCP'; no renderer named"
+ },
+ {
+  "id": "Mr-funny/hbg-douyin-code-explainer-video",
+  "description_en": "Codex skill for making Chinese vertical dialogue explainer videos in HyperFrames, with continuous TTS, Whisper alignment, stable BGM and final-video QA.",
+  "type": "Codex Skill",
+  "render_base": [
+   "HyperFrames"
+  ],
+  "evidence": "upstream: Codex skill, HyperFrames 9:16; HTML/CSS/SVG/GSAP"
+ },
+ {
+  "id": "Mr-funny/hbg-life-simulation",
+  "description_en": "Agent skill converting long Chinese life-story scripts into narrated comic-style videos with TTS, captions and QA.",
+  "type": "Claude Skill",
+  "render_base": [],
+  "evidence": "SKILL.md for Codex/Claude Code; Edge TTS, no render framework named"
+ },
+ {
+  "id": "mrieck/demoday-claude-plugin",
+  "description_en": "Claude Code plugin that drives your app on screen, writes a script, adds AI voiceover and builds a narrated demo video with Remotion.",
+  "type": "Claude Skill",
+  "render_base": [
+   "Remotion"
+  ],
+  "evidence": "'Claude Code plugin'; uses Remotion"
+ },
+ {
+  "id": "naive-kun/naive-video-skill",
+  "description_en": "Codex skill workflow that turns talking-head footage into captioned, animated final videos, previewed with HyperFrames and GSAP.",
+  "type": "Codex Skill",
+  "render_base": [
+   "HyperFrames"
+  ],
+  "evidence": "'给 Codex 使用'; 'HyperFrames + GSAP 预览'"
+ },
+ {
+  "id": "NarratorAI-Studio/narrator-ai-cli-skill",
+  "description_en": "SKILL.md that teaches an agent to drive the narrator-ai-cli tool for producing movie narration videos end to end.",
+  "type": "Claude Skill",
+  "render_base": [],
+  "evidence": "'machine-readable skill file (SKILL.md)'"
+ },
+ {
+  "id": "new-xp/ultrademo",
+  "description_en": "Claude Code skill and local pipeline that scripts, captures and narrates demo videos of web apps using a signed-in browser session.",
+  "type": "Claude Skill",
+  "render_base": [],
+  "evidence": "Claude Code skill drives capture-and-render pipeline"
+ },
+ {
+  "id": "ninestonelee/youtube-shorts-factory",
+  "description_en": "Claude Code skill analyzing reference YouTube Shorts, adapting their formula and producing a storyboard and AI Shorts.",
+  "type": "Claude Skill",
+  "render_base": [],
+  "evidence": "Claude Code skill; no render framework named"
+ },
+ {
+  "id": "nolangz/pixel2motion",
+  "description_en": "Codex and Claude skill that converts raster logos into clean SVG, then produces animated logo HTML demos, GIF/video previews and motion checks.",
+  "type": "Claude Skill",
+  "render_base": [],
+  "evidence": "'Codex and Claude skill'; SVG animation"
+ },
+ {
+  "id": "norahe0304-art/30x-video",
+  "description_en": "Claude Code skill that turns a website URL into a launch video with brand assets, AI voiceover and music, built with Remotion.",
+  "type": "Claude Skill",
+  "render_base": [
+   "Remotion"
+  ],
+  "evidence": "'A Claude Code skill (Remotion + React)'"
+ },
+ {
+  "id": "op7418/guizang-product-video-skill",
+  "description_en": "Skill that builds software-update promo videos in code by reusing real product components, with scripts, original music and sound effects.",
+  "type": "Claude Skill",
+  "render_base": [],
+  "evidence": "Claude Code and Codex agent skill; engine not named"
+ },
+ {
+  "id": "ops120/video-recap-skills-plus",
+  "description_en": "Claude Code skill cutting any video into a Chinese narrated recap using ffmpeg and a hosted model, with Jianying export.",
+  "type": "Claude Skill",
+  "render_base": [
+   "ffmpeg"
+  ],
+  "evidence": "claude code skill; ffmpeg assembly"
+ },
+ {
+  "id": "opus-pro/opus-video-studio",
+  "description_en": "Plugin for Claude Code and Codex offering open-source video templates and motion components to turn product news into finished videos.",
+  "type": "Claude Skill",
+  "render_base": [],
+  "evidence": "'plugin for Claude Code and Codex'; renderer not named"
+ },
+ {
+  "id": "patraxo/ltx2-vidgen-skill",
+  "description_en": "Claude Code skill that deploys a self-hosted LTX-2.3 video model on Modal GPUs for text, image and video-to-video generation with audio.",
+  "type": "Claude Skill",
+  "render_base": [],
+  "evidence": "'A Claude Code skill'; Modal-hosted LTX model, no listed base"
+ },
+ {
+  "id": "Phantomlau3674/voxstylehub-steven",
+  "description_en": "Codex skill that turns spoken scripts into editorial paper-collage explainer videos, with layered assets and deterministic text and charts.",
+  "type": "Codex Skill",
+  "render_base": [
+   "Remotion"
+  ],
+  "evidence": "'Codex Skill'; 'Remotion' rendering, ffmpeg for validation"
+ },
+ {
+  "id": "pjecuacion/script-to-video-skill",
+  "description_en": "Skill that turns a topic, script, audio or talking-head video into a timed HyperFrames composition with voiceover and storyboard.",
+  "type": "Claude Skill",
+  "render_base": [
+   "HyperFrames"
+  ],
+  "evidence": "composes HyperFrames project"
+ },
+ {
+  "id": "PoetCoderJun/MotionTalk",
+  "description_en": "Agent skill that adds motion graphics, overlays and subtitles to an edited talking-head video after the user approves a director plan.",
+  "type": "Claude Skill",
+  "render_base": [],
+  "evidence": "npx skills add; render scripts but engine not named"
+ },
+ {
+  "id": "pyang5166/gbro-collage-broll",
+  "description_en": "Skill producing five-second halftone paper-collage B-roll through three approval gates and first/last-frame video generation.",
+  "type": "Claude Skill",
+  "render_base": [],
+  "evidence": "agent skill; generation via Gemini, ffmpeg only auxiliary"
+ },
+ {
+  "id": "pyang5166/gbro-collage-info",
+  "description_en": "Agent skill turning voiceover scripts into vertical halftone paper-collage info animations, rendered locally with HTML, CSS and GSAP via HyperFrames.",
+  "type": "Claude Skill",
+  "render_base": [
+   "HyperFrames"
+  ],
+  "evidence": "'Agent Skill'; HyperFrames rendering"
+ },
+ {
+  "id": "qingyunAGI/qingyun-cine-skill",
+  "description_en": "Codex skill for plan-first cinematic video editing such as trailers and beat-synced montages, rendering only after user approval.",
+  "type": "Codex Skill",
+  "render_base": [],
+  "evidence": "'a Codex skill'; renderer not named"
+ },
+ {
+  "id": "remotion-dev/skills",
+  "description_en": "Official Remotion agent skills capturing best practices for working in Remotion projects, installable for Claude Code, Codex and similar agents.",
+  "type": "Claude Skill",
+  "render_base": [
+   "Remotion"
+  ],
+  "evidence": "npx skills add remotion-dev/skills; Remotion skills"
+ },
+ {
+  "id": "resemble-ai/remotion-resemble-skill",
+  "description_en": "Agent skill adding Resemble.ai text-to-speech voiceovers and caption sync to Remotion video projects.",
+  "type": "Claude Skill",
+  "render_base": [
+   "Remotion"
+  ],
+  "evidence": "npx skills; Remotion voiceover projects"
+ },
+ {
+  "id": "riffkit/skill",
+  "description_en": "Agent skill that studies a winning short video's formula and generates a new original video for your product through an AI assistant.",
+  "type": "Claude Skill",
+  "render_base": [],
+  "evidence": "'official Riffkit agent skill' for Claude Code"
+ },
+ {
+  "id": "runesleo/claude-video-kit",
+  "description_en": "Agent skill and Remotion pipeline that turns a brief or JSON script into a narrated vertical explainer with a review step before rendering.",
+  "type": "Claude Skill",
+  "render_base": [
+   "Remotion"
+  ],
+  "evidence": "'Agent Skill + Remotion pipeline'"
+ },
+ {
+  "id": "Samin12/samin-reel-engine-plugin",
+  "description_en": "Codex plugin bundling research-to-reel skills for scripting, B-roll, editing and review, with a local HyperFrames editing runtime.",
+  "type": "Codex Skill",
+  "render_base": [
+   "HyperFrames"
+  ],
+  "evidence": "Codex plugin; local HyperFrames editing runtime"
+ },
+ {
+  "id": "santmun/video-vox",
+  "description_en": "Claude Code project that generates vertical Vox-style animated shorts from a topic with script, voice, cartoon art, music and effects in Remotion.",
+  "type": "Claude Skill",
+  "render_base": [
+   "Remotion"
+  ],
+  "evidence": "Claude Code + Remotion 4 stack badge"
+ },
+ {
+  "id": "sharon-laicc/viral-video-decomposer",
+  "description_en": "Codex/Claude skill breaking down viral short videos into shot analysis, mechanisms and a reusable production brief.",
+  "type": "Claude Skill",
+  "render_base": [],
+  "evidence": "analysis skill outputting HTML report; no render framework"
+ },
+ {
+  "id": "shuyicc/MathLens",
+  "description_en": "Agent skill that analyzes a math problem, writes narration and renders a voiced Manim teaching animation, driven from Cursor.",
+  "type": "Agent Tool",
+  "render_base": [
+   "Manim"
+  ],
+  "evidence": "'Agent Skill'; Manim animation video"
+ },
+ {
+  "id": "smit-vanani/claude-promo-video",
+  "description_en": "Claude Code skill that turns a website URL into a beat-synced product promo video rendered with Remotion.",
+  "type": "Claude Skill",
+  "render_base": [
+   "Remotion"
+  ],
+  "evidence": "'rendered with Remotion'; '/promo-video' skill"
+ },
+ {
+  "id": "smwbev/framewright",
+  "description_en": "Agent skill and template for short videos authored as a single HTML file, rendered with headless Chrome and assembled with ffmpeg.",
+  "type": "Claude Skill",
+  "render_base": [
+   "ffmpeg"
+  ],
+  "evidence": "headless Chrome frames assembled with ffmpeg"
+ },
+ {
+  "id": "ssrajadh/paperview",
+  "description_en": "Claude Code plugin that turns papers or codebases into narrated animated explainer videos rendered locally.",
+  "type": "Claude Skill",
+  "render_base": [],
+  "evidence": "Claude Code adapter plugin; renderer not named in head"
+ },
+ {
+  "id": "sukai213/bilibili-ai-video",
+  "description_en": "Codex skill for making tech-review videos with local TTS, generated slides, ffmpeg editing and automated publishing to Bilibili.",
+  "type": "Codex Skill",
+  "render_base": [
+   "ffmpeg"
+  ],
+  "evidence": "'Codex Skill'; ffmpeg editing"
+ },
+ {
+  "id": "sunxiayi/make-blender-education-video-skill",
+  "description_en": "Skill for Codex and Claude Code that researches a topic, verifies facts and renders a subtitled educational film in Blender.",
+  "type": "Claude Skill",
+  "render_base": [
+   "Blender"
+  ],
+  "evidence": "'skill'; 'building the scene' in Blender"
+ },
+ {
+  "id": "taylorzhou16/video-gen",
+  "description_en": "Claude Code skill that brings AI video editing into chat, producing vlogs and music videos from user material.",
+  "type": "Claude Skill",
+  "render_base": [],
+  "evidence": "Claude Code Skill; engine not shown in head"
+ },
+ {
+  "id": "toufuim/personal-ip-brand-intro-skill",
+  "description_en": "Codex skill designing personal brand intro animations with beat-synced pacing, delivered via HyperFrames or Remotion.",
+  "type": "Codex Skill",
+  "render_base": [
+   "HyperFrames",
+   "Remotion"
+  ],
+  "evidence": "Codex Skill; HyperFrames/Remotion engines"
+ },
+ {
+  "id": "trunghaiy/appshot",
+  "description_en": "Library and agent skill that generates App Store, Google Play and website demo videos from a project's code using Remotion and React.",
+  "type": "Agent Tool",
+  "render_base": [
+   "Remotion"
+  ],
+  "evidence": "'primitives library + AI skill'; Remotion"
+ },
+ {
+  "id": "tugrawork-creator/saas-motion-kit",
+  "description_en": "Kit for making software product promo videos with HyperFrames and Claude Code, including themes, a transition atlas and variety audit.",
+  "type": "Claude Skill",
+  "render_base": [
+   "HyperFrames"
+  ],
+  "evidence": "'made with HyperFrames and Claude Code'"
+ },
+ {
+  "id": "tuzhechen2005/opus-video-skills",
+  "description_en": "Claude Code skills producing procedurally generated videos in several visual styles, rendered in headless Chrome and encoded with ffmpeg.",
+  "type": "Claude Skill",
+  "render_base": [
+   "ffmpeg"
+  ],
+  "evidence": "skills collection; headless Chrome + ffmpeg encoding"
+ },
+ {
+  "id": "Upload-Post/avatar-mix",
+  "description_en": "Reusable skill producing 16:9 and 9:16 videos with a HeyGen avatar, animated backgrounds, music, sound effects and captions, then publishing them.",
+  "type": "Claude Skill",
+  "render_base": [
+   "HeyGen",
+   "HyperFrames",
+   "ffmpeg"
+  ],
+  "evidence": "'reusable skill'; HeyGen, HyperFrames, FFmpeg listed"
+ },
+ {
+  "id": "VasiniDevi/motion-skills",
+  "description_en": "Python skills for agents that render motion graphics, kinetic typography, slide decks and data visualizations to MP4 using Pillow and OpenCV.",
+  "type": "Claude Skill",
+  "render_base": [
+   "other"
+  ],
+  "evidence": "'npx skills add ... claude-code'; PIL frames to MP4 via OpenCV"
+ },
+ {
+  "id": "vibe-motion/remotion-code-motion-explainer",
+  "description_en": "Agent skill directing continuous, editable code-driven explainer animations with a library of Remotion shot components.",
+  "type": "Claude Skill",
+  "render_base": [
+   "Remotion"
+  ],
+  "evidence": "npx skills; 65 Remotion compositions"
+ },
+ {
+  "id": "vibe-motion/remotion-starter",
+  "description_en": "Claude Code workbench scaffold for producing Remotion videos, with layered architecture, guardrail hooks and workflow skills.",
+  "type": "Agent Tool",
+  "render_base": [
+   "Remotion"
+  ],
+  "evidence": "'Claude Code 指挥 Remotion'; hooks and skills"
+ },
+ {
+  "id": "vibe-motion/skills",
+  "description_en": "Collection of agent skills for motion clips such as ruler progress, typing animation and fisheye effects; no longer maintained.",
+  "type": "Claude Skill",
+  "render_base": [
+   "Remotion"
+  ],
+  "evidence": "'npx skills add'; fisheye skill produces 'Remotion 视频'"
+ },
+ {
+  "id": "video-db/skills",
+  "description_en": "Agent skill for server-side video workflows via VideoDB, covering ingest, understanding, search, editing and streaming.",
+  "type": "Claude Skill",
+  "render_base": [],
+  "evidence": "skills for Claude Code/Cursor; VideoDB service"
+ },
+ {
+  "id": "Vincentwei1021/video-shotcraft",
+  "description_en": "Agent skill with shot recipe cards, motion previews and a template for making cinematic product videos in Remotion.",
+  "type": "Claude Skill",
+  "render_base": [
+   "Remotion"
+  ],
+  "evidence": "agent skill for Claude Code/Codex; built with Remotion"
+ },
+ {
+  "id": "Vincentwei1021/video-talkcraft",
+  "description_en": "Agent skill making voiceover-driven explainer videos with word-level sync, motion recipe cards and a camera system.",
+  "type": "Claude Skill",
+  "render_base": [
+   "Remotion"
+  ],
+  "evidence": "Claude Code/Codex skill; Remotion renders final video"
+ },
+ {
+  "id": "wendymardigian-prog/Editor-IA-Pro",
+  "description_en": "Claude Code project that lets you create and edit videos by describing them, generating Remotion code with Whisper captions.",
+  "type": "Agent Tool",
+  "render_base": [
+   "Remotion"
+  ],
+  "evidence": "Claude Code + Remotion editor"
+ },
+ {
+  "id": "wocha-xiaoli/video-shot-analysis-feishu",
+  "description_en": "Codex and OpenCode skill that extracts frames with ffmpeg, analyzes each shot, derives storyboard and video prompts, and writes them to Feishu.",
+  "type": "Codex Skill",
+  "render_base": [
+   "ffmpeg"
+  ],
+  "evidence": "'Codex / OpenCode skill'; uses ffmpeg"
+ },
+ {
+  "id": "wshuyi/remotion-video-skill",
+  "description_en": "Claude Code skill for programmatic Remotion videos, with React scenes, TTS narration via MiniMax or Edge TTS, and subtitles.",
+  "type": "Claude Skill",
+  "render_base": [
+   "Remotion"
+  ],
+  "evidence": "'Claude Code Skill ... Remotion framework'"
+ },
+ {
+  "id": "wyuzhi/qisi-video-remix",
+  "description_en": "Agent skill that analyzes a reference video and outputs a new story, script, storyboard and copyable segment prompts for video generators.",
+  "type": "Claude Skill",
+  "render_base": [],
+  "evidence": "Agent skill; output is text prompts only"
+ },
+ {
+  "id": "YeJe-cpu/SeeCut",
+  "description_en": "Skill that automatically edits talking-head or avatar footage into short motion-graphic videos, checks its own output with a video model, and can export drafts.",
+  "type": "Claude Skill",
+  "render_base": [],
+  "evidence": "'skill' for coding agents like Claude Code; renderer not named"
+ },
+ {
+  "id": "Yuuhann1999/codex-storyboard",
+  "description_en": "Local storyboard workspace plugin for Codex that manages video projects and shots and fills in generated media from HyperFrames or Remotion.",
+  "type": "Codex Skill",
+  "render_base": [
+   "HyperFrames",
+   "Remotion"
+  ],
+  "evidence": "Codex plugin; 'Image Generation、HyperFrames 和 Remotion'"
+ },
+ {
+  "id": "yuwenbin121/book-video-production-skill",
+  "description_en": "Codex skill producing fact-checked vertical book-introduction videos with narration, subtitles and music, built in HyperFrames or Remotion.",
+  "type": "Codex Skill",
+  "render_base": [
+   "HyperFrames",
+   "Remotion",
+   "ffmpeg"
+  ],
+  "evidence": "Codex skill; HyperFrames/Remotion, FFmpeg mixing"
+ },
+ {
+  "id": "zenstory-ai/video-recap-skills",
+  "description_en": "Skills for coding agents that turn videos into Chinese narration recaps, with ffmpeg assembly, TTS and optional editable JianYing draft export.",
+  "type": "Claude Skill",
+  "render_base": [
+   "ffmpeg",
+   "Remotion"
+  ],
+  "evidence": "'Claude Code / Codex skills'; ffmpeg, Remotion packaging"
+ },
+ {
+  "id": "zhenwusw/orca-motion-skill",
+  "description_en": "Agent skill for motion graphics inside a scene, using abstract shapes driven by design tokens and captured frame by frame from a seekable timeline.",
+  "type": "Claude Skill",
+  "render_base": [],
+  "evidence": "'skill' installed with npx skills add; renderer not named"
+ },
+ {
+  "id": "zhouyuechuan2025-ui/ai-self-media-video-packaging-skill",
+  "description_en": "Agent skill packaging talking-head videos from SRT into rhythmic motion graphics, rendered with Remotion or optionally HyperFrames.",
+  "type": "Claude Skill",
+  "render_base": [
+   "Remotion",
+   "HyperFrames"
+  ],
+  "evidence": "upstream: Remotion default, optional HyperFrames"
+ },
+ {
+  "id": "ZiadAbdelkarim/beat-synced-edit",
+  "description_en": "Python and ffmpeg command-line tool that analyzes a song and raw footage and cuts a beat-synced edit, plus a bundled Claude Code skill.",
+  "type": "Agent Tool",
+  "render_base": [
+   "ffmpeg"
+  ],
+  "evidence": "Pure CLI plus .claude/skills/beat-sync-edit/SKILL.md; ffmpeg effects"
+ },
+ {
+  "id": "zlong6943-commits/football-prediction-avatar-video",
+  "description_en": "Codex skill making verified Chinese football prediction videos with HeyGen avatars and HyperFrames captions and graphics.",
+  "type": "Codex Skill",
+  "render_base": [
+   "HyperFrames",
+   "HeyGen"
+  ],
+  "evidence": "Codex skill; HeyGen avatar then HyperFrames"
+ },
+ {
+  "id": "znyupup/ai-video-editing-skill",
+  "description_en": "Agent skill that automatically edits raw travel footage into a vlog using ffmpeg, Whisper and vision analysis, with browser preview.",
+  "type": "Claude Skill",
+  "render_base": [
+   "ffmpeg"
+  ],
+  "evidence": "'Skill file'; ffmpeg listed as required"
+ },
+ {
+  "id": "znyupup/knowledge-explainer-skill",
+  "description_en": "Agent skill that turns a markdown script into an explanatory animated video using a Remotion-based command line.",
+  "type": "Claude Skill",
+  "render_base": [
+   "Remotion"
+  ],
+  "evidence": "'Remotion + AI Agent'; 'node cli.js ... mp4'"
+ },
+ {
+  "id": "zoglmk/codex-video-pipeline",
+  "description_en": "Skill covering the full video production flow from topic and sources to MP4, covers and publishing package, rendering through HyperFrames.",
+  "type": "Codex Skill",
+  "render_base": [
+   "HyperFrames"
+  ],
+  "evidence": "names Codex, renders with HyperFrames"
+ }
+]

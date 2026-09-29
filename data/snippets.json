@@ -8,7 +8,11 @@
   }
  },
  "aaronyi97/image-story-video-wizard": {
-  "install": null,
+  "install": {
+   "command": "git clone https://github.com/aaronyi97/image-story-video-wizard.git ~/.codex/skills/image-story-video-wizard",
+   "source_url": "https://github.com/aaronyi97/image-story-video-wizard/blob/main/README.md#终端安装",
+   "section": "终端安装"
+  },
   "usage": null
  },
  "acelera-agency/html-animation": {
@@ -48,7 +52,11 @@
   "usage": null
  },
  "Agentchengfeng/chengfeng-videocut-skills": {
-  "install": null,
+  "install": {
+   "command": "node bin/install.cjs install --dry-run\nnode bin/install.cjs install\nnode bin/install.cjs doctor",
+   "source_url": "https://github.com/Agentchengfeng/chengfeng-videocut-skills/blob/main/README.md#安装与检查",
+   "section": "安装与检查"
+  },
   "usage": null
  },
  "AgriciDaniel/claude-gif": {
@@ -96,7 +104,11 @@
   "usage": null
  },
  "aijiduonadegou/Paper-Cut": {
-  "install": null,
+  "install": {
+   "command": "git clone https://github.com/aijiduonadegou/paper-cut.git \"$env:USERPROFILE\\.codex\\skills\\paper-cut\"",
+   "source_url": "https://github.com/aijiduonadegou/Paper-Cut/blob/main/README.md#安装",
+   "section": "安装"
+  },
   "usage": null
  },
  "AKMessi/vex": {
@@ -221,7 +233,11 @@
  },
  "bbylw/hyperframes-cn": {
   "install": null,
-  "usage": null
+  "usage": {
+   "snippet": "npx skills add heygen-com/hyperframes",
+   "source_url": "https://github.com/bbylw/hyperframes-cn/blob/main/README.md#与-ai-编程智能体一起使用",
+   "section": "与 AI 编程智能体一起使用"
+  }
  },
  "bestagentkits/motion-video-skill": {
   "install": {
@@ -296,7 +312,11 @@
   }
  },
  "cclank/lanshu-html2video-skill": {
-  "install": null,
+  "install": {
+   "command": "git clone https://github.com/cclank/lanshu-html2video-skill.git ~/.codex/skills/html2video",
+   "source_url": "https://github.com/cclank/lanshu-html2video-skill/blob/main/README.md#安装",
+   "section": "安装"
+  },
   "usage": null
  },
  "centraltowerlabs/diagram-tour": {
@@ -312,7 +332,11 @@
   }
  },
  "chenmisss/laoxu-video-script": {
-  "install": null,
+  "install": {
+   "command": "npx skills add chenmisss/laoxu-video-script",
+   "source_url": "https://github.com/chenmisss/laoxu-video-script/blob/main/README.md#安装",
+   "section": "安装"
+  },
   "usage": null
  },
  "ChenShuo2004/cs-shotcraft-skill": {
@@ -344,7 +368,11 @@
   "usage": null
  },
  "cocolayuan/videoclip-AI-skill": {
-  "install": null,
+  "install": {
+   "command": "/videocut:安装",
+   "source_url": "https://github.com/cocolayuan/videoclip-AI-skill/blob/main/README.md#3-安装依赖",
+   "section": "3. 安装依赖"
+  },
   "usage": null
  },
  "coding-ax/docvideoer": {
@@ -440,20 +468,44 @@
   }
  },
  "doublesq97-ui/su-card-to-video": {
-  "install": null,
-  "usage": null
+  "install": {
+   "command": "npm install\nnpm run doctor\nnpm run render",
+   "source_url": "https://github.com/doublesq97-ui/su-card-to-video/blob/main/README.md#快速开始",
+   "section": "快速开始"
+  },
+  "usage": {
+   "snippet": "请在这个 su-card-to-video 仓库根目录中使用 skill/SKILL.md 的工作流，根据我的文案修改 examples/basic-16x9/index.html，并用 npm run render 生成视频。",
+   "source_url": "https://github.com/doublesq97-ui/su-card-to-video/blob/main/README.md#在-codex-中使用",
+   "section": "在 Codex 中使用"
+  }
  },
  "erduo1998-cell/erduo-broll-loop-engineering": {
-  "install": null,
+  "install": {
+   "command": "npx -y skills@1.5.22 add ./erduo-broll-loop-engineering-skills-1.1.0 --skill '*' --agent codex --global --full-depth\n# 或把 codex 改成 claude-code",
+   "source_url": "https://github.com/erduo1998-cell/erduo-broll-loop-engineering/blob/main/README.md#标准-skill-安装",
+   "section": "标准 Skill 安装"
+  },
   "usage": null
  },
  "erduo1998-cell/video-script-builder": {
-  "install": null,
+  "install": {
+   "command": "mkdir -p ~/.claude/skills\ngit clone https://github.com/erduo1998-cell/video-script-builder.git \\\n  ~/.claude/skills/video-script-builder",
+   "source_url": "https://github.com/erduo1998-cell/video-script-builder/blob/main/README.md#第-1-步安装",
+   "section": "第 1 步：安装"
+  },
   "usage": null
  },
  "eternityspring/reelbench-skills": {
-  "install": null,
-  "usage": null
+  "install": {
+   "command": "git clone https://github.com/eternityspring/reelbench-skills.git\ncd reelbench-skills\n./scripts/install.sh",
+   "source_url": "https://github.com/eternityspring/reelbench-skills/blob/main/README.md#安装",
+   "section": "安装"
+  },
+  "usage": {
+   "snippet": "demo-report/\n├── shots-report.html   ← 克隆下来双击就能开\n├── shots.json          ← 53 镜的拉片主数据\n├── shots.md            ← Markdown 镜头表\n├── track.json          ← 逐帧差分的运动曲线（机器证据）\n└── frames/             ← 每镜首尾两张关键帧，共 106 张",
+   "source_url": "https://github.com/eternityspring/reelbench-skills/blob/main/README.md#示例",
+   "section": "示例"
+  }
  },
  "EverMind-AI/Raven": {
   "install": {
@@ -464,7 +516,11 @@
   "usage": null
  },
  "Fagan1024/smart-video-editor": {
-  "install": null,
+  "install": {
+   "command": "git clone https://github.com/Fagan1024/smart-video-editor.git\ncp -R smart-video-editor ~/.claude/skills/     # Claude Code\ncp -R smart-video-editor ~/.cola/skills/       # Cola",
+   "source_url": "https://github.com/Fagan1024/smart-video-editor/blob/main/README.md#安装-skill",
+   "section": "安装 Skill"
+  },
   "usage": null
  },
  "fernandokaraka/remotion-motion-graphics-skill": {
@@ -480,8 +536,16 @@
   }
  },
  "Finderchangchang/promo-video-skill": {
-  "install": null,
-  "usage": null
+  "install": {
+   "command": "git clone https://github.com/Finderchangchang/brewreel.git\ncd brewreel/template && npm install && npx remotion browser ensure\ncd .. && pip install numpy scipy",
+   "source_url": "https://github.com/Finderchangchang/brewreel/blob/main/README.md#快速开始",
+   "section": "快速开始"
+  },
+  "usage": {
+   "snippet": "git clone https://github.com/Finderchangchang/brewreel.git\ncd brewreel/template && npm install && npx remotion browser ensure\ncd .. && pip install numpy scipy",
+   "source_url": "https://github.com/Finderchangchang/brewreel/blob/main/README.md#快速开始",
+   "section": "快速开始"
+  }
  },
  "FireRedTeam/FireRed-OpenStoryline": {
   "install": {
@@ -516,12 +580,28 @@
   }
  },
  "gnipbao/minimax-h3-video-reverse-skill": {
-  "install": null,
-  "usage": null
+  "install": {
+   "command": "mkdir -p \"${CODEX_HOME:-$HOME/.codex}/skills\"\ngit clone https://github.com/gnipbao/minimax-h3-video-reverse-skill.git \\\n  \"${CODEX_HOME:-$HOME/.codex}/skills/minimax-h3-video-reverse\"",
+   "source_url": "https://github.com/gnipbao/minimax-h3-video-reverse-skill/blob/codex/initial-release/README.md#快速开始",
+   "section": "快速开始"
+  },
+  "usage": {
+   "snippet": "$minimax-h3-video-reverse\n完整检查附件视频，输出 I2V。保留真实镜头，不压缩时间。\n每镜给独立首帧提示词、动态提示词、H3 块和镜间装配说明。\n中文解释，英文 Prompt；对白与画面文字保留原语言，未核实的内容不要补写。",
+   "source_url": "https://github.com/gnipbao/minimax-h3-video-reverse-skill/blob/codex/initial-release/README.md#使用示例",
+   "section": "使用示例"
+  }
  },
  "gnipbao/story-to-handdrawn-video": {
-  "install": null,
-  "usage": null
+  "install": {
+   "command": "git clone https://github.com/gnipbao/story-to-handdrawn-video.git\ncd story-to-handdrawn-video\nnpm ci\nnpm run check",
+   "source_url": "https://github.com/gnipbao/story-to-handdrawn-video/blob/main/README.md#快速开始",
+   "section": "快速开始"
+  },
+  "usage": {
+   "snippet": "git clone https://github.com/gnipbao/story-to-handdrawn-video.git\ncd story-to-handdrawn-video\nnpm ci\nnpm run check",
+   "source_url": "https://github.com/gnipbao/story-to-handdrawn-video/blob/main/README.md#快速开始",
+   "section": "快速开始"
+  }
  },
  "GordenSun/react-bits-video": {
   "install": {
@@ -544,8 +624,16 @@
   "usage": null
  },
  "hahadu4520/newcut-video-clipping-skill": {
-  "install": null,
-  "usage": null
+  "install": {
+   "command": "git clone https://github.com/hahadu4520/newcut-video-clipping-skill.git \\\n  ~/.codex/skills/newcut-video-clipping\n\nnode ~/.codex/skills/newcut-video-clipping/scripts/newcut.mjs doctor",
+   "source_url": "https://github.com/hahadu4520/newcut-video-clipping-skill/blob/main/README.md#安装",
+   "section": "安装"
+  },
+  "usage": {
+   "snippet": "选择 Whisper 或豆包\n→ 完成安装/API 配置\n→ 验证配置可用\n→ 再让用户上传视频\n→ 开始转录和切片",
+   "source_url": "https://github.com/hahadu4520/newcut-video-clipping-skill/blob/main/README.md#使用",
+   "section": "使用"
+  }
  },
  "hahadu4520/vlog-cut": {
   "install": null,
@@ -596,7 +684,11 @@
   "usage": null
  },
  "hi-nikola/hand-drawn-explainer-video-nikola": {
-  "install": null,
+  "install": {
+   "command": "git clone https://github.com/hi-nikola/hand-drawn-explainer-video-nikola.git \"$env:USERPROFILE/.codex/skills/hand-drawn-explainer-video-nikola\"\npython \"$env:USERPROFILE/.codex/skills/hand-drawn-explainer-video-nikola/scripts/setup_check.py\"",
+   "source_url": "https://github.com/hi-nikola/hand-drawn-explainer-video-nikola/blob/main/README.md#安装",
+   "section": "安装"
+  },
   "usage": null
  },
  "holy-templar/vox-animated-ad-mcp": {
@@ -668,8 +760,16 @@
   "usage": null
  },
  "icytear-svg/podcast-to-video": {
-  "install": null,
-  "usage": null
+  "install": {
+   "command": "python scripts/podcast_video.py \\\n  --audio \"./episode.m4a\" \\\n  --cover \"./cover.png\" \\\n  --srt \"./episode.srt\" \\\n  --podcast-name \"苦中找乐\" \\\n  --title \"上职高的孩子什么样？在职高当老师有啥体验？\" \\\n  --mode full",
+   "source_url": "https://github.com/icytear-svg/podcast-to-video/blob/main/README.md#快速开始",
+   "section": "快速开始"
+  },
+  "usage": {
+   "snippet": "{\n  \"podcast_name\": \"苦中找乐\",\n  \"title\": \"上职高的孩子什么样？在职高当老师有啥体验？\",\n  \"episode_tag\": \"对谈 夜夜页页小马 - 093\",\n  \"guest\": \"小马（夜夜页页主播）\",\n  \"host\": \"羊行\",\n  \"recorded_at\": \"2026年5月11日\",\n  \"published_at\": \"2026年6月29日\",\n  \"corrections\": [\"杨航=羊行\", \"博客=播客\"],\n  \"banned_fragments\": [\"YoYo Television Series\"]\n}",
+   "source_url": "https://github.com/icytear-svg/podcast-to-video/blob/main/README.md#元信息-json-示例",
+   "section": "元信息 JSON 示例"
+  }
  },
  "inematds/skill-video-plan-editor": {
   "install": null,
@@ -688,8 +788,16 @@
   }
  },
  "jackjls/jtxvideo-skill": {
-  "install": null,
-  "usage": null
+  "install": {
+   "command": "npx skills add https://github.com/jackjls/jtxvideo-skill --skill jtxvideo-skill -g",
+   "source_url": "https://github.com/jackjls/jtxvideo-skill/blob/main/README.md#全局安装到当前-agent",
+   "section": "全局安装到当前 Agent"
+  },
+  "usage": {
+   "snippet": "用 $jtxvideo-skill 处理这个口播视频，按预处理、SRT 确认、文案结构、分镜表、设计、HyperFrames 渲染和 2K60 导出的流程走。",
+   "source_url": "https://github.com/jackjls/jtxvideo-skill/blob/main/README.md#使用方式",
+   "section": "使用方式"
+  }
  },
  "jaxxchen003/book-video-factory": {
   "install": {
@@ -720,8 +828,16 @@
   "usage": null
  },
  "jincheng2026/jc-remotion-skills": {
-  "install": null,
-  "usage": null
+  "install": {
+   "command": "安装并使用这个剪辑 skill：https://github.com/jincheng2026/jc-remotion-skills\n然后装配这条口播：~/Desktop/我的口播.mp4 ~/Desktop/我的口播.srt",
+   "source_url": "https://github.com/jincheng2026/jc-remotion-skills/blob/master/README.md#快速开始",
+   "section": "快速开始"
+  },
+  "usage": {
+   "snippet": "安装并使用这个剪辑 skill：https://github.com/jincheng2026/jc-remotion-skills\n然后装配这条口播：~/Desktop/我的口播.mp4 ~/Desktop/我的口播.srt",
+   "source_url": "https://github.com/jincheng2026/jc-remotion-skills/blob/master/README.md#快速开始",
+   "section": "快速开始"
+  }
  },
  "jinjin1/scenewright": {
   "install": null,
@@ -740,8 +856,16 @@
   "usage": null
  },
  "Johnson-Jia/video-clipforge": {
-  "install": null,
-  "usage": null
+  "install": {
+   "command": "git clone https://github.com/Johnson-Jia/video-clipforge.git\ncd video-clipforge\nbash install.sh          # 项目级安装（默认，装到 .claude/commands/）\n# bash install.sh --global   # 或用户级（跨项目共享，装到 ~/.claude/commands/）\nclaude                   # 启动 Claude Code，技能自动加载\n/clipforge 制作一个关于 XXX 的视频",
+   "source_url": "https://github.com/Johnson-Jia/video-clipforge/blob/main/README.md#快速开始",
+   "section": "快速开始"
+  },
+  "usage": {
+   "snippet": "git clone https://github.com/Johnson-Jia/video-clipforge.git\ncd video-clipforge\nbash install.sh          # 项目级安装（默认，装到 .claude/commands/）\n# bash install.sh --global   # 或用户级（跨项目共享，装到 ~/.claude/commands/）\nclaude                   # 启动 Claude Code，技能自动加载\n/clipforge 制作一个关于 XXX 的视频",
+   "source_url": "https://github.com/Johnson-Jia/video-clipforge/blob/main/README.md#快速开始",
+   "section": "快速开始"
+  }
  },
  "jtydhr88/screenwriting-skills": {
   "install": null,
@@ -756,16 +880,32 @@
   "usage": null
  },
  "kakaxi12/vox-director-codex": {
-  "install": null,
-  "usage": null
+  "install": {
+   "command": "安装这个 skill：\n\nhttps://github.com/kakaxi12/vox-director-codex/tree/main/vox-director",
+   "source_url": "https://github.com/kakaxi12/vox-director-codex/blob/main/README.md#安装",
+   "section": "安装"
+  },
+  "usage": {
+   "snippet": "使用 $vox-director，以 Vox 剪纸拼贴风制作一个关于“人工智能如何改变普通人一天”的视频，中文女性旁白，约 60 秒，9:16 竖屏。",
+   "source_url": "https://github.com/kakaxi12/vox-director-codex/blob/main/README.md#使用示例",
+   "section": "使用示例"
+  }
  },
  "kangarooking/director-skills": {
-  "install": null,
+  "install": {
+   "command": "帮我安装这个 skill：https://github.com/kangarooking/director-skills/tree/main/<skill-name>",
+   "source_url": "https://github.com/kangarooking/director-skills/blob/main/README.md#安装方式",
+   "section": "📦 安装方式"
+  },
   "usage": null
  },
  "kangarooking/promo-creator-skills": {
   "install": null,
-  "usage": null
+  "usage": {
+   "snippet": "用 promo-workflow 给这个 GitHub 仓库做一支 60 秒 Apple 风产品宣传片：\nhttps://github.com/owner/project",
+   "source_url": "https://github.com/kangarooking/promo-creator-skills/blob/main/README.md#使用方式",
+   "section": "使用方式"
+  }
  },
  "Kappaemme-git/codex-video-short-maker-skill": {
   "install": {
@@ -852,24 +992,48 @@
   }
  },
  "liangdabiao/story-handdrawn-remotion": {
-  "install": null,
-  "usage": null
+  "install": {
+   "command": "在workbuddy，codex, claude code，直接命令要求安装skill:https://github.com/liangdabiao/story-handdrawn-remotion",
+   "source_url": "https://github.com/liangdabiao/story-handdrawn-remotion/blob/main/README.md#安装",
+   "section": "安装"
+  },
+  "usage": {
+   "snippet": "# 推荐：apiz 后端，文字渲染最稳（付费）\npython scripts/gen_story_images.py examples/story_en.txt --lang en --backend apiz --title \"English Story\"\n\n# 免费：agnes 后端（文字可能不完美，70% 质量即可）\npython scripts/gen_story_images.py examples/story_en.txt --lang en --title \"English Story\"\n\n# dry-run 先看 prompt 不生图\npython scripts/gen_story_images.py examples/story_en.txt --lang en --dry-run\n\n# 手动运行渲染：\nnpx remotion render src/index.ts Part2 out/Part2.mp4 --scale=0.5 --crf=28 --concurrency=1 --overwrite",
+   "source_url": "https://github.com/liangdabiao/story-handdrawn-remotion/blob/main/README.md#用法示例",
+   "section": "用法示例"
+  }
  },
  "liangdabiao/story-handdrawn-video": {
-  "install": null,
-  "usage": null
+  "install": {
+   "command": "在workbuddy，codex, claude code，直接命令要求安装skill:https://github.com/liangdabiao/story-handdrawn-video",
+   "source_url": "https://github.com/liangdabiao/story-handdrawn-video/blob/main/README.md#安装",
+   "section": "安装"
+  },
+  "usage": {
+   "snippet": "# 推荐：textbook 风格 + 教学内容\npython scripts/gen_story_videos.py story.txt \\\n  --title \"CQ001 What is the supreme law\" \\\n  --style textbook --lang en \\\n  --teaching-content teaching_content.json\n\n# 免费：crayon 默认风格（中文故事）\npython scripts/gen_story_videos.py story.txt --title \"我的小猫\"\n\n# dry-run 先看 prompt 不生视频\npython scripts/gen_story_videos.py story.txt --lang en --style textbook --dry-run\n\n# 用现成 mp3+LRC 切片后跑（跳过 TTS）\npython scripts/slice_from_lrc.py CQ001.mp3 CQ001.lrc --out-dir public/audio/narration\npython scripts/gen_story_videos.py story.txt --style textbook --lang en \\\n  --teaching-content teaching_content.json --skip-tts --paragraph-beats\n\n# 渲染（720×1280 预览即默认成片）\nnpm run render:preview   # → out/story-preview.mp4\nnpm run render           # → out/story.mp4（1080×1920，需用户明确要高清时才跑）",
+   "source_url": "https://github.com/liangdabiao/story-handdrawn-video/blob/main/README.md#用法示例",
+   "section": "用法示例"
+  }
  },
  "liangdabiao/wechat-article-remotion": {
   "install": null,
   "usage": null
  },
  "liuliu-66-create/ll-video-decomposer": {
-  "install": null,
+  "install": {
+   "command": "python scripts/setup_transcription.py --project <当前项目目录>",
+   "source_url": "https://github.com/liuliu-66-create/ll-video-decomposer/blob/main/README.md#依赖安装",
+   "section": "依赖安装"
+  },
   "usage": null
  },
  "liyue-aigc/xianxia-cinematic-video-director": {
   "install": null,
-  "usage": null
+  "usage": {
+   "snippet": "使用 $xianxia-cinematic-video-director。\n\n场景：雨夜竹林石阶，尽头连接悬空峡谷。\n主体：一名虚构成年剑修，月白长衣，右手持剑。\n变化：潜行时察觉追兵，沿石阶加速逃亡，跃出崖口后御剑脱身。\n感觉：先压抑，随后高速紧张，结尾短暂释放。\n时长与画幅：15秒，16:9。\n输出：标准完整格式；不要全程慢推，不要随机旋转。",
+   "source_url": "https://github.com/liyue-aigc/xianxia-cinematic-video-director/blob/main/README.md#最小调用示例",
+   "section": "最小调用示例"
+  }
  },
  "louisedesadeleer/cut-video": {
   "install": {
@@ -984,12 +1148,24 @@
   }
  },
  "Mr-funny/hbg-douyin-code-explainer-video": {
-  "install": null,
+  "install": {
+   "command": "请从 https://github.com/Mr-funny/hbg-douyin-code-explainer-video 安装\nhbg-douyin-code-explainer-video skill。\n\n请自动识别当前 Agent 的全局 skills 目录；如果已经存在旧版本，请先备份再更新。\n安装后检查 SKILL.md、references 和 scripts 是否完整，并运行 bash -n 检查两个脚本。\n不要读取、打印或上传任何本地 TTS 模型、音色、API Key、视频、音频或项目素材。\n\n验证完成后，告诉我如何使用 $hbg-douyin-code-explainer-video\n把中文长文案制作成双人对话式 1080×1920 抖音代码动画视频。",
+   "source_url": "https://github.com/Mr-funny/hbg-douyin-code-explainer-video/blob/main/README.md#一句话安装进-agent",
+   "section": "⚡ 一句话安装进 Agent"
+  },
   "usage": null
  },
  "Mr-funny/hbg-life-simulation": {
-  "install": null,
-  "usage": null
+  "install": {
+   "command": "请从 https://github.com/Mr-funny/hbg-life-simulation 安装\nhbg-life-simulation skill。\n\n请自动识别当前 Agent 的全局 skills 目录；如果已经存在旧版本，请先备份再更新。\n安装后检查 SKILL.md、agents、assets、references 和 scripts 是否完整，\n并校验所有 Shell、JavaScript 和 JSON 文件。\n\n不要读取、打印、复制或上传任何本地 API Key、会话日志、用户文案、\n生成图片、音频、视频、BGM 或项目素材。\n\n验证完成后，告诉我如何使用 $hbg-life-simulation\n把一段中文人生故事制作成统一漫画 IP 的横屏旁白视频。",
+   "source_url": "https://github.com/Mr-funny/hbg-life-simulation/blob/main/README.md#一句话安装进-agent",
+   "section": "⚡ 一句话安装进 Agent"
+  },
+  "usage": {
+   "snippet": "使用 $hbg-life-simulation，并使用我已配置在当前进程环境变量中的兼容 Images API。\n先生成主角锚点，再以并发 5 批量生成宫格和高风险单图。\n不得把 endpoint 或 API Key 写入项目、提示词、日志、README 或 Git 仓库。",
+   "source_url": "https://github.com/Mr-funny/hbg-life-simulation/blob/main/README.md#使用兼容-images-api",
+   "section": "使用兼容 Images API"
+  }
  },
  "mrieck/demoday-claude-plugin": {
   "install": {
@@ -1000,7 +1176,11 @@
   "usage": null
  },
  "naive-kun/naive-video-skill": {
-  "install": null,
+  "install": {
+   "command": "git clone https://github.com/naive-kun/naive-video-skill.git\ncd naive-video-skill\nbash install.sh --codex",
+   "source_url": "https://github.com/naive-kun/naive-video-skill/blob/main/README.md#1-下载并安装",
+   "section": "1. 下载并安装"
+  },
   "usage": null
  },
  "NarratorAI-Studio/narrator-ai-cli-skill": {
@@ -1044,11 +1224,19 @@
   }
  },
  "op7418/guizang-product-video-skill": {
-  "install": null,
+  "install": {
+   "command": "npx skills add https://github.com/op7418/guizang-product-video-skill --skill guizang-product-video-skill",
+   "source_url": "https://github.com/op7418/guizang-product-video-skill/blob/main/README.md#用-skills-cli-安装",
+   "section": "用 skills CLI 安装"
+  },
   "usage": null
  },
  "ops120/video-recap-skills-plus": {
-  "install": null,
+  "install": {
+   "command": "/plugin marketplace add worldwonderer/video-recap-skills\n/plugin install video-recap-skills@video-recap",
+   "source_url": "https://github.com/ops120/video-recap-skills-plus/blob/main/README.md#安装",
+   "section": "安装"
+  },
   "usage": null
  },
  "opus-pro/opus-video-studio": {
@@ -1072,23 +1260,47 @@
   "usage": null
  },
  "Phantomlau3674/voxstylehub-steven": {
-  "install": null,
-  "usage": null
+  "install": {
+   "command": "Copy-Item -Recurse .\\xingchen-vox-collage \"$env:USERPROFILE\\.codex\\skills\\\"",
+   "source_url": "https://github.com/Phantomlau3674/voxstylehub-steven/blob/main/README.md#最短安装",
+   "section": "最短安装"
+  },
+  "usage": {
+   "snippet": "用 xingchen-vox-collage 把下面口播制作成 Vox-inspired 编辑拼贴视频。开工前先用一小段文字比较几种视觉路线，主动寻找素材机会并指出最可能变空或重复的段落；再提炼视觉命题、审 Hero Frame 或运动代表帧，按创意需要拆分独立素材。精确文字和时间由 Remotion 控制，动效必须帮助叙事。输出导演板、scene-spec、完整预览和严格验证证据。口播如下：……",
+   "source_url": "https://github.com/Phantomlau3674/voxstylehub-steven/blob/main/README.md#最短使用-prompt",
+   "section": "最短使用 Prompt"
+  }
  },
  "pjecuacion/script-to-video-skill": {
   "install": null,
   "usage": null
  },
  "PoetCoderJun/MotionTalk": {
-  "install": null,
+  "install": {
+   "command": "npx skills add PoetCoderJun/MotionTalk",
+   "source_url": "https://github.com/PoetCoderJun/MotionTalk/blob/main/README.md#安装",
+   "section": "安装"
+  },
   "usage": null
  },
  "pyang5166/gbro-collage-broll": {
-  "install": null,
-  "usage": null
+  "install": {
+   "command": "git clone https://github.com/pyang5166/gbro-collage-broll.git ~/.agents/skills/gbro-collage-broll",
+   "source_url": "https://github.com/pyang5166/gbro-collage-broll/blob/main/README.md#安装",
+   "section": "安装"
+  },
+  "usage": {
+   "snippet": "collage b-roll：很多人以为 AI 是来替你思考的，其实它更像一面镜子，会把你问题里的漏洞照出来。",
+   "source_url": "https://github.com/pyang5166/gbro-collage-broll/blob/main/README.md#使用",
+   "section": "使用"
+  }
  },
  "pyang5166/gbro-collage-info": {
-  "install": null,
+  "install": {
+   "command": "git clone https://github.com/pyang5166/gbro-collage-info.git ~/.claude/skills/gbro-collage-info",
+   "source_url": "https://github.com/pyang5166/gbro-collage-info/blob/main/README.md#安装",
+   "section": "安装"
+  },
   "usage": null
  },
  "qingyunAGI/qingyun-cine-skill": {
@@ -1204,8 +1416,16 @@
   "usage": null
  },
  "sukai213/bilibili-ai-video": {
-  "install": null,
-  "usage": null
+  "install": {
+   "command": "# 1. 配音（Qwen3-TTS 本地模型）\npython skill/bilibili-ai-video/scripts/gen_tts.py \\\n    --segments segments.json --out audio \\\n    --model-dir \"C:\\Users\\Administrator\\Desktop\\Qwen3-TTS-Q5\"\n\n# 2. 幻灯片与封面\npython skill/bilibili-ai-video/scripts/gen_slides.py --segments segments.json --out slides\npython skill/bilibili-ai-video/scripts/gen_cover.py --title \"贾维斯时刻！\" --subtitle \"...\" --out cover.png\n\n# 3. 剪辑成片（含响度标准化）\npython skill/bilibili-ai-video/scripts/assemble_video.py \\\n    --segments segments.json --meta audio/meta.json \\\n    --slides slides --audio audio --out . --ffmpeg <ffmpeg.exe>\n\n# 4. 提取 B 站登录态（客户端需以 --remote-debugging-port=9222 启动并登录）\npython skill/bilibili-ai-video/scripts/extract_bili_cookies.py --cdp http://127.0.0.1:9222 --out cookies.json\n\n# 5. 上传发布\npython skill/bilibili-ai-video/scripts/publish_bilibili.py \\\n    --video final_loud.mp4 --cover cover.png --cookies cookies.json --config publish.json\n\n# 6. 发布验证\npython skill/bilibili-ai-video/scripts/verify_published.py --bvid BVxxxx --cookies cookies.json",
+   "source_url": "https://github.com/sukai213/bilibili-ai-video/blob/master/README.md#快速开始",
+   "section": "快速开始"
+  },
+  "usage": {
+   "snippet": "# 1. 配音（Qwen3-TTS 本地模型）\npython skill/bilibili-ai-video/scripts/gen_tts.py \\\n    --segments segments.json --out audio \\\n    --model-dir \"C:\\Users\\Administrator\\Desktop\\Qwen3-TTS-Q5\"\n\n# 2. 幻灯片与封面\npython skill/bilibili-ai-video/scripts/gen_slides.py --segments segments.json --out slides\npython skill/bilibili-ai-video/scripts/gen_cover.py --title \"贾维斯时刻！\" --subtitle \"...\" --out cover.png\n\n# 3. 剪辑成片（含响度标准化）\npython skill/bilibili-ai-video/scripts/assemble_video.py \\\n    --segments segments.json --meta audio/meta.json \\\n    --slides slides --audio audio --out . --ffmpeg <ffmpeg.exe>\n\n# 4. 提取 B 站登录态（客户端需以 --remote-debugging-port=9222 启动并登录）\npython skill/bilibili-ai-video/scripts/extract_bili_cookies.py --cdp http://127.0.0.1:9222 --out cookies.json\n\n# 5. 上传发布\npython skill/bilibili-ai-video/scripts/publish_bilibili.py \\\n    --video final_loud.mp4 --cover cover.png --cookies cookies.json --config publish.json\n\n# 6. 发布验证\npython skill/bilibili-ai-video/scripts/verify_published.py --bvid BVxxxx --cookies cookies.json",
+   "source_url": "https://github.com/sukai213/bilibili-ai-video/blob/master/README.md#快速开始",
+   "section": "快速开始"
+  }
  },
  "sunxiayi/make-blender-education-video-skill": {
   "install": {
@@ -1220,12 +1440,24 @@
   }
  },
  "taylorzhou16/video-gen": {
-  "install": null,
-  "usage": null
+  "install": {
+   "command": "# 复制整个目录到 skills 目录\nmkdir -p ~/.claude/skills/video-gen\ncp -r SKILL.md reference/ video_gen_tools.py video_gen_editor.py config.json.example README.md requirements.txt ~/.claude/skills/video-gen/\n\n# 安装依赖\ncd ~/.claude/skills/video-gen && pip install -r requirements.txt\n\n# 配置 API 密钥\ncp config.json.example config.json\n# 编辑 config.json 填入你的 API 密钥",
+   "source_url": "https://github.com/taylorzhou16/video-gen/blob/main/README.md#安装",
+   "section": "🚀 安装"
+  },
+  "usage": {
+   "snippet": "/video-gen <素材目录>",
+   "source_url": "https://github.com/taylorzhou16/video-gen/blob/main/README.md#使用方法",
+   "section": "📖 使用方法"
+  }
  },
  "toufuim/personal-ip-brand-intro-skill": {
   "install": null,
-  "usage": null
+  "usage": {
+   "snippet": "使用 $personal-ip-brand-intro，搭配我上傳的人物圖片製作 9:16 品牌開場。\n請保留人物辨識度，並根據我的內容領域重新設計構圖、色彩與插圖。\n不要沿用其他品牌的版型。",
+   "source_url": "https://github.com/toufuim/personal-ip-brand-intro-skill/blob/main/README.md#使用人物或-ip-圖片",
+   "section": "使用人物或 IP 圖片"
+  }
  },
  "trunghaiy/appshot": {
   "install": {
@@ -1281,14 +1513,22 @@
  },
  "vibe-motion/remotion-code-motion-explainer": {
   "install": null,
-  "usage": null
+  "usage": {
+   "snippet": "npx skills add vibe-motion/remotion-code-motion-explainer",
+   "source_url": "https://github.com/vibe-motion/remotion-code-motion-explainer/blob/main/README.md#使用方式",
+   "section": "使用方式"
+  }
  },
  "vibe-motion/remotion-starter": {
   "install": null,
   "usage": null
  },
  "vibe-motion/skills": {
-  "install": null,
+  "install": {
+   "command": "npx skills add vibe-motion/skills",
+   "source_url": "https://github.com/vibe-motion/skills/blob/main/README.md#安装",
+   "section": "安装"
+  },
   "usage": null
  },
  "video-db/skills": {
@@ -1312,8 +1552,16 @@
   }
  },
  "Vincentwei1021/video-talkcraft": {
-  "install": null,
-  "usage": null
+  "install": {
+   "command": "帮我安装这个 skill：https://github.com/Vincentwei1021/video-talkcraft",
+   "source_url": "https://github.com/Vincentwei1021/video-talkcraft/blob/main/README.md#快速开始",
+   "section": "🚀 快速开始"
+  },
+  "usage": {
+   "snippet": "帮我安装这个 skill：https://github.com/Vincentwei1021/video-talkcraft",
+   "source_url": "https://github.com/Vincentwei1021/video-talkcraft/blob/main/README.md#快速开始",
+   "section": "🚀 快速开始"
+  }
  },
  "wendymardigian-prog/Editor-IA-Pro": {
   "install": {
@@ -1328,8 +1576,16 @@
   }
  },
  "wocha-xiaoli/video-shot-analysis-feishu": {
-  "install": null,
-  "usage": null
+  "install": {
+   "command": "cd ~/.config/opencode/skills\ngit clone https://github.com/wocha-xiaoli/video-shot-analysis-feishu.git",
+   "source_url": "https://github.com/wocha-xiaoli/video-shot-analysis-feishu/blob/main/README.md#安装",
+   "section": "安装"
+  },
+  "usage": {
+   "snippet": "python3 scripts/extract_shots.py ./demo.mp4 \\\n  --out-dir ./lapian_output \\\n  --threshold 0.32 \\\n  --min-gap 0.45",
+   "source_url": "https://github.com/wocha-xiaoli/video-shot-analysis-feishu/blob/main/README.md#快速开始",
+   "section": "快速开始"
+  }
  },
  "wshuyi/remotion-video-skill": {
   "install": {
@@ -1344,31 +1600,63 @@
   }
  },
  "wyuzhi/qisi-video-remix": {
-  "install": null,
-  "usage": null
+  "install": {
+   "command": "git clone https://github.com/wyuzhi/qisi-video-remix.git \"${CODEX_HOME:-$HOME/.codex}/skills/qisi-video-remix\"",
+   "source_url": "https://github.com/wyuzhi/qisi-video-remix/blob/main/README.md#安装",
+   "section": "安装"
+  },
+  "usage": {
+   "snippet": "使用 $qisi-video-remix 改编这个视频。\n面向刚上班的年轻人，做成 30 秒竖屏短片，每段最长 15 秒，轻松一点。\n直接给我剧本、角色与场景生图提示词、分镜，以及每段可以复制使用的视频提示词。",
+   "source_url": "https://github.com/wyuzhi/qisi-video-remix/blob/main/README.md#使用",
+   "section": "使用"
+  }
  },
  "YeJe-cpu/SeeCut": {
   "install": null,
   "usage": null
  },
  "Yuuhann1999/codex-storyboard": {
-  "install": null,
-  "usage": null
+  "install": {
+   "command": "codex plugin marketplace add Yuuhann1999/codex-storyboard\ncodex plugin add codex-storyboard@codex-storyboard",
+   "source_url": "https://github.com/Yuuhann1999/codex-storyboard/blob/main/README.md#1-安装插件",
+   "section": "1. 安装插件"
+  },
+  "usage": {
+   "snippet": "flowchart LR\n  A[\"告诉 Codex<br/>视频主题和要求\"] --> B[\"Codex 创建<br/>本地分镜项目\"]\n  B --> C[\"打开 Codex 分镜台<br/>检查脚本和镜头\"]\n  C --> D[\"导入 DESIGN.md<br/>统一视觉风格\"]\n  D --> E[\"单镜头或批量<br/>加入生成队列\"]\n  E --> F[\"Codex 生成图片/视频<br/>Image Generation / HyperFrames / Remotion\"]\n  F --> G[\"素材自动回填<br/>到对应镜头\"]\n  G --> C",
+   "source_url": "https://github.com/Yuuhann1999/codex-storyboard/blob/main/README.md#使用流程",
+   "section": "使用流程"
+  }
  },
  "yuwenbin121/book-video-production-skill": {
-  "install": null,
+  "install": {
+   "command": "Copy-Item -Recurse `\n  .\\skills\\book-video-production `\n  \"$env:USERPROFILE\\.codex\\skills\\book-video-production\"",
+   "source_url": "https://github.com/yuwenbin121/book-video-production-skill/blob/main/README.md#安装",
+   "section": "安装"
+  },
   "usage": null
  },
  "zenstory-ai/video-recap-skills": {
-  "install": null,
+  "install": {
+   "command": "brew install ffmpeg                        # macOS；Debian/Ubuntu 用 apt，Windows 用 choco / scoop / winget\nexport MIMO_API_KEY=your-mimo-key          # Windows PowerShell：$env:MIMO_API_KEY=\"your-mimo-key\"\nexport MIMO_TOKEN_PLAN_CLUSTER=cn          # 仅 tp-* Token Plan key 需要：cn | sgp | ams",
+   "source_url": "https://github.com/zenstory-ai/video-recap-skills/blob/main/README.md#安装",
+   "section": "安装"
+  },
   "usage": null
  },
  "zhenwusw/orca-motion-skill": {
-  "install": null,
+  "install": {
+   "command": "npx skills add zhenwusw/orca-motion-skill -g -a claude-code",
+   "source_url": "https://github.com/zhenwusw/orca-motion-skill/blob/main/README.md#安装",
+   "section": "安装"
+  },
   "usage": null
  },
  "zhouyuechuan2025-ui/ai-self-media-video-packaging-skill": {
-  "install": null,
+  "install": {
+   "command": "git clone https://github.com/zhouyuechuan2025-ui/ai-self-media-video-packaging-skill.git\ncd ai-self-media-video-packaging-skill\nnpm ci",
+   "source_url": "https://github.com/zhouyuechuan2025-ui/ai-self-media-video-packaging-skill/blob/main/README.md#安装",
+   "section": "安装"
+  },
   "usage": null
  },
  "ZiadAbdelkarim/beat-synced-edit": {
@@ -1384,19 +1672,43 @@
   }
  },
  "zlong6943-commits/football-prediction-avatar-video": {
-  "install": null,
-  "usage": null
+  "install": {
+   "command": "git clone https://github.com/zlong6943-commits/football-prediction-avatar-video.git ~/.codex/skills/football-prediction-avatar-video",
+   "source_url": "https://github.com/zlong6943-commits/football-prediction-avatar-video/blob/main/README.md#安装",
+   "section": "安装"
+  },
+  "usage": {
+   "snippet": "使用 $football-prediction-avatar-video，\n把我对这场比赛的观点制作成 9:16 中文数字人口播视频。\n比赛：主队 vs 客队，日期：YYYY-MM-DD，赛事：XXX。\n我的观点是：……",
+   "source_url": "https://github.com/zlong6943-commits/football-prediction-avatar-video/blob/main/README.md#使用示例",
+   "section": "使用示例"
+  }
  },
  "znyupup/ai-video-editing-skill": {
-  "install": null,
-  "usage": null
+  "install": {
+   "command": "请从 https://github.com/znyupup/ai-video-editing-skill 克隆仓库，\n阅读 SKILL.md 学习完整工作流，然后帮我把 footage/ 目录下的素材剪成一个旅行vlog。",
+   "source_url": "https://github.com/znyupup/ai-video-editing-skill/blob/main/README.md#快速开始",
+   "section": "快速开始"
+  },
+  "usage": {
+   "snippet": "请从 https://github.com/znyupup/ai-video-editing-skill 克隆仓库，\n阅读 SKILL.md 学习完整工作流，然后帮我把 footage/ 目录下的素材剪成一个旅行vlog。",
+   "source_url": "https://github.com/znyupup/ai-video-editing-skill/blob/main/README.md#快速开始",
+   "section": "快速开始"
+  }
  },
  "znyupup/knowledge-explainer-skill": {
-  "install": null,
+  "install": {
+   "command": "git clone https://github.com/znyupup/knowledge-explainer-skill\ncd knowledge-explainer-skill\nnpm install\n# macOS: 解 Gatekeeper 限制\nxattr -drs com.apple.quarantine node_modules",
+   "source_url": "https://github.com/znyupup/knowledge-explainer-skill/blob/main/README.md#安装",
+   "section": "安装"
+  },
   "usage": null
  },
  "zoglmk/codex-video-pipeline": {
   "install": null,
-  "usage": null
+  "usage": {
+   "snippet": "python3 scripts/example.py --root videos",
+   "source_url": "https://github.com/zoglmk/codex-video-pipeline/blob/main/README.md#内置示例",
+   "section": "内置示例"
+  }
  }
 }

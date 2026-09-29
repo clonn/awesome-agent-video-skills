@@ -7,8 +7,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 HEAD = re.compile(r"^(#{1,6})\s+(.*?)\s*#*\s*$")
-INSTALL_H = re.compile(r"\b(install|installation|setup|set up|get(ting)? started|quick ?start|add to claude)\b", re.I)
-USAGE_H = re.compile(r"\b(usage|use|how to use|example|examples|quick ?start|commands?|run)\b", re.I)
+INSTALL_H = re.compile(r"\b(install|installation|setup|set up|get(ting)? started|quick ?start|add to claude)\b|安装|快速开始|最短安装|インストール|설치", re.I)
+USAGE_H = re.compile(r"\b(usage|use|how to use|example|examples|quick ?start|commands?|run)\b|使用|用法|示例|快速开始", re.I)
 
 
 def slug(h):

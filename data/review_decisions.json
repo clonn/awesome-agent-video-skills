@@ -30,6 +30,11 @@
  "JohnHeibel/PDoomVideo": {
   "entry_kind": "showcase"
  },
+ "Liamrjohnston/remotion-motion-graphics-skill": {
+  "safety_notes": [
+   "The one-command setup pipes a remote script into bash (curl ... | bash); read install.sh first."
+  ]
+ },
  "Maartenlouis/remotion-ads": {
   "install": {
    "command": "# Install in your project\nclaude skill install remotion-ads\n\n# Or add the folder to your project's .claude/skills/ directory",
@@ -63,6 +68,11 @@
    "note": "Sets up the dependency browser-use/video-use.",
    "source_url": "https://github.com/davidcervinka/vibe-editing/blob/main/README.md#1-video-use--the-editing-skill-install-first"
   }
+ },
+ "gloweaseco-leo/hyperdirector": {
+  "safety_notes": [
+   "Install pipes a remote script into bash (curl ... | bash); read install.sh first."
+  ]
  },
  "hahadu4520/vlog-cut": {
   "install": {

@@ -4,6 +4,8 @@ A curated, English-first list of open-source skills, plugins, MCP servers and to
 
 Based on [zhuyansen/awesome-claude-video-skills](https://github.com/zhuyansen/awesome-claude-video-skills) (CC0) — see [Credits](#credits).
 
+**Start here:** [Tour](tour/README.md) · [Install](docs/install.md) · [Choosing a stack](docs/choosing-a-stack.md)
+
 **184 repositories** in 10 categories. Stars, licenses and push dates come from the GitHub API and were checked on 2026-09-29.
 
 **How to read this list.** Install and usage text is copied from each repository's README and was **not executed by us**. If a README has none, we say "See README". Upstream's SAFE/CAUTION grade covers the README and install steps only. Always read a tool's license and install steps before running it. In the tables, `NC` after a license means non-commercial only, and `—` means the repository has no license file (default copyright applies).
@@ -11,6 +13,13 @@ Based on [zhuyansen/awesome-claude-video-skills](https://github.com/zhuyansen/aw
 ## Guides
 
 - [Methodology: which judgments are ours](docs/methodology.md)
+- [Installing skills, plugins and MCP servers](docs/install.md)
+- [How to use these tools](docs/how-to-use.md)
+- [Choosing a stack](docs/choosing-a-stack.md)
+- [Selection criteria](docs/criteria.md)
+- [Safety](docs/safety.md)
+- [Guided tour by goal](tour/README.md)
+- [Worked examples](examples/README.md)
 
 ## Quick picks
 

@@ -3452,7 +3452,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": [],
+  "safety_notes": [
+   "Install pipes a remote script into bash (curl ... | bash); read install.sh first."
+  ],
   "best_for": null,
   "stack_note": null
  },
@@ -6245,7 +6247,9 @@
    }
   },
   "entry_kind": "tool",
-  "safety_notes": [],
+  "safety_notes": [
+   "The one-command setup pipes a remote script into bash (curl ... | bash); read install.sh first."
+  ],
   "best_for": null,
   "stack_note": null
  },

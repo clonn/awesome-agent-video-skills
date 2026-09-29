@@ -57,11 +57,11 @@ Rules: read the live docs first (https://docs.typesafe.ai/llms.txt, how-to-build
 
 | Task | Content | DoD | Depends | Status |
 |------|---------|-----|---------|--------|
-| 4.1 | `docs/install.md`: the ways to install (personal `~/.claude/skills`, project `.claude/skills`, `npx skills add`, plugin marketplace, `claude mcp add`, Codex skills). **Verify against current official docs** (claude-code-guide agent / context7), not memory | Every method cites an official doc URL | 3.1 | pm:依頼中 |
-| 4.2 | `docs/how-to-use.md`, `docs/choosing-a-stack.md` (HyperFrames vs Remotion vs Manim vs NLE MCPs such as Premiere/AE), `docs/criteria.md`, `docs/safety.md` | Each exists; criteria and safety attribute upstream's method | 3.1 | pm:依頼中 |
-| 4.3 | `tour/`: pages by goal (edit talking-head, explainer, product promo, motion logo, AI avatar, story/animation, music video), with 3 picks + why each, plus `tour/README.md` as the start page | 7 goal pages; each pick links to a card or a catalog row | 3.2 | pm:依頼中 |
-| 4.4 | `examples/`: 5 README-derived walkthroughs: SeeCut (talking-head → fine cut → CapCut draft), lanshu AI presenter, HyperFrames explainer, Remotion product promo (video-shotcraft), silence cut (cut-video). Each is marked "not executed by us" and lists prerequisites and costs | 5 files; every command traced to a README URL | 3.2 | pm:依頼中 |
-| 4.5 | `CONTRIBUTING.md` (how to add a repo = edit repos.json + run build), `LICENSE` | Exists and follows the outcome of 0.1 | 0.1 | pm:依頼中 |
+| 4.1 | `docs/install.md`: the ways to install (personal `~/.claude/skills`, project `.claude/skills`, `npx skills add`, plugin marketplace, `claude mcp add`, Codex skills). **Verify against current official docs** (claude-code-guide agent / context7), not memory | Every method cites an official doc URL | 3.1 | cc:完了 |
+| 4.2 | `docs/how-to-use.md`, `docs/choosing-a-stack.md` (HyperFrames vs Remotion vs Manim vs NLE MCPs such as Premiere/AE), `docs/criteria.md`, `docs/safety.md` | Each exists; criteria and safety attribute upstream's method | 3.1 | cc:完了 |
+| 4.3 | `tour/`: pages by goal (edit talking-head, explainer, product promo, motion logo, AI avatar, story/animation, music video), with 3 picks + why each, plus `tour/README.md` as the start page | 7 goal pages; each pick links to a card or a catalog row | 3.2 | cc:完了 |
+| 4.4 | `examples/`: 5 README-derived walkthroughs: SeeCut (talking-head → fine cut → CapCut draft), lanshu AI presenter, HyperFrames explainer, Remotion product promo (video-shotcraft), silence cut (cut-video). Each is marked "not executed by us" and lists prerequisites and costs | 5 files; every command traced to a README URL | 3.2 | cc:完了 |
+| 4.5 | `CONTRIBUTING.md` (how to add a repo = edit repos.json + run build), `LICENSE` | Exists and follows the outcome of 0.1 | 0.1 | cc:完了 |
 
 ## Phase 5: QA
 

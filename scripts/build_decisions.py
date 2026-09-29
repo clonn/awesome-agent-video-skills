@@ -24,6 +24,8 @@ ACCEPT = {  # id -> extra install fields
     "Monet-AI-Editor/Monet": {},
 }
 SAFETY = {
+    "gloweaseco-leo/hyperdirector": ["Install pipes a remote script into bash (curl ... | bash); read install.sh first."],
+    "Liamrjohnston/remotion-motion-graphics-skill": ["The one-command setup pipes a remote script into bash (curl ... | bash); read install.sh first."],
     "Monet-AI-Editor/Monet": ["Install pipes a remote script into bash (curl ... | bash); read install.sh first."],
     "molkex/mcp-flow-google": ["Connects to a third-party hosted MCP server (openflowmcp.com); review what data it receives."],
 }

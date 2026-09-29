@@ -218,7 +218,7 @@ def main():
     L += ["", f"## All {len(repos)} repositories", "", HEAD]
     L += [row(r, cards) for r in sorted(repos, key=lambda r: (-r["stars"], r["id"].lower()))] + [""]
     L += credits + [""]
-    L += ["## License of this repository", "", "Documentation is CC-BY-4.0 and scripts are MIT. Each listed project keeps its own license; check it before reuse.", ""]
+    L += ["## License of this repository", "", "This repository (documentation, data and scripts) is released under the [MIT License](LICENSE). The upstream list it is based on is dedicated to the public domain under CC0 1.0. Each listed project keeps its own license, and short snippets quoted from a README remain under that project's license; check it before reuse.", ""]
     out["README.md"] = "\n".join(L)
     for sid, name, sl, best in CATS:
         rows = by_cat[sid]

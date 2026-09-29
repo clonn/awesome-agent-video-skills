@@ -11,7 +11,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 CJK = re.compile(r"[㐀-鿿가-힯぀-ヿ]")
-RENDERED = ["README.md", "CONTRIBUTING.md", "LICENSE", "LICENSE-DOCS.md"]
+RENDERED = ["README.md", "CONTRIBUTING.md", "LICENSE"]
 RENDERED_DIRS = ["catalog", "skills", "docs", "tour", "examples"]
 
 

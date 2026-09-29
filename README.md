@@ -266,4 +266,4 @@ Featured tools, each with a card (what it is, install, usage, license, safety).
 
 ## License of this repository
 
-Documentation is CC-BY-4.0 and scripts are MIT. Each listed project keeps its own license; check it before reuse.
+This repository (documentation, data and scripts) is released under the [MIT License](LICENSE). The upstream list it is based on is dedicated to the public domain under CC0 1.0. Each listed project keeps its own license, and short snippets quoted from a README remain under that project's license; check it before reuse.

@@ -34,4 +34,4 @@ usage {snippet, source_url} | null, safety_upstream, featured (bool), notes, jud
 ## Layout
 README.md · data/ · scripts/ · catalog/<category>.md · skills/<owner>__<repo>.md (featured cards) · docs/
 (install, how-to-use, choosing-a-stack, criteria, safety) · tour/ · examples/ · experiments/typesafe/ · sources/ ·
-CONTRIBUTING.md · LICENSE (docs CC-BY-4.0, scripts MIT, if upstream permits).
+CONTRIBUTING.md · LICENSE: MIT for the whole repo (docs, data, scripts), copyright "clonn"; user decision 2026-09-29. Listed projects keep their own licenses; upstream list is CC0.

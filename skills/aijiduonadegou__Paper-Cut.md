@@ -1,0 +1,44 @@
+# Paper-Cut
+
+[aijiduonadegou/Paper-Cut](https://github.com/aijiduonadegou/Paper-Cut) · Codex Skill · 17 stars (checked 2026-09-29) · License: MIT
+
+Codex skill for paper-cut style explainer videos, using image-model stills, extracted layers and code animation, with approval gates and QA.
+
+## At a glance
+
+- **Category:** Explainers & Education (upstream's label)
+- **Best for (by category):** knowledge videos, tutorials and narrated lessons
+- **Stack:** HyperFrames, ffmpeg (our judgment: named in the README and confirmed as actually used; see [methodology](../docs/methodology.md))
+- **Language:** Python
+- **Last push:** 2026-08-14
+
+## Install
+
+_Not executed by us; copied from the README._
+
+Run:
+
+```bash
+git clone https://github.com/aijiduonadegou/paper-cut.git "$env:USERPROFILE\.codex\skills\paper-cut"
+```
+
+
+Source: [README](https://github.com/aijiduonadegou/Paper-Cut/blob/main/README.md#%E5%AE%89%E8%A3%85).
+
+## Usage
+
+See [README](https://github.com/aijiduonadegou/Paper-Cut#readme).
+
+## License
+
+MIT. See the repository's license file.
+
+## Safety
+
+- **Upstream's rating:** SAFE. Upstream's grade covers the README and install steps only; we did not review the code.
+- **Our notes:** none
+
+## Links
+
+- Repository: https://github.com/aijiduonadegou/Paper-Cut
+- Catalog: [Explainers & Education](../catalog/explainers-and-education.md)

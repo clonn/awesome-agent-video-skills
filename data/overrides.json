@@ -12,7 +12,7 @@
     "render_base": [
       "HyperFrames"
     ],
-    "notes": "Hand-verified against the README: rendering uses the HyperFrames CLI; HeyGen is only the optional avatar step; license is PolyForm Noncommercial 1.0.0."
+    "notes": "Rendering uses the HyperFrames CLI; HeyGen is only the optional avatar step (hand-verified against the README)."
   },
   "icytear-svg/podcast-to-video": {
     "install": null

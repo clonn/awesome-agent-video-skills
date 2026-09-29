@@ -49,8 +49,8 @@ Rules: read the live docs first (https://docs.typesafe.ai/llms.txt, how-to-build
 
 | Task | Content | DoD | Depends | Status |
 |------|---------|-----|---------|--------|
-| 3.1 | `scripts/build.py` → `README.md` (intro, credits, quick picks, category index, full table) + `catalog/<category>.md` | Running it twice gives an empty `git diff`; the count in README equals `len(repos.json)` | 1.4 | pm:依頼中 |
-| 3.2 | Per-repo card template → `skills/<owner>__<repo>.md` for featured entries: what it is, best for, stack, install, usage, license, safety (upstream), links | Cards exist for all `featured: true`; SeeCut card includes the PolyForm NC notice + limits | 3.1 | pm:依頼中 |
+| 3.1 | `scripts/build.py` → `README.md` (intro, credits, quick picks, category index, full table) + `catalog/<category>.md` | Running it twice gives an empty `git diff`; the count in README equals `len(repos.json)` | 1.4 | cc:完了 |
+| 3.2 | Per-repo card template → `skills/<owner>__<repo>.md` for featured entries: what it is, best for, stack, install, usage, license, safety (upstream), links | Cards exist for all `featured: true`; SeeCut card includes the PolyForm NC notice + limits | 3.1 | cc:完了 |
 
 ## Phase 4: Handwritten docs [tdd:skip:docs-only]
 

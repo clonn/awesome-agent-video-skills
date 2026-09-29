@@ -1,0 +1,446 @@
+[
+ {
+  "id": "FireRedTeam/FireRed-OpenStoryline",
+  "stars": 3455,
+  "category_upstream": "editing",
+  "category_gold": "editing",
+  "in_scope": true,
+  "makes_video": true,
+  "render_base": [],
+  "render_base_uncertain": [
+   "ffmpeg"
+  ],
+  "install_contains": "git clone https://github.com/FireRedTeam/FireRed-OpenStoryline.git",
+  "evidence": "README: conversational video creation app; \"## Install\" clones repo; ffmpeg appears only in acknowledgements list (line ~343)."
+ },
+ {
+  "id": "louisedesadeleer/cut-video",
+  "stars": 104,
+  "category_upstream": "editing",
+  "category_gold": "editing",
+  "in_scope": true,
+  "makes_video": true,
+  "render_base": [
+   "ffmpeg"
+  ],
+  "render_base_uncertain": [],
+  "install_contains": "git clone https://github.com/louisedesadeleer/cut-video.git ~/.claude/skills/cut-video",
+  "evidence": "README: silence/filler removal skill; \"Render & verify — ffmpeg trim+concat\"; Install section clones into ~/.claude/skills."
+ },
+ {
+  "id": "jackjls/jtxvideo-skill",
+  "stars": 5,
+  "category_upstream": "editing",
+  "category_gold": "shorts",
+  "in_scope": true,
+  "makes_video": true,
+  "render_base": [
+   "HyperFrames"
+  ],
+  "render_base_uncertain": [
+   "ffmpeg"
+  ],
+  "install_contains": "npx skills add https://github.com/jackjls/jtxvideo-skill --skill jtxvideo-skill -g",
+  "evidence": "README (zh): standardized Codex + HyperFrames talking-head (口播) video skill; \"安装方式\" uses npx skills add; ffprobe only for orientation check."
+ },
+ {
+  "id": "gnipbao/story-to-handdrawn-video",
+  "stars": 2108,
+  "category_upstream": "story",
+  "category_gold": "story",
+  "in_scope": true,
+  "makes_video": true,
+  "render_base": [
+   "Remotion"
+  ],
+  "render_base_uncertain": [],
+  "install_contains": "git clone https://github.com/gnipbao/story-to-handdrawn-video.git",
+  "evidence": "README (zh): story to hand-drawn animation; \"Remotion 渲染器\"; install section clones the repo then installs the skill."
+ },
+ {
+  "id": "Mr-funny/hbg-life-simulation",
+  "stars": 140,
+  "category_upstream": "story",
+  "category_gold": "story",
+  "in_scope": true,
+  "makes_video": true,
+  "render_base": [
+   "HyperFrames"
+  ],
+  "render_base_uncertain": [
+   "ffmpeg"
+  ],
+  "install_contains": "https://github.com/Mr-funny/hbg-life-simulation",
+  "evidence": "README (zh): manga-IP narrated life-story video; table row \"渲染 | HyperFrames 组合; 长片支持低磁盘流式 FFmpeg 压制\"; install is an agent prompt naming the repo URL."
+ },
+ {
+  "id": "taylorzhou16/video-gen",
+  "stars": 9,
+  "category_upstream": "story",
+  "category_gold": "editing",
+  "in_scope": true,
+  "makes_video": true,
+  "render_base": [
+   "ffmpeg"
+  ],
+  "render_base_uncertain": [],
+  "install_contains": "~/.claude/skills/video-gen/",
+  "evidence": "README (zh): \"AI 视频剪辑 Skill\" with video_gen_editor.py \"FFmpeg 剪辑工具\"; install copies files into ~/.claude/skills/video-gen/."
+ },
+ {
+  "id": "diffusionstudio/lottie",
+  "stars": 5523,
+  "category_upstream": "motion",
+  "category_gold": "motion",
+  "in_scope": true,
+  "makes_video": true,
+  "render_base": [
+   "Lottie"
+  ],
+  "render_base_uncertain": [],
+  "install_contains": "npx skills add diffusionstudio/lottie",
+  "evidence": "README: text-to-lottie framework generating Lottie animations; Quick Start command."
+ },
+ {
+  "id": "Liamrjohnston/remotion-motion-graphics-skill",
+  "stars": 75,
+  "category_upstream": "motion",
+  "category_gold": "motion",
+  "in_scope": true,
+  "makes_video": true,
+  "render_base": [
+   "Remotion"
+  ],
+  "render_base_uncertain": [],
+  "install_contains": "npx skills add liamrjohnston/remotion-motion-graphics-skill",
+  "evidence": "README: four skills building Remotion motion-graphics clips; npx skills add at top."
+ },
+ {
+  "id": "acelera-agency/html-animation",
+  "stars": 6,
+  "category_upstream": "motion",
+  "category_gold": "motion",
+  "in_scope": true,
+  "makes_video": true,
+  "render_base": [
+   "other"
+  ],
+  "render_base_uncertain": [
+   "ffmpeg"
+  ],
+  "install_contains": "git clone https://github.com/acelera-agency/html-animation.git ~/.claude/skills/motion-graphics",
+  "evidence": "README: animation as one HTML file exported to MP4; \"No After Effects\"; needs ffmpeg + playwright for exporter. After Effects is a negation, not use."
+ },
+ {
+  "id": "EverMind-AI/Raven",
+  "stars": 4624,
+  "category_upstream": "explainer",
+  "category_gold": "out_of_scope",
+  "in_scope": false,
+  "makes_video": false,
+  "render_base": [],
+  "render_base_uncertain": [],
+  "install_contains": "evermind-ai.github.io/Raven/quick-start",
+  "evidence": "README: multi-agent host/harness (\"harness of harnesses\"); video is at most a sub-skill path; not a video skill itself. Install is an agent prompt pointing at quick-start docs."
+ },
+ {
+  "id": "Phantomlau3674/voxstylehub-steven",
+  "stars": 24,
+  "category_upstream": "explainer",
+  "category_gold": "explainer",
+  "in_scope": true,
+  "makes_video": true,
+  "render_base": [
+   "Remotion"
+  ],
+  "render_base_uncertain": [],
+  "install_contains": "cp -r xingchen-vox-collage ~/.codex/skills/",
+  "evidence": "README (zh): knowledge/history talking-head to Vox-style collage explainer with Codex + Remotion; \"最短安装\" copies the skill folder."
+ },
+ {
+  "id": "cymcymcymcym/notes-to-video",
+  "stars": 5,
+  "category_upstream": "explainer",
+  "category_gold": "explainer",
+  "in_scope": true,
+  "makes_video": true,
+  "render_base": [
+   "Manim"
+  ],
+  "render_base_uncertain": [
+   "ffmpeg"
+  ],
+  "install_contains": "npx notes-to-video",
+  "evidence": "README: notes to 3Blue1Brown-style explainer using Manim, TTS, ffmpeg; Install: npx notes-to-video."
+ },
+ {
+  "id": "jtydhr88/screenwriting-skills",
+  "stars": 1458,
+  "category_upstream": "craft",
+  "category_gold": "craft",
+  "in_scope": true,
+  "makes_video": false,
+  "render_base": [],
+  "render_base_uncertain": [],
+  "install_contains": "/plugin marketplace add jtydhr88/screenwriting-skills",
+  "evidence": "README: 26 screenwriting skills; no video rendering; kept under upstream Scripts & learning carve-out; plugin marketplace install."
+ },
+ {
+  "id": "wocha-xiaoli/video-shot-analysis-feishu",
+  "stars": 36,
+  "category_upstream": "craft",
+  "category_gold": "craft",
+  "in_scope": true,
+  "makes_video": false,
+  "render_base": [],
+  "render_base_uncertain": [
+   "ffmpeg"
+  ],
+  "install_contains": "git clone https://github.com/wocha-xiaoli/video-shot-analysis-feishu.git",
+  "evidence": "README (zh): video shot-analysis (拉片) into Feishu Base; ffmpeg extracts screenshots (analysis, not rendering); install clones repo."
+ },
+ {
+  "id": "sharon-laicc/viral-video-decomposer",
+  "stars": 6,
+  "category_upstream": "craft",
+  "category_gold": "craft",
+  "in_scope": true,
+  "makes_video": false,
+  "render_base": [],
+  "render_base_uncertain": [],
+  "install_contains": "/plugin install viral-video-decomposer@viral-video-decomposer",
+  "evidence": "README: analyzes short videos into HTML report/brief; no rendering; plugin install command near end."
+ },
+ {
+  "id": "Yuuhann1999/codex-storyboard",
+  "stars": 347,
+  "category_upstream": "shorts",
+  "category_gold": "shorts",
+  "in_scope": true,
+  "makes_video": true,
+  "render_base": [
+   "HyperFrames",
+   "Remotion"
+  ],
+  "render_base_uncertain": [],
+  "install_contains": "codex plugin marketplace add Yuuhann1999/codex-storyboard",
+  "evidence": "README (zh): storyboard workbench that calls HyperFrames or Remotion to generate assets (availability depends on environment)."
+ },
+ {
+  "id": "adriiita/vertical-video-editing-skill",
+  "stars": 10,
+  "category_upstream": "shorts",
+  "category_gold": "shorts",
+  "in_scope": true,
+  "makes_video": true,
+  "render_base": [
+   "HyperFrames"
+  ],
+  "render_base_uncertain": [
+   "ffmpeg"
+  ],
+  "install_contains": "npx vertical-video-editing-skill",
+  "evidence": "README: vertical 9:16 short editing skill \"rendered with HyperFrames\"; npx installer."
+ },
+ {
+  "id": "wendymardigian-prog/Editor-IA-Pro",
+  "stars": 5,
+  "category_upstream": "shorts",
+  "category_gold": "editing",
+  "in_scope": true,
+  "makes_video": true,
+  "render_base": [
+   "Remotion"
+  ],
+  "render_base_uncertain": [],
+  "install_contains": "git clone https://github.com/wendymardigian-prog/Claude-Editor-Pro.git",
+  "evidence": "README: \"Built with Remotion + Claude Code\"; Quick Start clones Claude-Editor-Pro (repo was renamed in text)."
+ },
+ {
+  "id": "cclank/lanshu-create-ai-presenter-video",
+  "stars": 1992,
+  "category_upstream": "avatar",
+  "category_gold": "avatar",
+  "in_scope": true,
+  "makes_video": true,
+  "render_base": [],
+  "render_base_uncertain": [
+   "HyperFrames",
+   "ffmpeg"
+  ],
+  "install_contains": "git clone https://github.com/cclank/lanshu-create-ai-presenter-video.git",
+  "evidence": "README: provider-neutral AI presenter skill; HyperFrames only \"optional compositor\"; FFmpeg is a required dependency for QA, not stated as renderer."
+ },
+ {
+  "id": "Upload-Post/avatar-mix",
+  "stars": 130,
+  "category_upstream": "avatar",
+  "category_gold": "avatar",
+  "in_scope": true,
+  "makes_video": true,
+  "render_base": [
+   "HeyGen",
+   "HyperFrames"
+  ],
+  "render_base_uncertain": [
+   "ffmpeg"
+  ],
+  "install_contains": null,
+  "evidence": "README: HeyGen avatar + HyperFrames edit; no explicit install command found (skill lives in .claude/skills/avatar-mix)."
+ },
+ {
+  "id": "zlong6943-commits/football-prediction-avatar-video",
+  "stars": 9,
+  "category_upstream": "avatar",
+  "category_gold": "avatar",
+  "in_scope": true,
+  "makes_video": true,
+  "render_base": [
+   "HeyGen",
+   "HyperFrames"
+  ],
+  "render_base_uncertain": [],
+  "install_contains": "git clone https://github.com/zlong6943-commits/football-prediction-avatar-video.git ~/.codex/skills/football-prediction-avatar-video",
+  "evidence": "README (zh): flowchart HeyGen digital human then HyperFrames; deliverable includes editable HyperFrames project."
+ },
+ {
+  "id": "Vincentwei1021/video-shotcraft",
+  "stars": 9909,
+  "category_upstream": "promo",
+  "category_gold": "promo",
+  "in_scope": true,
+  "makes_video": true,
+  "render_base": [
+   "Remotion"
+  ],
+  "render_base_uncertain": [],
+  "install_contains": "https://github.com/Vincentwei1021/video-shotcraft",
+  "evidence": "README: cinematic product videos with Remotion; quick start is an agent prompt \"Install this skill for me: <url>\"."
+ },
+ {
+  "id": "gorkem-bwl/onboarding-video-generator",
+  "stars": 31,
+  "category_upstream": "promo",
+  "category_gold": "promo",
+  "in_scope": true,
+  "makes_video": true,
+  "render_base": [
+   "Remotion"
+  ],
+  "render_base_uncertain": [],
+  "install_contains": "git clone https://github.com/gorkem-bwl/onboarding-video-generator.git",
+  "evidence": "README: onboarding feature videos produced in Remotion; Install as a Claude Code skill."
+ },
+ {
+  "id": "ChenShuo2004/cs-shotcraft-skill",
+  "stars": 5,
+  "category_upstream": "promo",
+  "category_gold": "promo",
+  "in_scope": true,
+  "makes_video": true,
+  "render_base": [
+   "Remotion"
+  ],
+  "render_base_uncertain": [],
+  "install_contains": null,
+  "evidence": "README: Codex edition of video-shotcraft using Remotion; states it is \"already installed\"; no install command."
+ },
+ {
+  "id": "calesthio/OpenMontage",
+  "stars": 61839,
+  "category_upstream": "general",
+  "category_gold": "general",
+  "in_scope": true,
+  "makes_video": true,
+  "render_base": [
+   "Remotion",
+   "HyperFrames"
+  ],
+  "render_base_uncertain": [
+   "ffmpeg",
+   "HeyGen",
+   "Manim",
+   "Blender"
+  ],
+  "install_contains": "git clone https://github.com/calesthio/OpenMontage.git",
+  "evidence": "README: agentic production system with Remotion and HyperFrames pipelines; other tools appear as providers/options; Install & Run clones the repo."
+ },
+ {
+  "id": "zhouyuechuan2025-ui/ai-self-media-video-packaging-skill",
+  "stars": 36,
+  "category_upstream": "general",
+  "category_gold": "editing",
+  "in_scope": true,
+  "makes_video": true,
+  "render_base": [
+   "Remotion",
+   "HyperFrames"
+  ],
+  "render_base_uncertain": [
+   "Premiere Pro"
+  ],
+  "install_contains": "git clone https://github.com/zhouyuechuan2025-ui/ai-self-media-video-packaging-skill.git",
+  "evidence": "README (zh): packages talking-head video + SRT; \"默认使用 Remotion ... 也可以生成 HyperFrames 项目\"; Premiere named only as a place to import the overlay."
+ },
+ {
+  "id": "VasiniDevi/motion-skills",
+  "stars": 6,
+  "category_upstream": "general",
+  "category_gold": "motion",
+  "in_scope": true,
+  "makes_video": true,
+  "render_base": [
+   "other"
+  ],
+  "render_base_uncertain": [],
+  "install_contains": "npx skills add VasiniDevi/motion-skills -a claude-code",
+  "evidence": "README: Python PIL/OpenCV motion engine; its own \"lottie_engine\" is a custom JSON timeline, not the Lottie tool."
+ },
+ {
+  "id": "JohnHeibel/PDoomVideo",
+  "stars": 1486,
+  "category_upstream": "music",
+  "category_gold": "music",
+  "in_scope": true,
+  "makes_video": true,
+  "render_base": [
+   "p5.js",
+   "ffmpeg"
+  ],
+  "render_base_uncertain": [],
+  "install_contains": null,
+  "evidence": "README: studio.html paints frames with p5.js + p5.brush; render.mjs encodes with ffmpeg; source code repo, no install command."
+ },
+ {
+  "id": "ledbetterljoshua/functional-emotions-video",
+  "stars": 57,
+  "category_upstream": "music",
+  "category_gold": "music",
+  "in_scope": true,
+  "makes_video": true,
+  "render_base": [
+   "other",
+   "ffmpeg"
+  ],
+  "render_base_uncertain": [],
+  "install_contains": null,
+  "evidence": "README: \"The painted look isn't p5. It's a custom WebGL2 stroke renderer\"; needs ffmpeg; no install command."
+ },
+ {
+  "id": "YeJe-cpu/SeeCut",
+  "stars": 130,
+  "category_upstream": "must",
+  "category_gold": "shorts",
+  "in_scope": true,
+  "makes_video": true,
+  "render_base": [
+   "HyperFrames"
+  ],
+  "render_base_uncertain": [
+   "HeyGen",
+   "ffmpeg"
+  ],
+  "install_contains": null,
+  "evidence": "README (zh): talking-head fine-cut skill using HyperFrames CLI; HeyGen is only the optional avatar source step; README has preflight step, no single install command."
+ }
+]

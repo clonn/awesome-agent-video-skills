@@ -1,0 +1,3101 @@
+{
+ "FireRedTeam/FireRed-OpenStoryline": {
+  "E1": {
+   "answers": {
+    "category": {
+     "type": "choice",
+     "choice": "editing",
+     "confidence": 0.55,
+     "probabilities": {
+      "promo": 0.0,
+      "motion": 0.0,
+      "explainer": 0.0,
+      "general": 0.36,
+      "editing": 0.6,
+      "craft": 0.0,
+      "avatar": 0.0,
+      "music": 0.0,
+      "shorts": 0.01,
+      "story": 0.03,
+      "out_of_scope": 0.0
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 1550,
+    "output_tokens": 98
+   },
+   "latency": 0.39
+  },
+  "E2": {
+   "answers": {
+    "Remotion": {
+     "type": "noul",
+     "noul": 0.11
+    },
+    "HyperFrames": {
+     "type": "noul",
+     "noul": 0.12
+    },
+    "Manim": {
+     "type": "noul",
+     "noul": 0.04
+    },
+    "ffmpeg": {
+     "type": "noul",
+     "noul": 0.73
+    },
+    "After Effects": {
+     "type": "noul",
+     "noul": 0.06
+    },
+    "Premiere Pro": {
+     "type": "noul",
+     "noul": 0.06
+    },
+    "HeyGen": {
+     "type": "noul",
+     "noul": 0.06
+    },
+    "Blender": {
+     "type": "noul",
+     "noul": 0.23
+    },
+    "p5.js": {
+     "type": "noul",
+     "noul": 0.1
+    },
+    "Lottie": {
+     "type": "noul",
+     "noul": 0.13
+    }
+   },
+   "usage": {
+    "input_tokens": 2625,
+    "output_tokens": 180
+   },
+   "latency": 0.3
+  },
+  "E3": {
+   "n_cands": 19,
+   "choice": "c5",
+   "confidence": 0.27,
+   "probabilities": {
+    "c7": 0.02,
+    "c14": 0.01,
+    "c9": 0.01,
+    "c16": 0.0,
+    "c4": 0.02,
+    "c12": 0.02,
+    "c2": 0.03,
+    "c11": 0.0,
+    "c17": 0.0,
+    "c19": 0.01,
+    "c3": 0.03,
+    "c8": 0.01,
+    "none": 0.27,
+    "c6": 0.19,
+    "c1": 0.06,
+    "c18": 0.0,
+    "c10": 0.0,
+    "c5": 0.31,
+    "c15": 0.0,
+    "c13": 0.01
+   },
+   "chosen_text": "npx skills add FireRedTeam/FireRed-OpenStoryline --skill openstoryline-install --agent codex\nnpx skills add FireRedTeam/FireRed-OpenStoryline --skill openstoryline-use --agent codex",
+   "usage": {
+    "input_tokens": 1671,
+    "output_tokens": 187
+   },
+   "latency": 0.402
+  },
+  "E4": {
+   "answers": {
+    "makes_video": {
+     "type": "noul",
+     "noul": 0.98
+    },
+    "agent_oriented": {
+     "type": "noul",
+     "noul": 0.89
+    },
+    "shows_output": {
+     "type": "noul",
+     "noul": 0.75
+    },
+    "one_command_start": {
+     "type": "noul",
+     "noul": 0.88
+    }
+   },
+   "usage": {
+    "input_tokens": 1785,
+    "output_tokens": 74
+   },
+   "latency": 0.522
+  },
+  "E5": {
+   "answers": {
+    "beginner": {
+     "type": "score",
+     "score": 1.7,
+     "confidence": 0.41,
+     "legend": {
+      "0": "Hard: assumes deep expertise, no clear start, or missing setup steps",
+      "1": "Difficult: has setup steps but they are incomplete or assume prior tooling knowledge",
+      "2": "Moderate: clear purpose and install steps, but requires several prerequisites or manual configuration",
+      "3": "Easy: clear purpose, concise install and a first-use example that works with few prerequisites",
+      "4": "Very easy: one-command or one-sentence start, shows expected output, explains prerequisites"
+     },
+     "probabilities": {
+      "0": 0.01,
+      "1": 0.43,
+      "2": 0.43,
+      "3": 0.13,
+      "4": 0.0
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 1803,
+    "output_tokens": 19
+   },
+   "latency": 0.683
+  }
+ },
+ "gnipbao/story-to-handdrawn-video": {
+  "E1": {
+   "answers": {
+    "category": {
+     "type": "choice",
+     "choice": "story",
+     "confidence": 1.0,
+     "probabilities": {
+      "story": 1.0,
+      "craft": 0.0,
+      "avatar": 0.0,
+      "shorts": 0.0,
+      "promo": 0.0,
+      "explainer": 0.0,
+      "general": 0.0,
+      "motion": 0.0,
+      "out_of_scope": 0.0,
+      "music": 0.0,
+      "editing": 0.0
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 2822,
+    "output_tokens": 98
+   },
+   "latency": 0.627
+  },
+  "E2": {
+   "answers": {
+    "Remotion": {
+     "type": "noul",
+     "noul": 0.95
+    },
+    "HyperFrames": {
+     "type": "noul",
+     "noul": 0.04
+    },
+    "Manim": {
+     "type": "noul",
+     "noul": 0.01
+    },
+    "ffmpeg": {
+     "type": "noul",
+     "noul": 0.71
+    },
+    "After Effects": {
+     "type": "noul",
+     "noul": 0.01
+    },
+    "Premiere Pro": {
+     "type": "noul",
+     "noul": 0.01
+    },
+    "HeyGen": {
+     "type": "noul",
+     "noul": 0.01
+    },
+    "Blender": {
+     "type": "noul",
+     "noul": 0.01
+    },
+    "p5.js": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "Lottie": {
+     "type": "noul",
+     "noul": 0.02
+    }
+   },
+   "usage": {
+    "input_tokens": 5451,
+    "output_tokens": 180
+   },
+   "latency": 0.285
+  },
+  "E3": {
+   "n_cands": 10,
+   "choice": "c2",
+   "confidence": 0.9,
+   "probabilities": {
+    "c1": 0.0,
+    "c2": 0.92,
+    "c3": 0.0,
+    "c4": 0.0,
+    "c5": 0.0,
+    "c6": 0.0,
+    "c7": 0.0,
+    "c8": 0.0,
+    "c9": 0.0,
+    "c10": 0.0,
+    "none": 0.08
+   },
+   "chosen_text": "# Codex\ncp -R skill-package/story-to-handdrawn-video ~/.codex/skills/\n# Claude Code\ncp -R skill-package/story-to-handdrawn-video ~/.claude/skills/\n# Kimi Code / 使用通用 skills 目录的 Agent\ncp -R skill-package/story-to-handdrawn-video ~/.agents/skills/",
+   "usage": {
+    "input_tokens": 2404,
+    "output_tokens": 106
+   },
+   "latency": 0.344
+  },
+  "E4": {
+   "answers": {
+    "makes_video": {
+     "type": "noul",
+     "noul": 0.97
+    },
+    "agent_oriented": {
+     "type": "noul",
+     "noul": 0.95
+    },
+    "shows_output": {
+     "type": "noul",
+     "noul": 0.96
+    },
+    "one_command_start": {
+     "type": "noul",
+     "noul": 0.8
+    }
+   },
+   "usage": {
+    "input_tokens": 4264,
+    "output_tokens": 74
+   },
+   "latency": 0.318
+  },
+  "E5": {
+   "answers": {
+    "beginner": {
+     "type": "score",
+     "score": 1.89,
+     "confidence": 0.89,
+     "legend": {
+      "0": "Hard: assumes deep expertise, no clear start, or missing setup steps",
+      "1": "Difficult: has setup steps but they are incomplete or assume prior tooling knowledge",
+      "2": "Moderate: clear purpose and install steps, but requires several prerequisites or manual configuration",
+      "3": "Easy: clear purpose, concise install and a first-use example that works with few prerequisites",
+      "4": "Very easy: one-command or one-sentence start, shows expected output, explains prerequisites"
+     },
+     "probabilities": {
+      "0": 0.0,
+      "1": 0.12,
+      "2": 0.87,
+      "3": 0.01,
+      "4": 0.0
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 4282,
+    "output_tokens": 19
+   },
+   "latency": 0.699
+  }
+ },
+ "diffusionstudio/lottie": {
+  "E1": {
+   "answers": {
+    "category": {
+     "type": "choice",
+     "choice": "motion",
+     "confidence": 0.98,
+     "probabilities": {
+      "story": 0.0,
+      "shorts": 0.0,
+      "general": 0.0,
+      "explainer": 0.0,
+      "avatar": 0.0,
+      "music": 0.0,
+      "out_of_scope": 0.02,
+      "editing": 0.0,
+      "promo": 0.0,
+      "craft": 0.0,
+      "motion": 0.98
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 1563,
+    "output_tokens": 98
+   },
+   "latency": 0.798
+  },
+  "E2": {
+   "answers": {
+    "Remotion": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "HyperFrames": {
+     "type": "noul",
+     "noul": 0.03
+    },
+    "Manim": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "ffmpeg": {
+     "type": "noul",
+     "noul": 0.04
+    },
+    "After Effects": {
+     "type": "noul",
+     "noul": 0.04
+    },
+    "Premiere Pro": {
+     "type": "noul",
+     "noul": 0.01
+    },
+    "HeyGen": {
+     "type": "noul",
+     "noul": 0.01
+    },
+    "Blender": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "p5.js": {
+     "type": "noul",
+     "noul": 0.04
+    },
+    "Lottie": {
+     "type": "noul",
+     "noul": 0.89
+    }
+   },
+   "usage": {
+    "input_tokens": 1601,
+    "output_tokens": 180
+   },
+   "latency": 0.351
+  },
+  "E3": {
+   "n_cands": 7,
+   "choice": "c1",
+   "confidence": 1.0,
+   "probabilities": {
+    "none": 0.0,
+    "c6": 0.0,
+    "c7": 0.0,
+    "c2": 0.0,
+    "c3": 0.0,
+    "c1": 1.0,
+    "c5": 0.0,
+    "c4": 0.0
+   },
+   "chosen_text": "npx skills add diffusionstudio/lottie",
+   "usage": {
+    "input_tokens": 1062,
+    "output_tokens": 81
+   },
+   "latency": 0.674
+  },
+  "E4": {
+   "answers": {
+    "makes_video": {
+     "type": "noul",
+     "noul": 0.91
+    },
+    "agent_oriented": {
+     "type": "noul",
+     "noul": 0.97
+    },
+    "shows_output": {
+     "type": "noul",
+     "noul": 0.11
+    },
+    "one_command_start": {
+     "type": "noul",
+     "noul": 0.94
+    }
+   },
+   "usage": {
+    "input_tokens": 1284,
+    "output_tokens": 74
+   },
+   "latency": 0.482
+  },
+  "E5": {
+   "answers": {
+    "beginner": {
+     "type": "score",
+     "score": 2.24,
+     "confidence": 0.35,
+     "legend": {
+      "0": "Hard: assumes deep expertise, no clear start, or missing setup steps",
+      "1": "Difficult: has setup steps but they are incomplete or assume prior tooling knowledge",
+      "2": "Moderate: clear purpose and install steps, but requires several prerequisites or manual configuration",
+      "3": "Easy: clear purpose, concise install and a first-use example that works with few prerequisites",
+      "4": "Very easy: one-command or one-sentence start, shows expected output, explains prerequisites"
+     },
+     "probabilities": {
+      "0": 0.0,
+      "1": 0.19,
+      "2": 0.38,
+      "3": 0.42,
+      "4": 0.01
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 1302,
+    "output_tokens": 19
+   },
+   "latency": 0.288
+  }
+ },
+ "EverMind-AI/Raven": {
+  "E1": {
+   "answers": {
+    "category": {
+     "type": "choice",
+     "choice": "out_of_scope",
+     "confidence": 1.0,
+     "probabilities": {
+      "editing": 0.0,
+      "motion": 0.0,
+      "shorts": 0.0,
+      "craft": 0.0,
+      "story": 0.0,
+      "avatar": 0.0,
+      "out_of_scope": 1.0,
+      "explainer": 0.0,
+      "music": 0.0,
+      "general": 0.0,
+      "promo": 0.0
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 1583,
+    "output_tokens": 100
+   },
+   "latency": 0.628
+  },
+  "E2": {
+   "answers": {
+    "Remotion": {
+     "type": "noul",
+     "noul": 0.1
+    },
+    "HyperFrames": {
+     "type": "noul",
+     "noul": 0.07
+    },
+    "Manim": {
+     "type": "noul",
+     "noul": 0.12
+    },
+    "ffmpeg": {
+     "type": "noul",
+     "noul": 0.21
+    },
+    "After Effects": {
+     "type": "noul",
+     "noul": 0.06
+    },
+    "Premiere Pro": {
+     "type": "noul",
+     "noul": 0.04
+    },
+    "HeyGen": {
+     "type": "noul",
+     "noul": 0.07
+    },
+    "Blender": {
+     "type": "noul",
+     "noul": 0.09
+    },
+    "p5.js": {
+     "type": "noul",
+     "noul": 0.08
+    },
+    "Lottie": {
+     "type": "noul",
+     "noul": 0.08
+    }
+   },
+   "usage": {
+    "input_tokens": 2578,
+    "output_tokens": 180
+   },
+   "latency": 0.605
+  },
+  "E3": {
+   "n_cands": 8,
+   "choice": "none",
+   "confidence": 0.65,
+   "probabilities": {
+    "c1": 0.12,
+    "c2": 0.14,
+    "c3": 0.0,
+    "c4": 0.01,
+    "c5": 0.01,
+    "c6": 0.02,
+    "c7": 0.0,
+    "c8": 0.0,
+    "none": 0.7
+   },
+   "chosen_text": "None of the candidates is an installation command for this project.",
+   "usage": {
+    "input_tokens": 1009,
+    "output_tokens": 88
+   },
+   "latency": 0.369
+  },
+  "E4": {
+   "answers": {
+    "makes_video": {
+     "type": "noul",
+     "noul": 0.36
+    },
+    "agent_oriented": {
+     "type": "noul",
+     "noul": 0.39
+    },
+    "shows_output": {
+     "type": "noul",
+     "noul": 0.93
+    },
+    "one_command_start": {
+     "type": "noul",
+     "noul": 0.2
+    }
+   },
+   "usage": {
+    "input_tokens": 1820,
+    "output_tokens": 74
+   },
+   "latency": 0.547
+  },
+  "E5": {
+   "answers": {
+    "beginner": {
+     "type": "score",
+     "score": 0.02,
+     "confidence": 0.99,
+     "legend": {
+      "0": "Hard: assumes deep expertise, no clear start, or missing setup steps",
+      "1": "Difficult: has setup steps but they are incomplete or assume prior tooling knowledge",
+      "2": "Moderate: clear purpose and install steps, but requires several prerequisites or manual configuration",
+      "3": "Easy: clear purpose, concise install and a first-use example that works with few prerequisites",
+      "4": "Very easy: one-command or one-sentence start, shows expected output, explains prerequisites"
+     },
+     "probabilities": {
+      "0": 0.99,
+      "1": 0.01,
+      "2": 0.0,
+      "3": 0.0,
+      "4": 0.0
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 1838,
+    "output_tokens": 19
+   },
+   "latency": 0.787
+  }
+ },
+ "jtydhr88/screenwriting-skills": {
+  "E1": {
+   "answers": {
+    "category": {
+     "type": "choice",
+     "choice": "craft",
+     "confidence": 0.99,
+     "probabilities": {
+      "editing": 0.0,
+      "motion": 0.0,
+      "craft": 0.99,
+      "shorts": 0.0,
+      "explainer": 0.0,
+      "story": 0.0,
+      "general": 0.0,
+      "avatar": 0.0,
+      "promo": 0.0,
+      "out_of_scope": 0.01,
+      "music": 0.0
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 1728,
+    "output_tokens": 98
+   },
+   "latency": 0.286
+  },
+  "E2": {
+   "answers": {
+    "Remotion": {
+     "type": "noul",
+     "noul": 0.01
+    },
+    "HyperFrames": {
+     "type": "noul",
+     "noul": 0.01
+    },
+    "Manim": {
+     "type": "noul",
+     "noul": 0.01
+    },
+    "ffmpeg": {
+     "type": "noul",
+     "noul": 0.01
+    },
+    "After Effects": {
+     "type": "noul",
+     "noul": 0.01
+    },
+    "Premiere Pro": {
+     "type": "noul",
+     "noul": 0.01
+    },
+    "HeyGen": {
+     "type": "noul",
+     "noul": 0.01
+    },
+    "Blender": {
+     "type": "noul",
+     "noul": 0.01
+    },
+    "p5.js": {
+     "type": "noul",
+     "noul": 0.01
+    },
+    "Lottie": {
+     "type": "noul",
+     "noul": 0.01
+    }
+   },
+   "usage": {
+    "input_tokens": 2868,
+    "output_tokens": 180
+   },
+   "latency": 0.357
+  },
+  "E3": {
+   "n_cands": 8,
+   "choice": "c1",
+   "confidence": 0.99,
+   "probabilities": {
+    "c8": 0.0,
+    "c4": 0.0,
+    "c2": 0.01,
+    "c5": 0.0,
+    "none": 0.0,
+    "c3": 0.0,
+    "c1": 0.99,
+    "c6": 0.0,
+    "c7": 0.0
+   },
+   "chosen_text": "/plugin marketplace add jtydhr88/screenwriting-skills\n/plugin install screenwriting@screenwriting-skills",
+   "usage": {
+    "input_tokens": 1354,
+    "output_tokens": 89
+   },
+   "latency": 0.295
+  },
+  "E4": {
+   "answers": {
+    "makes_video": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "agent_oriented": {
+     "type": "noul",
+     "noul": 0.94
+    },
+    "shows_output": {
+     "type": "noul",
+     "noul": 0.08
+    },
+    "one_command_start": {
+     "type": "noul",
+     "noul": 0.94
+    }
+   },
+   "usage": {
+    "input_tokens": 2006,
+    "output_tokens": 74
+   },
+   "latency": 0.512
+  },
+  "E5": {
+   "answers": {
+    "beginner": {
+     "type": "score",
+     "score": 2.25,
+     "confidence": 0.63,
+     "legend": {
+      "0": "Hard: assumes deep expertise, no clear start, or missing setup steps",
+      "1": "Difficult: has setup steps but they are incomplete or assume prior tooling knowledge",
+      "2": "Moderate: clear purpose and install steps, but requires several prerequisites or manual configuration",
+      "3": "Easy: clear purpose, concise install and a first-use example that works with few prerequisites",
+      "4": "Very easy: one-command or one-sentence start, shows expected output, explains prerequisites"
+     },
+     "probabilities": {
+      "0": 0.0,
+      "1": 0.1,
+      "2": 0.58,
+      "3": 0.3,
+      "4": 0.02
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 2024,
+    "output_tokens": 19
+   },
+   "latency": 0.317
+  }
+ },
+ "Yuuhann1999/codex-storyboard": {
+  "E1": {
+   "answers": {
+    "category": {
+     "type": "choice",
+     "choice": "shorts",
+     "confidence": 0.42,
+     "probabilities": {
+      "shorts": 0.48,
+      "explainer": 0.0,
+      "craft": 0.21,
+      "motion": 0.0,
+      "promo": 0.0,
+      "editing": 0.0,
+      "story": 0.0,
+      "general": 0.3,
+      "music": 0.0,
+      "avatar": 0.0,
+      "out_of_scope": 0.01
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 3094,
+    "output_tokens": 99
+   },
+   "latency": 0.27
+  },
+  "E2": {
+   "answers": {
+    "Remotion": {
+     "type": "noul",
+     "noul": 0.39
+    },
+    "HyperFrames": {
+     "type": "noul",
+     "noul": 0.39
+    },
+    "Manim": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "ffmpeg": {
+     "type": "noul",
+     "noul": 0.15
+    },
+    "After Effects": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "Premiere Pro": {
+     "type": "noul",
+     "noul": 0.01
+    },
+    "HeyGen": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "Blender": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "p5.js": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "Lottie": {
+     "type": "noul",
+     "noul": 0.03
+    }
+   },
+   "usage": {
+    "input_tokens": 4366,
+    "output_tokens": 180
+   },
+   "latency": 0.324
+  },
+  "E3": {
+   "n_cands": 23,
+   "choice": "c2",
+   "confidence": 1.0,
+   "probabilities": {
+    "c1": 0.0,
+    "c3": 0.0,
+    "c16": 0.0,
+    "c15": 0.0,
+    "c23": 0.0,
+    "c21": 0.0,
+    "c13": 0.0,
+    "c5": 0.0,
+    "c12": 0.0,
+    "c9": 0.0,
+    "c22": 0.0,
+    "c11": 0.0,
+    "c8": 0.0,
+    "c6": 0.0,
+    "none": 0.0,
+    "c19": 0.0,
+    "c17": 0.0,
+    "c4": 0.0,
+    "c7": 0.0,
+    "c18": 0.0,
+    "c14": 0.0,
+    "c2": 1.0,
+    "c10": 0.0,
+    "c20": 0.0
+   },
+   "chosen_text": "codex plugin marketplace add Yuuhann1999/codex-storyboard\ncodex plugin add codex-storyboard@codex-storyboard",
+   "usage": {
+    "input_tokens": 2700,
+    "output_tokens": 223
+   },
+   "latency": 0.618
+  },
+  "E4": {
+   "answers": {
+    "makes_video": {
+     "type": "noul",
+     "noul": 0.72
+    },
+    "agent_oriented": {
+     "type": "noul",
+     "noul": 0.96
+    },
+    "shows_output": {
+     "type": "noul",
+     "noul": 0.13
+    },
+    "one_command_start": {
+     "type": "noul",
+     "noul": 0.91
+    }
+   },
+   "usage": {
+    "input_tokens": 4049,
+    "output_tokens": 74
+   },
+   "latency": 0.302
+  },
+  "E5": {
+   "answers": {
+    "beginner": {
+     "type": "score",
+     "score": 2.61,
+     "confidence": 0.6,
+     "legend": {
+      "0": "Hard: assumes deep expertise, no clear start, or missing setup steps",
+      "1": "Difficult: has setup steps but they are incomplete or assume prior tooling knowledge",
+      "2": "Moderate: clear purpose and install steps, but requires several prerequisites or manual configuration",
+      "3": "Easy: clear purpose, concise install and a first-use example that works with few prerequisites",
+      "4": "Very easy: one-command or one-sentence start, shows expected output, explains prerequisites"
+     },
+     "probabilities": {
+      "0": 0.0,
+      "1": 0.01,
+      "2": 0.42,
+      "3": 0.52,
+      "4": 0.05
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 4067,
+    "output_tokens": 19
+   },
+   "latency": 0.387
+  }
+ },
+ "cclank/lanshu-create-ai-presenter-video": {
+  "E1": {
+   "answers": {
+    "category": {
+     "type": "choice",
+     "choice": "avatar",
+     "confidence": 1.0,
+     "probabilities": {
+      "music": 0.0,
+      "story": 0.0,
+      "explainer": 0.0,
+      "general": 0.0,
+      "craft": 0.0,
+      "promo": 0.0,
+      "shorts": 0.0,
+      "out_of_scope": 0.0,
+      "editing": 0.0,
+      "motion": 0.0,
+      "avatar": 1.0
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 1548,
+    "output_tokens": 98
+   },
+   "latency": 0.531
+  },
+  "E2": {
+   "answers": {
+    "Remotion": {
+     "type": "noul",
+     "noul": 0.03
+    },
+    "HyperFrames": {
+     "type": "noul",
+     "noul": 0.12
+    },
+    "Manim": {
+     "type": "noul",
+     "noul": 0.03
+    },
+    "ffmpeg": {
+     "type": "noul",
+     "noul": 0.79
+    },
+    "After Effects": {
+     "type": "noul",
+     "noul": 0.03
+    },
+    "Premiere Pro": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "HeyGen": {
+     "type": "noul",
+     "noul": 0.11
+    },
+    "Blender": {
+     "type": "noul",
+     "noul": 0.03
+    },
+    "p5.js": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "Lottie": {
+     "type": "noul",
+     "noul": 0.04
+    }
+   },
+   "usage": {
+    "input_tokens": 2638,
+    "output_tokens": 180
+   },
+   "latency": 0.491
+  },
+  "E3": {
+   "n_cands": 10,
+   "choice": "c2",
+   "confidence": 0.9,
+   "probabilities": {
+    "c9": 0.0,
+    "c7": 0.0,
+    "c2": 0.92,
+    "c5": 0.0,
+    "c1": 0.0,
+    "c3": 0.0,
+    "c6": 0.0,
+    "c4": 0.0,
+    "c10": 0.0,
+    "c8": 0.0,
+    "none": 0.08
+   },
+   "chosen_text": "git clone https://github.com/cclank/lanshu-create-ai-presenter-video.git \\\n  ~/.claude/skills/lanshu-create-ai-presenter-video",
+   "usage": {
+    "input_tokens": 1260,
+    "output_tokens": 106
+   },
+   "latency": 0.271
+  },
+  "E4": {
+   "answers": {
+    "makes_video": {
+     "type": "noul",
+     "noul": 0.98
+    },
+    "agent_oriented": {
+     "type": "noul",
+     "noul": 0.98
+    },
+    "shows_output": {
+     "type": "noul",
+     "noul": 0.06
+    },
+    "one_command_start": {
+     "type": "noul",
+     "noul": 0.91
+    }
+   },
+   "usage": {
+    "input_tokens": 1836,
+    "output_tokens": 74
+   },
+   "latency": 0.513
+  },
+  "E5": {
+   "answers": {
+    "beginner": {
+     "type": "score",
+     "score": 1.85,
+     "confidence": 0.87,
+     "legend": {
+      "0": "Hard: assumes deep expertise, no clear start, or missing setup steps",
+      "1": "Difficult: has setup steps but they are incomplete or assume prior tooling knowledge",
+      "2": "Moderate: clear purpose and install steps, but requires several prerequisites or manual configuration",
+      "3": "Easy: clear purpose, concise install and a first-use example that works with few prerequisites",
+      "4": "Very easy: one-command or one-sentence start, shows expected output, explains prerequisites"
+     },
+     "probabilities": {
+      "0": 0.0,
+      "1": 0.15,
+      "2": 0.84,
+      "3": 0.01,
+      "4": 0.0
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 1854,
+    "output_tokens": 19
+   },
+   "latency": 0.337
+  }
+ },
+ "Vincentwei1021/video-shotcraft": {
+  "E1": {
+   "answers": {
+    "category": {
+     "type": "choice",
+     "choice": "promo",
+     "confidence": 1.0,
+     "probabilities": {
+      "music": 0.0,
+      "promo": 1.0,
+      "story": 0.0,
+      "explainer": 0.0,
+      "general": 0.0,
+      "motion": 0.0,
+      "craft": 0.0,
+      "editing": 0.0,
+      "out_of_scope": 0.0,
+      "shorts": 0.0,
+      "avatar": 0.0
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 1739,
+    "output_tokens": 98
+   },
+   "latency": 0.298
+  },
+  "E2": {
+   "answers": {
+    "Remotion": {
+     "type": "noul",
+     "noul": 0.97
+    },
+    "HyperFrames": {
+     "type": "noul",
+     "noul": 0.04
+    },
+    "Manim": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "ffmpeg": {
+     "type": "noul",
+     "noul": 0.45
+    },
+    "After Effects": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "Premiere Pro": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "HeyGen": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "Blender": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "p5.js": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "Lottie": {
+     "type": "noul",
+     "noul": 0.04
+    }
+   },
+   "usage": {
+    "input_tokens": 3009,
+    "output_tokens": 180
+   },
+   "latency": 0.277
+  },
+  "E3": {
+   "n_cands": 6,
+   "choice": "c3",
+   "confidence": 0.7,
+   "probabilities": {
+    "c3": 0.75,
+    "c6": 0.0,
+    "none": 0.18,
+    "c5": 0.0,
+    "c1": 0.03,
+    "c4": 0.0,
+    "c2": 0.04
+   },
+   "chosen_text": "git clone https://github.com/Vincentwei1021/video-shotcraft.git\ncd video-shotcraft\nln -s \"$(pwd)\" ~/.claude/skills/video-shotcraft   # Claude Code\n# or\nln -s \"$(pwd)\" ~/.codex/skills/video-shotcraft    # Codex",
+   "usage": {
+    "input_tokens": 1195,
+    "output_tokens": 73
+   },
+   "latency": 0.676
+  },
+  "E4": {
+   "answers": {
+    "makes_video": {
+     "type": "noul",
+     "noul": 0.97
+    },
+    "agent_oriented": {
+     "type": "noul",
+     "noul": 0.97
+    },
+    "shows_output": {
+     "type": "noul",
+     "noul": 0.97
+    },
+    "one_command_start": {
+     "type": "noul",
+     "noul": 0.97
+    }
+   },
+   "usage": {
+    "input_tokens": 2183,
+    "output_tokens": 74
+   },
+   "latency": 0.363
+  },
+  "E5": {
+   "answers": {
+    "beginner": {
+     "type": "score",
+     "score": 2.4,
+     "confidence": 0.55,
+     "legend": {
+      "0": "Hard: assumes deep expertise, no clear start, or missing setup steps",
+      "1": "Difficult: has setup steps but they are incomplete or assume prior tooling knowledge",
+      "2": "Moderate: clear purpose and install steps, but requires several prerequisites or manual configuration",
+      "3": "Easy: clear purpose, concise install and a first-use example that works with few prerequisites",
+      "4": "Very easy: one-command or one-sentence start, shows expected output, explains prerequisites"
+     },
+     "probabilities": {
+      "0": 0.0,
+      "1": 0.07,
+      "2": 0.51,
+      "3": 0.38,
+      "4": 0.04
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 2201,
+    "output_tokens": 19
+   },
+   "latency": 0.339
+  }
+ },
+ "calesthio/OpenMontage": {
+  "E1": {
+   "answers": {
+    "category": {
+     "type": "choice",
+     "choice": "general",
+     "confidence": 1.0,
+     "probabilities": {
+      "editing": 0.0,
+      "general": 1.0,
+      "out_of_scope": 0.0,
+      "motion": 0.0,
+      "avatar": 0.0,
+      "promo": 0.0,
+      "shorts": 0.0,
+      "story": 0.0,
+      "explainer": 0.0,
+      "music": 0.0,
+      "craft": 0.0
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 1606,
+    "output_tokens": 98
+   },
+   "latency": 0.511
+  },
+  "E2": {
+   "answers": {
+    "Remotion": {
+     "type": "noul",
+     "noul": 0.83
+    },
+    "HyperFrames": {
+     "type": "noul",
+     "noul": 0.81
+    },
+    "Manim": {
+     "type": "noul",
+     "noul": 0.07
+    },
+    "ffmpeg": {
+     "type": "noul",
+     "noul": 0.93
+    },
+    "After Effects": {
+     "type": "noul",
+     "noul": 0.03
+    },
+    "Premiere Pro": {
+     "type": "noul",
+     "noul": 0.03
+    },
+    "HeyGen": {
+     "type": "noul",
+     "noul": 0.04
+    },
+    "Blender": {
+     "type": "noul",
+     "noul": 0.84
+    },
+    "p5.js": {
+     "type": "noul",
+     "noul": 0.05
+    },
+    "Lottie": {
+     "type": "noul",
+     "noul": 0.07
+    }
+   },
+   "usage": {
+    "input_tokens": 2658,
+    "output_tokens": 180
+   },
+   "latency": 0.287
+  },
+  "E3": {
+   "n_cands": 19,
+   "choice": "none",
+   "confidence": 0.52,
+   "probabilities": {
+    "c7": 0.0,
+    "c17": 0.05,
+    "c1": 0.0,
+    "c13": 0.0,
+    "c4": 0.01,
+    "c8": 0.07,
+    "c14": 0.0,
+    "c5": 0.0,
+    "c16": 0.02,
+    "c19": 0.02,
+    "c2": 0.02,
+    "c12": 0.07,
+    "c10": 0.01,
+    "c6": 0.02,
+    "c3": 0.13,
+    "c18": 0.0,
+    "c15": 0.03,
+    "none": 0.54,
+    "c11": 0.0,
+    "c9": 0.0
+   },
+   "chosen_text": "None of the candidates is an installation command for this project.",
+   "usage": {
+    "input_tokens": 1824,
+    "output_tokens": 186
+   },
+   "latency": 0.635
+  },
+  "E4": {
+   "answers": {
+    "makes_video": {
+     "type": "noul",
+     "noul": 0.97
+    },
+    "agent_oriented": {
+     "type": "noul",
+     "noul": 0.89
+    },
+    "shows_output": {
+     "type": "noul",
+     "noul": 0.85
+    },
+    "one_command_start": {
+     "type": "noul",
+     "noul": 0.73
+    }
+   },
+   "usage": {
+    "input_tokens": 1830,
+    "output_tokens": 74
+   },
+   "latency": 0.255
+  },
+  "E5": {
+   "answers": {
+    "beginner": {
+     "type": "score",
+     "score": 0.77,
+     "confidence": 0.36,
+     "legend": {
+      "0": "Hard: assumes deep expertise, no clear start, or missing setup steps",
+      "1": "Difficult: has setup steps but they are incomplete or assume prior tooling knowledge",
+      "2": "Moderate: clear purpose and install steps, but requires several prerequisites or manual configuration",
+      "3": "Easy: clear purpose, concise install and a first-use example that works with few prerequisites",
+      "4": "Very easy: one-command or one-sentence start, shows expected output, explains prerequisites"
+     },
+     "probabilities": {
+      "0": 0.47,
+      "1": 0.34,
+      "2": 0.14,
+      "3": 0.05,
+      "4": 0.0
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 1848,
+    "output_tokens": 19
+   },
+   "latency": 0.371
+  }
+ },
+ "JohnHeibel/PDoomVideo": {
+  "E1": {
+   "answers": {
+    "category": {
+     "type": "choice",
+     "choice": "music",
+     "confidence": 1.0,
+     "probabilities": {
+      "story": 0.0,
+      "craft": 0.0,
+      "avatar": 0.0,
+      "promo": 0.0,
+      "shorts": 0.0,
+      "explainer": 0.0,
+      "general": 0.0,
+      "editing": 0.0,
+      "out_of_scope": 0.0,
+      "music": 1.0,
+      "motion": 0.0
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 1587,
+    "output_tokens": 98
+   },
+   "latency": 0.652
+  },
+  "E2": {
+   "answers": {
+    "Remotion": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "HyperFrames": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "Manim": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "ffmpeg": {
+     "type": "noul",
+     "noul": 0.95
+    },
+    "After Effects": {
+     "type": "noul",
+     "noul": 0.01
+    },
+    "Premiere Pro": {
+     "type": "noul",
+     "noul": 0.01
+    },
+    "HeyGen": {
+     "type": "noul",
+     "noul": 0.01
+    },
+    "Blender": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "p5.js": {
+     "type": "noul",
+     "noul": 0.94
+    },
+    "Lottie": {
+     "type": "noul",
+     "noul": 0.02
+    }
+   },
+   "usage": {
+    "input_tokens": 1463,
+    "output_tokens": 180
+   },
+   "latency": 1.09
+  },
+  "E3": {
+   "n_cands": 1,
+   "choice": "none",
+   "confidence": 0.99,
+   "probabilities": {
+    "none": 0.99,
+    "c1": 0.01
+   },
+   "chosen_text": "None of the candidates is an installation command for this project.",
+   "usage": {
+    "input_tokens": 846,
+    "output_tokens": 32
+   },
+   "latency": 0.419
+  },
+  "E4": {
+   "answers": {
+    "makes_video": {
+     "type": "noul",
+     "noul": 0.96
+    },
+    "agent_oriented": {
+     "type": "noul",
+     "noul": 0.33
+    },
+    "shows_output": {
+     "type": "noul",
+     "noul": 0.53
+    },
+    "one_command_start": {
+     "type": "noul",
+     "noul": 0.7
+    }
+   },
+   "usage": {
+    "input_tokens": 1146,
+    "output_tokens": 74
+   },
+   "latency": 0.524
+  },
+  "E5": {
+   "answers": {
+    "beginner": {
+     "type": "score",
+     "score": 1.92,
+     "confidence": 0.87,
+     "legend": {
+      "0": "Hard: assumes deep expertise, no clear start, or missing setup steps",
+      "1": "Difficult: has setup steps but they are incomplete or assume prior tooling knowledge",
+      "2": "Moderate: clear purpose and install steps, but requires several prerequisites or manual configuration",
+      "3": "Easy: clear purpose, concise install and a first-use example that works with few prerequisites",
+      "4": "Very easy: one-command or one-sentence start, shows expected output, explains prerequisites"
+     },
+     "probabilities": {
+      "0": 0.0,
+      "1": 0.12,
+      "2": 0.84,
+      "3": 0.04,
+      "4": 0.0
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 1164,
+    "output_tokens": 19
+   },
+   "latency": 0.697
+  }
+ },
+ "louisedesadeleer/cut-video": {
+  "E1": {
+   "answers": {
+    "category": {
+     "type": "choice",
+     "choice": "editing",
+     "confidence": 1.0,
+     "probabilities": {
+      "music": 0.0,
+      "out_of_scope": 0.0,
+      "shorts": 0.0,
+      "explainer": 0.0,
+      "craft": 0.0,
+      "promo": 0.0,
+      "editing": 1.0,
+      "general": 0.0,
+      "motion": 0.0,
+      "story": 0.0,
+      "avatar": 0.0
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 1631,
+    "output_tokens": 98
+   },
+   "latency": 0.647
+  },
+  "E2": {
+   "answers": {
+    "Remotion": {
+     "type": "noul",
+     "noul": 0.01
+    },
+    "HyperFrames": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "Manim": {
+     "type": "noul",
+     "noul": 0.01
+    },
+    "ffmpeg": {
+     "type": "noul",
+     "noul": 0.98
+    },
+    "After Effects": {
+     "type": "noul",
+     "noul": 0.01
+    },
+    "Premiere Pro": {
+     "type": "noul",
+     "noul": 0.01
+    },
+    "HeyGen": {
+     "type": "noul",
+     "noul": 0.01
+    },
+    "Blender": {
+     "type": "noul",
+     "noul": 0.01
+    },
+    "p5.js": {
+     "type": "noul",
+     "noul": 0.03
+    },
+    "Lottie": {
+     "type": "noul",
+     "noul": 0.01
+    }
+   },
+   "usage": {
+    "input_tokens": 2318,
+    "output_tokens": 180
+   },
+   "latency": 0.687
+  },
+  "E3": {
+   "n_cands": 3,
+   "choice": "c1",
+   "confidence": 0.83,
+   "probabilities": {
+    "c2": 0.01,
+    "c1": 0.87,
+    "c3": 0.0,
+    "none": 0.12
+   },
+   "chosen_text": "git clone https://github.com/louisedesadeleer/cut-video.git ~/.claude/skills/cut-video",
+   "usage": {
+    "input_tokens": 798,
+    "output_tokens": 49
+   },
+   "latency": 0.373
+  },
+  "E4": {
+   "answers": {
+    "makes_video": {
+     "type": "noul",
+     "noul": 0.98
+    },
+    "agent_oriented": {
+     "type": "noul",
+     "noul": 0.97
+    },
+    "shows_output": {
+     "type": "noul",
+     "noul": 0.06
+    },
+    "one_command_start": {
+     "type": "noul",
+     "noul": 0.93
+    }
+   },
+   "usage": {
+    "input_tokens": 1979,
+    "output_tokens": 74
+   },
+   "latency": 0.253
+  },
+  "E5": {
+   "answers": {
+    "beginner": {
+     "type": "score",
+     "score": 2.08,
+     "confidence": 0.88,
+     "legend": {
+      "0": "Hard: assumes deep expertise, no clear start, or missing setup steps",
+      "1": "Difficult: has setup steps but they are incomplete or assume prior tooling knowledge",
+      "2": "Moderate: clear purpose and install steps, but requires several prerequisites or manual configuration",
+      "3": "Easy: clear purpose, concise install and a first-use example that works with few prerequisites",
+      "4": "Very easy: one-command or one-sentence start, shows expected output, explains prerequisites"
+     },
+     "probabilities": {
+      "0": 0.0,
+      "1": 0.03,
+      "2": 0.86,
+      "3": 0.11,
+      "4": 0.0
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 1997,
+    "output_tokens": 19
+   },
+   "latency": 0.6
+  }
+ },
+ "Mr-funny/hbg-life-simulation": {
+  "E1": {
+   "answers": {
+    "category": {
+     "type": "choice",
+     "choice": "story",
+     "confidence": 1.0,
+     "probabilities": {
+      "editing": 0.0,
+      "craft": 0.0,
+      "motion": 0.0,
+      "out_of_scope": 0.0,
+      "explainer": 0.0,
+      "shorts": 0.0,
+      "promo": 0.0,
+      "music": 0.0,
+      "story": 1.0,
+      "general": 0.0,
+      "avatar": 0.0
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 2940,
+    "output_tokens": 98
+   },
+   "latency": 0.548
+  },
+  "E2": {
+   "answers": {
+    "Remotion": {
+     "type": "noul",
+     "noul": 0.03
+    },
+    "HyperFrames": {
+     "type": "noul",
+     "noul": 0.86
+    },
+    "Manim": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "ffmpeg": {
+     "type": "noul",
+     "noul": 0.95
+    },
+    "After Effects": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "Premiere Pro": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "HeyGen": {
+     "type": "noul",
+     "noul": 0.05
+    },
+    "Blender": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "p5.js": {
+     "type": "noul",
+     "noul": 0.03
+    },
+    "Lottie": {
+     "type": "noul",
+     "noul": 0.04
+    }
+   },
+   "usage": {
+    "input_tokens": 5435,
+    "output_tokens": 180
+   },
+   "latency": 0.295
+  },
+  "E3": {
+   "n_cands": 18,
+   "choice": "c1",
+   "confidence": 0.99,
+   "probabilities": {
+    "c11": 0.0,
+    "none": 0.0,
+    "c5": 0.0,
+    "c15": 0.0,
+    "c18": 0.0,
+    "c6": 0.0,
+    "c2": 0.0,
+    "c13": 0.0,
+    "c3": 0.0,
+    "c1": 0.99,
+    "c17": 0.0,
+    "c7": 0.0,
+    "c12": 0.0,
+    "c16": 0.0,
+    "c8": 0.0,
+    "c4": 0.0,
+    "c14": 0.0,
+    "c10": 0.0,
+    "c9": 0.01
+   },
+   "chosen_text": "请从 https://github.com/Mr-funny/hbg-life-simulation 安装\nhbg-life-simulation skill。\n请自动识别当前 Agent 的全局 skills 目录；如果已经存在旧版本，请先备份再更新。\n安装后检查 SKILL.md、agents、assets、references 和 scripts 是否完整，\n并校验所有 Shell、JavaScript 和 JSON 文件。\n不要读取、打印、复制或上传任何本地 API Key、会话日志、用户文案、\n生成图片、音频、视频、BGM 或项目素材。\n验证完成后，告诉我如何使用 $hbg-life-simulation\n把一段中文人生故事制作成统一漫画 IP 的横屏旁白视频。",
+   "usage": {
+    "input_tokens": 3651,
+    "output_tokens": 178
+   },
+   "latency": 0.27
+  },
+  "E4": {
+   "answers": {
+    "makes_video": {
+     "type": "noul",
+     "noul": 0.98
+    },
+    "agent_oriented": {
+     "type": "noul",
+     "noul": 0.97
+    },
+    "shows_output": {
+     "type": "noul",
+     "noul": 0.06
+    },
+    "one_command_start": {
+     "type": "noul",
+     "noul": 0.96
+    }
+   },
+   "usage": {
+    "input_tokens": 4185,
+    "output_tokens": 74
+   },
+   "latency": 0.414
+  },
+  "E5": {
+   "answers": {
+    "beginner": {
+     "type": "score",
+     "score": 2.14,
+     "confidence": 0.63,
+     "legend": {
+      "0": "Hard: assumes deep expertise, no clear start, or missing setup steps",
+      "1": "Difficult: has setup steps but they are incomplete or assume prior tooling knowledge",
+      "2": "Moderate: clear purpose and install steps, but requires several prerequisites or manual configuration",
+      "3": "Easy: clear purpose, concise install and a first-use example that works with few prerequisites",
+      "4": "Very easy: one-command or one-sentence start, shows expected output, explains prerequisites"
+     },
+     "probabilities": {
+      "0": 0.0,
+      "1": 0.15,
+      "2": 0.59,
+      "3": 0.22,
+      "4": 0.04
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 4203,
+    "output_tokens": 19
+   },
+   "latency": 0.609
+  }
+ },
+ "Liamrjohnston/remotion-motion-graphics-skill": {
+  "E1": {
+   "answers": {
+    "category": {
+     "type": "choice",
+     "choice": "motion",
+     "confidence": 0.99,
+     "probabilities": {
+      "editing": 0.0,
+      "craft": 0.0,
+      "motion": 0.99,
+      "out_of_scope": 0.01,
+      "explainer": 0.0,
+      "shorts": 0.0,
+      "promo": 0.0,
+      "music": 0.0,
+      "general": 0.0,
+      "story": 0.0,
+      "avatar": 0.0
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 1570,
+    "output_tokens": 98
+   },
+   "latency": 0.505
+  },
+  "E2": {
+   "answers": {
+    "Remotion": {
+     "type": "noul",
+     "noul": 0.95
+    },
+    "HyperFrames": {
+     "type": "noul",
+     "noul": 0.05
+    },
+    "Manim": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "ffmpeg": {
+     "type": "noul",
+     "noul": 0.77
+    },
+    "After Effects": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "Premiere Pro": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "HeyGen": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "Blender": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "p5.js": {
+     "type": "noul",
+     "noul": 0.03
+    },
+    "Lottie": {
+     "type": "noul",
+     "noul": 0.03
+    }
+   },
+   "usage": {
+    "input_tokens": 2596,
+    "output_tokens": 180
+   },
+   "latency": 0.363
+  },
+  "E3": {
+   "n_cands": 12,
+   "choice": "c1",
+   "confidence": 1.0,
+   "probabilities": {
+    "c8": 0.0,
+    "c9": 0.0,
+    "c11": 0.0,
+    "c12": 0.0,
+    "c6": 0.0,
+    "c1": 1.0,
+    "c4": 0.0,
+    "c2": 0.0,
+    "none": 0.0,
+    "c3": 0.0,
+    "c5": 0.0,
+    "c10": 0.0,
+    "c7": 0.0
+   },
+   "chosen_text": "npx skills add liamrjohnston/remotion-motion-graphics-skill",
+   "usage": {
+    "input_tokens": 1313,
+    "output_tokens": 124
+   },
+   "latency": 0.384
+  },
+  "E4": {
+   "answers": {
+    "makes_video": {
+     "type": "noul",
+     "noul": 0.96
+    },
+    "agent_oriented": {
+     "type": "noul",
+     "noul": 0.97
+    },
+    "shows_output": {
+     "type": "noul",
+     "noul": 0.62
+    },
+    "one_command_start": {
+     "type": "noul",
+     "noul": 0.91
+    }
+   },
+   "usage": {
+    "input_tokens": 1803,
+    "output_tokens": 74
+   },
+   "latency": 0.281
+  },
+  "E5": {
+   "answers": {
+    "beginner": {
+     "type": "score",
+     "score": 1.91,
+     "confidence": 0.47,
+     "legend": {
+      "0": "Hard: assumes deep expertise, no clear start, or missing setup steps",
+      "1": "Difficult: has setup steps but they are incomplete or assume prior tooling knowledge",
+      "2": "Moderate: clear purpose and install steps, but requires several prerequisites or manual configuration",
+      "3": "Easy: clear purpose, concise install and a first-use example that works with few prerequisites",
+      "4": "Very easy: one-command or one-sentence start, shows expected output, explains prerequisites"
+     },
+     "probabilities": {
+      "0": 0.03,
+      "1": 0.31,
+      "2": 0.42,
+      "3": 0.21,
+      "4": 0.03
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 1821,
+    "output_tokens": 19
+   },
+   "latency": 0.399
+  }
+ },
+ "Phantomlau3674/voxstylehub-steven": {
+  "E1": {
+   "answers": {
+    "category": {
+     "type": "choice",
+     "choice": "explainer",
+     "confidence": 0.99,
+     "probabilities": {
+      "editing": 0.0,
+      "story": 0.0,
+      "shorts": 0.0,
+      "out_of_scope": 0.0,
+      "promo": 0.0,
+      "music": 0.0,
+      "motion": 0.0,
+      "avatar": 0.0,
+      "craft": 0.0,
+      "general": 0.01,
+      "explainer": 0.99
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 3111,
+    "output_tokens": 99
+   },
+   "latency": 0.406
+  },
+  "E2": {
+   "answers": {
+    "Remotion": {
+     "type": "noul",
+     "noul": 0.77
+    },
+    "HyperFrames": {
+     "type": "noul",
+     "noul": 0.03
+    },
+    "Manim": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "ffmpeg": {
+     "type": "noul",
+     "noul": 0.66
+    },
+    "After Effects": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "Premiere Pro": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "HeyGen": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "Blender": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "p5.js": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "Lottie": {
+     "type": "noul",
+     "noul": 0.04
+    }
+   },
+   "usage": {
+    "input_tokens": 4817,
+    "output_tokens": 180
+   },
+   "latency": 0.41
+  },
+  "E3": {
+   "n_cands": 7,
+   "choice": "c2",
+   "confidence": 0.65,
+   "probabilities": {
+    "c2": 0.69,
+    "none": 0.01,
+    "c3": 0.3,
+    "c7": 0.0,
+    "c4": 0.0,
+    "c6": 0.0,
+    "c5": 0.0,
+    "c1": 0.0
+   },
+   "chosen_text": "Copy-Item -Recurse .\\xingchen-vox-collage \"$env:USERPROFILE\\.codex\\skills\\\"",
+   "usage": {
+    "input_tokens": 2026,
+    "output_tokens": 81
+   },
+   "latency": 0.291
+  },
+  "E4": {
+   "answers": {
+    "makes_video": {
+     "type": "noul",
+     "noul": 0.97
+    },
+    "agent_oriented": {
+     "type": "noul",
+     "noul": 0.96
+    },
+    "shows_output": {
+     "type": "noul",
+     "noul": 0.09
+    },
+    "one_command_start": {
+     "type": "noul",
+     "noul": 0.91
+    }
+   },
+   "usage": {
+    "input_tokens": 4434,
+    "output_tokens": 74
+   },
+   "latency": 0.572
+  },
+  "E5": {
+   "answers": {
+    "beginner": {
+     "type": "score",
+     "score": 1.9,
+     "confidence": 0.84,
+     "legend": {
+      "0": "Hard: assumes deep expertise, no clear start, or missing setup steps",
+      "1": "Difficult: has setup steps but they are incomplete or assume prior tooling knowledge",
+      "2": "Moderate: clear purpose and install steps, but requires several prerequisites or manual configuration",
+      "3": "Easy: clear purpose, concise install and a first-use example that works with few prerequisites",
+      "4": "Very easy: one-command or one-sentence start, shows expected output, explains prerequisites"
+     },
+     "probabilities": {
+      "0": 0.01,
+      "1": 0.13,
+      "2": 0.82,
+      "3": 0.04,
+      "4": 0.0
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 4452,
+    "output_tokens": 19
+   },
+   "latency": 0.359
+  }
+ },
+ "wocha-xiaoli/video-shot-analysis-feishu": {
+  "E1": {
+   "answers": {
+    "category": {
+     "type": "choice",
+     "choice": "craft",
+     "confidence": 1.0,
+     "probabilities": {
+      "explainer": 0.0,
+      "motion": 0.0,
+      "out_of_scope": 0.0,
+      "story": 0.0,
+      "music": 0.0,
+      "avatar": 0.0,
+      "general": 0.0,
+      "craft": 1.0,
+      "shorts": 0.0,
+      "editing": 0.0,
+      "promo": 0.0
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 2955,
+    "output_tokens": 98
+   },
+   "latency": 0.402
+  },
+  "E2": {
+   "answers": {
+    "Remotion": {
+     "type": "noul",
+     "noul": 0.01
+    },
+    "HyperFrames": {
+     "type": "noul",
+     "noul": 0.01
+    },
+    "Manim": {
+     "type": "noul",
+     "noul": 0.01
+    },
+    "ffmpeg": {
+     "type": "noul",
+     "noul": 0.19
+    },
+    "After Effects": {
+     "type": "noul",
+     "noul": 0.01
+    },
+    "Premiere Pro": {
+     "type": "noul",
+     "noul": 0.01
+    },
+    "HeyGen": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "Blender": {
+     "type": "noul",
+     "noul": 0.01
+    },
+    "p5.js": {
+     "type": "noul",
+     "noul": 0.01
+    },
+    "Lottie": {
+     "type": "noul",
+     "noul": 0.01
+    }
+   },
+   "usage": {
+    "input_tokens": 3019,
+    "output_tokens": 180
+   },
+   "latency": 0.514
+  },
+  "E3": {
+   "n_cands": 8,
+   "choice": "c1",
+   "confidence": 0.99,
+   "probabilities": {
+    "c1": 0.99,
+    "c2": 0.01,
+    "c3": 0.0,
+    "c4": 0.0,
+    "c5": 0.0,
+    "c6": 0.0,
+    "c7": 0.0,
+    "c8": 0.0,
+    "none": 0.0
+   },
+   "chosen_text": "cd ~/.config/opencode/skills\ngit clone https://github.com/wocha-xiaoli/video-shot-analysis-feishu.git",
+   "usage": {
+    "input_tokens": 1915,
+    "output_tokens": 89
+   },
+   "latency": 0.366
+  },
+  "E4": {
+   "answers": {
+    "makes_video": {
+     "type": "noul",
+     "noul": 0.16
+    },
+    "agent_oriented": {
+     "type": "noul",
+     "noul": 0.98
+    },
+    "shows_output": {
+     "type": "noul",
+     "noul": 0.09
+    },
+    "one_command_start": {
+     "type": "noul",
+     "noul": 0.73
+    }
+   },
+   "usage": {
+    "input_tokens": 2702,
+    "output_tokens": 74
+   },
+   "latency": 0.681
+  },
+  "E5": {
+   "answers": {
+    "beginner": {
+     "type": "score",
+     "score": 1.94,
+     "confidence": 0.93,
+     "legend": {
+      "0": "Hard: assumes deep expertise, no clear start, or missing setup steps",
+      "1": "Difficult: has setup steps but they are incomplete or assume prior tooling knowledge",
+      "2": "Moderate: clear purpose and install steps, but requires several prerequisites or manual configuration",
+      "3": "Easy: clear purpose, concise install and a first-use example that works with few prerequisites",
+      "4": "Very easy: one-command or one-sentence start, shows expected output, explains prerequisites"
+     },
+     "probabilities": {
+      "0": 0.0,
+      "1": 0.07,
+      "2": 0.92,
+      "3": 0.01,
+      "4": 0.0
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 2720,
+    "output_tokens": 19
+   },
+   "latency": 0.731
+  }
+ },
+ "adriiita/vertical-video-editing-skill": {
+  "E1": {
+   "answers": {
+    "category": {
+     "type": "choice",
+     "choice": "shorts",
+     "confidence": 1.0,
+     "probabilities": {
+      "explainer": 0.0,
+      "motion": 0.0,
+      "out_of_scope": 0.0,
+      "story": 0.0,
+      "avatar": 0.0,
+      "music": 0.0,
+      "general": 0.0,
+      "craft": 0.0,
+      "shorts": 1.0,
+      "editing": 0.0,
+      "promo": 0.0
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 1651,
+    "output_tokens": 99
+   },
+   "latency": 0.583
+  },
+  "E2": {
+   "answers": {
+    "Remotion": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "HyperFrames": {
+     "type": "noul",
+     "noul": 0.92
+    },
+    "Manim": {
+     "type": "noul",
+     "noul": 0.01
+    },
+    "ffmpeg": {
+     "type": "noul",
+     "noul": 0.57
+    },
+    "After Effects": {
+     "type": "noul",
+     "noul": 0.01
+    },
+    "Premiere Pro": {
+     "type": "noul",
+     "noul": 0.01
+    },
+    "HeyGen": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "Blender": {
+     "type": "noul",
+     "noul": 0.01
+    },
+    "p5.js": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "Lottie": {
+     "type": "noul",
+     "noul": 0.02
+    }
+   },
+   "usage": {
+    "input_tokens": 2794,
+    "output_tokens": 180
+   },
+   "latency": 0.679
+  },
+  "E3": {
+   "n_cands": 12,
+   "choice": "c6",
+   "confidence": 0.71,
+   "probabilities": {
+    "c3": 0.0,
+    "c9": 0.0,
+    "c12": 0.0,
+    "c6": 0.74,
+    "c4": 0.0,
+    "c8": 0.0,
+    "c2": 0.0,
+    "c10": 0.0,
+    "c7": 0.0,
+    "c1": 0.26,
+    "none": 0.0,
+    "c11": 0.0,
+    "c5": 0.0
+   },
+   "chosen_text": "npx vertical-video-editing-skill",
+   "usage": {
+    "input_tokens": 1334,
+    "output_tokens": 124
+   },
+   "latency": 0.277
+  },
+  "E4": {
+   "answers": {
+    "makes_video": {
+     "type": "noul",
+     "noul": 0.98
+    },
+    "agent_oriented": {
+     "type": "noul",
+     "noul": 0.97
+    },
+    "shows_output": {
+     "type": "noul",
+     "noul": 0.06
+    },
+    "one_command_start": {
+     "type": "noul",
+     "noul": 0.93
+    }
+   },
+   "usage": {
+    "input_tokens": 2031,
+    "output_tokens": 74
+   },
+   "latency": 0.377
+  },
+  "E5": {
+   "answers": {
+    "beginner": {
+     "type": "score",
+     "score": 2.09,
+     "confidence": 0.73,
+     "legend": {
+      "0": "Hard: assumes deep expertise, no clear start, or missing setup steps",
+      "1": "Difficult: has setup steps but they are incomplete or assume prior tooling knowledge",
+      "2": "Moderate: clear purpose and install steps, but requires several prerequisites or manual configuration",
+      "3": "Easy: clear purpose, concise install and a first-use example that works with few prerequisites",
+      "4": "Very easy: one-command or one-sentence start, shows expected output, explains prerequisites"
+     },
+     "probabilities": {
+      "0": 0.0,
+      "1": 0.12,
+      "2": 0.69,
+      "3": 0.18,
+      "4": 0.01
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 2049,
+    "output_tokens": 19
+   },
+   "latency": 0.639
+  }
+ },
+ "Upload-Post/avatar-mix": {
+  "E1": {
+   "answers": {
+    "category": {
+     "type": "choice",
+     "choice": "avatar",
+     "confidence": 0.91,
+     "probabilities": {
+      "shorts": 0.08,
+      "story": 0.0,
+      "music": 0.0,
+      "general": 0.0,
+      "explainer": 0.0,
+      "editing": 0.0,
+      "motion": 0.0,
+      "promo": 0.0,
+      "out_of_scope": 0.0,
+      "avatar": 0.92,
+      "craft": 0.0
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 1804,
+    "output_tokens": 98
+   },
+   "latency": 0.279
+  },
+  "E2": {
+   "answers": {
+    "Remotion": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "HyperFrames": {
+     "type": "noul",
+     "noul": 0.94
+    },
+    "Manim": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "ffmpeg": {
+     "type": "noul",
+     "noul": 0.96
+    },
+    "After Effects": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "Premiere Pro": {
+     "type": "noul",
+     "noul": 0.01
+    },
+    "HeyGen": {
+     "type": "noul",
+     "noul": 0.97
+    },
+    "Blender": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "p5.js": {
+     "type": "noul",
+     "noul": 0.03
+    },
+    "Lottie": {
+     "type": "noul",
+     "noul": 0.04
+    }
+   },
+   "usage": {
+    "input_tokens": 3285,
+    "output_tokens": 180
+   },
+   "latency": 0.372
+  },
+  "E3": {
+   "n_cands": 13,
+   "choice": "none",
+   "confidence": 0.92,
+   "probabilities": {
+    "c10": 0.0,
+    "none": 0.9400000000000001,
+    "c8": 0.0,
+    "c13": 0.01,
+    "c9": 0.0,
+    "c6": 0.0,
+    "c7": 0.01,
+    "c11": 0.0,
+    "c3": 0.0,
+    "c2": 0.0,
+    "c1": 0.0,
+    "c5": 0.0,
+    "c12": 0.0,
+    "c4": 0.03
+   },
+   "chosen_text": "None of the candidates is an installation command for this project.",
+   "usage": {
+    "input_tokens": 2371,
+    "output_tokens": 132
+   },
+   "latency": 0.383
+  },
+  "E4": {
+   "answers": {
+    "makes_video": {
+     "type": "noul",
+     "noul": 0.99
+    },
+    "agent_oriented": {
+     "type": "noul",
+     "noul": 0.88
+    },
+    "shows_output": {
+     "type": "noul",
+     "noul": 0.97
+    },
+    "one_command_start": {
+     "type": "noul",
+     "noul": 0.39
+    }
+   },
+   "usage": {
+    "input_tokens": 2375,
+    "output_tokens": 74
+   },
+   "latency": 0.318
+  },
+  "E5": {
+   "answers": {
+    "beginner": {
+     "type": "score",
+     "score": 1.47,
+     "confidence": 0.55,
+     "legend": {
+      "0": "Hard: assumes deep expertise, no clear start, or missing setup steps",
+      "1": "Difficult: has setup steps but they are incomplete or assume prior tooling knowledge",
+      "2": "Moderate: clear purpose and install steps, but requires several prerequisites or manual configuration",
+      "3": "Easy: clear purpose, concise install and a first-use example that works with few prerequisites",
+      "4": "Very easy: one-command or one-sentence start, shows expected output, explains prerequisites"
+     },
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.49,
+      "2": 0.49,
+      "3": 0.0,
+      "4": 0.0
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 2393,
+    "output_tokens": 19
+   },
+   "latency": 0.315
+  }
+ },
+ "gorkem-bwl/onboarding-video-generator": {
+  "E1": {
+   "answers": {
+    "category": {
+     "type": "choice",
+     "choice": "promo",
+     "confidence": 0.95,
+     "probabilities": {
+      "out_of_scope": 0.0,
+      "story": 0.0,
+      "explainer": 0.0,
+      "general": 0.0,
+      "editing": 0.0,
+      "avatar": 0.0,
+      "craft": 0.0,
+      "promo": 0.96,
+      "motion": 0.04,
+      "shorts": 0.0,
+      "music": 0.0
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 1573,
+    "output_tokens": 98
+   },
+   "latency": 0.584
+  },
+  "E2": {
+   "answers": {
+    "Remotion": {
+     "type": "noul",
+     "noul": 0.95
+    },
+    "HyperFrames": {
+     "type": "noul",
+     "noul": 0.03
+    },
+    "Manim": {
+     "type": "noul",
+     "noul": 0.01
+    },
+    "ffmpeg": {
+     "type": "noul",
+     "noul": 0.81
+    },
+    "After Effects": {
+     "type": "noul",
+     "noul": 0.01
+    },
+    "Premiere Pro": {
+     "type": "noul",
+     "noul": 0.01
+    },
+    "HeyGen": {
+     "type": "noul",
+     "noul": 0.01
+    },
+    "Blender": {
+     "type": "noul",
+     "noul": 0.01
+    },
+    "p5.js": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "Lottie": {
+     "type": "noul",
+     "noul": 0.03
+    }
+   },
+   "usage": {
+    "input_tokens": 1771,
+    "output_tokens": 180
+   },
+   "latency": 0.248
+  },
+  "E3": {
+   "n_cands": 3,
+   "choice": "c1",
+   "confidence": 1.0,
+   "probabilities": {
+    "none": 0.0,
+    "c1": 1.0,
+    "c2": 0.0,
+    "c3": 0.0
+   },
+   "chosen_text": "git clone https://github.com/gorkem-bwl/onboarding-video-generator.git \\\n  ~/.claude/skills/create-onboarding-video",
+   "usage": {
+    "input_tokens": 910,
+    "output_tokens": 49
+   },
+   "latency": 0.347
+  },
+  "E4": {
+   "answers": {
+    "makes_video": {
+     "type": "noul",
+     "noul": 0.98
+    },
+    "agent_oriented": {
+     "type": "noul",
+     "noul": 0.97
+    },
+    "shows_output": {
+     "type": "noul",
+     "noul": 0.96
+    },
+    "one_command_start": {
+     "type": "noul",
+     "noul": 0.84
+    }
+   },
+   "usage": {
+    "input_tokens": 1454,
+    "output_tokens": 74
+   },
+   "latency": 0.571
+  },
+  "E5": {
+   "answers": {
+    "beginner": {
+     "type": "score",
+     "score": 1.8,
+     "confidence": 0.76,
+     "legend": {
+      "0": "Hard: assumes deep expertise, no clear start, or missing setup steps",
+      "1": "Difficult: has setup steps but they are incomplete or assume prior tooling knowledge",
+      "2": "Moderate: clear purpose and install steps, but requires several prerequisites or manual configuration",
+      "3": "Easy: clear purpose, concise install and a first-use example that works with few prerequisites",
+      "4": "Very easy: one-command or one-sentence start, shows expected output, explains prerequisites"
+     },
+     "probabilities": {
+      "0": 0.01,
+      "1": 0.23,
+      "2": 0.72,
+      "3": 0.04,
+      "4": 0.0
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 1472,
+    "output_tokens": 19
+   },
+   "latency": 0.296
+  }
+ },
+ "zhouyuechuan2025-ui/ai-self-media-video-packaging-skill": {
+  "E1": {
+   "answers": {
+    "category": {
+     "type": "choice",
+     "choice": "shorts",
+     "confidence": 0.5,
+     "probabilities": {
+      "general": 0.04,
+      "story": 0.0,
+      "craft": 0.0,
+      "music": 0.0,
+      "explainer": 0.04,
+      "promo": 0.0,
+      "shorts": 0.55,
+      "out_of_scope": 0.0,
+      "editing": 0.35,
+      "motion": 0.02,
+      "avatar": 0.0
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 3051,
+    "output_tokens": 99
+   },
+   "latency": 0.555
+  },
+  "E2": {
+   "answers": {
+    "Remotion": {
+     "type": "noul",
+     "noul": 0.93
+    },
+    "HyperFrames": {
+     "type": "noul",
+     "noul": 0.49
+    },
+    "Manim": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "ffmpeg": {
+     "type": "noul",
+     "noul": 0.9
+    },
+    "After Effects": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "Premiere Pro": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "HeyGen": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "Blender": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "p5.js": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "Lottie": {
+     "type": "noul",
+     "noul": 0.03
+    }
+   },
+   "usage": {
+    "input_tokens": 6051,
+    "output_tokens": 180
+   },
+   "latency": 0.913
+  },
+  "E3": {
+   "n_cands": 10,
+   "choice": "none",
+   "confidence": 0.63,
+   "probabilities": {
+    "c2": 0.0,
+    "c8": 0.01,
+    "c9": 0.0,
+    "c5": 0.0,
+    "c10": 0.0,
+    "c7": 0.0,
+    "c3": 0.0,
+    "none": 0.67,
+    "c4": 0.0,
+    "c6": 0.0,
+    "c1": 0.32
+   },
+   "chosen_text": "None of the candidates is an installation command for this project.",
+   "usage": {
+    "input_tokens": 2069,
+    "output_tokens": 105
+   },
+   "latency": 0.301
+  },
+  "E4": {
+   "answers": {
+    "makes_video": {
+     "type": "noul",
+     "noul": 0.97
+    },
+    "agent_oriented": {
+     "type": "noul",
+     "noul": 0.95
+    },
+    "shows_output": {
+     "type": "noul",
+     "noul": 0.7
+    },
+    "one_command_start": {
+     "type": "noul",
+     "noul": 0.71
+    }
+   },
+   "usage": {
+    "input_tokens": 4427,
+    "output_tokens": 74
+   },
+   "latency": 0.467
+  },
+  "E5": {
+   "answers": {
+    "beginner": {
+     "type": "score",
+     "score": 1.82,
+     "confidence": 0.79,
+     "legend": {
+      "0": "Hard: assumes deep expertise, no clear start, or missing setup steps",
+      "1": "Difficult: has setup steps but they are incomplete or assume prior tooling knowledge",
+      "2": "Moderate: clear purpose and install steps, but requires several prerequisites or manual configuration",
+      "3": "Easy: clear purpose, concise install and a first-use example that works with few prerequisites",
+      "4": "Very easy: one-command or one-sentence start, shows expected output, explains prerequisites"
+     },
+     "probabilities": {
+      "0": 0.01,
+      "1": 0.2,
+      "2": 0.76,
+      "3": 0.03,
+      "4": 0.0
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 4445,
+    "output_tokens": 19
+   },
+   "latency": 0.753
+  }
+ },
+ "ledbetterljoshua/functional-emotions-video": {
+  "E1": {
+   "answers": {
+    "category": {
+     "type": "choice",
+     "choice": "music",
+     "confidence": 1.0,
+     "probabilities": {
+      "out_of_scope": 0.0,
+      "craft": 0.0,
+      "motion": 0.0,
+      "explainer": 0.0,
+      "shorts": 0.0,
+      "story": 0.0,
+      "editing": 0.0,
+      "avatar": 0.0,
+      "music": 1.0,
+      "general": 0.0,
+      "promo": 0.0
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 1661,
+    "output_tokens": 98
+   },
+   "latency": 0.697
+  },
+  "E2": {
+   "answers": {
+    "Remotion": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "HyperFrames": {
+     "type": "noul",
+     "noul": 0.02
+    },
+    "Manim": {
+     "type": "noul",
+     "noul": 0.01
+    },
+    "ffmpeg": {
+     "type": "noul",
+     "noul": 0.67
+    },
+    "After Effects": {
+     "type": "noul",
+     "noul": 0.01
+    },
+    "Premiere Pro": {
+     "type": "noul",
+     "noul": 0.01
+    },
+    "HeyGen": {
+     "type": "noul",
+     "noul": 0.01
+    },
+    "Blender": {
+     "type": "noul",
+     "noul": 0.01
+    },
+    "p5.js": {
+     "type": "noul",
+     "noul": 0.03
+    },
+    "Lottie": {
+     "type": "noul",
+     "noul": 0.02
+    }
+   },
+   "usage": {
+    "input_tokens": 2097,
+    "output_tokens": 180
+   },
+   "latency": 0.515
+  },
+  "E3": {
+   "n_cands": 2,
+   "choice": "none",
+   "confidence": 0.96,
+   "probabilities": {
+    "c1": 0.02,
+    "none": 0.97,
+    "c2": 0.01
+   },
+   "chosen_text": "None of the candidates is an installation command for this project.",
+   "usage": {
+    "input_tokens": 875,
+    "output_tokens": 40
+   },
+   "latency": 0.528
+  },
+  "E4": {
+   "answers": {
+    "makes_video": {
+     "type": "noul",
+     "noul": 0.97
+    },
+    "agent_oriented": {
+     "type": "noul",
+     "noul": 0.09
+    },
+    "shows_output": {
+     "type": "noul",
+     "noul": 0.39
+    },
+    "one_command_start": {
+     "type": "noul",
+     "noul": 0.83
+    }
+   },
+   "usage": {
+    "input_tokens": 1780,
+    "output_tokens": 74
+   },
+   "latency": 0.602
+  },
+  "E5": {
+   "answers": {
+    "beginner": {
+     "type": "score",
+     "score": 1.88,
+     "confidence": 0.85,
+     "legend": {
+      "0": "Hard: assumes deep expertise, no clear start, or missing setup steps",
+      "1": "Difficult: has setup steps but they are incomplete or assume prior tooling knowledge",
+      "2": "Moderate: clear purpose and install steps, but requires several prerequisites or manual configuration",
+      "3": "Easy: clear purpose, concise install and a first-use example that works with few prerequisites",
+      "4": "Very easy: one-command or one-sentence start, shows expected output, explains prerequisites"
+     },
+     "probabilities": {
+      "0": 0.01,
+      "1": 0.14,
+      "2": 0.82,
+      "3": 0.03,
+      "4": 0.0
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 1798,
+    "output_tokens": 19
+   },
+   "latency": 0.277
+  }
+ }
+}

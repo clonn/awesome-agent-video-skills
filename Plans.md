@@ -12,18 +12,19 @@ Rule: after finishing each **phase**, send a report to the PM (SendMessage → p
 
 | Task | Content | DoD | Depends | Status |
 |------|---------|-----|---------|--------|
-| 0.1 | Read upstream `zhuyansen/awesome-claude-video-skills`: LICENSE, README, data files (json/yaml/csv), and how it builds | Report states the license name and whether derivation with attribution is allowed, plus the data file path. **If derivation is not allowed, stop and report** | - | cc:完了 |
-| 0.2 | `git init`, create dirs per spec Layout, add `.gitignore` (ignore `.claude/state/`, `.env*`, `experiments/**/raw/`) | `git status` clean after the first commit; all dirs exist | 0.1 | cc:完了 |
-| 0.3 | Check lint baseline: `python3 -m py_compile` for scripts and a markdown link check tool (use lychee or a stdlib script, no global installs without asking) | The chosen check commands are written in CONTRIBUTING.md | 0.2 | cc:完了 |
+| 0.1 | Read upstream `zhuyansen/awesome-claude-video-skills`: LICENSE, README, data files (json/yaml/csv), and how it builds | Report states the license name and whether derivation with attribution is allowed, plus the data file path. **If derivation is not allowed, stop and report** | - | pm:確認済 |
+| 0.2 | `git init`, create dirs per spec Layout, add `.gitignore` (ignore `.claude/state/`, `.env*`, `experiments/**/raw/`) | `git status` clean after the first commit; all dirs exist | 0.1 | pm:確認済 |
+| 0.3 | Check lint baseline: `python3 -m py_compile` for scripts and a markdown link check tool (use lychee or a stdlib script, no global installs without asking) | The chosen check commands are written in CONTRIBUTING.md | 0.2 | pm:確認済 |
 
 ## Phase 1: Data [tdd:skip:data-curation]
 
 | Task | Content | DoD | Depends | Status |
 |------|---------|-----|---------|--------|
-| 1.1 | Build the candidate list: upstream data ∪ live page ∪ must-feature repos | List count reported; per-category counts compared against the targets in handoff-facts (29/26/32/37/19/5/13/11/10/2); every diff explained | 0.1 | cc:完了 |
-| 1.2 | Enrich via `gh api` (stars, license, language, pushed_at, archived, default branch); save raw READMEs to `sources/readmes/<owner>__<repo>.md` (gitignored) | Every entry has `checked_at`; 404s and renames are listed in the report | 1.1 | cc:完了 |
-| 1.3 | Extract `install` / `usage` **verbatim** from each README, with a section anchor URL; otherwise null | Every non-null value has a `source_url`; 10 random entries re-checked against their README with 0 mismatches | 1.2 | cc:完了 |
-| 1.4 | Write `description_en` in our own words (≤25 words), map `category_en`, `type`, `render_base`, `safety_upstream`, and `featured` (~25: top per category + SeeCut + lanshu + the article highlights) | `data/repos.json` validates against the spec schema (write a small stdlib validator in scripts/) | 1.2 | cc:完了 |
+| 1.1 | Build the candidate list: upstream data ∪ live page ∪ must-feature repos | List count reported; per-category counts compared against the targets in handoff-facts (29/26/32/37/19/5/13/11/10/2); every diff explained | 0.1 | pm:確認済 |
+| 1.2 | Enrich via `gh api` (stars, license, language, pushed_at, archived, default branch); save raw READMEs to `sources/readmes/<owner>__<repo>.md` (gitignored) | Every entry has `checked_at`; 404s and renames are listed in the report | 1.1 | pm:確認済 |
+| 1.3 | Extract `install` / `usage` **verbatim** from each README, with a section anchor URL; otherwise null | Every non-null value has a `source_url`; 10 random entries re-checked against their README with 0 mismatches | 1.2 | pm:確認済 |
+| 1.4 | Write `description_en` in our own words (≤25 words), map `category_en`, `type`, `render_base`, `safety_upstream`, and `featured` (~25: top per category + SeeCut + lanshu + the article highlights) | `data/repos.json` validates against the spec schema (write a small stdlib validator in scripts/) | 1.2 | pm:確認済 |
+| 1.5 | PM review fixes: (a) CJK: `usage` with CJK → render "See README"; `install` → drop full-line comments only and mark "(comment lines omitted)"; CJK inside the command itself stays verbatim with an English gloss. (b) Add `install.kind` = shell \| agent_prompt \| config; render "Run:" vs "Tell your agent:". (c) For license Other/null, read the LICENSE file and add `license_detail` (SPDX-ish), plus `noncommercial: true` where it applies. (d) Hand-verify the must-feature rows: SeeCut has install=null, render_base=[], license Other, but the README should show an install prompt, HyperFrames, and PolyForm NC. (e) Count null-install rows whose README has an install section under a CJK heading or an unfenced prompt, and feed them to E3. (f) featured +3: cut-video, Paper-Cut, data-animation-skills (25 total) | validate.py passes with new fields; SeeCut row correct; miss list reported | 1.4 | pm:依頼中 |
 
 ## Phase 2: TypeSafe experiments (user-requested; key in env `TYPESAFE_API_KEY`) — run in parallel with Phase 1.3/1.4
 
@@ -32,13 +33,13 @@ Rules: read the live docs first (https://docs.typesafe.ai/llms.txt, how-to-build
 
 | Task | Content | DoD | Depends | Status |
 |------|---------|-----|---------|--------|
-| 2.0 | Gold set: hand-verify 30 repos (a stratified mix across categories and star tiers) for category, render_base, install command, and in-scope yes/no, using README evidence | `experiments/typesafe/gold.json` with 30 rows plus an evidence note per field | 1.2 | pm:依頼中 |
-| 2.1 | **E1 Category (Choice)**: state = name, description, and README excerpt (first ~3k chars); 10 categories + "out of scope" | Accuracy vs gold and agreement vs upstream labels; list disagreements with confidence; show the confidence-vs-accuracy curve | 2.0 | pm:依頼中 |
-| 2.2 | **E2 Render base (one Noul per base, multi-label) vs regex keyword baseline**: this is the fragile-parsing case, because a mention is not the same as actual use | Precision/recall for both methods on gold; examples where regex is wrong and Noul is right, and the reverse | 2.0 | pm:依頼中 |
-| 2.3 | **E3 Install-command selection (select, not generate)**: code extracts all fenced code blocks + inline commands as candidates; Choice picks the install one or "none" | Exact-match accuracy vs gold for Choice vs a heuristic baseline (first block containing install/clone/npx/cp); candidate-coverage rate | 2.0 | pm:依頼中 |
-| 2.4 | **E4 Inclusion rules (Noul per rule)**: video-making? agent-oriented? README shows output? one-command start? | Agreement with upstream inclusion; flag repos likely out of scope | 2.0 | pm:依頼中 |
-| 2.5 | **E5 Score: beginner-friendliness of the README** (ordered levels), a candidate driver for "Quick picks" / tour ordering | Rank correlation with PM-agreed gold ranking of 10 repos; the report shows the top 10 | 2.0 | pm:依頼中 |
-| 2.6 | Write REPORT.md: a table per experiment (metric, baseline, cost, latency), failure analysis (missing evidence / model / code / service), and a recommendation per experiment (adopt / adopt with threshold / reject) | REPORT.md exists and PM has been sent a summary | 2.1–2.5 | pm:依頼中 |
+| 2.0 | Gold set: hand-verify 30 repos (a stratified mix across categories and star tiers) for category, render_base, install command, and in-scope yes/no, using README evidence | `experiments/typesafe/gold.json` with 30 rows plus an evidence note per field | 1.2 | cc:完了 |
+| 2.1 | **E1 Category (Choice)**: state = name, description, and README excerpt (first ~3k chars); 10 categories + "out of scope" | Accuracy vs gold and agreement vs upstream labels; list disagreements with confidence; show the confidence-vs-accuracy curve | 2.0 | cc:完了 |
+| 2.2 | **E2 Render base (one Noul per base, multi-label) vs regex keyword baseline**: this is the fragile-parsing case, because a mention is not the same as actual use | Precision/recall for both methods on gold; examples where regex is wrong and Noul is right, and the reverse | 2.0 | cc:完了 |
+| 2.3 | **E3 Install-command selection (select, not generate)**: code extracts all fenced code blocks + inline commands as candidates; Choice picks the install one or "none" | Exact-match accuracy vs gold for Choice vs a heuristic baseline (first block containing install/clone/npx/cp); candidate-coverage rate | 2.0 | cc:完了 |
+| 2.4 | **E4 Inclusion rules (Noul per rule)**: video-making? agent-oriented? README shows output? one-command start? | Agreement with upstream inclusion; flag repos likely out of scope | 2.0 | cc:完了 |
+| 2.5 | **E5 Score: beginner-friendliness of the README** (ordered levels), a candidate driver for "Quick picks" / tour ordering | Rank correlation with PM-agreed gold ranking of 10 repos; the report shows the top 10 | 2.0 | cc:WIP |
+| 2.6 | Write REPORT.md: a table per experiment (metric, baseline, cost, latency), failure analysis (missing evidence / model / code / service), and a recommendation per experiment (adopt / adopt with threshold / reject) | REPORT.md exists and PM has been sent a summary | 2.1–2.5 | cc:完了 |
 
 ## Phase 3: Generated output
 

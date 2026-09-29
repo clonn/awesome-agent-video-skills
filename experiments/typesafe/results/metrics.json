@@ -1,0 +1,629 @@
+{
+ "E1": {
+  "gold_accuracy": 0.833,
+  "gold_n": 30,
+  "gold_majority_baseline": 0.167,
+  "upstream_gold_agreement": 0.767,
+  "agreement_vs_upstream_all": 0.761,
+  "all_n": 184,
+  "curve_vs_gold": {
+   ">0.9": {
+    "n": 22,
+    "accuracy": 0.955
+   },
+   "0.5-0.9": {
+    "n": 5,
+    "accuracy": 0.6
+   },
+   "<0.5": {
+    "n": 3,
+    "accuracy": 0.333
+   }
+  },
+  "curve_vs_upstream": {
+   ">0.9": {
+    "n": 96,
+    "accuracy": 0.896
+   },
+   "0.5-0.9": {
+    "n": 67,
+    "accuracy": 0.672
+   },
+   "<0.5": {
+    "n": 21,
+    "accuracy": 0.429
+   }
+  },
+  "gold_errors": [
+   [
+    "FireRedTeam/FireRed-OpenStoryline",
+    "general",
+    "editing",
+    0.44
+   ],
+   [
+    "jackjls/jtxvideo-skill",
+    "editing",
+    "shorts",
+    0.52
+   ],
+   [
+    "taylorzhou16/video-gen",
+    "general",
+    "editing",
+    0.71
+   ],
+   [
+    "wendymardigian-prog/Editor-IA-Pro",
+    "general",
+    "editing",
+    0.92
+   ],
+   [
+    "zhouyuechuan2025-ui/ai-self-media-video-packaging-skill",
+    "shorts",
+    "editing",
+    0.45
+   ]
+  ],
+  "upstream_disagreements_lowconf": [
+   [
+    "pyang5166/gbro-collage-info",
+    "explainer",
+    "shorts",
+    0.33
+   ],
+   [
+    "ahmdd4vd/MotionCraft",
+    "motion",
+    "explainer",
+    0.41
+   ],
+   [
+    "JUNKDOGE-JOE/after-effects-mcp",
+    "general",
+    "editing",
+    0.41
+   ],
+   [
+    "FireRedTeam/FireRed-OpenStoryline",
+    "general",
+    "editing",
+    0.44
+   ],
+   [
+    "kangarooking/director-skills",
+    "craft",
+    "general",
+    0.44
+   ],
+   [
+    "zhouyuechuan2025-ui/ai-self-media-video-packaging-skill",
+    "shorts",
+    "general",
+    0.45
+   ],
+   [
+    "pyang5166/gbro-collage-broll",
+    "editing",
+    "motion",
+    0.46
+   ],
+   [
+    "Johnson-Jia/video-clipforge",
+    "shorts",
+    "general",
+    0.47
+   ],
+   [
+    "krusemediallc/video-editor-agent",
+    "shorts",
+    "editing",
+    0.47
+   ],
+   [
+    "alexgreensh/anidoodle",
+    "general",
+    "motion",
+    0.48
+   ],
+   [
+    "Arman-Luthra/aftr",
+    "motion",
+    "promo",
+    0.48
+   ],
+   [
+    "darrenli6/JJKoubo",
+    "shorts",
+    "editing",
+    0.49
+   ],
+   [
+    "doublesq97-ui/su-card-to-video",
+    "explainer",
+    "general",
+    0.53
+   ],
+   [
+    "liangdabiao/story-handdrawn-video",
+    "story",
+    "shorts",
+    0.54
+   ],
+   [
+    "naive-kun/naive-video-skill",
+    "shorts",
+    "editing",
+    0.56
+   ]
+  ],
+  "out_of_scope_predicted": [
+   "EverMind-AI/Raven",
+   "JimLiu/taohuayuan",
+   "remotion-dev/skills"
+  ]
+ },
+ "E2": {
+  "noul_by_threshold": {
+   "0.3": {
+    "tp": 28,
+    "fp": 10,
+    "fn": 0,
+    "precision": 0.737,
+    "recall": 1.0,
+    "f1": 0.848
+   },
+   "0.5": {
+    "tp": 25,
+    "fp": 7,
+    "fn": 3,
+    "precision": 0.781,
+    "recall": 0.893,
+    "f1": 0.833
+   },
+   "0.7": {
+    "tp": 24,
+    "fp": 6,
+    "fn": 4,
+    "precision": 0.8,
+    "recall": 0.857,
+    "f1": 0.828
+   },
+   "0.9": {
+    "tp": 18,
+    "fp": 1,
+    "fn": 10,
+    "precision": 0.947,
+    "recall": 0.643,
+    "f1": 0.766
+   }
+  },
+  "regex": {
+   "tp": 28,
+   "fp": 8,
+   "fn": 0,
+   "precision": 0.778,
+   "recall": 1.0,
+   "f1": 0.875
+  },
+  "examples": {
+   "regex_wrong_noul_right": [
+    [
+     "diffusionstudio/lottie",
+     "After Effects",
+     "regex says True",
+     0.04
+    ],
+    [
+     "acelera-agency/html-animation",
+     "After Effects",
+     "regex says True",
+     0.01
+    ],
+    [
+     "VasiniDevi/motion-skills",
+     "Lottie",
+     "regex says True",
+     0.37
+    ],
+    [
+     "ledbetterljoshua/functional-emotions-video",
+     "p5.js",
+     "regex says True",
+     0.03
+    ]
+   ],
+   "noul_wrong_regex_right": [
+    [
+     "Liamrjohnston/remotion-motion-graphics-skill",
+     "ffmpeg",
+     "noul 0.75",
+     "truth False"
+    ],
+    [
+     "Yuuhann1999/codex-storyboard",
+     "Remotion",
+     "noul 0.4",
+     "truth True"
+    ],
+    [
+     "Yuuhann1999/codex-storyboard",
+     "HyperFrames",
+     "noul 0.41",
+     "truth True"
+    ],
+    [
+     "gorkem-bwl/onboarding-video-generator",
+     "ffmpeg",
+     "noul 0.8",
+     "truth False"
+    ],
+    [
+     "zhouyuechuan2025-ui/ai-self-media-video-packaging-skill",
+     "HyperFrames",
+     "noul 0.44",
+     "truth True"
+    ],
+    [
+     "VasiniDevi/motion-skills",
+     "ffmpeg",
+     "noul 0.5",
+     "truth False"
+    ]
+   ]
+  },
+  "example_counts": {
+   "regex_wrong_noul_right": 4,
+   "noul_wrong_regex_right": 6
+  },
+  "hybrid_regex_and_noul_ge_0.3": {
+   "tp": 28,
+   "fp": 5,
+   "fn": 0,
+   "precision": 0.848,
+   "recall": 1.0,
+   "f1": 0.918
+  }
+ },
+ "E3": {
+  "gold_with_install": 25,
+  "gold_none": 5,
+  "candidate_coverage": 1.0,
+  "choice_acc_positive": 0.72,
+  "heuristic_acc_positive": 0.84,
+  "choice_acc_on_none": 1.0,
+  "heuristic_acc_on_none": 0.2,
+  "choice_overall": 0.767,
+  "heuristic_overall": 0.733,
+  "choice_wrong": [
+   [
+    "FireRedTeam/FireRed-OpenStoryline",
+    "git clone https://github.com/FireRedTeam/FireRed-OpenStoryline.git",
+    true
+   ],
+   [
+    "gnipbao/story-to-handdrawn-video",
+    "git clone https://github.com/gnipbao/story-to-handdrawn-video.git",
+    true
+   ],
+   [
+    "EverMind-AI/Raven",
+    "evermind-ai.github.io/Raven/quick-start",
+    true
+   ],
+   [
+    "Phantomlau3674/voxstylehub-steven",
+    "cp -r xingchen-vox-collage ~/.codex/skills/",
+    true
+   ],
+   [
+    "sharon-laicc/viral-video-decomposer",
+    "/plugin install viral-video-decomposer@viral-video-decomposer",
+    true
+   ],
+   [
+    "calesthio/OpenMontage",
+    "git clone https://github.com/calesthio/OpenMontage.git",
+    true
+   ],
+   [
+    "zhouyuechuan2025-ui/ai-self-media-video-packaging-skill",
+    "git clone https://github.com/zhouyuechuan2025-ui/ai-self-media-video-packaging-skill.git",
+    true
+   ]
+  ],
+  "heuristic_wrong": [
+   [
+    "FireRedTeam/FireRed-OpenStoryline",
+    "git clone https://github.com/FireRedTeam/FireRed-OpenStoryline.git",
+    true
+   ],
+   [
+    "Mr-funny/hbg-life-simulation",
+    "https://github.com/Mr-funny/hbg-life-simulation",
+    true
+   ],
+   [
+    "sharon-laicc/viral-video-decomposer",
+    "/plugin install viral-video-decomposer@viral-video-decomposer",
+    true
+   ],
+   [
+    "Yuuhann1999/codex-storyboard",
+    "codex plugin marketplace add Yuuhann1999/codex-storyboard",
+    true
+   ],
+   [
+    "Upload-Post/avatar-mix",
+    null,
+    null
+   ],
+   [
+    "JohnHeibel/PDoomVideo",
+    null,
+    null
+   ],
+   [
+    "ledbetterljoshua/functional-emotions-video",
+    null,
+    null
+   ],
+   [
+    "YeJe-cpu/SeeCut",
+    null,
+    null
+   ]
+  ],
+  "all184_choice_vs_extractor_agree": "92/183",
+  "all184_extractor_null_choice_not_none": 23,
+  "all184_extractor_present_choice_none": 25,
+  "hybrid": {
+   "0.5": {
+    "positive_acc": 0.72,
+    "none_acc": 1.0,
+    "overall": 0.767
+   },
+   "0.7": {
+    "positive_acc": 0.88,
+    "none_acc": 1.0,
+    "overall": 0.9
+   },
+   "0.9": {
+    "positive_acc": 0.88,
+    "none_acc": 1.0,
+    "overall": 0.9
+   }
+  }
+ },
+ "E4": {
+  "makes_video_vs_gold": {
+   "tp": 26,
+   "fp": 0,
+   "fn": 0,
+   "tn": 4
+  },
+  "upstream_inclusion_agreement": "167/184 pass makes_video>=0.5 and agent_oriented>=0.5",
+  "flagged_out_of_scope": [
+   [
+    "jtydhr88/screenwriting-skills",
+    0.01,
+    0.95
+   ],
+   [
+    "chenmisss/laoxu-video-script",
+    0.03,
+    0.93
+   ],
+   [
+    "wyuzhi/qisi-video-remix",
+    0.04,
+    0.95
+   ],
+   [
+    "adityaarsharma/youtube-marketing-skills",
+    0.05,
+    0.97
+   ],
+   [
+    "gnipbao/minimax-h3-video-reverse-skill",
+    0.06,
+    0.95
+   ],
+   [
+    "erduo1998-cell/video-script-builder",
+    0.07,
+    0.97
+   ],
+   [
+    "liuliu-66-create/ll-video-decomposer",
+    0.07,
+    0.96
+   ],
+   [
+    "sharon-laicc/viral-video-decomposer",
+    0.08,
+    0.97
+   ],
+   [
+    "liyue-aigc/xianxia-cinematic-video-director",
+    0.11,
+    0.96
+   ],
+   [
+    "wocha-xiaoli/video-shot-analysis-feishu",
+    0.17,
+    0.97
+   ],
+   [
+    "JimLiu/taohuayuan",
+    0.19,
+    0.02
+   ],
+   [
+    "kangarooking/director-skills",
+    0.26,
+    0.96
+   ],
+   [
+    "EverMind-AI/Raven",
+    0.36,
+    0.36
+   ],
+   [
+    "Agentchengfeng/chengfeng-videocut-skills",
+    0.41,
+    0.96
+   ],
+   [
+    "JohnHeibel/PDoomVideo",
+    0.96,
+    0.31
+   ],
+   [
+    "ledbetterljoshua/functional-emotions-video",
+    0.97,
+    0.1
+   ],
+   [
+    "AKMessi/vex",
+    0.98,
+    0.34
+   ]
+  ],
+  "mean_probs": {
+   "makes_video": 0.887,
+   "agent_oriented": 0.927,
+   "shows_output": 0.454,
+   "one_command_start": 0.837
+  }
+ },
+ "E5": {
+  "top10": [
+   [
+    "jincheng2026/jc-remotion-skills",
+    3.19,
+    0.65
+   ],
+   [
+    "riffkit/skill",
+    2.95,
+    0.44
+   ],
+   [
+    "magichourhq/skills",
+    2.94,
+    0.63
+   ],
+   [
+    "JimLiu/taohuayuan",
+    2.72,
+    0.54
+   ],
+   [
+    "Kappaemme-git/codex-video-short-maker-skill",
+    2.68,
+    0.42
+   ],
+   [
+    "chenmisss/laoxu-video-script",
+    2.64,
+    0.6
+   ],
+   [
+    "Yuuhann1999/codex-storyboard",
+    2.6,
+    0.6
+   ],
+   [
+    "AgriciDaniel/lipnardo",
+    2.5,
+    0.58
+   ],
+   [
+    "naive-kun/naive-video-skill",
+    2.5,
+    0.56
+   ],
+   [
+    "yuwenbin121/book-video-production-skill",
+    2.46,
+    0.57
+   ]
+  ],
+  "bottom5": [
+   [
+    "calesthio/OpenMontage",
+    0.75,
+    0.37
+   ],
+   [
+    "alexgreensh/anidoodle",
+    0.69,
+    0.43
+   ],
+   [
+    "0xsline/OpenChatCut",
+    0.36,
+    0.7
+   ],
+   [
+    "ayushozha/AdobePremiereProMCP",
+    0.18,
+    0.85
+   ],
+   [
+    "EverMind-AI/Raven",
+    0.02,
+    0.98
+   ]
+  ],
+  "score_range": [
+   0.02,
+   3.19
+  ],
+  "mean": 2.01
+ },
+ "cost_latency": {
+  "E1": {
+   "calls": 184,
+   "p50_s": 0.445,
+   "p95_s": 0.708,
+   "input_tokens": 370607,
+   "avg_tokens_per_call": 2014,
+   "cost_usd": 0.01557
+  },
+  "E2": {
+   "calls": 184,
+   "p50_s": 0.408,
+   "p95_s": 0.737,
+   "input_tokens": 531152,
+   "avg_tokens_per_call": 2887,
+   "cost_usd": 0.02231
+  },
+  "E3": {
+   "calls": 183,
+   "p50_s": 0.394,
+   "p95_s": 0.688,
+   "input_tokens": 271758,
+   "avg_tokens_per_call": 1485,
+   "cost_usd": 0.01141
+  },
+  "E4": {
+   "calls": 184,
+   "p50_s": 0.42,
+   "p95_s": 0.709,
+   "input_tokens": 419488,
+   "avg_tokens_per_call": 2280,
+   "cost_usd": 0.01762
+  },
+  "E5": {
+   "calls": 184,
+   "p50_s": 0.391,
+   "p95_s": 0.753,
+   "input_tokens": 422800,
+   "avg_tokens_per_call": 2298,
+   "cost_usd": 0.01776
+  }
+ }
+}

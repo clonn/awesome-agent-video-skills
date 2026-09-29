@@ -14,7 +14,7 @@
   "pushed_at": "2026-09-29T13:40:07Z",
   "archived": false,
   "render_base": [
-   "Remotion"
+   "ffmpeg"
   ],
   "description_en": "Local-first video editor with a multitrack timeline that Claude Code, Codex or a built-in agent can drive through skills and MCP.",
   "description_zh_source": null,
@@ -30,7 +30,27 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:46:48Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "ffmpeg"
+    ],
+    "noul": {
+     "Remotion": 0.15,
+     "ffmpeg": 0.5
+    },
+    "vetoed": [
+     "Remotion"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "aaronyi97/image-story-video-wizard",
@@ -64,7 +84,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:46:48Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "HyperFrames"
+    ],
+    "noul": {
+     "HyperFrames": 0.29
+    },
+    "vetoed": [
+     "HyperFrames"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "acelera-agency/html-animation",
@@ -80,7 +118,9 @@
   "license": "MIT",
   "pushed_at": "2026-08-12T00:54:37Z",
   "archived": false,
-  "render_base": [],
+  "render_base": [
+   "ffmpeg"
+  ],
   "description_en": "Skill that lets agents author animated logos and kinetic type as one HTML file, with MP4 export at square, portrait and other ratios.",
   "description_zh_source": null,
   "license_detail": null,
@@ -98,7 +138,27 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:46:48Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "ffmpeg",
+     "After Effects"
+    ],
+    "noul": {
+     "After Effects": 0.01,
+     "ffmpeg": 0.88
+    },
+    "vetoed": [
+     "After Effects"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "adithya-s-k/manim_skill",
@@ -115,7 +175,8 @@
   "pushed_at": "2026-01-23T16:30:42Z",
   "archived": false,
   "render_base": [
-   "Manim"
+   "Manim",
+   "ffmpeg"
   ],
   "description_en": "Agent skills for creating mathematical animations with Manim Community Edition and ManimGL, with practices and code examples.",
   "description_zh_source": null,
@@ -134,7 +195,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:46:48Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Manim",
+     "ffmpeg"
+    ],
+    "noul": {
+     "Manim": 0.5,
+     "ffmpeg": 0.63
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "adityaarsharma/youtube-marketing-skills",
@@ -173,7 +252,28 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:46:48Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "ffmpeg"
+    ],
+    "noul": {
+     "Remotion": 0.02,
+     "ffmpeg": 0.05
+    },
+    "vetoed": [
+     "Remotion",
+     "ffmpeg"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "adriiita/vertical-video-editing-skill",
@@ -190,7 +290,8 @@
   "pushed_at": "2026-06-20T18:49:14Z",
   "archived": false,
   "render_base": [
-   "HyperFrames"
+   "HyperFrames",
+   "ffmpeg"
   ],
   "description_en": "Claude skill that edits scripts and talking-head footage into polished vertical shorts, rendered through HyperFrames.",
   "description_zh_source": null,
@@ -209,7 +310,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:46:48Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "HyperFrames",
+     "ffmpeg"
+    ],
+    "noul": {
+     "HyperFrames": 0.91,
+     "ffmpeg": 0.55
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "Agentchengfeng/chengfeng-videocut-skills",
@@ -243,7 +362,19 @@
   "safety_upstream": "safe",
   "featured": true,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:46:49Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [],
+    "noul": {},
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "AgriciDaniel/claude-gif",
@@ -285,7 +416,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:46:50Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "ffmpeg"
+    ],
+    "noul": {
+     "Remotion": 0.87,
+     "ffmpeg": 0.95
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "AgriciDaniel/claude-shorts",
@@ -327,7 +476,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:46:50Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "ffmpeg"
+    ],
+    "noul": {
+     "Remotion": 0.95,
+     "ffmpeg": 0.93
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "AgriciDaniel/lipnardo",
@@ -368,7 +535,23 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:46:50Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "HeyGen"
+    ],
+    "noul": {
+     "HeyGen": 0.97
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "ahmdd4vd/MotionCraft",
@@ -404,7 +587,23 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:46:50Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion"
+    ],
+    "noul": {
+     "Remotion": 0.96
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "aijiduonadegou/Paper-Cut",
@@ -421,7 +620,8 @@
   "pushed_at": "2026-08-14T09:08:42Z",
   "archived": false,
   "render_base": [
-   "HyperFrames"
+   "HyperFrames",
+   "ffmpeg"
   ],
   "description_en": "Codex skill for paper-cut style explainer videos, using image-model stills, extracted layers and code animation, with approval gates and QA.",
   "description_zh_source": "无需视频模型，即可制作拼贴动画的skill。用图像模型定稿、原图拆层与 HyperFrames 代码动画制作可编辑 Paper Cut / Vox 风格纸拼贴科普视频；支持三阶段审批、旁白、音效、文字动效与确定性 QA。",
@@ -440,7 +640,25 @@
   "safety_upstream": "safe",
   "featured": true,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:46:51Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "HyperFrames",
+     "ffmpeg"
+    ],
+    "noul": {
+     "HyperFrames": 0.87,
+     "ffmpeg": 0.88
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "AKMessi/vex",
@@ -457,10 +675,11 @@
   "pushed_at": "2026-09-23T03:40:45Z",
   "archived": false,
   "render_base": [
-   "ffmpeg",
+   "Remotion",
    "HyperFrames",
    "Manim",
-   "Remotion"
+   "ffmpeg",
+   "Blender"
   ],
   "description_en": "Terminal video-editing agent that edits footage copies via an LLM tool loop, with generated visuals for scenes and shorts.",
   "description_zh_source": null,
@@ -484,7 +703,31 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:46:51Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "HyperFrames",
+     "Manim",
+     "ffmpeg",
+     "Blender"
+    ],
+    "noul": {
+     "Blender": 0.46,
+     "HyperFrames": 0.79,
+     "Manim": 0.69,
+     "Remotion": 0.65,
+     "ffmpeg": 0.93
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "alexgreensh/anidoodle",
@@ -518,7 +761,31 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:46:52Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "HyperFrames",
+     "ffmpeg"
+    ],
+    "noul": {
+     "HyperFrames": 0.07,
+     "Remotion": 0.04,
+     "ffmpeg": 0.16
+    },
+    "vetoed": [
+     "Remotion",
+     "HyperFrames",
+     "ffmpeg"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "Alisa0808/vox-director",
@@ -554,7 +821,23 @@
   "safety_upstream": "safe",
   "featured": true,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:46:52Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "ffmpeg"
+    ],
+    "noul": {
+     "ffmpeg": 0.94
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "AllenAI2014/remotion-guofeng-starter",
@@ -571,7 +854,8 @@
   "pushed_at": "2026-09-02T13:17:23Z",
   "archived": false,
   "render_base": [
-   "Remotion"
+   "Remotion",
+   "ffmpeg"
   ],
   "description_en": "Remotion asset library and workflow skill for producing Chinese paper-collage style animated videos from a poem or idiom via a single render command.",
   "description_zh_source": "国风纸片动画：Remotion 风格资产库 + 制作流程 Skill。给 AI 一首诗/成语，照这套国风纸片拼贴风格从零出片，全程代码渲染不进剪辑。",
@@ -582,7 +866,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:46:52Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "ffmpeg"
+    ],
+    "noul": {
+     "Remotion": 0.94,
+     "ffmpeg": 0.42
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "AmazingAng/ccvideo",
@@ -618,7 +920,23 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:46:53Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion"
+    ],
+    "noul": {
+     "Remotion": 0.95
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "Anil-matcha/vox-ai-motion-graphics-generator",
@@ -634,7 +952,9 @@
   "license": null,
   "pushed_at": "2026-09-02T15:19:37Z",
   "archived": false,
-  "render_base": [],
+  "render_base": [
+   "ffmpeg"
+  ],
   "description_en": "Agent skill that takes a topic and produces a narrated, captioned paper-collage explainer video through script, keyframe, animation and audio stages.",
   "description_zh_source": null,
   "license_detail": "No license file found",
@@ -657,7 +977,23 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:46:53Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "ffmpeg"
+    ],
+    "noul": {
+     "ffmpeg": 0.91
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "Anil-matcha/zack-d-films-ai-video-generator",
@@ -698,7 +1034,23 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:46:53Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "ffmpeg"
+    ],
+    "noul": {
+     "ffmpeg": 0.94
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "Arman-Luthra/aftr",
@@ -715,6 +1067,7 @@
   "pushed_at": "2026-07-13T01:35:03Z",
   "archived": false,
   "render_base": [
+   "ffmpeg",
    "After Effects"
   ],
   "description_en": "Controller that lets Claude Code drive Adobe After Effects through a WebSocket panel, exposing an MCP endpoint and an automated render-review-revise pipeline.",
@@ -739,7 +1092,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:46:54Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "ffmpeg",
+     "After Effects"
+    ],
+    "noul": {
+     "After Effects": 0.96,
+     "ffmpeg": 0.94
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "AsadMoulviDev/reel-video",
@@ -778,7 +1149,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:46:54Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion"
+    ],
+    "noul": {
+     "Remotion": 0.03
+    },
+    "vetoed": [
+     "Remotion"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "ayushozha/AdobePremiereProMCP",
@@ -795,6 +1184,7 @@
   "pushed_at": "2026-08-31T06:32:08Z",
   "archived": false,
   "render_base": [
+   "ffmpeg",
    "Premiere Pro"
   ],
   "description_en": "MCP server exposing over a thousand tools to control Adobe Premiere Pro timelines, audio, effects and exports from AI clients.",
@@ -819,7 +1209,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:46:54Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "ffmpeg",
+     "Premiere Pro"
+    ],
+    "noul": {
+     "Premiere Pro": 0.67,
+     "ffmpeg": 0.5
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "bangtutorial/bang-motion",
@@ -850,7 +1258,28 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:46:54Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "ffmpeg",
+     "After Effects"
+    ],
+    "noul": {
+     "After Effects": 0.24,
+     "ffmpeg": 0.2
+    },
+    "vetoed": [
+     "ffmpeg",
+     "After Effects"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "BayramAnnakov/remotion-video-director",
@@ -867,7 +1296,8 @@
   "pushed_at": "2026-03-13T21:05:04Z",
   "archived": false,
   "render_base": [
-   "Remotion"
+   "Remotion",
+   "ffmpeg"
   ],
   "description_en": "Interactive Claude Code skill that guides video creation from creative brief and scene design through Remotion builds to a rendered MP4.",
   "description_zh_source": null,
@@ -891,7 +1321,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:46:55Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "ffmpeg"
+    ],
+    "noul": {
+     "Remotion": 0.88,
+     "ffmpeg": 0.91
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "bbylw/hyperframes-cn",
@@ -908,7 +1356,9 @@
   "pushed_at": "2026-08-27T18:21:16Z",
   "archived": false,
   "render_base": [
-   "HyperFrames"
+   "HyperFrames",
+   "ffmpeg",
+   "Lottie"
   ],
   "description_en": "Chinese translation of the HyperFrames framework docs, which turns HTML, CSS and seekable animation into deterministic MP4 video, with agent skills.",
   "description_zh_source": "HyperFrames 是一个开源框架，可将 HTML、CSS、媒体与可定位（seekable）动画转化为确定性的 MP4 视频。你可以在本地通过 CLI 使用它，让 AI 编程智能体借助 skills 使用它，或者把它作为托管创作工作流背后的渲染核心。",
@@ -924,7 +1374,34 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:46:55Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "HyperFrames",
+     "ffmpeg",
+     "HeyGen",
+     "Lottie"
+    ],
+    "noul": {
+     "HeyGen": 0.05,
+     "HyperFrames": 0.56,
+     "Lottie": 0.57,
+     "Remotion": 0.06,
+     "ffmpeg": 0.53
+    },
+    "vetoed": [
+     "Remotion",
+     "HeyGen"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "bestagentkits/motion-video-skill",
@@ -941,7 +1418,8 @@
   "pushed_at": "2026-09-28T18:57:40Z",
   "archived": false,
   "render_base": [
-   "HyperFrames"
+   "HyperFrames",
+   "ffmpeg"
   ],
   "description_en": "Builds 1080p motion-graphic videos in HyperFrames, timed to a music beat, with synthetic narration, subtitles, sound effects and a generated soundtrack.",
   "description_zh_source": null,
@@ -957,7 +1435,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:46:55Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "HyperFrames",
+     "ffmpeg"
+    ],
+    "noul": {
+     "HyperFrames": 0.93,
+     "ffmpeg": 0.92
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "blixvip/easyedit",
@@ -973,7 +1469,10 @@
   "license": "MIT",
   "pushed_at": "2026-09-24T23:12:05Z",
   "archived": false,
-  "render_base": [],
+  "render_base": [
+   "HyperFrames",
+   "ffmpeg"
+  ],
   "description_en": "Local tool that builds a captioned movie-speech and beat-cut fan edit from a movie name, planned by Claude Code or Codex.",
   "description_zh_source": null,
   "license_detail": null,
@@ -996,7 +1495,29 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:46:56Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "HyperFrames",
+     "ffmpeg",
+     "HeyGen"
+    ],
+    "noul": {
+     "HeyGen": 0.16,
+     "HyperFrames": 0.94,
+     "ffmpeg": 0.91
+    },
+    "vetoed": [
+     "HeyGen"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "BusyBee3333/animated-explainer-skills",
@@ -1012,9 +1533,7 @@
   "license": "MIT",
   "pushed_at": "2026-07-13T09:30:05Z",
   "archived": false,
-  "render_base": [
-   "other"
-  ],
+  "render_base": [],
   "description_en": "Skills and tools for building animated explainer videos as a single self-contained HTML file with GSAP animation, overlap checking and ElevenLabs narration.",
   "description_zh_source": null,
   "license_detail": null,
@@ -1024,7 +1543,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:46:56Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "After Effects"
+    ],
+    "noul": {
+     "After Effects": 0.02
+    },
+    "vetoed": [
+     "After Effects"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "calesthio/OpenMontage",
@@ -1040,7 +1577,12 @@
   "license": "AGPL-3.0",
   "pushed_at": "2026-09-06T05:02:34Z",
   "archived": false,
-  "render_base": [],
+  "render_base": [
+   "Remotion",
+   "HyperFrames",
+   "ffmpeg",
+   "Blender"
+  ],
   "description_en": "Open-source agentic video production system with many pipelines and tools that lets a coding assistant handle research, scripting, assets, editing and composition.",
   "description_zh_source": null,
   "license_detail": null,
@@ -1063,7 +1605,36 @@
   "safety_upstream": "safe",
   "featured": true,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:46:56Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "HyperFrames",
+     "Manim",
+     "ffmpeg",
+     "HeyGen",
+     "Blender"
+    ],
+    "noul": {
+     "Blender": 0.84,
+     "HeyGen": 0.04,
+     "HyperFrames": 0.8,
+     "Manim": 0.07,
+     "Remotion": 0.82,
+     "ffmpeg": 0.93
+    },
+    "vetoed": [
+     "Manim",
+     "HeyGen"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "cartesiancs/cartcut",
@@ -1099,7 +1670,27 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:46:56Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "ffmpeg",
+     "After Effects"
+    ],
+    "noul": {
+     "After Effects": 0.02,
+     "ffmpeg": 0.89
+    },
+    "vetoed": [
+     "After Effects"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "Cassette-Editor/oh-my-cassette",
@@ -1140,7 +1731,23 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:46:56Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "ffmpeg"
+    ],
+    "noul": {
+     "ffmpeg": 0.4
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "cclank/lanshu-create-ai-presenter-video",
@@ -1179,7 +1786,27 @@
   "safety_upstream": "safe",
   "featured": true,
   "notes": "Hand-verified: provider-neutral; HyperFrames is only an optional compositor and FFmpeg a required dependency for checks, so no render base is claimed.",
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:46:57Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "HyperFrames",
+     "ffmpeg"
+    ],
+    "noul": {
+     "HyperFrames": 0.13,
+     "ffmpeg": 0.81
+    },
+    "vetoed": [
+     "HyperFrames"
+    ],
+    "overridden_by_hand": true
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "cclank/lanshu-html2video-skill",
@@ -1215,7 +1842,23 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:46:58Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion"
+    ],
+    "noul": {
+     "Remotion": 0.96
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "centraltowerlabs/diagram-tour",
@@ -1256,7 +1899,23 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:46:58Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "ffmpeg"
+    ],
+    "noul": {
+     "ffmpeg": 0.97
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "chenmisss/laoxu-video-script",
@@ -1290,7 +1949,19 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:46:58Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [],
+    "noul": {},
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "ChenShuo2004/cs-shotcraft-skill",
@@ -1323,7 +1994,23 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:46:58Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion"
+    ],
+    "noul": {
+     "Remotion": 0.96
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "chenyuxiaojin/cyxj-hyperframes",
@@ -1340,7 +2027,8 @@
   "pushed_at": "2026-08-29T11:52:05Z",
   "archived": false,
   "render_base": [
-   "HyperFrames"
+   "HyperFrames",
+   "HeyGen"
   ],
   "description_en": "Reusable HyperFrames and GSAP video projects for Claude Code tutorials; the maintainer now treats the repo as maintenance-only.",
   "description_zh_source": null,
@@ -1356,7 +2044,29 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:46:58Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "HyperFrames",
+     "HeyGen"
+    ],
+    "noul": {
+     "HeyGen": 0.91,
+     "HyperFrames": 0.96,
+     "Remotion": 0.03
+    },
+    "vetoed": [
+     "Remotion"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "chenyuxiaojin/cyxj-remotion-starter",
@@ -1384,7 +2094,23 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:46:59Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion"
+    ],
+    "noul": {
+     "Remotion": 0.95
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "cocolayuan/videoclip-AI-skill",
@@ -1420,7 +2146,23 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:46:59Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "ffmpeg"
+    ],
+    "noul": {
+     "ffmpeg": 0.91
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "coding-ax/docvideoer",
@@ -1461,7 +2203,23 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:46:59Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion"
+    ],
+    "noul": {
+     "Remotion": 0.95
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "cymcymcymcym/notes-to-video",
@@ -1503,7 +2261,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:00Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Manim",
+     "ffmpeg"
+    ],
+    "noul": {
+     "Manim": 0.95,
+     "ffmpeg": 0.92
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "darrenli6/JJKoubo",
@@ -1520,7 +2296,8 @@
   "pushed_at": "2026-08-20T05:35:41Z",
   "archived": false,
   "render_base": [
-   "HyperFrames"
+   "HyperFrames",
+   "ffmpeg"
   ],
   "description_en": "Codex skill set for editing talking-head videos locally, covering transcription, recuts, hook selection and HyperFrames motion captions.",
   "description_zh_source": "JJ Koubo (JJ口播) is a local-first collection of video editing Skills for talking-head, interview, knowledge-sharing, and other videos centered on spoken content. The Skills can be used through Codex or other compatible Agent environments.",
@@ -1531,7 +2308,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:00Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "HyperFrames",
+     "ffmpeg"
+    ],
+    "noul": {
+     "HyperFrames": 0.74,
+     "ffmpeg": 0.88
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "davidcervinka/vibe-editing",
@@ -1548,8 +2343,8 @@
   "pushed_at": "2026-07-22T12:03:29Z",
   "archived": false,
   "render_base": [
-   "ffmpeg",
-   "HyperFrames"
+   "HyperFrames",
+   "ffmpeg"
   ],
   "description_en": "Documents a workflow where Claude Code edits, scores, captions and animates videos using ffmpeg, ElevenLabs and HyperFrames.",
   "description_zh_source": null,
@@ -1573,7 +2368,32 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:01Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "HyperFrames",
+     "ffmpeg",
+     "HeyGen"
+    ],
+    "noul": {
+     "HeyGen": 0.14,
+     "HyperFrames": 0.77,
+     "Remotion": 0.05,
+     "ffmpeg": 0.95
+    },
+    "vetoed": [
+     "Remotion",
+     "HeyGen"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "derrickgong87/demo-video-creation-skill",
@@ -1615,7 +2435,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:01Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "ffmpeg"
+    ],
+    "noul": {
+     "Remotion": 0.72,
+     "ffmpeg": 0.73
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "diffusionstudio/lottie",
@@ -1656,7 +2494,27 @@
   "safety_upstream": "safe",
   "featured": true,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:01Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "After Effects",
+     "Lottie"
+    ],
+    "noul": {
+     "After Effects": 0.04,
+     "Lottie": 0.89
+    },
+    "vetoed": [
+     "After Effects"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "digitalsamba/claude-code-video-toolkit",
@@ -1672,7 +2530,10 @@
   "license": "MIT",
   "pushed_at": "2026-09-28T17:29:48Z",
   "archived": false,
-  "render_base": [],
+  "render_base": [
+   "Remotion",
+   "ffmpeg"
+  ],
   "description_en": "Claude Code workspace of skills, commands and templates that scripts, voices and renders complete videos on open models.",
   "description_zh_source": null,
   "license_detail": null,
@@ -1695,7 +2556,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:01Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "ffmpeg"
+    ],
+    "noul": {
+     "Remotion": 0.9,
+     "ffmpeg": 0.77
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "dlazy-ai/ai-product-video",
@@ -1736,7 +2615,23 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:02Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion"
+    ],
+    "noul": {
+     "Remotion": 0.96
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "doublesq97-ui/su-card-to-video",
@@ -1778,7 +2673,29 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:02Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "HyperFrames",
+     "ffmpeg",
+     "HeyGen"
+    ],
+    "noul": {
+     "HeyGen": 0.08,
+     "HyperFrames": 0.88,
+     "ffmpeg": 0.94
+    },
+    "vetoed": [
+     "HeyGen"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "erduo1998-cell/erduo-broll-loop-engineering",
@@ -1795,8 +2712,9 @@
   "pushed_at": "2026-09-21T09:54:02Z",
   "archived": false,
   "render_base": [
+   "Remotion",
    "HyperFrames",
-   "Remotion"
+   "ffmpeg"
   ],
   "description_en": "Agent skill that turns an SRT and design brief into editable B-roll, per-shot clips and a preview via multi-role review loops.",
   "description_zh_source": "SRT 驱动的双后端 B-roll Agent Skill：自动路由 HyperFrames / Remotion，集成 152 张 Shotcraft 镜头卡",
@@ -1815,7 +2733,27 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:03Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "HyperFrames",
+     "ffmpeg"
+    ],
+    "noul": {
+     "HyperFrames": 0.92,
+     "Remotion": 0.56,
+     "ffmpeg": 0.88
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "erduo1998-cell/video-script-builder",
@@ -1849,7 +2787,34 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:03Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "HyperFrames",
+     "ffmpeg",
+     "HeyGen"
+    ],
+    "noul": {
+     "HeyGen": 0.07,
+     "HyperFrames": 0.05,
+     "Remotion": 0.04,
+     "ffmpeg": 0.03
+    },
+    "vetoed": [
+     "Remotion",
+     "HyperFrames",
+     "ffmpeg",
+     "HeyGen"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "eternityspring/reelbench-skills",
@@ -1865,7 +2830,9 @@
   "license": "Apache-2.0",
   "pushed_at": "2026-09-21T08:57:13Z",
   "archived": false,
-  "render_base": [],
+  "render_base": [
+   "ffmpeg"
+  ],
   "description_en": "Collection of Claude Code and Codex skills for video work, including shot-by-shot analysis, synced storyboard videos and metadata cleaning.",
   "description_zh_source": "Learning notes and tooling skills for AI video - AI 视频相关的学习与工具 skill",
   "license_detail": null,
@@ -1888,7 +2855,23 @@
   "safety_upstream": "safe",
   "featured": true,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:03Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "ffmpeg"
+    ],
+    "noul": {
+     "ffmpeg": 0.82
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "EverMind-AI/Raven",
@@ -1922,7 +2905,19 @@
   "safety_upstream": "safe",
   "featured": true,
   "notes": "Upstream lists a sub-path: skills/git-story-film.",
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:03Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [],
+    "noul": {},
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "Fagan1024/smart-video-editor",
@@ -1958,7 +2953,27 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:04Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "ffmpeg",
+     "Premiere Pro"
+    ],
+    "noul": {
+     "Premiere Pro": 0.01,
+     "ffmpeg": 0.95
+    },
+    "vetoed": [
+     "Premiere Pro"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "fernandokaraka/remotion-motion-graphics-skill",
@@ -1999,7 +3014,30 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:04Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "After Effects",
+     "Premiere Pro"
+    ],
+    "noul": {
+     "After Effects": 0.02,
+     "Premiere Pro": 0.03,
+     "Remotion": 0.83
+    },
+    "vetoed": [
+     "After Effects",
+     "Premiere Pro"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "Finderchangchang/promo-video-skill",
@@ -2016,7 +3054,8 @@
   "pushed_at": "2026-09-27T11:01:47Z",
   "archived": false,
   "render_base": [
-   "Remotion"
+   "Remotion",
+   "ffmpeg"
   ],
   "description_en": "Turns a product brief into a vertical promo video with AI-selected shots and copy, using three recipes, industry presets and ad-law checks.",
   "description_zh_source": "精酿 BrewReel：让 DeepSeek 这类便宜模型也能做出好看的竖版宣传片。写一份产品简报，AI 挑镜头、写文案，一条命令出片。3 种配方、6 个行业、广告法校验，开源可商用。",
@@ -2040,7 +3079,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": "Renamed on GitHub: now Finderchangchang/brewreel.",
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:05Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "ffmpeg"
+    ],
+    "noul": {
+     "Remotion": 0.96,
+     "ffmpeg": 0.58
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "FireRedTeam/FireRed-OpenStoryline",
@@ -2056,7 +3113,9 @@
   "license": "Apache-2.0",
   "pushed_at": "2026-07-31T03:16:31Z",
   "archived": false,
-  "render_base": [],
+  "render_base": [
+   "ffmpeg"
+  ],
   "description_en": "Conversational AI video editing agent that plans edits with an LLM, orchestrates tools and reuses style skills.",
   "description_zh_source": null,
   "license_detail": null,
@@ -2074,7 +3133,23 @@
   "safety_upstream": "safe",
   "featured": true,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:05Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "ffmpeg"
+    ],
+    "noul": {
+     "ffmpeg": 0.73
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "geekjourneyx/hyperframes-motion-director",
@@ -2115,7 +3190,23 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:05Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "HyperFrames"
+    ],
+    "noul": {
+     "HyperFrames": 0.76
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "gloweaseco-leo/hyperdirector",
@@ -2132,7 +3223,9 @@
   "pushed_at": "2026-05-23T06:51:10Z",
   "archived": false,
   "render_base": [
-   "HyperFrames"
+   "HyperFrames",
+   "ffmpeg",
+   "HeyGen"
   ],
   "description_en": "Hermes skill pack that structures video production from brief to storyboard, HTML project, checks and HyperFrames render.",
   "description_zh_source": null,
@@ -2156,7 +3249,27 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:06Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "HyperFrames",
+     "ffmpeg",
+     "HeyGen"
+    ],
+    "noul": {
+     "HeyGen": 0.62,
+     "HyperFrames": 0.9,
+     "ffmpeg": 0.76
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "gnipbao/minimax-h3-video-reverse-skill",
@@ -2195,7 +3308,25 @@
   "safety_upstream": null,
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:06Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "ffmpeg"
+    ],
+    "noul": {
+     "ffmpeg": 0.08
+    },
+    "vetoed": [
+     "ffmpeg"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "gnipbao/story-to-handdrawn-video",
@@ -2212,7 +3343,8 @@
   "pushed_at": "2026-09-22T10:13:34Z",
   "archived": false,
   "render_base": [
-   "Remotion"
+   "Remotion",
+   "ffmpeg"
   ],
   "description_en": "Skill that turns Chinese stories or images into portrait hand-drawn animated videos, rendered through Remotion.",
   "description_zh_source": null,
@@ -2236,7 +3368,25 @@
   "safety_upstream": "safe",
   "featured": true,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:06Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "ffmpeg"
+    ],
+    "noul": {
+     "Remotion": 0.95,
+     "ffmpeg": 0.78
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "GordenSun/react-bits-video",
@@ -2252,7 +3402,9 @@
   "license": "Other",
   "pushed_at": "2026-05-22T16:38:35Z",
   "archived": false,
-  "render_base": [],
+  "render_base": [
+   "ffmpeg"
+  ],
   "description_en": "Skill for authoring animated videos as one standalone HTML file with text effects, backgrounds and shader presets, rendered deterministically to MP4.",
   "description_zh_source": "结合react-bits、remotion、hyperframe整合的Skill，可以生成华丽的视频。",
   "license_detail": "MIT",
@@ -2275,7 +3427,30 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:07Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "HyperFrames",
+     "ffmpeg"
+    ],
+    "noul": {
+     "HyperFrames": 0.17,
+     "Remotion": 0.05,
+     "ffmpeg": 0.97
+    },
+    "vetoed": [
+     "Remotion",
+     "HyperFrames"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "gorkem-bwl/onboarding-video-generator",
@@ -2311,7 +3486,23 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:08Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion"
+    ],
+    "noul": {
+     "Remotion": 0.95
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "hahadu4520/newcut-video-clipping-skill",
@@ -2352,7 +3543,23 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:08Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "ffmpeg"
+    ],
+    "noul": {
+     "ffmpeg": 0.93
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "hahadu4520/vlog-cut",
@@ -2380,7 +3587,23 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:08Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "ffmpeg"
+    ],
+    "noul": {
+     "ffmpeg": 0.85
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "hassancs91/claude-faceless-shorts-creator",
@@ -2397,7 +3620,8 @@
   "pushed_at": "2026-08-18T10:37:31Z",
   "archived": false,
   "render_base": [
-   "Remotion"
+   "Remotion",
+   "ffmpeg"
   ],
   "description_en": "Claude Code project for faceless short videos with three pipelines, Remotion code visuals, generative clips and paper collage, plus ElevenLabs captions.",
   "description_zh_source": null,
@@ -2421,7 +3645,25 @@
   "safety_upstream": "safe",
   "featured": true,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:08Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "ffmpeg"
+    ],
+    "noul": {
+     "Remotion": 0.96,
+     "ffmpeg": 0.87
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "hassancs91/claude-youtube-editor",
@@ -2438,7 +3680,8 @@
   "pushed_at": "2026-08-18T11:13:04Z",
   "archived": false,
   "render_base": [
-   "Remotion"
+   "Remotion",
+   "ffmpeg"
   ],
   "description_en": "Open-source pipeline in which Claude Code edits a talking-head recording, builds Remotion screen visuals and voice, and uploads to YouTube.",
   "description_zh_source": null,
@@ -2462,7 +3705,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:08Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "ffmpeg"
+    ],
+    "noul": {
+     "Remotion": 0.94,
+     "ffmpeg": 0.88
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "hetpatel-11/Adobe_Premiere_Pro_MCP",
@@ -2478,9 +3739,7 @@
   "license": "MIT",
   "pushed_at": "2026-09-25T00:42:24Z",
   "archived": false,
-  "render_base": [
-   "Premiere Pro"
-  ],
+  "render_base": [],
   "description_en": "MCP server operating local Adobe Premiere Pro projects through a CEP bridge for Codex, Claude and other clients.",
   "description_zh_source": null,
   "license_detail": null,
@@ -2498,7 +3757,28 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:09Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "ffmpeg",
+     "Premiere Pro"
+    ],
+    "noul": {
+     "Premiere Pro": 0.27,
+     "ffmpeg": 0.16
+    },
+    "vetoed": [
+     "ffmpeg",
+     "Premiere Pro"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "heygen-com/hyperframes",
@@ -2515,7 +3795,8 @@
   "pushed_at": "2026-09-29T10:57:32Z",
   "archived": false,
   "render_base": [
-   "HyperFrames"
+   "HyperFrames",
+   "ffmpeg"
   ],
   "description_en": "Open-source framework that renders HTML, CSS and seekable animations into deterministic MP4 via a CLI, with agent skills and plugins.",
   "description_zh_source": null,
@@ -2526,7 +3807,35 @@
   "safety_upstream": "safe",
   "featured": true,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:09Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "HyperFrames",
+     "ffmpeg",
+     "HeyGen",
+     "Lottie"
+    ],
+    "noul": {
+     "HeyGen": 0.07,
+     "HyperFrames": 0.73,
+     "Lottie": 0.09,
+     "Remotion": 0.08,
+     "ffmpeg": 0.67
+    },
+    "vetoed": [
+     "Remotion",
+     "HeyGen",
+     "Lottie"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "heygen-com/skills",
@@ -2562,7 +3871,23 @@
   "safety_upstream": "safe",
   "featured": true,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:09Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "HeyGen"
+    ],
+    "noul": {
+     "HeyGen": 0.94
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "hi-nikola/hand-drawn-explainer-video-nikola",
@@ -2578,7 +3903,10 @@
   "license": "Apache-2.0",
   "pushed_at": "2026-09-03T04:25:04Z",
   "archived": false,
-  "render_base": [],
+  "render_base": [
+   "HyperFrames",
+   "ffmpeg"
+  ],
   "description_en": "Codex skill for Chinese hand-drawn explainer videos, offering stroke-by-stroke story animation or programmatic HTML/SVG/GSAP animation with MP4 and subtitles.",
   "description_zh_source": "中文手绘知识讲解视频 Codex Skill：逐笔故事、双语义岛、让怪诞小黑动起来与程序动画",
   "license_detail": null,
@@ -2596,7 +3924,29 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:09Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "HyperFrames",
+     "ffmpeg",
+     "HeyGen"
+    ],
+    "noul": {
+     "HeyGen": 0.14,
+     "HyperFrames": 0.89,
+     "ffmpeg": 0.88
+    },
+    "vetoed": [
+     "HeyGen"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "holy-templar/vox-animated-ad-mcp",
@@ -2630,7 +3980,19 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:10Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [],
+    "noul": {},
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "hypit-ai/hypit",
@@ -2669,7 +4031,19 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:10Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [],
+    "noul": {},
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "iart-ai/ad-video-skills",
@@ -2703,7 +4077,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:10Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Manim"
+    ],
+    "noul": {
+     "Manim": 0.05
+    },
+    "vetoed": [
+     "Manim"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "iart-ai/data-animation-skills",
@@ -2737,7 +4129,25 @@
   "safety_upstream": "safe",
   "featured": true,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:11Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Manim"
+    ],
+    "noul": {
+     "Manim": 0.1
+    },
+    "vetoed": [
+     "Manim"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "iart-ai/explainer-video-skills",
@@ -2771,7 +4181,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:11Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Manim"
+    ],
+    "noul": {
+     "Manim": 0.11
+    },
+    "vetoed": [
+     "Manim"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "iart-ai/motion-design-skills",
@@ -2787,10 +4215,7 @@
   "license": "MIT",
   "pushed_at": "2026-06-22T13:24:17Z",
   "archived": false,
-  "render_base": [
-   "After Effects",
-   "Remotion"
-  ],
+  "render_base": [],
   "description_en": "Installable skills covering motion design fundamentals, After Effects, Remotion engines, logos and backgrounds for coding agents.",
   "description_zh_source": null,
   "license_detail": null,
@@ -2808,7 +4233,31 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:11Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "Manim",
+     "After Effects"
+    ],
+    "noul": {
+     "After Effects": 0.1,
+     "Manim": 0.05,
+     "Remotion": 0.29
+    },
+    "vetoed": [
+     "Remotion",
+     "Manim",
+     "After Effects"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "iart-ai/motion-skills",
@@ -2824,7 +4273,10 @@
   "license": "MIT",
   "pushed_at": "2026-09-23T13:37:58Z",
   "archived": false,
-  "render_base": [],
+  "render_base": [
+   "Remotion",
+   "Manim"
+  ],
   "description_en": "Collection of about fifty motion graphics skills for coding agents, covering typography, charts, explainers, social video, 3D and web motion.",
   "description_zh_source": null,
   "license_detail": null,
@@ -2842,7 +4294,29 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:12Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "Manim",
+     "Lottie"
+    ],
+    "noul": {
+     "Lottie": 0.17,
+     "Manim": 0.78,
+     "Remotion": 0.71
+    },
+    "vetoed": [
+     "Lottie"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "iart-ai/tiktok-video-skills",
@@ -2876,7 +4350,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:12Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Manim"
+    ],
+    "noul": {
+     "Manim": 0.04
+    },
+    "vetoed": [
+     "Manim"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "icytear-svg/podcast-to-video",
@@ -2909,7 +4401,23 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:12Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "ffmpeg"
+    ],
+    "noul": {
+     "ffmpeg": 0.96
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "inematds/skill-video-plan-editor",
@@ -2938,7 +4446,29 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:13Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "HyperFrames",
+     "ffmpeg"
+    ],
+    "noul": {
+     "HyperFrames": 0.86,
+     "Remotion": 0.03,
+     "ffmpeg": 0.41
+    },
+    "vetoed": [
+     "Remotion"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "intelligent-iterations/ii-content-engine",
@@ -2977,7 +4507,19 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:13Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [],
+    "noul": {},
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "jackjls/jtxvideo-skill",
@@ -2994,7 +4536,8 @@
   "pushed_at": "2026-06-26T03:05:42Z",
   "archived": false,
   "render_base": [
-   "HyperFrames"
+   "HyperFrames",
+   "ffmpeg"
   ],
   "description_en": "Codex skill for making Chinese talking-head finance videos in HyperFrames, following reviewed SRT, structure, storyboard and design steps.",
   "description_zh_source": "Codex + HyperFrames 口播视频制作 Skill：按 SRT、结构、分镜、设计、渲染的审核流程生成 AI 金融短视频",
@@ -3018,7 +4561,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:13Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "HyperFrames",
+     "ffmpeg"
+    ],
+    "noul": {
+     "HyperFrames": 0.9,
+     "ffmpeg": 0.56
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "jaxxchen003/book-video-factory",
@@ -3034,7 +4595,9 @@
   "license": "MIT",
   "pushed_at": "2026-08-17T02:18:41Z",
   "archived": false,
-  "render_base": [],
+  "render_base": [
+   "ffmpeg"
+  ],
   "description_en": "Codex skill for rights-aware Chinese book-review short videos, with auditable evidence, approvals and two visual styles.",
   "description_zh_source": null,
   "license_detail": null,
@@ -3052,7 +4615,23 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:13Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "ffmpeg"
+    ],
+    "noul": {
+     "ffmpeg": 0.89
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "jhartquist/claude-remotion-kickstart",
@@ -3069,7 +4648,8 @@
   "pushed_at": "2025-12-09T03:58:08Z",
   "archived": false,
   "render_base": [
-   "Remotion"
+   "Remotion",
+   "ffmpeg"
   ],
   "description_en": "Remotion starter kit for Claude Code with prebuilt components, AI asset generation commands and transcript-timed captions for programmatic videos.",
   "description_zh_source": null,
@@ -3085,7 +4665,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:14Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "ffmpeg"
+    ],
+    "noul": {
+     "Remotion": 0.97,
+     "ffmpeg": 0.91
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "JimLiu/baocut",
@@ -3101,9 +4699,7 @@
   "license": "MIT",
   "pushed_at": "2026-08-30T15:35:18Z",
   "archived": false,
-  "render_base": [
-   "other"
-  ],
+  "render_base": [],
   "description_en": "Agent skill that lets Claude Code or Codex operate the BaoCut macOS app CLI for transcription, subtitles, translation, cutting and export.",
   "description_zh_source": null,
   "license_detail": null,
@@ -3118,7 +4714,19 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:15Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [],
+    "noul": {},
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "JimLiu/taohuayuan",
@@ -3134,9 +4742,7 @@
   "license": null,
   "pushed_at": "2026-09-24T05:41:07Z",
   "archived": false,
-  "render_base": [
-   "other"
-  ],
+  "render_base": [],
   "description_en": "Interactive real-time 3D web scroll of the classical Chinese story Peach Blossom Spring, built with three.js.",
   "description_zh_source": "桃花源记 3D 网页",
   "license_detail": "No license file found",
@@ -3146,7 +4752,19 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:15Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [],
+    "noul": {},
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "showcase"
  },
  {
   "id": "jincheng2026/jc-remotion-skills",
@@ -3163,7 +4781,8 @@
   "pushed_at": "2026-08-22T04:50:15Z",
   "archived": false,
   "render_base": [
-   "Remotion"
+   "Remotion",
+   "ffmpeg"
   ],
   "description_en": "Claude Code and Codex workflow that turns talking-head rough cuts and SRT files into finished videos with Remotion graphics and sound design.",
   "description_zh_source": "Remotion Koubo Skill — 口播视频的 AI 成片工作流（Codex / Claude Code 双端）：粗剪+SRT 进，带 MG 包装、音效、母带的成片出",
@@ -3187,7 +4806,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:15Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "ffmpeg"
+    ],
+    "noul": {
+     "Remotion": 0.95,
+     "ffmpeg": 0.9
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "jinjin1/scenewright",
@@ -3215,7 +4852,23 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:15Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion"
+    ],
+    "noul": {
+     "Remotion": 0.95
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "JohnHeibel/ClaudeAnimationBase",
@@ -3232,6 +4885,7 @@
   "pushed_at": "2026-09-24T07:41:21Z",
   "archived": false,
   "render_base": [
+   "ffmpeg",
    "p5.js"
   ],
   "description_en": "Starter kit and guide for having Claude animate a hand-painted cartoon character using p5.js and p5.brush, outputting an MP4.",
@@ -3248,7 +4902,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:15Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "ffmpeg",
+     "p5.js"
+    ],
+    "noul": {
+     "ffmpeg": 0.91,
+     "p5.js": 0.93
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "JohnHeibel/PDoomVideo",
@@ -3265,6 +4937,7 @@
   "pushed_at": "2026-09-25T15:11:03Z",
   "archived": false,
   "render_base": [
+   "ffmpeg",
    "p5.js"
   ],
   "description_en": "Source code for an animated music video generated by Claude, with scenes, storyboard and animation guide.",
@@ -3276,7 +4949,25 @@
   "safety_upstream": "safe",
   "featured": true,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:16Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "ffmpeg",
+     "p5.js"
+    ],
+    "noul": {
+     "ffmpeg": 0.96,
+     "p5.js": 0.95
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "showcase"
  },
  {
   "id": "Johnson-Jia/video-clipforge",
@@ -3293,7 +4984,8 @@
   "pushed_at": "2026-08-24T12:15:36Z",
   "archived": false,
   "render_base": [
-   "HyperFrames"
+   "HyperFrames",
+   "ffmpeg"
   ],
   "description_en": "Short-video production system that writes scripts, narrates, animates and renders finished videos through a nine-stage pipeline, with scheduled daily runs.",
   "description_zh_source": " AI 驱动的短视频制作系统。给它一个想法，它帮你写稿、配音、做画面、出成片。9 阶段 DAG 管线 + 自进化评分，支持每日自动执行。基于 Claude Code + HyperFrames。",
@@ -3317,7 +5009,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:17Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "HyperFrames",
+     "ffmpeg"
+    ],
+    "noul": {
+     "HyperFrames": 0.92,
+     "ffmpeg": 0.57
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "jtydhr88/screenwriting-skills",
@@ -3348,7 +5058,19 @@
   "safety_upstream": "safe",
   "featured": true,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:17Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [],
+    "noul": {},
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "JUNKDOGE-JOE/after-effects-mcp",
@@ -3364,9 +5086,7 @@
   "license": "MIT",
   "pushed_at": "2026-09-23T02:55:48Z",
   "archived": false,
-  "render_base": [
-   "After Effects"
-  ],
+  "render_base": [],
   "description_en": "MCP server with an After Effects CEP plugin that lets coding agents control After Effects through about thirty tools.",
   "description_zh_source": null,
   "license_detail": null,
@@ -3376,7 +5096,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:17Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "After Effects"
+    ],
+    "noul": {
+     "After Effects": 0.24
+    },
+    "vetoed": [
+     "After Effects"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "kakaxi12/vox-director-codex",
@@ -3394,7 +5132,7 @@
   "archived": false,
   "render_base": [
    "HyperFrames",
-   "Remotion"
+   "ffmpeg"
   ],
   "description_en": "Codex skill directing Vox-style paper-collage videos with generated images, MiniMax narration and music, animated in HyperFrames or Remotion.",
   "description_zh_source": null,
@@ -3418,7 +5156,29 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:17Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "HyperFrames",
+     "ffmpeg"
+    ],
+    "noul": {
+     "HyperFrames": 0.77,
+     "Remotion": 0.25,
+     "ffmpeg": 0.8
+    },
+    "vetoed": [
+     "Remotion"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "kangarooking/director-skills",
@@ -3452,7 +5212,19 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:17Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [],
+    "noul": {},
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "kangarooking/promo-creator-skills",
@@ -3469,7 +5241,8 @@
   "pushed_at": "2026-05-12T16:39:08Z",
   "archived": false,
   "render_base": [
-   "HyperFrames"
+   "HyperFrames",
+   "ffmpeg"
   ],
   "description_en": "Set of agent skills for product promo videos covering positioning, storyboard, assets, HyperFrames editing and BGM design.",
   "description_zh_source": "产品宣传视频创作 Skills：从产品判断、分镜、素材、HyperFrames 剪辑到 BGM 设计的完整 Agent 工作流",
@@ -3485,7 +5258,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:18Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "HyperFrames",
+     "ffmpeg"
+    ],
+    "noul": {
+     "HyperFrames": 0.87,
+     "ffmpeg": 0.74
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "Kappaemme-git/codex-video-short-maker-skill",
@@ -3501,7 +5292,9 @@
   "license": "MIT",
   "pushed_at": "2026-05-01T16:10:40Z",
   "archived": false,
-  "render_base": [],
+  "render_base": [
+   "ffmpeg"
+  ],
   "description_en": "Codex skill that removes dead air from local videos, exports vertical shorts and burns in local Whisper captions.",
   "description_zh_source": null,
   "license_detail": null,
@@ -3524,7 +5317,23 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:18Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "ffmpeg"
+    ],
+    "noul": {
+     "ffmpeg": 0.9
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "kiki-lgtm-dot/cinematic-product-promo-skill",
@@ -3565,7 +5374,23 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:18Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion"
+    ],
+    "noul": {
+     "Remotion": 0.96
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "kingselyjoe/video-shotcraft-dsh",
@@ -3593,7 +5418,23 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:18Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion"
+    ],
+    "noul": {
+     "Remotion": 0.96
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "krusemediallc/video-editor-agent",
@@ -3609,7 +5450,10 @@
   "license": null,
   "pushed_at": "2026-09-25T00:41:50Z",
   "archived": false,
-  "render_base": [],
+  "render_base": [
+   "HyperFrames",
+   "ffmpeg"
+  ],
   "description_en": "Claude Code skill pack that edits short-form videos from raw footage, with style cloning, ElevenLabs sound design and frame-level QA.",
   "description_zh_source": null,
   "license_detail": "No license file found",
@@ -3619,7 +5463,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:19Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "HyperFrames",
+     "ffmpeg"
+    ],
+    "noul": {
+     "HyperFrames": 0.91,
+     "ffmpeg": 0.88
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "kurbaitaev/ghost-editor",
@@ -3647,7 +5509,23 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:20Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "HyperFrames"
+    ],
+    "noul": {
+     "HyperFrames": 0.85
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "leancoderkavy/premiere-pro-mcp",
@@ -3663,9 +5541,7 @@
   "license": "MIT",
   "pushed_at": "2026-09-29T11:07:42Z",
   "archived": false,
-  "render_base": [
-   "Premiere Pro"
-  ],
+  "render_base": [],
   "description_en": "MCP server that lets Claude, Cursor and Codex automate local Adobe Premiere Pro editing, organization and export checks.",
   "description_zh_source": null,
   "license_detail": null,
@@ -3683,7 +5559,31 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:20Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "ffmpeg",
+     "After Effects",
+     "Premiere Pro"
+    ],
+    "noul": {
+     "After Effects": 0.24,
+     "Premiere Pro": 0.26,
+     "ffmpeg": 0.26
+    },
+    "vetoed": [
+     "ffmpeg",
+     "After Effects",
+     "Premiere Pro"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "ledbetterljoshua/functional-emotions-video",
@@ -3699,7 +5599,9 @@
   "license": "MIT",
   "pushed_at": "2026-09-23T16:22:47Z",
   "archived": false,
-  "render_base": [],
+  "render_base": [
+   "ffmpeg"
+  ],
   "description_en": "Source code for a painted music video generated by Claude in Claude Code, including a custom GPU brushstroke renderer and storyboard.",
   "description_zh_source": null,
   "license_detail": null,
@@ -3709,7 +5611,27 @@
   "safety_upstream": "safe",
   "featured": true,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:20Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "ffmpeg",
+     "p5.js"
+    ],
+    "noul": {
+     "ffmpeg": 0.64,
+     "p5.js": 0.03
+    },
+    "vetoed": [
+     "p5.js"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "showcase"
  },
  {
   "id": "lemomo-ai/lemo-opuscar",
@@ -3725,7 +5647,9 @@
   "license": "Other",
   "pushed_at": "2026-09-29T12:04:16Z",
   "archived": false,
-  "render_base": [],
+  "render_base": [
+   "ffmpeg"
+  ],
   "description_en": "Library of film-style prompts, each with a short film built entirely in code by Claude, for agents to direct your story.",
   "description_zh_source": "39 film styles, each a reusable style prompt plus a short film made entirely in code by Claude Opus 5.5. Pick a style, bring your own story, and let your agent direct. | Opus5.5 x 39 种影片风格：风格提示词 + 纯代码样片 + 导演与技术指南",
   "license_detail": "MIT",
@@ -3743,7 +5667,23 @@
   "safety_upstream": "safe",
   "featured": true,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:20Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "ffmpeg"
+    ],
+    "noul": {
+     "ffmpeg": 0.88
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "leosssvip-dot/remotion-ad-video-skill",
@@ -3761,7 +5701,8 @@
   "archived": false,
   "render_base": [
    "Remotion",
-   "HyperFrames"
+   "HyperFrames",
+   "ffmpeg"
   ],
   "description_en": "Agent workflow that plans an ad from a URL and renders it with either Remotion or HyperFrames, selecting the renderer automatically.",
   "description_zh_source": null,
@@ -3785,7 +5726,31 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:20Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "HyperFrames",
+     "ffmpeg",
+     "HeyGen"
+    ],
+    "noul": {
+     "HeyGen": 0.09,
+     "HyperFrames": 0.79,
+     "Remotion": 0.92,
+     "ffmpeg": 0.86
+    },
+    "vetoed": [
+     "HeyGen"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "LetMeHappyCode/auto-video-agent",
@@ -3801,7 +5766,9 @@
   "license": null,
   "pushed_at": "2026-09-21T04:01:22Z",
   "archived": false,
-  "render_base": [],
+  "render_base": [
+   "ffmpeg"
+  ],
   "description_en": "Claude Code agents and workflows that turn SRT subtitles into shot lists, illustration prompts, generated images and a stitched silent video.",
   "description_zh_source": "自动流水线化生成成套「分镜插画提示词 → AI 生图 → 拼接成片」的视频，基于 Agent / Skill / Workflow 编排。",
   "license_detail": "No license file found",
@@ -3811,7 +5778,23 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:21Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "ffmpeg"
+    ],
+    "noul": {
+     "ffmpeg": 0.92
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "Liamrjohnston/remotion-motion-graphics-skill",
@@ -3852,7 +5835,23 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:21Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion"
+    ],
+    "noul": {
+     "Remotion": 0.95
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "liangdabiao/story-handdrawn-remotion",
@@ -3894,7 +5893,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:21Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "ffmpeg"
+    ],
+    "noul": {
+     "Remotion": 0.96,
+     "ffmpeg": 0.89
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "liangdabiao/story-handdrawn-video",
@@ -3935,7 +5952,23 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:22Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion"
+    ],
+    "noul": {
+     "Remotion": 0.93
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "liangdabiao/wechat-article-remotion",
@@ -3952,7 +5985,8 @@
   "pushed_at": "2026-08-03T05:11:07Z",
   "archived": false,
   "render_base": [
-   "Remotion"
+   "Remotion",
+   "ffmpeg"
   ],
   "description_en": "Agent skill that converts a WeChat article into a Remotion video with a warm canvas, chapter progress and preserved original images.",
   "description_zh_source": "动画skill:  把任意一篇微信公众号文章 转成 Studio 风格的 Remotion 视频 —— 暖白画布 + 上下镜像透视格子 + 顶部章节进度 + 公众号原文图完整保留",
@@ -3963,7 +5997,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:22Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "ffmpeg"
+    ],
+    "noul": {
+     "Remotion": 0.97,
+     "ffmpeg": 0.88
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "liuliu-66-create/ll-video-decomposer",
@@ -3989,7 +6041,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:22Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "ffmpeg"
+    ],
+    "noul": {
+     "ffmpeg": 0.2
+    },
+    "vetoed": [
+     "ffmpeg"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "liyue-aigc/xianxia-cinematic-video-director",
@@ -4020,7 +6090,19 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:22Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [],
+    "noul": {},
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "louisedesadeleer/cut-video",
@@ -4036,7 +6118,9 @@
   "license": "MIT",
   "pushed_at": "2026-07-09T12:05:10Z",
   "archived": false,
-  "render_base": [],
+  "render_base": [
+   "ffmpeg"
+  ],
   "description_en": "Claude Code skill that removes silences and filler from long recordings using forced-alignment word timing, while keeping laughs and comedic pauses.",
   "description_zh_source": null,
   "license_detail": null,
@@ -4059,7 +6143,23 @@
   "safety_upstream": "safe",
   "featured": true,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:23Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "ffmpeg"
+    ],
+    "noul": {
+     "ffmpeg": 0.98
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "Maartenlouis/remotion-ads",
@@ -4092,7 +6192,23 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:23Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion"
+    ],
+    "noul": {
+     "Remotion": 0.9
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "magichourhq/skills",
@@ -4118,7 +6234,19 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:23Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [],
+    "noul": {},
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "manthanpatelll/leadgenman-video-skills",
@@ -4134,7 +6262,9 @@
   "license": "MIT",
   "pushed_at": "2026-05-31T08:47:59Z",
   "archived": false,
-  "render_base": [],
+  "render_base": [
+   "ffmpeg"
+  ],
   "description_en": "Six Claude Code skills for a content pipeline from face-cam recording to posted Reel or YouTube upload, including SRT, captions and overlays.",
   "description_zh_source": null,
   "license_detail": null,
@@ -4157,7 +6287,23 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:24Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "ffmpeg"
+    ],
+    "noul": {
+     "ffmpeg": 0.86
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "marketcalls/story-telling",
@@ -4198,7 +6344,27 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:24Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "ffmpeg"
+    ],
+    "noul": {
+     "Remotion": 0.97,
+     "ffmpeg": 0.07
+    },
+    "vetoed": [
+     "ffmpeg"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "mattivilola/brag-codex",
@@ -4215,7 +6381,9 @@
   "pushed_at": "2026-06-23T05:46:35Z",
   "archived": false,
   "render_base": [
-   "HyperFrames"
+   "HyperFrames",
+   "ffmpeg",
+   "HeyGen"
   ],
   "description_en": "Codex-compatible port of the brag skill that makes short launch videos for a project's website or app using HyperFrames.",
   "description_zh_source": null,
@@ -4239,7 +6407,27 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:24Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "HyperFrames",
+     "ffmpeg",
+     "HeyGen"
+    ],
+    "noul": {
+     "HeyGen": 0.77,
+     "HyperFrames": 0.9,
+     "ffmpeg": 0.79
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "MegaTroll222/VOX-COLLAGE-BROLL",
@@ -4255,7 +6443,9 @@
   "license": "Other",
   "pushed_at": "2026-07-17T07:01:59Z",
   "archived": false,
-  "render_base": [],
+  "render_base": [
+   "ffmpeg"
+  ],
   "description_en": "Claude Code skill turning one spoken line into a five-second paper-collage explainer clip via image and video generation MCP.",
   "description_zh_source": null,
   "license_detail": "MIT",
@@ -4273,7 +6463,23 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:25Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "ffmpeg"
+    ],
+    "noul": {
+     "ffmpeg": 0.89
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "memex-lab/product-launch-video-skill",
@@ -4290,7 +6496,8 @@
   "pushed_at": "2026-06-01T09:25:16Z",
   "archived": false,
   "render_base": [
-   "Remotion"
+   "Remotion",
+   "ffmpeg"
   ],
   "description_en": "Agent skill for cinematic product launch videos, from brief and assets through storyboard to a rendered Remotion video.",
   "description_zh_source": null,
@@ -4314,7 +6521,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:25Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "ffmpeg"
+    ],
+    "noul": {
+     "Remotion": 0.76,
+     "ffmpeg": 0.32
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "misbahsy/tiktok-ig-shorts",
@@ -4331,7 +6556,8 @@
   "pushed_at": "2026-07-26T05:10:36Z",
   "archived": false,
   "render_base": [
-   "HyperFrames"
+   "HyperFrames",
+   "ffmpeg"
   ],
   "description_en": "Collection of agent skills that edit talking-head footage into vertical shorts with captions, B-roll, picture-in-picture and motion graphics using HyperFrames.",
   "description_zh_source": null,
@@ -4347,7 +6573,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:25Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "HyperFrames",
+     "ffmpeg"
+    ],
+    "noul": {
+     "HyperFrames": 0.84,
+     "ffmpeg": 0.83
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "Mng-dev-ai/explainer-video",
@@ -4388,7 +6632,23 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:26Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "ffmpeg"
+    ],
+    "noul": {
+     "ffmpeg": 0.96
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "molkex/mcp-flow-google",
@@ -4414,7 +6674,19 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:26Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [],
+    "noul": {},
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "Monet-AI-Editor/Monet",
@@ -4430,7 +6702,10 @@
   "license": "MIT",
   "pushed_at": "2026-07-07T01:36:26Z",
   "archived": false,
-  "render_base": [],
+  "render_base": [
+   "Remotion",
+   "ffmpeg"
+  ],
   "description_en": "Local-first macOS video editor and design canvas with an embedded terminal so Claude Code or Codex can edit via editorctl, API bridge and MCP.",
   "description_zh_source": null,
   "license_detail": null,
@@ -4445,7 +6720,29 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:26Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "ffmpeg",
+     "Premiere Pro"
+    ],
+    "noul": {
+     "Premiere Pro": 0.02,
+     "Remotion": 0.82,
+     "ffmpeg": 0.82
+    },
+    "vetoed": [
+     "Premiere Pro"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "Mr-funny/hbg-douyin-code-explainer-video",
@@ -4462,7 +6759,8 @@
   "pushed_at": "2026-07-30T01:15:04Z",
   "archived": false,
   "render_base": [
-   "HyperFrames"
+   "HyperFrames",
+   "ffmpeg"
   ],
   "description_en": "Codex skill for making Chinese vertical dialogue explainer videos in HyperFrames, with continuous TTS, Whisper alignment, stable BGM and final-video QA.",
   "description_zh_source": null,
@@ -4481,7 +6779,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:27Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "HyperFrames",
+     "ffmpeg"
+    ],
+    "noul": {
+     "HyperFrames": 0.93,
+     "ffmpeg": 0.94
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "Mr-funny/hbg-life-simulation",
@@ -4497,7 +6813,10 @@
   "license": "MIT",
   "pushed_at": "2026-08-05T15:37:52Z",
   "archived": false,
-  "render_base": [],
+  "render_base": [
+   "HyperFrames",
+   "ffmpeg"
+  ],
   "description_en": "Agent skill converting long Chinese life-story scripts into narrated comic-style videos with TTS, captions and QA.",
   "description_zh_source": null,
   "license_detail": null,
@@ -4520,7 +6839,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:27Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "HyperFrames",
+     "ffmpeg"
+    ],
+    "noul": {
+     "HyperFrames": 0.87,
+     "ffmpeg": 0.95
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "mrieck/demoday-claude-plugin",
@@ -4537,7 +6874,8 @@
   "pushed_at": "2026-09-15T06:06:25Z",
   "archived": false,
   "render_base": [
-   "Remotion"
+   "Remotion",
+   "ffmpeg"
   ],
   "description_en": "Claude Code plugin that drives your app on screen, writes a script, adds AI voiceover and builds a narrated demo video with Remotion.",
   "description_zh_source": null,
@@ -4556,7 +6894,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:27Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "ffmpeg"
+    ],
+    "noul": {
+     "Remotion": 0.91,
+     "ffmpeg": 0.84
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "naive-kun/naive-video-skill",
@@ -4573,7 +6929,8 @@
   "pushed_at": "2026-08-11T08:35:55Z",
   "archived": false,
   "render_base": [
-   "HyperFrames"
+   "HyperFrames",
+   "ffmpeg"
   ],
   "description_en": "Codex skill workflow that turns talking-head footage into captioned, animated final videos, previewed with HyperFrames and GSAP.",
   "description_zh_source": null,
@@ -4592,7 +6949,29 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:28Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "HyperFrames",
+     "ffmpeg"
+    ],
+    "noul": {
+     "HyperFrames": 0.89,
+     "Remotion": 0.27,
+     "ffmpeg": 0.78
+    },
+    "vetoed": [
+     "Remotion"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "NarratorAI-Studio/narrator-ai-cli-skill",
@@ -4626,7 +7005,19 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:28Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [],
+    "noul": {},
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "new-xp/ultrademo",
@@ -4642,7 +7033,10 @@
   "license": "Apache-2.0",
   "pushed_at": "2026-07-10T12:58:50Z",
   "archived": false,
-  "render_base": [],
+  "render_base": [
+   "Remotion",
+   "ffmpeg"
+  ],
   "description_en": "Claude Code skill and local pipeline that scripts, captures and narrates demo videos of web apps using a signed-in browser session.",
   "description_zh_source": null,
   "license_detail": null,
@@ -4660,7 +7054,29 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:28Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "ffmpeg",
+     "Premiere Pro"
+    ],
+    "noul": {
+     "Premiere Pro": 0.03,
+     "Remotion": 0.92,
+     "ffmpeg": 0.9
+    },
+    "vetoed": [
+     "Premiere Pro"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "ninestonelee/youtube-shorts-factory",
@@ -4694,7 +7110,19 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:29Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [],
+    "noul": {},
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "nolangz/pixel2motion",
@@ -4720,7 +7148,19 @@
   "safety_upstream": "safe",
   "featured": true,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:29Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [],
+    "noul": {},
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "norahe0304-art/30x-video",
@@ -4737,7 +7177,8 @@
   "pushed_at": "2026-07-09T14:06:56Z",
   "archived": false,
   "render_base": [
-   "Remotion"
+   "Remotion",
+   "ffmpeg"
   ],
   "description_en": "Claude Code skill that turns a website URL into a launch video with brand assets, AI voiceover and music, built with Remotion.",
   "description_zh_source": null,
@@ -4761,7 +7202,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:29Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "ffmpeg"
+    ],
+    "noul": {
+     "Remotion": 0.93,
+     "ffmpeg": 0.89
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "op7418/guizang-product-video-skill",
@@ -4777,7 +7236,10 @@
   "license": "AGPL-3.0",
   "pushed_at": "2026-09-25T09:53:08Z",
   "archived": false,
-  "render_base": [],
+  "render_base": [
+   "HyperFrames",
+   "ffmpeg"
+  ],
   "description_en": "Skill that builds software-update promo videos in code by reusing real product components, with scripts, original music and sound effects.",
   "description_zh_source": "归藏 product video skill：复用真实产品组件和设计语言，用代码制作软件更新宣传片。包含分镜文案、原创配乐、动作音效与视频渲染，支持 Claude Code 和 Codex。",
   "license_detail": null,
@@ -4795,7 +7257,25 @@
   "safety_upstream": "safe",
   "featured": true,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:30Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "HyperFrames",
+     "ffmpeg"
+    ],
+    "noul": {
+     "HyperFrames": 0.62,
+     "ffmpeg": 0.91
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "ops120/video-recap-skills-plus",
@@ -4831,7 +7311,23 @@
   "safety_upstream": "caution",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:30Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "ffmpeg"
+    ],
+    "noul": {
+     "ffmpeg": 0.97
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "opus-pro/opus-video-studio",
@@ -4847,7 +7343,9 @@
   "license": null,
   "pushed_at": "2026-09-29T00:06:50Z",
   "archived": false,
-  "render_base": [],
+  "render_base": [
+   "Remotion"
+  ],
   "description_en": "Plugin for Claude Code and Codex offering open-source video templates and motion components to turn product news into finished videos.",
   "description_zh_source": null,
   "license_detail": "No license file found",
@@ -4870,7 +7368,23 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": "Renamed on GitHub: now opus-pro/opusclip-video-tools.",
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:30Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion"
+    ],
+    "noul": {
+     "Remotion": 0.87
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "patraxo/ltx2-vidgen-skill",
@@ -4904,7 +7418,19 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:30Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [],
+    "noul": {},
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "Phantomlau3674/voxstylehub-steven",
@@ -4921,7 +7447,8 @@
   "pushed_at": "2026-07-22T10:35:55Z",
   "archived": false,
   "render_base": [
-   "Remotion"
+   "Remotion",
+   "ffmpeg"
   ],
   "description_en": "Codex skill that turns spoken scripts into editorial paper-collage explainer videos, with layered assets and deterministic text and charts.",
   "description_zh_source": null,
@@ -4945,7 +7472,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:31Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "ffmpeg"
+    ],
+    "noul": {
+     "Remotion": 0.76,
+     "ffmpeg": 0.71
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "pjecuacion/script-to-video-skill",
@@ -4962,7 +7507,8 @@
   "pushed_at": "2026-04-21T11:23:44Z",
   "archived": false,
   "render_base": [
-   "HyperFrames"
+   "HyperFrames",
+   "ffmpeg"
   ],
   "description_en": "Skill that turns a topic, script, audio or talking-head video into a timed HyperFrames composition with voiceover and storyboard.",
   "description_zh_source": null,
@@ -4973,7 +7519,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:32Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "HyperFrames",
+     "ffmpeg"
+    ],
+    "noul": {
+     "HyperFrames": 0.83,
+     "ffmpeg": 0.76
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "PoetCoderJun/MotionTalk",
@@ -5007,7 +7571,19 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:32Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [],
+    "noul": {},
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "pyang5166/gbro-collage-broll",
@@ -5023,7 +7599,9 @@
   "license": "MIT",
   "pushed_at": "2026-07-15T12:50:50Z",
   "archived": false,
-  "render_base": [],
+  "render_base": [
+   "ffmpeg"
+  ],
   "description_en": "Skill producing five-second halftone paper-collage B-roll through three approval gates and first/last-frame video generation.",
   "description_zh_source": "半调纸拼贴 B-roll 生成 skill：三闸门审批，Gemini Omni Flash 首尾帧组装动画 | Editorial halftone paper-collage B-roll agent skill",
   "license_detail": null,
@@ -5046,7 +7624,27 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:32Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "HyperFrames",
+     "ffmpeg"
+    ],
+    "noul": {
+     "HyperFrames": 0.04,
+     "ffmpeg": 0.82
+    },
+    "vetoed": [
+     "HyperFrames"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "pyang5166/gbro-collage-info",
@@ -5063,7 +7661,8 @@
   "pushed_at": "2026-08-01T07:25:25Z",
   "archived": false,
   "render_base": [
-   "HyperFrames"
+   "HyperFrames",
+   "ffmpeg"
   ],
   "description_en": "Agent skill turning voiceover scripts into vertical halftone paper-collage info animations, rendered locally with HTML, CSS and GSAP via HyperFrames.",
   "description_zh_source": "半调纸拼贴风信息动画 Agent Skill · Halftone paper-collage info-graphic animations from voiceover scripts (HyperFrames, no image models)",
@@ -5082,7 +7681,29 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:32Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "HyperFrames",
+     "ffmpeg",
+     "HeyGen"
+    ],
+    "noul": {
+     "HeyGen": 0.06,
+     "HyperFrames": 0.91,
+     "ffmpeg": 0.72
+    },
+    "vetoed": [
+     "HeyGen"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "qingyunAGI/qingyun-cine-skill",
@@ -5121,7 +7742,19 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:32Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [],
+    "noul": {},
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "remotion-dev/skills",
@@ -5137,9 +7770,7 @@
   "license": null,
   "pushed_at": "2026-09-29T13:14:59Z",
   "archived": false,
-  "render_base": [
-   "Remotion"
-  ],
+  "render_base": [],
   "description_en": "Official Remotion agent skills capturing best practices for working in Remotion projects, installable for Claude Code, Codex and similar agents.",
   "description_zh_source": null,
   "license_detail": "No license file found",
@@ -5149,7 +7780,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:33Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion"
+    ],
+    "noul": {
+     "Remotion": 0.19
+    },
+    "vetoed": [
+     "Remotion"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "resemble-ai/remotion-resemble-skill",
@@ -5190,7 +7839,23 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:34Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion"
+    ],
+    "noul": {
+     "Remotion": 0.85
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "riffkit/skill",
@@ -5229,7 +7894,19 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:34Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [],
+    "noul": {},
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "runesleo/claude-video-kit",
@@ -5246,7 +7923,8 @@
   "pushed_at": "2026-09-27T13:03:42Z",
   "archived": false,
   "render_base": [
-   "Remotion"
+   "Remotion",
+   "ffmpeg"
   ],
   "description_en": "Agent skill and Remotion pipeline that turns a brief or JSON script into a narrated vertical explainer with a review step before rendering.",
   "description_zh_source": null,
@@ -5265,7 +7943,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:34Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "ffmpeg"
+    ],
+    "noul": {
+     "Remotion": 0.97,
+     "ffmpeg": 0.84
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "Samin12/samin-reel-engine-plugin",
@@ -5282,7 +7978,8 @@
   "pushed_at": "2026-09-13T22:28:38Z",
   "archived": false,
   "render_base": [
-   "HyperFrames"
+   "HyperFrames",
+   "ffmpeg"
   ],
   "description_en": "Codex plugin bundling research-to-reel skills for scripting, B-roll, editing and review, with a local HyperFrames editing runtime.",
   "description_zh_source": null,
@@ -5301,7 +7998,29 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:34Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "HyperFrames",
+     "ffmpeg",
+     "HeyGen"
+    ],
+    "noul": {
+     "HeyGen": 0.04,
+     "HyperFrames": 0.78,
+     "ffmpeg": 0.89
+    },
+    "vetoed": [
+     "HeyGen"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "santmun/video-vox",
@@ -5318,7 +8037,8 @@
   "pushed_at": "2026-07-14T15:37:33Z",
   "archived": false,
   "render_base": [
-   "Remotion"
+   "Remotion",
+   "ffmpeg"
   ],
   "description_en": "Claude Code project that generates vertical Vox-style animated shorts from a topic with script, voice, cartoon art, music and effects in Remotion.",
   "description_zh_source": null,
@@ -5329,7 +8049,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:34Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "ffmpeg"
+    ],
+    "noul": {
+     "Remotion": 0.93,
+     "ffmpeg": 0.87
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "sharon-laicc/viral-video-decomposer",
@@ -5360,7 +8098,19 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:35Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [],
+    "noul": {},
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "shuyicc/MathLens",
@@ -5393,7 +8143,23 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:36Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Manim"
+    ],
+    "noul": {
+     "Manim": 0.93
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "smit-vanani/claude-promo-video",
@@ -5410,7 +8176,8 @@
   "pushed_at": "2026-07-16T06:02:44Z",
   "archived": false,
   "render_base": [
-   "Remotion"
+   "Remotion",
+   "ffmpeg"
   ],
   "description_en": "Claude Code skill that turns a website URL into a beat-synced product promo video rendered with Remotion.",
   "description_zh_source": null,
@@ -5434,7 +8201,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:36Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "ffmpeg"
+    ],
+    "noul": {
+     "Remotion": 0.9,
+     "ffmpeg": 0.9
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "smwbev/framewright",
@@ -5475,7 +8260,23 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:36Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "ffmpeg"
+    ],
+    "noul": {
+     "ffmpeg": 0.97
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "ssrajadh/paperview",
@@ -5491,7 +8292,10 @@
   "license": "Apache-2.0",
   "pushed_at": "2026-06-16T22:07:19Z",
   "archived": false,
-  "render_base": [],
+  "render_base": [
+   "Remotion",
+   "ffmpeg"
+  ],
   "description_en": "Claude Code plugin that turns papers or codebases into narrated animated explainer videos rendered locally.",
   "description_zh_source": null,
   "license_detail": null,
@@ -5509,7 +8313,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:36Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "ffmpeg"
+    ],
+    "noul": {
+     "Remotion": 0.92,
+     "ffmpeg": 0.83
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "sukai213/bilibili-ai-video",
@@ -5542,7 +8364,23 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:36Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "ffmpeg"
+    ],
+    "noul": {
+     "ffmpeg": 0.93
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "sunxiayi/make-blender-education-video-skill",
@@ -5559,6 +8397,7 @@
   "pushed_at": "2026-07-25T04:33:31Z",
   "archived": false,
   "render_base": [
+   "ffmpeg",
    "Blender"
   ],
   "description_en": "Skill for Codex and Claude Code that researches a topic, verifies facts and renders a subtitled educational film in Blender.",
@@ -5583,7 +8422,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:37Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "ffmpeg",
+     "Blender"
+    ],
+    "noul": {
+     "Blender": 0.93,
+     "ffmpeg": 0.92
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "taylorzhou16/video-gen",
@@ -5599,7 +8456,9 @@
   "license": null,
   "pushed_at": "2026-04-16T08:45:10Z",
   "archived": false,
-  "render_base": [],
+  "render_base": [
+   "ffmpeg"
+  ],
   "description_en": "Claude Code skill that brings AI video editing into chat, producing vlogs and music videos from user material.",
   "description_zh_source": null,
   "license_detail": "No license file found",
@@ -5622,7 +8481,23 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:37Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "ffmpeg"
+    ],
+    "noul": {
+     "ffmpeg": 0.95
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "toufuim/personal-ip-brand-intro-skill",
@@ -5639,8 +8514,9 @@
   "pushed_at": "2026-07-30T05:46:34Z",
   "archived": false,
   "render_base": [
+   "Remotion",
    "HyperFrames",
-   "Remotion"
+   "ffmpeg"
   ],
   "description_en": "Codex skill designing personal brand intro animations with beat-synced pacing, delivered via HyperFrames or Remotion.",
   "description_zh_source": "開源 Codex Skill：用文字、原創插圖或使用者圖片製作個人 IP 品牌開場，支援上傳音樂對拍與無音樂自主節拍。",
@@ -5656,7 +8532,27 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:38Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "HyperFrames",
+     "ffmpeg"
+    ],
+    "noul": {
+     "HyperFrames": 0.77,
+     "Remotion": 0.72,
+     "ffmpeg": 0.72
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "trunghaiy/appshot",
@@ -5697,7 +8593,23 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:38Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion"
+    ],
+    "noul": {
+     "Remotion": 0.94
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "tugrawork-creator/saas-motion-kit",
@@ -5714,7 +8626,9 @@
   "pushed_at": "2026-09-28T15:17:22Z",
   "archived": false,
   "render_base": [
-   "HyperFrames"
+   "HyperFrames",
+   "ffmpeg",
+   "HeyGen"
   ],
   "description_en": "Kit for making software product promo videos with HyperFrames and Claude Code, including themes, a transition atlas and variety audit.",
   "description_zh_source": null,
@@ -5738,7 +8652,27 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:38Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "HyperFrames",
+     "ffmpeg",
+     "HeyGen"
+    ],
+    "noul": {
+     "HeyGen": 0.57,
+     "HyperFrames": 0.86,
+     "ffmpeg": 0.38
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "tuzhechen2005/opus-video-skills",
@@ -5755,7 +8689,8 @@
   "pushed_at": "2026-09-27T01:17:18Z",
   "archived": false,
   "render_base": [
-   "ffmpeg"
+   "ffmpeg",
+   "p5.js"
   ],
   "description_en": "Claude Code skills producing procedurally generated videos in several visual styles, rendered in headless Chrome and encoded with ffmpeg.",
   "description_zh_source": "Video-making skills for Claude Opus 5.5 in Claude Code — every frame and note generated in code, one skill per style: hand-painted animation, kinetic-typography reels | 用 Claude Opus 5.5 以代码制作视频的技能合集",
@@ -5774,7 +8709,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:38Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "ffmpeg",
+     "p5.js"
+    ],
+    "noul": {
+     "ffmpeg": 0.96,
+     "p5.js": 0.96
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "Upload-Post/avatar-mix",
@@ -5791,9 +8744,9 @@
   "pushed_at": "2026-07-15T18:01:24Z",
   "archived": false,
   "render_base": [
-   "HeyGen",
    "HyperFrames",
-   "ffmpeg"
+   "ffmpeg",
+   "HeyGen"
   ],
   "description_en": "Reusable skill producing 16:9 and 9:16 videos with a HeyGen avatar, animated backgrounds, music, sound effects and captions, then publishing them.",
   "description_zh_source": null,
@@ -5809,7 +8762,27 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:39Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "HyperFrames",
+     "ffmpeg",
+     "HeyGen"
+    ],
+    "noul": {
+     "HeyGen": 0.97,
+     "HyperFrames": 0.95,
+     "ffmpeg": 0.96
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "VasiniDevi/motion-skills",
@@ -5826,7 +8799,7 @@
   "pushed_at": "2026-03-01T06:49:07Z",
   "archived": false,
   "render_base": [
-   "other"
+   "Lottie"
   ],
   "description_en": "Python skills for agents that render motion graphics, kinetic typography, slide decks and data visualizations to MP4 using Pillow and OpenCV.",
   "description_zh_source": null,
@@ -5850,7 +8823,23 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:39Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Lottie"
+    ],
+    "noul": {
+     "Lottie": 0.41
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "vibe-motion/remotion-code-motion-explainer",
@@ -5883,7 +8872,23 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:39Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion"
+    ],
+    "noul": {
+     "Remotion": 0.93
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "vibe-motion/remotion-starter",
@@ -5911,7 +8916,23 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:40Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion"
+    ],
+    "noul": {
+     "Remotion": 0.95
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "vibe-motion/skills",
@@ -5928,7 +8949,8 @@
   "pushed_at": "2026-09-28T12:00:35Z",
   "archived": false,
   "render_base": [
-   "Remotion"
+   "Remotion",
+   "p5.js"
   ],
   "description_en": "Collection of agent skills for motion clips such as ruler progress, typing animation and fisheye effects; no longer maintained.",
   "description_zh_source": null,
@@ -5947,7 +8969,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:40Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "p5.js"
+    ],
+    "noul": {
+     "Remotion": 0.93,
+     "p5.js": 0.55
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "video-db/skills",
@@ -5963,7 +9003,9 @@
   "license": "MIT",
   "pushed_at": "2026-09-11T12:27:34Z",
   "archived": false,
-  "render_base": [],
+  "render_base": [
+   "ffmpeg"
+  ],
   "description_en": "Agent skill for server-side video workflows via VideoDB, covering ingest, understanding, search, editing and streaming.",
   "description_zh_source": null,
   "license_detail": null,
@@ -5981,7 +9023,23 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:40Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "ffmpeg"
+    ],
+    "noul": {
+     "ffmpeg": 0.31
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "Vincentwei1021/video-shotcraft",
@@ -6022,7 +9080,23 @@
   "safety_upstream": "safe",
   "featured": true,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:41Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion"
+    ],
+    "noul": {
+     "Remotion": 0.96
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "Vincentwei1021/video-talkcraft",
@@ -6039,7 +9113,8 @@
   "pushed_at": "2026-09-22T14:37:01Z",
   "archived": false,
   "render_base": [
-   "Remotion"
+   "Remotion",
+   "ffmpeg"
   ],
   "description_en": "Agent skill making voiceover-driven explainer videos with word-level sync, motion recipe cards and a camera system.",
   "description_zh_source": null,
@@ -6063,7 +9138,25 @@
   "safety_upstream": "safe",
   "featured": true,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:41Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "ffmpeg"
+    ],
+    "noul": {
+     "Remotion": 0.97,
+     "ffmpeg": 0.94
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "wendymardigian-prog/Editor-IA-Pro",
@@ -6080,7 +9173,8 @@
   "pushed_at": "2026-06-24T19:06:26Z",
   "archived": false,
   "render_base": [
-   "Remotion"
+   "Remotion",
+   "ffmpeg"
   ],
   "description_en": "Claude Code project that lets you create and edit videos by describing them, generating Remotion code with Whisper captions.",
   "description_zh_source": null,
@@ -6104,7 +9198,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:41Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "ffmpeg"
+    ],
+    "noul": {
+     "Remotion": 0.93,
+     "ffmpeg": 0.87
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "wocha-xiaoli/video-shot-analysis-feishu",
@@ -6120,9 +9232,7 @@
   "license": "MIT",
   "pushed_at": "2026-04-25T04:08:30Z",
   "archived": false,
-  "render_base": [
-   "ffmpeg"
-  ],
+  "render_base": [],
   "description_en": "Codex and OpenCode skill that extracts frames with ffmpeg, analyzes each shot, derives storyboard and video prompts, and writes them to Feishu.",
   "description_zh_source": "视频拉片到飞书 Base：自动抽帧、逐镜头分析、倒推分镜与视频生成提示词的 Codex/OpenCode skill",
   "license_detail": null,
@@ -6145,7 +9255,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:41Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "ffmpeg"
+    ],
+    "noul": {
+     "ffmpeg": 0.2
+    },
+    "vetoed": [
+     "ffmpeg"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "wshuyi/remotion-video-skill",
@@ -6162,7 +9290,8 @@
   "pushed_at": "2026-01-25T02:21:58Z",
   "archived": false,
   "render_base": [
-   "Remotion"
+   "Remotion",
+   "ffmpeg"
   ],
   "description_en": "Claude Code skill for programmatic Remotion videos, with React scenes, TTS narration via MiniMax or Edge TTS, and subtitles.",
   "description_zh_source": null,
@@ -6186,7 +9315,25 @@
   "safety_upstream": "caution",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:42Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "ffmpeg"
+    ],
+    "noul": {
+     "Remotion": 0.87,
+     "ffmpeg": 0.6
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "wyuzhi/qisi-video-remix",
@@ -6225,7 +9372,19 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:42Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [],
+    "noul": {},
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "YeJe-cpu/SeeCut",
@@ -6267,7 +9426,27 @@
   "safety_upstream": "safe",
   "featured": true,
   "notes": "Hand-verified against the README: rendering uses the HyperFrames CLI; HeyGen is only the optional avatar step; license is PolyForm Noncommercial 1.0.0.",
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:43Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "HyperFrames",
+     "ffmpeg",
+     "HeyGen"
+    ],
+    "noul": {
+     "HeyGen": 0.6,
+     "HyperFrames": 0.93,
+     "ffmpeg": 0.83
+    },
+    "vetoed": [],
+    "overridden_by_hand": true
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "Yuuhann1999/codex-storyboard",
@@ -6284,8 +9463,8 @@
   "pushed_at": "2026-09-28T16:04:45Z",
   "archived": false,
   "render_base": [
-   "HyperFrames",
-   "Remotion"
+   "Remotion",
+   "HyperFrames"
   ],
   "description_en": "Local storyboard workspace plugin for Codex that manages video projects and shots and fills in generated media from HyperFrames or Remotion.",
   "description_zh_source": "本地多项目 Codex 视频分镜工作台，支持图片/视频生成任务、HyperFrames 与 Remotion 自动回填。Local multi-project storyboard workspace for Codex.",
@@ -6309,7 +9488,25 @@
   "safety_upstream": "safe",
   "featured": true,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:43Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "HyperFrames"
+    ],
+    "noul": {
+     "HyperFrames": 0.39,
+     "Remotion": 0.37
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "yuwenbin121/book-video-production-skill",
@@ -6327,7 +9524,6 @@
   "archived": false,
   "render_base": [
    "HyperFrames",
-   "Remotion",
    "ffmpeg"
   ],
   "description_en": "Codex skill producing fact-checked vertical book-introduction videos with narration, subtitles and music, built in HyperFrames or Remotion.",
@@ -6347,7 +9543,29 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:43Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "HyperFrames",
+     "ffmpeg"
+    ],
+    "noul": {
+     "HyperFrames": 0.35,
+     "Remotion": 0.28,
+     "ffmpeg": 0.3
+    },
+    "vetoed": [
+     "Remotion"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "zenstory-ai/video-recap-skills",
@@ -6364,8 +9582,7 @@
   "pushed_at": "2026-09-28T02:43:59Z",
   "archived": false,
   "render_base": [
-   "ffmpeg",
-   "Remotion"
+   "ffmpeg"
   ],
   "description_en": "Skills for coding agents that turn videos into Chinese narration recaps, with ffmpeg assembly, TTS and optional editable JianYing draft export.",
   "description_zh_source": "Claude Code / Codex skills that turn a video into a Chinese narration recap (视频解说): scene detection, ASR, VLM, script, TTS, ffmpeg assembly, optional editable JianYing / CapCut draft export (剪映草稿导出). Local ffmpeg + one MiMo key, no GPU. | 用 Claude Code skills 把视频做成中文解说成片，可选一键导出可编辑剪映草稿。",
@@ -6376,7 +9593,27 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:44Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "ffmpeg"
+    ],
+    "noul": {
+     "Remotion": 0.16,
+     "ffmpeg": 0.96
+    },
+    "vetoed": [
+     "Remotion"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "zhenwusw/orca-motion-skill",
@@ -6410,7 +9647,19 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:44Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [],
+    "noul": {},
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "zhouyuechuan2025-ui/ai-self-media-video-packaging-skill",
@@ -6428,7 +9677,8 @@
   "archived": false,
   "render_base": [
    "Remotion",
-   "HyperFrames"
+   "HyperFrames",
+   "ffmpeg"
   ],
   "description_en": "Agent skill packaging talking-head videos from SRT into rhythmic motion graphics, rendered with Remotion or optionally HyperFrames.",
   "description_zh_source": null,
@@ -6447,7 +9697,31 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:44Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "HyperFrames",
+     "ffmpeg",
+     "Premiere Pro"
+    ],
+    "noul": {
+     "HyperFrames": 0.41,
+     "Premiere Pro": 0.02,
+     "Remotion": 0.92,
+     "ffmpeg": 0.91
+    },
+    "vetoed": [
+     "Premiere Pro"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "ZiadAbdelkarim/beat-synced-edit",
@@ -6488,7 +9762,23 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:45Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "ffmpeg"
+    ],
+    "noul": {
+     "ffmpeg": 0.98
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "zlong6943-commits/football-prediction-avatar-video",
@@ -6530,7 +9820,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:45Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "HyperFrames",
+     "HeyGen"
+    ],
+    "noul": {
+     "HeyGen": 0.82,
+     "HyperFrames": 0.73
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "znyupup/ai-video-editing-skill",
@@ -6571,7 +9879,27 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:45Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "ffmpeg",
+     "Premiere Pro"
+    ],
+    "noul": {
+     "Premiere Pro": 0.01,
+     "ffmpeg": 0.9
+    },
+    "vetoed": [
+     "Premiere Pro"
+    ],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "znyupup/knowledge-explainer-skill",
@@ -6588,7 +9916,8 @@
   "pushed_at": "2026-04-29T03:32:19Z",
   "archived": false,
   "render_base": [
-   "Remotion"
+   "Remotion",
+   "ffmpeg"
   ],
   "description_en": "Agent skill that turns a markdown script into an explanatory animated video using a Remotion-based command line.",
   "description_zh_source": "把一份 markdown 文稿，自动生成讲解动画视频 — Powered by Remotion + AI Agent",
@@ -6607,7 +9936,25 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:45Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "Remotion",
+     "ffmpeg"
+    ],
+    "noul": {
+     "Remotion": 0.95,
+     "ffmpeg": 0.93
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  },
  {
   "id": "zoglmk/codex-video-pipeline",
@@ -6624,7 +9971,9 @@
   "pushed_at": "2026-08-15T05:50:39Z",
   "archived": false,
   "render_base": [
-   "HyperFrames"
+   "HyperFrames",
+   "ffmpeg",
+   "HeyGen"
   ],
   "description_en": "Skill covering the full video production flow from topic and sources to MP4, covers and publishing package, rendering through HyperFrames.",
   "description_zh_source": "从选题、脚本和素材到成片、封面与发布包的 AI 视频生产流水线 Skill",
@@ -6640,6 +9989,26 @@
   "safety_upstream": "safe",
   "featured": false,
   "notes": null,
-  "judgments": {}
+  "judgments": {
+   "render_base": {
+    "method": "regex match AND Noul>=0.3 (TypeSafe Jev; our judgment, not upstream's)",
+    "model": "jev-1.13.0",
+    "checked_at": "2026-09-29T14:47:46Z",
+    "question_version": "2026-09-29.v1",
+    "regex_hits": [
+     "HyperFrames",
+     "ffmpeg",
+     "HeyGen"
+    ],
+    "noul": {
+     "HeyGen": 0.51,
+     "HyperFrames": 0.86,
+     "ffmpeg": 0.83
+    },
+    "vetoed": [],
+    "overridden_by_hand": false
+   }
+  },
+  "entry_kind": "tool"
  }
 ]

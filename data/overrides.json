@@ -44,5 +44,14 @@
   "cclank/lanshu-create-ai-presenter-video": {
     "render_base": [],
     "notes": "Hand-verified: provider-neutral; HyperFrames is only an optional compositor and FFmpeg a required dependency for checks, so no render base is claimed."
+  },
+  "JohnHeibel/PDoomVideo": {
+    "entry_kind": "showcase"
+  },
+  "ledbetterljoshua/functional-emotions-video": {
+    "entry_kind": "showcase"
+  },
+  "JimLiu/taohuayuan": {
+    "entry_kind": "showcase"
   }
 }

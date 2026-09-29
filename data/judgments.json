@@ -1,0 +1,6214 @@
+{
+ "0xsline/OpenChatCut": {
+  "category_suggestion": {
+   "choice": "editing",
+   "confidence": 0.67
+  },
+  "checked_at": "2026-09-29T14:46:48Z",
+  "inclusion": {
+   "agent_oriented": 0.83,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": "claude mcp add --transport http openchatcut \\\n  http://localhost:5199/api/external-mcp/mcp",
+   "choice": "c9",
+   "confidence": 0.39,
+   "n_candidates": 22
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "ffmpeg"
+   ],
+   "noul": {
+    "Remotion": 0.15,
+    "ffmpeg": 0.5
+   },
+   "regex_hits": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "Remotion"
+   ]
+  }
+ },
+ "AKMessi/vex": {
+  "category_suggestion": {
+   "choice": "editing",
+   "confidence": 1.0
+  },
+  "checked_at": "2026-09-29T14:46:51Z",
+  "inclusion": {
+   "agent_oriented": 0.33,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": null,
+   "choice": "none",
+   "confidence": 0.25,
+   "n_candidates": 25
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion",
+    "HyperFrames",
+    "Manim",
+    "ffmpeg",
+    "Blender"
+   ],
+   "noul": {
+    "Blender": 0.46,
+    "HyperFrames": 0.79,
+    "Manim": 0.69,
+    "Remotion": 0.65,
+    "ffmpeg": 0.93
+   },
+   "regex_hits": [
+    "Remotion",
+    "HyperFrames",
+    "Manim",
+    "ffmpeg",
+    "Blender"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "Agentchengfeng/chengfeng-videocut-skills": {
+  "category_suggestion": {
+   "choice": "editing",
+   "confidence": 0.81
+  },
+  "checked_at": "2026-09-29T14:46:49Z",
+  "inclusion": {
+   "agent_oriented": 0.96,
+   "makes_video": 0.42
+  },
+  "install_choice": {
+   "candidate": null,
+   "choice": "none",
+   "confidence": 0.41,
+   "n_candidates": 2
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [],
+   "noul": {},
+   "regex_hits": [],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "AgriciDaniel/claude-gif": {
+  "category_suggestion": {
+   "choice": "motion",
+   "confidence": 0.98
+  },
+  "checked_at": "2026-09-29T14:46:50Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.96
+  },
+  "install_choice": {
+   "candidate": "git clone --depth 1 https://github.com/AgriciDaniel/claude-gif.git\nbash claude-gif/install.sh",
+   "choice": "c1",
+   "confidence": 0.81,
+   "n_candidates": 11
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "noul": {
+    "Remotion": 0.87,
+    "ffmpeg": 0.95
+   },
+   "regex_hits": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "AgriciDaniel/claude-shorts": {
+  "category_suggestion": {
+   "choice": "shorts",
+   "confidence": 0.71
+  },
+  "checked_at": "2026-09-29T14:46:50Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.99
+  },
+  "install_choice": {
+   "candidate": "# Clone the repository\ngit clone https://github.com/AgriciDaniel/claude-shorts.git\ncd claude-shorts\n# Install Python + Node.js dependencies\nbash setup.sh\n# Install as a Claude Code skill\nbash install.sh",
+   "choice": "c1",
+   "confidence": 0.47,
+   "n_candidates": 6
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "noul": {
+    "Remotion": 0.95,
+    "ffmpeg": 0.93
+   },
+   "regex_hits": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "AgriciDaniel/lipnardo": {
+  "category_suggestion": {
+   "choice": "avatar",
+   "confidence": 1.0
+  },
+  "checked_at": "2026-09-29T14:46:50Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.95
+  },
+  "install_choice": {
+   "candidate": "git clone https://github.com/AgriciDaniel/lipnardo.git\ncd lipnardo\nbash install.sh",
+   "choice": "c1",
+   "confidence": 1.0,
+   "n_candidates": 7
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "HeyGen"
+   ],
+   "noul": {
+    "HeyGen": 0.97
+   },
+   "regex_hits": [
+    "HeyGen"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "Alisa0808/vox-director": {
+  "category_suggestion": {
+   "choice": "explainer",
+   "confidence": 0.93
+  },
+  "checked_at": "2026-09-29T14:46:52Z",
+  "inclusion": {
+   "agent_oriented": 0.98,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": "git clone https://github.com/Alisa0808/vox-director.git ~/.claude/skills/vox-director",
+   "choice": "c2",
+   "confidence": 0.87,
+   "n_candidates": 6
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "ffmpeg"
+   ],
+   "noul": {
+    "ffmpeg": 0.94
+   },
+   "regex_hits": [
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "AllenAI2014/remotion-guofeng-starter": {
+  "category_suggestion": {
+   "choice": "story",
+   "confidence": 0.89
+  },
+  "checked_at": "2026-09-29T14:46:52Z",
+  "inclusion": {
+   "agent_oriented": 0.9,
+   "makes_video": 0.97
+  },
+  "install_choice": {
+   "candidate": null,
+   "choice": "none",
+   "confidence": 0.71,
+   "n_candidates": 16
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "noul": {
+    "Remotion": 0.94,
+    "ffmpeg": 0.42
+   },
+   "regex_hits": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "AmazingAng/ccvideo": {
+  "category_suggestion": {
+   "choice": "promo",
+   "confidence": 1.0
+  },
+  "checked_at": "2026-09-29T14:46:53Z",
+  "inclusion": {
+   "agent_oriented": 0.95,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": "npx skills add AmazingAng/ccvideo",
+   "choice": "c1",
+   "confidence": 1.0,
+   "n_candidates": 3
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion"
+   ],
+   "noul": {
+    "Remotion": 0.95
+   },
+   "regex_hits": [
+    "Remotion"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "Anil-matcha/vox-ai-motion-graphics-generator": {
+  "category_suggestion": {
+   "choice": "explainer",
+   "confidence": 0.97
+  },
+  "checked_at": "2026-09-29T14:46:53Z",
+  "inclusion": {
+   "agent_oriented": 0.91,
+   "makes_video": 0.99
+  },
+  "install_choice": {
+   "candidate": null,
+   "choice": "none",
+   "confidence": 0.9,
+   "n_candidates": 8
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "ffmpeg"
+   ],
+   "noul": {
+    "ffmpeg": 0.91
+   },
+   "regex_hits": [
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "Anil-matcha/zack-d-films-ai-video-generator": {
+  "category_suggestion": {
+   "choice": "explainer",
+   "confidence": 0.74
+  },
+  "checked_at": "2026-09-29T14:46:53Z",
+  "inclusion": {
+   "agent_oriented": 0.96,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": null,
+   "choice": "none",
+   "confidence": 0.34,
+   "n_candidates": 5
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "ffmpeg"
+   ],
+   "noul": {
+    "ffmpeg": 0.94
+   },
+   "regex_hits": [
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "Arman-Luthra/aftr": {
+  "category_suggestion": {
+   "choice": "motion",
+   "confidence": 0.48
+  },
+  "checked_at": "2026-09-29T14:46:54Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": "claude mcp add --transport http aftr http://127.0.0.1:8787/mcp",
+   "choice": "c2",
+   "confidence": 0.63,
+   "n_candidates": 25
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "ffmpeg",
+    "After Effects"
+   ],
+   "noul": {
+    "After Effects": 0.96,
+    "ffmpeg": 0.94
+   },
+   "regex_hits": [
+    "ffmpeg",
+    "After Effects"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "AsadMoulviDev/reel-video": {
+  "category_suggestion": {
+   "choice": "story",
+   "confidence": 0.99
+  },
+  "checked_at": "2026-09-29T14:46:54Z",
+  "inclusion": {
+   "agent_oriented": 0.95,
+   "makes_video": 0.92
+  },
+  "install_choice": {
+   "candidate": "# Grok Build\nmkdir -p ~/.grok/skills/reel-video\ncp -R .grok/skills/reel-video/* ~/.grok/skills/reel-video/\n# Claude Code\nmkdir -p ~/.claude/skills/reel-video\ncp -R .grok/skills/reel-video/* ~/.claude/skills/reel-video/\n# Codex / agent skills home\nmkdir -p ~/.agents/skills/reel-video\ncp -R .grok/skills/reel-video/* ~/.agents/skills/reel-video/",
+   "choice": "c6",
+   "confidence": 0.79,
+   "n_candidates": 12
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [],
+   "noul": {
+    "Remotion": 0.03
+   },
+   "regex_hits": [
+    "Remotion"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "Remotion"
+   ]
+  }
+ },
+ "BayramAnnakov/remotion-video-director": {
+  "category_suggestion": {
+   "choice": "general",
+   "confidence": 0.7
+  },
+  "checked_at": "2026-09-29T14:46:55Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.95
+  },
+  "install_choice": {
+   "candidate": "npx skills add BayramAnnakov/remotion-video-director",
+   "choice": "c1",
+   "confidence": 1.0,
+   "n_candidates": 5
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "noul": {
+    "Remotion": 0.88,
+    "ffmpeg": 0.91
+   },
+   "regex_hits": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "BusyBee3333/animated-explainer-skills": {
+  "category_suggestion": {
+   "choice": "explainer",
+   "confidence": 0.99
+  },
+  "checked_at": "2026-09-29T14:46:56Z",
+  "inclusion": {
+   "agent_oriented": 0.88,
+   "makes_video": 0.94
+  },
+  "install_choice": {
+   "candidate": "cp -r skills/gsap-explainer skills/retention-pass /path/to/your/project/.claude/skills/",
+   "choice": "c5",
+   "confidence": 0.94,
+   "n_candidates": 5
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [],
+   "noul": {
+    "After Effects": 0.02
+   },
+   "regex_hits": [
+    "After Effects"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "After Effects"
+   ]
+  }
+ },
+ "Cassette-Editor/oh-my-cassette": {
+  "category_suggestion": {
+   "choice": "editing",
+   "confidence": 0.99
+  },
+  "checked_at": "2026-09-29T14:46:56Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": "claude plugin marketplace add Cassette-Editor/oh-my-cassette\nclaude plugin install oh-my-cassette@cassette-editor",
+   "choice": "c9",
+   "confidence": 0.5,
+   "n_candidates": 25
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "ffmpeg"
+   ],
+   "noul": {
+    "ffmpeg": 0.4
+   },
+   "regex_hits": [
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "ChenShuo2004/cs-shotcraft-skill": {
+  "category_suggestion": {
+   "choice": "promo",
+   "confidence": 1.0
+  },
+  "checked_at": "2026-09-29T14:46:58Z",
+  "inclusion": {
+   "agent_oriented": 0.95,
+   "makes_video": 0.97
+  },
+  "install_choice": {
+   "candidate": null,
+   "choice": "none",
+   "confidence": 0.96,
+   "n_candidates": 4
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion"
+   ],
+   "noul": {
+    "Remotion": 0.96
+   },
+   "regex_hits": [
+    "Remotion"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "EverMind-AI/Raven": {
+  "category_suggestion": {
+   "choice": "out_of_scope",
+   "confidence": 1.0
+  },
+  "checked_at": "2026-09-29T14:47:03Z",
+  "inclusion": {
+   "agent_oriented": 0.39,
+   "makes_video": 0.37
+  },
+  "install_choice": {
+   "candidate": null,
+   "choice": "none",
+   "confidence": 0.61,
+   "n_candidates": 8
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [],
+   "noul": {},
+   "regex_hits": [],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "Fagan1024/smart-video-editor": {
+  "category_suggestion": {
+   "choice": "editing",
+   "confidence": 0.96
+  },
+  "checked_at": "2026-09-29T14:47:04Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": "npx skills add Fagan1024/smart-video-editor --global",
+   "choice": "c6",
+   "confidence": 0.32,
+   "n_candidates": 13
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "ffmpeg"
+   ],
+   "noul": {
+    "Premiere Pro": 0.01,
+    "ffmpeg": 0.95
+   },
+   "regex_hits": [
+    "ffmpeg",
+    "Premiere Pro"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "Premiere Pro"
+   ]
+  }
+ },
+ "Finderchangchang/promo-video-skill": {
+  "category_suggestion": {
+   "choice": "promo",
+   "confidence": 1.0
+  },
+  "checked_at": "2026-09-29T14:47:05Z",
+  "inclusion": {
+   "agent_oriented": 0.93,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": "npm install -g @deepseek-ai/dsh@0.1.7-rc.2 pnpm    # 还没装 dsh 时\ndsh plugin --profile web add dsh-brewreel\ndsh web",
+   "choice": "c4",
+   "confidence": 0.86,
+   "n_candidates": 10
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "noul": {
+    "Remotion": 0.96,
+    "ffmpeg": 0.58
+   },
+   "regex_hits": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "FireRedTeam/FireRed-OpenStoryline": {
+  "category_suggestion": {
+   "choice": "editing",
+   "confidence": 0.47
+  },
+  "checked_at": "2026-09-29T14:47:05Z",
+  "inclusion": {
+   "agent_oriented": 0.88,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": null,
+   "choice": "none",
+   "confidence": 0.27,
+   "n_candidates": 19
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "ffmpeg"
+   ],
+   "noul": {
+    "ffmpeg": 0.73
+   },
+   "regex_hits": [
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "GordenSun/react-bits-video": {
+  "category_suggestion": {
+   "choice": "motion",
+   "confidence": 0.85
+  },
+  "checked_at": "2026-09-29T14:47:07Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.97
+  },
+  "install_choice": {
+   "candidate": "# Install once into your skills directory\ncd ~/.cursor/skills   # or ~/.claude/skills\ngit clone https://github.com/GordenSun/react-bits-video.git\ncd react-bits-video\nnpm install && node scripts/install-fonts.mjs",
+   "choice": "c2",
+   "confidence": 0.99,
+   "n_candidates": 6
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "ffmpeg"
+   ],
+   "noul": {
+    "HyperFrames": 0.17,
+    "Remotion": 0.05,
+    "ffmpeg": 0.97
+   },
+   "regex_hits": [
+    "Remotion",
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "Remotion",
+    "HyperFrames"
+   ]
+  }
+ },
+ "JUNKDOGE-JOE/after-effects-mcp": {
+  "category_suggestion": {
+   "choice": "out_of_scope",
+   "confidence": 0.36
+  },
+  "checked_at": "2026-09-29T14:47:17Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.8
+  },
+  "install_choice": {
+   "candidate": "Install and configure ae-mcp for the current client receiving and executing\nthis prompt. Do not default to Claude Code or configure another client.\nBefore changing anything, inspect the local ae-mcp extension and native plug-in\nfiles and versions, plus this client's existing MCP registration and actual\nconnection, read-only. Existence alone does not prove readiness. Compare with\nthe latest official stable release assets available for my platform:\n- Client registration already correct: keep it; install only missing or damaged files.\n- Files complete and versions suitable: only add or repair cli",
+   "choice": "c1",
+   "confidence": 0.46,
+   "n_candidates": 12
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [],
+   "noul": {
+    "After Effects": 0.24
+   },
+   "regex_hits": [
+    "After Effects"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "After Effects"
+   ]
+  }
+ },
+ "JimLiu/baocut": {
+  "category_suggestion": {
+   "choice": "editing",
+   "confidence": 0.84
+  },
+  "checked_at": "2026-09-29T14:47:15Z",
+  "inclusion": {
+   "agent_oriented": 0.98,
+   "makes_video": 0.73
+  },
+  "install_choice": {
+   "candidate": "npx skills add JimLiu/baocut -g -a claude-code codex -y",
+   "choice": "c1",
+   "confidence": 1.0,
+   "n_candidates": 4
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [],
+   "noul": {},
+   "regex_hits": [],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "JimLiu/taohuayuan": {
+  "category_suggestion": {
+   "choice": "out_of_scope",
+   "confidence": 0.78
+  },
+  "checked_at": "2026-09-29T14:47:15Z",
+  "inclusion": {
+   "agent_oriented": 0.02,
+   "makes_video": 0.18
+  },
+  "install_choice": {
+   "candidate": "npm install",
+   "choice": "c2",
+   "confidence": 0.57,
+   "n_candidates": 5
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [],
+   "noul": {},
+   "regex_hits": [],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "JohnHeibel/ClaudeAnimationBase": {
+  "category_suggestion": {
+   "choice": "story",
+   "confidence": 0.84
+  },
+  "checked_at": "2026-09-29T14:47:15Z",
+  "inclusion": {
+   "agent_oriented": 0.77,
+   "makes_video": 0.96
+  },
+  "install_choice": {
+   "candidate": null,
+   "choice": "none",
+   "confidence": 0.99,
+   "n_candidates": 1
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "ffmpeg",
+    "p5.js"
+   ],
+   "noul": {
+    "ffmpeg": 0.91,
+    "p5.js": 0.93
+   },
+   "regex_hits": [
+    "ffmpeg",
+    "p5.js"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "JohnHeibel/PDoomVideo": {
+  "category_suggestion": {
+   "choice": "music",
+   "confidence": 1.0
+  },
+  "checked_at": "2026-09-29T14:47:16Z",
+  "inclusion": {
+   "agent_oriented": 0.32,
+   "makes_video": 0.96
+  },
+  "install_choice": {
+   "candidate": null,
+   "choice": "none",
+   "confidence": 0.99,
+   "n_candidates": 1
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "ffmpeg",
+    "p5.js"
+   ],
+   "noul": {
+    "ffmpeg": 0.96,
+    "p5.js": 0.95
+   },
+   "regex_hits": [
+    "ffmpeg",
+    "p5.js"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "Johnson-Jia/video-clipforge": {
+  "category_suggestion": {
+   "choice": "shorts",
+   "confidence": 0.54
+  },
+  "checked_at": "2026-09-29T14:47:17Z",
+  "inclusion": {
+   "agent_oriented": 0.91,
+   "makes_video": 0.97
+  },
+  "install_choice": {
+   "candidate": "git clone https://github.com/Johnson-Jia/video-clipforge.git\ncd video-clipforge\nbash install.sh          # 项目级安装（默认，装到 .claude/commands/）\n# bash install.sh --global   # 或用户级（跨项目共享，装到 ~/.claude/commands/）\nclaude                   # 启动 Claude Code，技能自动加载\n/clipforge 制作一个关于 XXX 的视频",
+   "choice": "c2",
+   "confidence": 0.92,
+   "n_candidates": 10
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "noul": {
+    "HyperFrames": 0.92,
+    "ffmpeg": 0.57
+   },
+   "regex_hits": [
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "Kappaemme-git/codex-video-short-maker-skill": {
+  "category_suggestion": {
+   "choice": "editing",
+   "confidence": 0.57
+  },
+  "checked_at": "2026-09-29T14:47:18Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": "npx --yes codex-video-short-maker-skill@latest --with-captions",
+   "choice": "c1",
+   "confidence": 0.48,
+   "n_candidates": 17
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "ffmpeg"
+   ],
+   "noul": {
+    "ffmpeg": 0.9
+   },
+   "regex_hits": [
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "LetMeHappyCode/auto-video-agent": {
+  "category_suggestion": {
+   "choice": "story",
+   "confidence": 0.75
+  },
+  "checked_at": "2026-09-29T14:47:21Z",
+  "inclusion": {
+   "agent_oriented": 0.9,
+   "makes_video": 0.97
+  },
+  "install_choice": {
+   "candidate": null,
+   "choice": "none",
+   "confidence": 0.77,
+   "n_candidates": 8
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "ffmpeg"
+   ],
+   "noul": {
+    "ffmpeg": 0.92
+   },
+   "regex_hits": [
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "Liamrjohnston/remotion-motion-graphics-skill": {
+  "category_suggestion": {
+   "choice": "motion",
+   "confidence": 0.99
+  },
+  "checked_at": "2026-09-29T14:47:21Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.96
+  },
+  "install_choice": {
+   "candidate": "npx skills add liamrjohnston/remotion-motion-graphics-skill",
+   "choice": "c1",
+   "confidence": 1.0,
+   "n_candidates": 12
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion"
+   ],
+   "noul": {
+    "Remotion": 0.95
+   },
+   "regex_hits": [
+    "Remotion"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "Maartenlouis/remotion-ads": {
+  "category_suggestion": {
+   "choice": "promo",
+   "confidence": 0.86
+  },
+  "checked_at": "2026-09-29T14:47:23Z",
+  "inclusion": {
+   "agent_oriented": 0.94,
+   "makes_video": 0.97
+  },
+  "install_choice": {
+   "candidate": "# Install in your project\nclaude skill install remotion-ads\n# Or add the folder to your project's .claude/skills/ directory",
+   "choice": "c1",
+   "confidence": 1.0,
+   "n_candidates": 12
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion"
+   ],
+   "noul": {
+    "Remotion": 0.9
+   },
+   "regex_hits": [
+    "Remotion"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "MegaTroll222/VOX-COLLAGE-BROLL": {
+  "category_suggestion": {
+   "choice": "explainer",
+   "confidence": 0.94
+  },
+  "checked_at": "2026-09-29T14:47:25Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": "mkdir -p ~/.claude/skills/collage-broll-explainers\n   curl -o ~/.claude/skills/collage-broll-explainers/SKILL.md \\\n     https://raw.githubusercontent.com/MegaTroll222/VOX-COLLAGE-BROLL/main/SKILL.md",
+   "choice": "c1",
+   "confidence": 0.56,
+   "n_candidates": 2
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "ffmpeg"
+   ],
+   "noul": {
+    "ffmpeg": 0.89
+   },
+   "regex_hits": [
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "Mng-dev-ai/explainer-video": {
+  "category_suggestion": {
+   "choice": "explainer",
+   "confidence": 1.0
+  },
+  "checked_at": "2026-09-29T14:47:26Z",
+  "inclusion": {
+   "agent_oriented": 0.98,
+   "makes_video": 0.97
+  },
+  "install_choice": {
+   "candidate": null,
+   "choice": "none",
+   "confidence": 0.28,
+   "n_candidates": 13
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "ffmpeg"
+   ],
+   "noul": {
+    "ffmpeg": 0.96
+   },
+   "regex_hits": [
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "Monet-AI-Editor/Monet": {
+  "category_suggestion": {
+   "choice": "general",
+   "confidence": 0.74
+  },
+  "checked_at": "2026-09-29T14:47:26Z",
+  "inclusion": {
+   "agent_oriented": 0.77,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": "curl -fsSL https://raw.githubusercontent.com/Monet-AI-Editor/Monet/main/install.sh | bash",
+   "choice": "c1",
+   "confidence": 0.97,
+   "n_candidates": 9
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "noul": {
+    "Premiere Pro": 0.02,
+    "Remotion": 0.82,
+    "ffmpeg": 0.82
+   },
+   "regex_hits": [
+    "Remotion",
+    "ffmpeg",
+    "Premiere Pro"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "Premiere Pro"
+   ]
+  }
+ },
+ "Mr-funny/hbg-douyin-code-explainer-video": {
+  "category_suggestion": {
+   "choice": "explainer",
+   "confidence": 0.64
+  },
+  "checked_at": "2026-09-29T14:47:27Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": "请从 https://github.com/Mr-funny/hbg-douyin-code-explainer-video 安装\nhbg-douyin-code-explainer-video skill。\n请自动识别当前 Agent 的全局 skills 目录；如果已经存在旧版本，请先备份再更新。\n安装后检查 SKILL.md、references 和 scripts 是否完整，并运行 bash -n 检查两个脚本。\n不要读取、打印或上传任何本地 TTS 模型、音色、API Key、视频、音频或项目素材。\n验证完成后，告诉我如何使用 $hbg-douyin-code-explainer-video\n把中文长文案制作成双人对话式 1080×1920 抖音代码动画视频。",
+   "choice": "c1",
+   "confidence": 0.99,
+   "n_candidates": 20
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "noul": {
+    "HyperFrames": 0.93,
+    "ffmpeg": 0.94
+   },
+   "regex_hits": [
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "Mr-funny/hbg-life-simulation": {
+  "category_suggestion": {
+   "choice": "story",
+   "confidence": 1.0
+  },
+  "checked_at": "2026-09-29T14:47:27Z",
+  "inclusion": {
+   "agent_oriented": 0.96,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": "请从 https://github.com/Mr-funny/hbg-life-simulation 安装\nhbg-life-simulation skill。\n请自动识别当前 Agent 的全局 skills 目录；如果已经存在旧版本，请先备份再更新。\n安装后检查 SKILL.md、agents、assets、references 和 scripts 是否完整，\n并校验所有 Shell、JavaScript 和 JSON 文件。\n不要读取、打印、复制或上传任何本地 API Key、会话日志、用户文案、\n生成图片、音频、视频、BGM 或项目素材。\n验证完成后，告诉我如何使用 $hbg-life-simulation\n把一段中文人生故事制作成统一漫画 IP 的横屏旁白视频。",
+   "choice": "c1",
+   "confidence": 0.99,
+   "n_candidates": 18
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "noul": {
+    "HyperFrames": 0.87,
+    "ffmpeg": 0.95
+   },
+   "regex_hits": [
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "NarratorAI-Studio/narrator-ai-cli-skill": {
+  "category_suggestion": {
+   "choice": "story",
+   "confidence": 0.64
+  },
+  "checked_at": "2026-09-29T14:47:28Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.77
+  },
+  "install_choice": {
+   "candidate": "pip install \"narrator-ai-cli @ git+https://github.com/NarratorAI-Studio/narrator-ai-cli.git\"",
+   "choice": "c2",
+   "confidence": 0.55,
+   "n_candidates": 9
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [],
+   "noul": {},
+   "regex_hits": [],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "Phantomlau3674/voxstylehub-steven": {
+  "category_suggestion": {
+   "choice": "explainer",
+   "confidence": 0.98
+  },
+  "checked_at": "2026-09-29T14:47:31Z",
+  "inclusion": {
+   "agent_oriented": 0.96,
+   "makes_video": 0.97
+  },
+  "install_choice": {
+   "candidate": "Copy-Item -Recurse .\\xingchen-vox-collage \"$env:USERPROFILE\\.codex\\skills\\\"",
+   "choice": "c2",
+   "confidence": 0.7,
+   "n_candidates": 7
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "noul": {
+    "Remotion": 0.76,
+    "ffmpeg": 0.71
+   },
+   "regex_hits": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "PoetCoderJun/MotionTalk": {
+  "category_suggestion": {
+   "choice": "editing",
+   "confidence": 0.83
+  },
+  "checked_at": "2026-09-29T14:47:32Z",
+  "inclusion": {
+   "agent_oriented": 0.96,
+   "makes_video": 0.96
+  },
+  "install_choice": {
+   "candidate": "npx skills add PoetCoderJun/MotionTalk",
+   "choice": "c2",
+   "confidence": 1.0,
+   "n_candidates": 3
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [],
+   "noul": {},
+   "regex_hits": [],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "Samin12/samin-reel-engine-plugin": {
+  "category_suggestion": {
+   "choice": "shorts",
+   "confidence": 0.78
+  },
+  "checked_at": "2026-09-29T14:47:34Z",
+  "inclusion": {
+   "agent_oriented": 0.94,
+   "makes_video": 0.95
+  },
+  "install_choice": {
+   "candidate": "git clone https://github.com/Samin12/samin-reel-engine-plugin.git\ncd samin-reel-engine-plugin\npython3.11 -m venv .venv\nsource .venv/bin/activate\npython -m pip install -r production/requirements.txt\nnpm ci --prefix production/editor\npython tools/build-plugin.py\npython plugins/samin-reel-engine/scripts/reel.py --project \"$PWD\" configure\ncodex plugin marketplace add \"$PWD\"\ncodex plugin add samin-reel-engine@samin-reel-engine",
+   "choice": "c1",
+   "confidence": 0.85,
+   "n_candidates": 3
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "noul": {
+    "HeyGen": 0.04,
+    "HyperFrames": 0.78,
+    "ffmpeg": 0.89
+   },
+   "regex_hits": [
+    "HyperFrames",
+    "ffmpeg",
+    "HeyGen"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "HeyGen"
+   ]
+  }
+ },
+ "Upload-Post/avatar-mix": {
+  "category_suggestion": {
+   "choice": "avatar",
+   "confidence": 0.88
+  },
+  "checked_at": "2026-09-29T14:47:39Z",
+  "inclusion": {
+   "agent_oriented": 0.88,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": null,
+   "choice": "none",
+   "confidence": 0.91,
+   "n_candidates": 13
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "HyperFrames",
+    "ffmpeg",
+    "HeyGen"
+   ],
+   "noul": {
+    "HeyGen": 0.97,
+    "HyperFrames": 0.95,
+    "ffmpeg": 0.96
+   },
+   "regex_hits": [
+    "HyperFrames",
+    "ffmpeg",
+    "HeyGen"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "VasiniDevi/motion-skills": {
+  "category_suggestion": {
+   "choice": "motion",
+   "confidence": 0.98
+  },
+  "checked_at": "2026-09-29T14:47:39Z",
+  "inclusion": {
+   "agent_oriented": 0.96,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": "npx skills add VasiniDevi/motion-skills -a replit\nnpx skills add VasiniDevi/motion-skills -a claude-code",
+   "choice": "c1",
+   "confidence": 1.0,
+   "n_candidates": 3
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Lottie"
+   ],
+   "noul": {
+    "Lottie": 0.41
+   },
+   "regex_hits": [
+    "Lottie"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "Vincentwei1021/video-shotcraft": {
+  "category_suggestion": {
+   "choice": "promo",
+   "confidence": 1.0
+  },
+  "checked_at": "2026-09-29T14:47:41Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.96
+  },
+  "install_choice": {
+   "candidate": "git clone https://github.com/Vincentwei1021/video-shotcraft.git\ncd video-shotcraft\nln -s \"$(pwd)\" ~/.claude/skills/video-shotcraft   # Claude Code\n# or\nln -s \"$(pwd)\" ~/.codex/skills/video-shotcraft    # Codex",
+   "choice": "c3",
+   "confidence": 0.66,
+   "n_candidates": 6
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion"
+   ],
+   "noul": {
+    "Remotion": 0.96
+   },
+   "regex_hits": [
+    "Remotion"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "Vincentwei1021/video-talkcraft": {
+  "category_suggestion": {
+   "choice": "explainer",
+   "confidence": 0.89
+  },
+  "checked_at": "2026-09-29T14:47:41Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": "git clone https://github.com/Vincentwei1021/video-talkcraft.git\ncd video-talkcraft\nln -s \"$(pwd)\" ~/.claude/skills/video-talkcraft   # Claude Code\n# 或\nln -s \"$(pwd)\" ~/.codex/skills/video-talkcraft    # Codex",
+   "choice": "c3",
+   "confidence": 0.75,
+   "n_candidates": 12
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "noul": {
+    "Remotion": 0.97,
+    "ffmpeg": 0.94
+   },
+   "regex_hits": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "YeJe-cpu/SeeCut": {
+  "category_suggestion": {
+   "choice": "shorts",
+   "confidence": 0.85
+  },
+  "checked_at": "2026-09-29T14:47:43Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": null,
+   "choice": "none",
+   "confidence": 0.97,
+   "n_candidates": 5
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "HyperFrames",
+    "ffmpeg",
+    "HeyGen"
+   ],
+   "noul": {
+    "HeyGen": 0.6,
+    "HyperFrames": 0.93,
+    "ffmpeg": 0.83
+   },
+   "regex_hits": [
+    "HyperFrames",
+    "ffmpeg",
+    "HeyGen"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "Yuuhann1999/codex-storyboard": {
+  "category_suggestion": {
+   "choice": "shorts",
+   "confidence": 0.48
+  },
+  "checked_at": "2026-09-29T14:47:43Z",
+  "inclusion": {
+   "agent_oriented": 0.96,
+   "makes_video": 0.75
+  },
+  "install_choice": {
+   "candidate": "codex plugin marketplace add Yuuhann1999/codex-storyboard\ncodex plugin add codex-storyboard@codex-storyboard",
+   "choice": "c2",
+   "confidence": 1.0,
+   "n_candidates": 23
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion",
+    "HyperFrames"
+   ],
+   "noul": {
+    "HyperFrames": 0.39,
+    "Remotion": 0.37
+   },
+   "regex_hits": [
+    "Remotion",
+    "HyperFrames"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "ZiadAbdelkarim/beat-synced-edit": {
+  "category_suggestion": {
+   "choice": "editing",
+   "confidence": 0.78
+  },
+  "checked_at": "2026-09-29T14:47:45Z",
+  "inclusion": {
+   "agent_oriented": 0.9,
+   "makes_video": 0.99
+  },
+  "install_choice": {
+   "candidate": null,
+   "choice": "none",
+   "confidence": 0.89,
+   "n_candidates": 3
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "ffmpeg"
+   ],
+   "noul": {
+    "ffmpeg": 0.98
+   },
+   "regex_hits": [
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "aaronyi97/image-story-video-wizard": {
+  "category_suggestion": {
+   "choice": "story",
+   "confidence": 0.84
+  },
+  "checked_at": "2026-09-29T14:46:48Z",
+  "inclusion": {
+   "agent_oriented": 0.96,
+   "makes_video": 0.93
+  },
+  "install_choice": {
+   "candidate": "git clone https://github.com/aaronyi97/image-story-video-wizard.git ~/.codex/skills/image-story-video-wizard",
+   "choice": "c1",
+   "confidence": 1.0,
+   "n_candidates": 2
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [],
+   "noul": {
+    "HyperFrames": 0.29
+   },
+   "regex_hits": [
+    "HyperFrames"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "HyperFrames"
+   ]
+  }
+ },
+ "acelera-agency/html-animation": {
+  "category_suggestion": {
+   "choice": "motion",
+   "confidence": 1.0
+  },
+  "checked_at": "2026-09-29T14:46:48Z",
+  "inclusion": {
+   "agent_oriented": 0.96,
+   "makes_video": 0.97
+  },
+  "install_choice": {
+   "candidate": "# Claude Code\ngit clone https://github.com/acelera-agency/html-animation.git ~/.claude/skills/motion-graphics\n# Codex\ngit clone https://github.com/acelera-agency/html-animation.git ~/.codex/skills/motion-graphics\n# Cursor\ngit clone https://github.com/acelera-agency/html-animation.git ~/.cursor/skills/motion-graphics",
+   "choice": "c1",
+   "confidence": 1.0,
+   "n_candidates": 3
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "ffmpeg"
+   ],
+   "noul": {
+    "After Effects": 0.01,
+    "ffmpeg": 0.88
+   },
+   "regex_hits": [
+    "ffmpeg",
+    "After Effects"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "After Effects"
+   ]
+  }
+ },
+ "adithya-s-k/manim_skill": {
+  "category_suggestion": {
+   "choice": "explainer",
+   "confidence": 0.45
+  },
+  "checked_at": "2026-09-29T14:46:48Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.82
+  },
+  "install_choice": {
+   "candidate": "# Install Manim Community Edition best practices\nnpx skills add adithya-s-k/manim_skill/skills/manimce-best-practices\n# Install ManimGL best practices\nnpx skills add adithya-s-k/manim_skill/skills/manimgl-best-practices\n# Or install both\nnpx skills add adithya-s-k/manim_skill/skills/manimce-best-practices adithya-s-k/manim_skill/skills/manimgl-best-practices",
+   "choice": "c8",
+   "confidence": 0.92,
+   "n_candidates": 18
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Manim",
+    "ffmpeg"
+   ],
+   "noul": {
+    "Manim": 0.5,
+    "ffmpeg": 0.63
+   },
+   "regex_hits": [
+    "Manim",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "adityaarsharma/youtube-marketing-skills": {
+  "category_suggestion": {
+   "choice": "craft",
+   "confidence": 0.63
+  },
+  "checked_at": "2026-09-29T14:46:48Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.04
+  },
+  "install_choice": {
+   "candidate": "# 1. Clone + install\ngit clone https://github.com/adityaarsharma/youtube-marketing-skills.git\ncd youtube-marketing-skills && npm install\n# 2. Drop your Google OAuth credentials.json into the directory\n# 3. Authenticate — opens browser once, saves tokens locally\nnode auth.js\n# 4. Install the skill files into your agent\ncp -r skills/youtube-marketing ~/.claude/skills/",
+   "choice": "c2",
+   "confidence": 0.93,
+   "n_candidates": 9
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [],
+   "noul": {
+    "Remotion": 0.02,
+    "ffmpeg": 0.05
+   },
+   "regex_hits": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "Remotion",
+    "ffmpeg"
+   ]
+  }
+ },
+ "adriiita/vertical-video-editing-skill": {
+  "category_suggestion": {
+   "choice": "shorts",
+   "confidence": 1.0
+  },
+  "checked_at": "2026-09-29T14:46:48Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": "npx vertical-video-editing-skill",
+   "choice": "c6",
+   "confidence": 0.66,
+   "n_candidates": 12
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "noul": {
+    "HyperFrames": 0.91,
+    "ffmpeg": 0.55
+   },
+   "regex_hits": [
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "ahmdd4vd/MotionCraft": {
+  "category_suggestion": {
+   "choice": "motion",
+   "confidence": 0.34
+  },
+  "checked_at": "2026-09-29T14:46:50Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": "npx skills add ahmdd4vd/motioncraft",
+   "choice": "c1",
+   "confidence": 1.0,
+   "n_candidates": 3
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion"
+   ],
+   "noul": {
+    "Remotion": 0.96
+   },
+   "regex_hits": [
+    "Remotion"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "aijiduonadegou/Paper-Cut": {
+  "category_suggestion": {
+   "choice": "explainer",
+   "confidence": 0.99
+  },
+  "checked_at": "2026-09-29T14:46:51Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.97
+  },
+  "install_choice": {
+   "candidate": "git clone https://github.com/aijiduonadegou/paper-cut.git \"$env:USERPROFILE\\.codex\\skills\\paper-cut\"",
+   "choice": "c1",
+   "confidence": 0.73,
+   "n_candidates": 4
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "noul": {
+    "HyperFrames": 0.87,
+    "ffmpeg": 0.88
+   },
+   "regex_hits": [
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "alexgreensh/anidoodle": {
+  "category_suggestion": {
+   "choice": "general",
+   "confidence": 0.5
+  },
+  "checked_at": "2026-09-29T14:46:52Z",
+  "inclusion": {
+   "agent_oriented": 0.92,
+   "makes_video": 0.91
+  },
+  "install_choice": {
+   "candidate": null,
+   "choice": "none",
+   "confidence": 0.85,
+   "n_candidates": 5
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [],
+   "noul": {
+    "HyperFrames": 0.07,
+    "Remotion": 0.04,
+    "ffmpeg": 0.16
+   },
+   "regex_hits": [
+    "Remotion",
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "Remotion",
+    "HyperFrames",
+    "ffmpeg"
+   ]
+  }
+ },
+ "ayushozha/AdobePremiereProMCP": {
+  "category_suggestion": {
+   "choice": "editing",
+   "confidence": 0.86
+  },
+  "checked_at": "2026-09-29T14:46:54Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.95
+  },
+  "install_choice": {
+   "candidate": "# Clone the repository\ngit clone https://github.com/ayushozha/AdobePremiereProMCP.git\ncd AdobePremiereProMCP\n# Copy env template\ncp .env.example .env\n# Install dependencies\njust install\n# Generate protobuf stubs\njust proto\n# Build all components\njust build\n# Run tests\njust test\n# Install the CEP panel into Premiere Pro\njust install-panel",
+   "choice": "c4",
+   "confidence": 0.86,
+   "n_candidates": 6
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "ffmpeg",
+    "Premiere Pro"
+   ],
+   "noul": {
+    "Premiere Pro": 0.67,
+    "ffmpeg": 0.5
+   },
+   "regex_hits": [
+    "ffmpeg",
+    "Premiere Pro"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "bangtutorial/bang-motion": {
+  "category_suggestion": {
+   "choice": "motion",
+   "confidence": 0.67
+  },
+  "checked_at": "2026-09-29T14:46:54Z",
+  "inclusion": {
+   "agent_oriented": 0.94,
+   "makes_video": 0.93
+  },
+  "install_choice": {
+   "candidate": "/plugin marketplace add bangtutorial/bang-motion",
+   "choice": "c9",
+   "confidence": 0.44,
+   "n_candidates": 14
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [],
+   "noul": {
+    "After Effects": 0.24,
+    "ffmpeg": 0.2
+   },
+   "regex_hits": [
+    "ffmpeg",
+    "After Effects"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "ffmpeg",
+    "After Effects"
+   ]
+  }
+ },
+ "bbylw/hyperframes-cn": {
+  "category_suggestion": {
+   "choice": "general",
+   "confidence": 0.98
+  },
+  "checked_at": "2026-09-29T14:46:55Z",
+  "inclusion": {
+   "agent_oriented": 0.94,
+   "makes_video": 0.96
+  },
+  "install_choice": {
+   "candidate": "npx skills add heygen-com/hyperframes",
+   "choice": "c1",
+   "confidence": 1.0,
+   "n_candidates": 9
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "HyperFrames",
+    "ffmpeg",
+    "Lottie"
+   ],
+   "noul": {
+    "HeyGen": 0.05,
+    "HyperFrames": 0.56,
+    "Lottie": 0.57,
+    "Remotion": 0.06,
+    "ffmpeg": 0.53
+   },
+   "regex_hits": [
+    "Remotion",
+    "HyperFrames",
+    "ffmpeg",
+    "HeyGen",
+    "Lottie"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "Remotion",
+    "HeyGen"
+   ]
+  }
+ },
+ "bestagentkits/motion-video-skill": {
+  "category_suggestion": {
+   "choice": "promo",
+   "confidence": 0.79
+  },
+  "checked_at": "2026-09-29T14:46:55Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": "npx skills add bestagentkits/motion-video-skill",
+   "choice": "c1",
+   "confidence": 1.0,
+   "n_candidates": 11
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "noul": {
+    "HyperFrames": 0.93,
+    "ffmpeg": 0.92
+   },
+   "regex_hits": [
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "blixvip/easyedit": {
+  "category_suggestion": {
+   "choice": "editing",
+   "confidence": 1.0
+  },
+  "checked_at": "2026-09-29T14:46:56Z",
+  "inclusion": {
+   "agent_oriented": 0.9,
+   "makes_video": 0.99
+  },
+  "install_choice": {
+   "candidate": "python -m easyedit.skill install    # then: /easyedit Gladiator",
+   "choice": "c4",
+   "confidence": 0.71,
+   "n_candidates": 12
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "noul": {
+    "HeyGen": 0.16,
+    "HyperFrames": 0.94,
+    "ffmpeg": 0.91
+   },
+   "regex_hits": [
+    "HyperFrames",
+    "ffmpeg",
+    "HeyGen"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "HeyGen"
+   ]
+  }
+ },
+ "calesthio/OpenMontage": {
+  "category_suggestion": {
+   "choice": "general",
+   "confidence": 1.0
+  },
+  "checked_at": "2026-09-29T14:46:56Z",
+  "inclusion": {
+   "agent_oriented": 0.9,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": null,
+   "choice": "none",
+   "confidence": 0.55,
+   "n_candidates": 19
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion",
+    "HyperFrames",
+    "ffmpeg",
+    "Blender"
+   ],
+   "noul": {
+    "Blender": 0.84,
+    "HeyGen": 0.04,
+    "HyperFrames": 0.8,
+    "Manim": 0.07,
+    "Remotion": 0.82,
+    "ffmpeg": 0.93
+   },
+   "regex_hits": [
+    "Remotion",
+    "HyperFrames",
+    "Manim",
+    "ffmpeg",
+    "HeyGen",
+    "Blender"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "Manim",
+    "HeyGen"
+   ]
+  }
+ },
+ "cartesiancs/cartcut": {
+  "category_suggestion": {
+   "choice": "editing",
+   "confidence": 0.73
+  },
+  "checked_at": "2026-09-29T14:46:56Z",
+  "inclusion": {
+   "agent_oriented": 0.88,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": "npx skills add cartesiancs/cartcut --skill cartcut-editing -a claude-code -g",
+   "choice": "c2",
+   "confidence": 0.39,
+   "n_candidates": 8
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "ffmpeg"
+   ],
+   "noul": {
+    "After Effects": 0.02,
+    "ffmpeg": 0.89
+   },
+   "regex_hits": [
+    "ffmpeg",
+    "After Effects"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "After Effects"
+   ]
+  }
+ },
+ "cclank/lanshu-create-ai-presenter-video": {
+  "category_suggestion": {
+   "choice": "avatar",
+   "confidence": 1.0
+  },
+  "checked_at": "2026-09-29T14:46:57Z",
+  "inclusion": {
+   "agent_oriented": 0.98,
+   "makes_video": 0.97
+  },
+  "install_choice": {
+   "candidate": "git clone https://github.com/cclank/lanshu-create-ai-presenter-video.git \\\n  ~/.claude/skills/lanshu-create-ai-presenter-video",
+   "choice": "c2",
+   "confidence": 0.88,
+   "n_candidates": 10
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "ffmpeg"
+   ],
+   "noul": {
+    "HyperFrames": 0.13,
+    "ffmpeg": 0.81
+   },
+   "regex_hits": [
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "HyperFrames"
+   ]
+  }
+ },
+ "cclank/lanshu-html2video-skill": {
+  "category_suggestion": {
+   "choice": "explainer",
+   "confidence": 0.7
+  },
+  "checked_at": "2026-09-29T14:46:58Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.97
+  },
+  "install_choice": {
+   "candidate": "git clone https://github.com/cclank/lanshu-html2video-skill.git ~/.codex/skills/html2video",
+   "choice": "c2",
+   "confidence": 1.0,
+   "n_candidates": 8
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion"
+   ],
+   "noul": {
+    "Remotion": 0.96
+   },
+   "regex_hits": [
+    "Remotion"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "centraltowerlabs/diagram-tour": {
+  "category_suggestion": {
+   "choice": "explainer",
+   "confidence": 0.88
+  },
+  "checked_at": "2026-09-29T14:46:58Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.97
+  },
+  "install_choice": {
+   "candidate": "git clone https://github.com/centraltowerlabs/diagram-tour ~/.claude/skills/diagram-tour\n~/.claude/skills/diagram-tour/install.sh",
+   "choice": "c1",
+   "confidence": 1.0,
+   "n_candidates": 8
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "ffmpeg"
+   ],
+   "noul": {
+    "ffmpeg": 0.97
+   },
+   "regex_hits": [
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "chenmisss/laoxu-video-script": {
+  "category_suggestion": {
+   "choice": "craft",
+   "confidence": 0.72
+  },
+  "checked_at": "2026-09-29T14:46:58Z",
+  "inclusion": {
+   "agent_oriented": 0.94,
+   "makes_video": 0.03
+  },
+  "install_choice": {
+   "candidate": "npx skills add chenmisss/laoxu-video-script",
+   "choice": "c1",
+   "confidence": 1.0,
+   "n_candidates": 2
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [],
+   "noul": {},
+   "regex_hits": [],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "chenyuxiaojin/cyxj-hyperframes": {
+  "category_suggestion": {
+   "choice": "explainer",
+   "confidence": 0.55
+  },
+  "checked_at": "2026-09-29T14:46:58Z",
+  "inclusion": {
+   "agent_oriented": 0.88,
+   "makes_video": 0.96
+  },
+  "install_choice": {
+   "candidate": null,
+   "choice": "none",
+   "confidence": 0.63,
+   "n_candidates": 10
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "HyperFrames",
+    "HeyGen"
+   ],
+   "noul": {
+    "HeyGen": 0.91,
+    "HyperFrames": 0.96,
+    "Remotion": 0.03
+   },
+   "regex_hits": [
+    "Remotion",
+    "HyperFrames",
+    "HeyGen"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "Remotion"
+   ]
+  }
+ },
+ "chenyuxiaojin/cyxj-remotion-starter": {
+  "category_suggestion": {
+   "choice": "general",
+   "confidence": 0.68
+  },
+  "checked_at": "2026-09-29T14:46:59Z",
+  "inclusion": {
+   "agent_oriented": 0.92,
+   "makes_video": 0.91
+  },
+  "install_choice": {
+   "candidate": null,
+   "choice": "none",
+   "confidence": 0.5,
+   "n_candidates": 3
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion"
+   ],
+   "noul": {
+    "Remotion": 0.95
+   },
+   "regex_hits": [
+    "Remotion"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "cocolayuan/videoclip-AI-skill": {
+  "category_suggestion": {
+   "choice": "editing",
+   "confidence": 0.99
+  },
+  "checked_at": "2026-09-29T14:46:59Z",
+  "inclusion": {
+   "agent_oriented": 0.96,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": "/videocut:安装",
+   "choice": "c2",
+   "confidence": 0.51,
+   "n_candidates": 4
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "ffmpeg"
+   ],
+   "noul": {
+    "ffmpeg": 0.91
+   },
+   "regex_hits": [
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "coding-ax/docvideoer": {
+  "category_suggestion": {
+   "choice": "explainer",
+   "confidence": 0.74
+  },
+  "checked_at": "2026-09-29T14:46:59Z",
+  "inclusion": {
+   "agent_oriented": 0.95,
+   "makes_video": 0.96
+  },
+  "install_choice": {
+   "candidate": "npx skills add coding-ax/docvideoer --skill docvideoer -g -a codex -y\nnpx skills add https://github.com/remotion-dev/skills --skill remotion-best-practices -g -a codex -y",
+   "choice": "c1",
+   "confidence": 1.0,
+   "n_candidates": 23
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion"
+   ],
+   "noul": {
+    "Remotion": 0.95
+   },
+   "regex_hits": [
+    "Remotion"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "cymcymcymcym/notes-to-video": {
+  "category_suggestion": {
+   "choice": "explainer",
+   "confidence": 1.0
+  },
+  "checked_at": "2026-09-29T14:47:00Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": "npx notes-to-video",
+   "choice": "c1",
+   "confidence": 1.0,
+   "n_candidates": 4
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Manim",
+    "ffmpeg"
+   ],
+   "noul": {
+    "Manim": 0.95,
+    "ffmpeg": 0.92
+   },
+   "regex_hits": [
+    "Manim",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "darrenli6/JJKoubo": {
+  "category_suggestion": {
+   "choice": "shorts",
+   "confidence": 0.47
+  },
+  "checked_at": "2026-09-29T14:47:00Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.97
+  },
+  "install_choice": {
+   "candidate": null,
+   "choice": "none",
+   "confidence": 0.75,
+   "n_candidates": 5
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "noul": {
+    "HyperFrames": 0.74,
+    "ffmpeg": 0.88
+   },
+   "regex_hits": [
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "davidcervinka/vibe-editing": {
+  "category_suggestion": {
+   "choice": "general",
+   "confidence": 0.53
+  },
+  "checked_at": "2026-09-29T14:47:01Z",
+  "inclusion": {
+   "agent_oriented": 0.73,
+   "makes_video": 0.97
+  },
+  "install_choice": {
+   "candidate": null,
+   "choice": "none",
+   "confidence": 0.54,
+   "n_candidates": 5
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "noul": {
+    "HeyGen": 0.14,
+    "HyperFrames": 0.77,
+    "Remotion": 0.05,
+    "ffmpeg": 0.95
+   },
+   "regex_hits": [
+    "Remotion",
+    "HyperFrames",
+    "ffmpeg",
+    "HeyGen"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "Remotion",
+    "HeyGen"
+   ]
+  }
+ },
+ "derrickgong87/demo-video-creation-skill": {
+  "category_suggestion": {
+   "choice": "promo",
+   "confidence": 0.99
+  },
+  "checked_at": "2026-09-29T14:47:01Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.95
+  },
+  "install_choice": {
+   "candidate": "Copy-Item -Recurse .\\demo-video-creation-skill \"$env:USERPROFILE\\.codex\\skills\\demo-video-creation-skill\"",
+   "choice": "c1",
+   "confidence": 0.75,
+   "n_candidates": 6
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "noul": {
+    "Remotion": 0.72,
+    "ffmpeg": 0.73
+   },
+   "regex_hits": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "diffusionstudio/lottie": {
+  "category_suggestion": {
+   "choice": "motion",
+   "confidence": 0.97
+  },
+  "checked_at": "2026-09-29T14:47:01Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.91
+  },
+  "install_choice": {
+   "candidate": "npx skills add diffusionstudio/lottie",
+   "choice": "c1",
+   "confidence": 1.0,
+   "n_candidates": 7
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Lottie"
+   ],
+   "noul": {
+    "After Effects": 0.04,
+    "Lottie": 0.89
+   },
+   "regex_hits": [
+    "After Effects",
+    "Lottie"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "After Effects"
+   ]
+  }
+ },
+ "digitalsamba/claude-code-video-toolkit": {
+  "category_suggestion": {
+   "choice": "general",
+   "confidence": 1.0
+  },
+  "checked_at": "2026-09-29T14:47:01Z",
+  "inclusion": {
+   "agent_oriented": 0.96,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": "git clone https://github.com/digitalsamba/claude-code-video-toolkit.git\ncd claude-code-video-toolkit\nuv sync   # Optional: AI voiceover, image gen, music, moviepy examples\nclaude    # Open Claude Code in the toolkit",
+   "choice": "c1",
+   "confidence": 0.76,
+   "n_candidates": 14
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "noul": {
+    "Remotion": 0.9,
+    "ffmpeg": 0.77
+   },
+   "regex_hits": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "dlazy-ai/ai-product-video": {
+  "category_suggestion": {
+   "choice": "promo",
+   "confidence": 1.0
+  },
+  "checked_at": "2026-09-29T14:47:02Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.96
+  },
+  "install_choice": {
+   "candidate": "git clone https://github.com/dlazy-ai/ai-product-video.git\ncd ai-product-video\nln -s \"$(pwd)\" ~/.claude/skills/ai-product-video   # Claude Code\n# or\nln -s \"$(pwd)\" ~/.codex/skills/ai-product-video    # Codex",
+   "choice": "c3",
+   "confidence": 0.62,
+   "n_candidates": 8
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion"
+   ],
+   "noul": {
+    "Remotion": 0.96
+   },
+   "regex_hits": [
+    "Remotion"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "doublesq97-ui/su-card-to-video": {
+  "category_suggestion": {
+   "choice": "explainer",
+   "confidence": 0.49
+  },
+  "checked_at": "2026-09-29T14:47:02Z",
+  "inclusion": {
+   "agent_oriented": 0.88,
+   "makes_video": 0.97
+  },
+  "install_choice": {
+   "candidate": "请在这个 su-card-to-video 仓库根目录中使用 skill/SKILL.md 的工作流，根据我的文案修改 examples/basic-16x9/index.html，并用 npm run render 生成视频。",
+   "choice": "c9",
+   "confidence": 0.3,
+   "n_candidates": 11
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "noul": {
+    "HeyGen": 0.08,
+    "HyperFrames": 0.88,
+    "ffmpeg": 0.94
+   },
+   "regex_hits": [
+    "HyperFrames",
+    "ffmpeg",
+    "HeyGen"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "HeyGen"
+   ]
+  }
+ },
+ "erduo1998-cell/erduo-broll-loop-engineering": {
+  "category_suggestion": {
+   "choice": "editing",
+   "confidence": 0.94
+  },
+  "checked_at": "2026-09-29T14:47:03Z",
+  "inclusion": {
+   "agent_oriented": 0.94,
+   "makes_video": 0.97
+  },
+  "install_choice": {
+   "candidate": "npx -y skills@1.5.22 add ./erduo-broll-loop-engineering-skills-1.1.0 --skill '*' --agent codex --global --full-depth\n# 或把 codex 改成 claude-code",
+   "choice": "c3",
+   "confidence": 0.47,
+   "n_candidates": 7
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion",
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "noul": {
+    "HyperFrames": 0.92,
+    "Remotion": 0.56,
+    "ffmpeg": 0.88
+   },
+   "regex_hits": [
+    "Remotion",
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "erduo1998-cell/video-script-builder": {
+  "category_suggestion": {
+   "choice": "craft",
+   "confidence": 0.88
+  },
+  "checked_at": "2026-09-29T14:47:03Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.07
+  },
+  "install_choice": {
+   "candidate": "mkdir -p ~/.claude/skills\ngit clone https://github.com/erduo1998-cell/video-script-builder.git \\\n  ~/.claude/skills/video-script-builder",
+   "choice": "c1",
+   "confidence": 0.99,
+   "n_candidates": 9
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [],
+   "noul": {
+    "HeyGen": 0.07,
+    "HyperFrames": 0.05,
+    "Remotion": 0.04,
+    "ffmpeg": 0.03
+   },
+   "regex_hits": [
+    "Remotion",
+    "HyperFrames",
+    "ffmpeg",
+    "HeyGen"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "Remotion",
+    "HyperFrames",
+    "ffmpeg",
+    "HeyGen"
+   ]
+  }
+ },
+ "eternityspring/reelbench-skills": {
+  "category_suggestion": {
+   "choice": "craft",
+   "confidence": 0.39
+  },
+  "checked_at": "2026-09-29T14:47:03Z",
+  "inclusion": {
+   "agent_oriented": 0.96,
+   "makes_video": 0.79
+  },
+  "install_choice": {
+   "candidate": "git clone https://github.com/eternityspring/reelbench-skills.git\ncd reelbench-skills\n./scripts/install.sh",
+   "choice": "c1",
+   "confidence": 0.92,
+   "n_candidates": 6
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "ffmpeg"
+   ],
+   "noul": {
+    "ffmpeg": 0.82
+   },
+   "regex_hits": [
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "fernandokaraka/remotion-motion-graphics-skill": {
+  "category_suggestion": {
+   "choice": "motion",
+   "confidence": 0.99
+  },
+  "checked_at": "2026-09-29T14:47:04Z",
+  "inclusion": {
+   "agent_oriented": 0.98,
+   "makes_video": 0.92
+  },
+  "install_choice": {
+   "candidate": "git clone https://github.com/fernandokaraka/remotion-motion-graphics-skill.git\ncp -r remotion-motion-graphics-skill/skills/remotion-motion-graphics ~/.claude/skills/",
+   "choice": "c1",
+   "confidence": 0.86,
+   "n_candidates": 3
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion"
+   ],
+   "noul": {
+    "After Effects": 0.02,
+    "Premiere Pro": 0.03,
+    "Remotion": 0.83
+   },
+   "regex_hits": [
+    "Remotion",
+    "After Effects",
+    "Premiere Pro"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "After Effects",
+    "Premiere Pro"
+   ]
+  }
+ },
+ "geekjourneyx/hyperframes-motion-director": {
+  "category_suggestion": {
+   "choice": "promo",
+   "confidence": 0.87
+  },
+  "checked_at": "2026-09-29T14:47:05Z",
+  "inclusion": {
+   "agent_oriented": 0.96,
+   "makes_video": 0.95
+  },
+  "install_choice": {
+   "candidate": "npx skills add geekjourneyx/hyperframes-motion-director",
+   "choice": "c1",
+   "confidence": 1.0,
+   "n_candidates": 10
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "HyperFrames"
+   ],
+   "noul": {
+    "HyperFrames": 0.76
+   },
+   "regex_hits": [
+    "HyperFrames"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "gloweaseco-leo/hyperdirector": {
+  "category_suggestion": {
+   "choice": "general",
+   "confidence": 0.97
+  },
+  "checked_at": "2026-09-29T14:47:06Z",
+  "inclusion": {
+   "agent_oriented": 0.94,
+   "makes_video": 0.92
+  },
+  "install_choice": {
+   "candidate": "curl -fsSL https://raw.githubusercontent.com/gloweaseco-leo/hyperdirector/main/install.sh | bash",
+   "choice": "c1",
+   "confidence": 0.99,
+   "n_candidates": 8
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "HyperFrames",
+    "ffmpeg",
+    "HeyGen"
+   ],
+   "noul": {
+    "HeyGen": 0.62,
+    "HyperFrames": 0.9,
+    "ffmpeg": 0.76
+   },
+   "regex_hits": [
+    "HyperFrames",
+    "ffmpeg",
+    "HeyGen"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "gnipbao/minimax-h3-video-reverse-skill": {
+  "category_suggestion": {
+   "choice": "craft",
+   "confidence": 0.99
+  },
+  "checked_at": "2026-09-29T14:47:06Z",
+  "inclusion": {
+   "agent_oriented": 0.95,
+   "makes_video": 0.06
+  },
+  "install_choice": {
+   "candidate": "mkdir -p \"${CODEX_HOME:-$HOME/.codex}/skills\"\ngit clone https://github.com/gnipbao/minimax-h3-video-reverse-skill.git \\\n  \"${CODEX_HOME:-$HOME/.codex}/skills/minimax-h3-video-reverse\"",
+   "choice": "c1",
+   "confidence": 1.0,
+   "n_candidates": 8
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [],
+   "noul": {
+    "ffmpeg": 0.08
+   },
+   "regex_hits": [
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "ffmpeg"
+   ]
+  }
+ },
+ "gnipbao/story-to-handdrawn-video": {
+  "category_suggestion": {
+   "choice": "story",
+   "confidence": 1.0
+  },
+  "checked_at": "2026-09-29T14:47:06Z",
+  "inclusion": {
+   "agent_oriented": 0.95,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": "# Codex\ncp -R skill-package/story-to-handdrawn-video ~/.codex/skills/\n# Claude Code\ncp -R skill-package/story-to-handdrawn-video ~/.claude/skills/\n# Kimi Code / 使用通用 skills 目录的 Agent\ncp -R skill-package/story-to-handdrawn-video ~/.agents/skills/",
+   "choice": "c2",
+   "confidence": 0.93,
+   "n_candidates": 10
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "noul": {
+    "Remotion": 0.95,
+    "ffmpeg": 0.78
+   },
+   "regex_hits": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "gorkem-bwl/onboarding-video-generator": {
+  "category_suggestion": {
+   "choice": "promo",
+   "confidence": 0.96
+  },
+  "checked_at": "2026-09-29T14:47:08Z",
+  "inclusion": {
+   "agent_oriented": 0.96,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": "git clone https://github.com/gorkem-bwl/onboarding-video-generator.git \\\n  ~/.claude/skills/create-onboarding-video",
+   "choice": "c1",
+   "confidence": 1.0,
+   "n_candidates": 3
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion"
+   ],
+   "noul": {
+    "Remotion": 0.95
+   },
+   "regex_hits": [
+    "Remotion"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "hahadu4520/newcut-video-clipping-skill": {
+  "category_suggestion": {
+   "choice": "editing",
+   "confidence": 1.0
+  },
+  "checked_at": "2026-09-29T14:47:08Z",
+  "inclusion": {
+   "agent_oriented": 0.94,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": "git clone https://github.com/hahadu4520/newcut-video-clipping-skill.git \\\n  ~/.codex/skills/newcut-video-clipping\nnode ~/.codex/skills/newcut-video-clipping/scripts/newcut.mjs doctor",
+   "choice": "c1",
+   "confidence": 1.0,
+   "n_candidates": 6
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "ffmpeg"
+   ],
+   "noul": {
+    "ffmpeg": 0.93
+   },
+   "regex_hits": [
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "hahadu4520/vlog-cut": {
+  "category_suggestion": {
+   "choice": "editing",
+   "confidence": 0.99
+  },
+  "checked_at": "2026-09-29T14:47:08Z",
+  "inclusion": {
+   "agent_oriented": 0.95,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": "brew install ffmpeg\nbrew install --cask font-lxgw-wenkai          # 字幕默认字体\ngit clone https://github.com/hahadu4520/vlog-cut.git\ncd vlog-cut && pip install -e .",
+   "choice": "c1",
+   "confidence": 0.99,
+   "n_candidates": 1
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "ffmpeg"
+   ],
+   "noul": {
+    "ffmpeg": 0.85
+   },
+   "regex_hits": [
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "hassancs91/claude-faceless-shorts-creator": {
+  "category_suggestion": {
+   "choice": "shorts",
+   "confidence": 0.99
+  },
+  "checked_at": "2026-09-29T14:47:08Z",
+  "inclusion": {
+   "agent_oriented": 0.89,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": null,
+   "choice": "none",
+   "confidence": 0.37,
+   "n_candidates": 5
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "noul": {
+    "Remotion": 0.96,
+    "ffmpeg": 0.87
+   },
+   "regex_hits": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "hassancs91/claude-youtube-editor": {
+  "category_suggestion": {
+   "choice": "editing",
+   "confidence": 0.4
+  },
+  "checked_at": "2026-09-29T14:47:08Z",
+  "inclusion": {
+   "agent_oriented": 0.93,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": "git clone https://github.com/hassancs91/claude-youtube-editor\ncd claude-youtube-editor\npython -m venv venv\nvenv/Scripts/python -m pip install -r requirements.txt   # Windows (./venv/bin/pip on macOS/Linux)\ncd remotion && npm install && npm run gen && cd ..       # build the Remotion registry\ncp .env.example .env                                     # add your keys\nclaude                                                   # open in Claude Code, then:",
+   "choice": "c1",
+   "confidence": 0.59,
+   "n_candidates": 5
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "noul": {
+    "Remotion": 0.94,
+    "ffmpeg": 0.88
+   },
+   "regex_hits": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "hetpatel-11/Adobe_Premiere_Pro_MCP": {
+  "category_suggestion": {
+   "choice": "editing",
+   "confidence": 0.46
+  },
+  "checked_at": "2026-09-29T14:47:09Z",
+  "inclusion": {
+   "agent_oriented": 0.98,
+   "makes_video": 0.81
+  },
+  "install_choice": {
+   "candidate": null,
+   "choice": "none",
+   "confidence": 0.39,
+   "n_candidates": 14
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [],
+   "noul": {
+    "Premiere Pro": 0.27,
+    "ffmpeg": 0.16
+   },
+   "regex_hits": [
+    "ffmpeg",
+    "Premiere Pro"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "ffmpeg",
+    "Premiere Pro"
+   ]
+  }
+ },
+ "heygen-com/hyperframes": {
+  "category_suggestion": {
+   "choice": "general",
+   "confidence": 0.99
+  },
+  "checked_at": "2026-09-29T14:47:09Z",
+  "inclusion": {
+   "agent_oriented": 0.94,
+   "makes_video": 0.97
+  },
+  "install_choice": {
+   "candidate": "npx skills add heygen-com/hyperframes",
+   "choice": "c2",
+   "confidence": 0.5,
+   "n_candidates": 11
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "noul": {
+    "HeyGen": 0.07,
+    "HyperFrames": 0.73,
+    "Lottie": 0.09,
+    "Remotion": 0.08,
+    "ffmpeg": 0.67
+   },
+   "regex_hits": [
+    "Remotion",
+    "HyperFrames",
+    "ffmpeg",
+    "HeyGen",
+    "Lottie"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "Remotion",
+    "HeyGen",
+    "Lottie"
+   ]
+  }
+ },
+ "heygen-com/skills": {
+  "category_suggestion": {
+   "choice": "avatar",
+   "confidence": 1.0
+  },
+  "checked_at": "2026-09-29T14:47:09Z",
+  "inclusion": {
+   "agent_oriented": 0.98,
+   "makes_video": 0.93
+  },
+  "install_choice": {
+   "candidate": "gh skill install heygen-com/skills heygen-avatar\ngh skill install heygen-com/skills heygen-video\ngh skill install heygen-com/skills heygen-translate",
+   "choice": "c3",
+   "confidence": 0.53,
+   "n_candidates": 13
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "HeyGen"
+   ],
+   "noul": {
+    "HeyGen": 0.94
+   },
+   "regex_hits": [
+    "HeyGen"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "hi-nikola/hand-drawn-explainer-video-nikola": {
+  "category_suggestion": {
+   "choice": "explainer",
+   "confidence": 1.0
+  },
+  "checked_at": "2026-09-29T14:47:09Z",
+  "inclusion": {
+   "agent_oriented": 0.95,
+   "makes_video": 0.97
+  },
+  "install_choice": {
+   "candidate": "git clone https://github.com/hi-nikola/hand-drawn-explainer-video-nikola.git \"$env:USERPROFILE/.codex/skills/hand-drawn-explainer-video-nikola\"\npython \"$env:USERPROFILE/.codex/skills/hand-drawn-explainer-video-nikola/scripts/setup_check.py\"",
+   "choice": "c2",
+   "confidence": 0.82,
+   "n_candidates": 7
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "noul": {
+    "HeyGen": 0.14,
+    "HyperFrames": 0.89,
+    "ffmpeg": 0.88
+   },
+   "regex_hits": [
+    "HyperFrames",
+    "ffmpeg",
+    "HeyGen"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "HeyGen"
+   ]
+  }
+ },
+ "holy-templar/vox-animated-ad-mcp": {
+  "category_suggestion": {
+   "choice": "explainer",
+   "confidence": 0.34
+  },
+  "checked_at": "2026-09-29T14:47:10Z",
+  "inclusion": {
+   "agent_oriented": 0.95,
+   "makes_video": 0.96
+  },
+  "install_choice": {
+   "candidate": "mkdir -p ~/.claude/skills/vox-animated-ad-mcp\ncurl -o ~/.claude/skills/vox-animated-ad-mcp/SKILL.md \\\n  https://raw.githubusercontent.com/holy-templar/vox-animated-ad-mcp/main/SKILL.md",
+   "choice": "c2",
+   "confidence": 0.6,
+   "n_candidates": 3
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [],
+   "noul": {},
+   "regex_hits": [],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "hypit-ai/hypit": {
+  "category_suggestion": {
+   "choice": "general",
+   "confidence": 0.58
+  },
+  "checked_at": "2026-09-29T14:47:10Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": "npx skills add hypit-ai/hypit -g",
+   "choice": "c1",
+   "confidence": 1.0,
+   "n_candidates": 3
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [],
+   "noul": {},
+   "regex_hits": [],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "iart-ai/ad-video-skills": {
+  "category_suggestion": {
+   "choice": "promo",
+   "confidence": 1.0
+  },
+  "checked_at": "2026-09-29T14:47:10Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.95
+  },
+  "install_choice": {
+   "candidate": "npx skills add iart-ai/ad-video-skills",
+   "choice": "c1",
+   "confidence": 0.99,
+   "n_candidates": 4
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [],
+   "noul": {
+    "Manim": 0.05
+   },
+   "regex_hits": [
+    "Manim"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "Manim"
+   ]
+  }
+ },
+ "iart-ai/data-animation-skills": {
+  "category_suggestion": {
+   "choice": "motion",
+   "confidence": 0.59
+  },
+  "checked_at": "2026-09-29T14:47:11Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.95
+  },
+  "install_choice": {
+   "candidate": "npx skills add iart-ai/data-animation-skills",
+   "choice": "c1",
+   "confidence": 0.99,
+   "n_candidates": 4
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [],
+   "noul": {
+    "Manim": 0.1
+   },
+   "regex_hits": [
+    "Manim"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "Manim"
+   ]
+  }
+ },
+ "iart-ai/explainer-video-skills": {
+  "category_suggestion": {
+   "choice": "explainer",
+   "confidence": 0.78
+  },
+  "checked_at": "2026-09-29T14:47:11Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.97
+  },
+  "install_choice": {
+   "candidate": "npx skills add iart-ai/explainer-video-skills",
+   "choice": "c1",
+   "confidence": 0.99,
+   "n_candidates": 4
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [],
+   "noul": {
+    "Manim": 0.11
+   },
+   "regex_hits": [
+    "Manim"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "Manim"
+   ]
+  }
+ },
+ "iart-ai/motion-design-skills": {
+  "category_suggestion": {
+   "choice": "motion",
+   "confidence": 0.91
+  },
+  "checked_at": "2026-09-29T14:47:11Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.89
+  },
+  "install_choice": {
+   "candidate": "npx skills add iart-ai/motion-design-skills",
+   "choice": "c1",
+   "confidence": 0.99,
+   "n_candidates": 4
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [],
+   "noul": {
+    "After Effects": 0.1,
+    "Manim": 0.05,
+    "Remotion": 0.29
+   },
+   "regex_hits": [
+    "Remotion",
+    "Manim",
+    "After Effects"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "Remotion",
+    "Manim",
+    "After Effects"
+   ]
+  }
+ },
+ "iart-ai/motion-skills": {
+  "category_suggestion": {
+   "choice": "motion",
+   "confidence": 0.59
+  },
+  "checked_at": "2026-09-29T14:47:12Z",
+  "inclusion": {
+   "agent_oriented": 0.96,
+   "makes_video": 0.58
+  },
+  "install_choice": {
+   "candidate": "npx skills add iart-ai/tiktok-video-skills\nnpx skills add iart-ai/data-animation-skills\n# …or any pack above",
+   "choice": "c1",
+   "confidence": 0.38,
+   "n_candidates": 2
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion",
+    "Manim"
+   ],
+   "noul": {
+    "Lottie": 0.17,
+    "Manim": 0.78,
+    "Remotion": 0.71
+   },
+   "regex_hits": [
+    "Remotion",
+    "Manim",
+    "Lottie"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "Lottie"
+   ]
+  }
+ },
+ "iart-ai/tiktok-video-skills": {
+  "category_suggestion": {
+   "choice": "shorts",
+   "confidence": 0.99
+  },
+  "checked_at": "2026-09-29T14:47:12Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.9
+  },
+  "install_choice": {
+   "candidate": "npx skills add iart-ai/tiktok-video-skills",
+   "choice": "c1",
+   "confidence": 0.99,
+   "n_candidates": 4
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [],
+   "noul": {
+    "Manim": 0.04
+   },
+   "regex_hits": [
+    "Manim"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "Manim"
+   ]
+  }
+ },
+ "icytear-svg/podcast-to-video": {
+  "category_suggestion": {
+   "choice": "shorts",
+   "confidence": 0.71
+  },
+  "checked_at": "2026-09-29T14:47:12Z",
+  "inclusion": {
+   "agent_oriented": 0.88,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": null,
+   "choice": "none",
+   "confidence": 0.84,
+   "n_candidates": 7
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "ffmpeg"
+   ],
+   "noul": {
+    "ffmpeg": 0.96
+   },
+   "regex_hits": [
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "inematds/skill-video-plan-editor": {
+  "category_suggestion": {
+   "choice": "general",
+   "confidence": 0.94
+  },
+  "checked_at": "2026-09-29T14:47:13Z",
+  "inclusion": {
+   "agent_oriented": 0.9,
+   "makes_video": 0.95
+  },
+  "install_choice": {
+   "candidate": "python3 -m venv .venv && . .venv/bin/activate\npip install -e \".[dev]\"",
+   "choice": "c1",
+   "confidence": 1.0,
+   "n_candidates": 11
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "noul": {
+    "HyperFrames": 0.86,
+    "Remotion": 0.03,
+    "ffmpeg": 0.41
+   },
+   "regex_hits": [
+    "Remotion",
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "Remotion"
+   ]
+  }
+ },
+ "intelligent-iterations/ii-content-engine": {
+  "category_suggestion": {
+   "choice": "shorts",
+   "confidence": 0.54
+  },
+  "checked_at": "2026-09-29T14:47:13Z",
+  "inclusion": {
+   "agent_oriented": 0.84,
+   "makes_video": 0.97
+  },
+  "install_choice": {
+   "candidate": "npm install\npip install -r requirements.txt\nnpx playwright install chromium\ncp .env.example .env",
+   "choice": "c1",
+   "confidence": 0.47,
+   "n_candidates": 10
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [],
+   "noul": {},
+   "regex_hits": [],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "jackjls/jtxvideo-skill": {
+  "category_suggestion": {
+   "choice": "editing",
+   "confidence": 0.55
+  },
+  "checked_at": "2026-09-29T14:47:13Z",
+  "inclusion": {
+   "agent_oriented": 0.98,
+   "makes_video": 0.93
+  },
+  "install_choice": {
+   "candidate": "npx skills add https://github.com/jackjls/jtxvideo-skill --skill jtxvideo-skill -g",
+   "choice": "c2",
+   "confidence": 0.53,
+   "n_candidates": 14
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "noul": {
+    "HyperFrames": 0.9,
+    "ffmpeg": 0.56
+   },
+   "regex_hits": [
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "jaxxchen003/book-video-factory": {
+  "category_suggestion": {
+   "choice": "shorts",
+   "confidence": 0.88
+  },
+  "checked_at": "2026-09-29T14:47:13Z",
+  "inclusion": {
+   "agent_oriented": 0.95,
+   "makes_video": 0.93
+  },
+  "install_choice": {
+   "candidate": "npx skills add jaxxchen003/book-video-factory --skill book-video-factory -g -y",
+   "choice": "c1",
+   "confidence": 1.0,
+   "n_candidates": 6
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "ffmpeg"
+   ],
+   "noul": {
+    "ffmpeg": 0.89
+   },
+   "regex_hits": [
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "jhartquist/claude-remotion-kickstart": {
+  "category_suggestion": {
+   "choice": "general",
+   "confidence": 0.92
+  },
+  "checked_at": "2026-09-29T14:47:14Z",
+  "inclusion": {
+   "agent_oriented": 0.66,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": null,
+   "choice": "none",
+   "confidence": 0.48,
+   "n_candidates": 14
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "noul": {
+    "Remotion": 0.97,
+    "ffmpeg": 0.91
+   },
+   "regex_hits": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "jincheng2026/jc-remotion-skills": {
+  "category_suggestion": {
+   "choice": "shorts",
+   "confidence": 0.73
+  },
+  "checked_at": "2026-09-29T14:47:15Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": "安装并使用这个剪辑 skill：https://github.com/jincheng2026/jc-remotion-skills\n然后装配这条口播：~/Desktop/我的口播.mp4 ~/Desktop/我的口播.srt",
+   "choice": "c1",
+   "confidence": 0.98,
+   "n_candidates": 7
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "noul": {
+    "Remotion": 0.95,
+    "ffmpeg": 0.9
+   },
+   "regex_hits": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "jinjin1/scenewright": {
+  "category_suggestion": {
+   "choice": "explainer",
+   "confidence": 0.99
+  },
+  "checked_at": "2026-09-29T14:47:15Z",
+  "inclusion": {
+   "agent_oriented": 0.87,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": "git clone https://github.com/jinjin1/scenewright.git && cd scenewright\nnpm install\n# 로컬 TTS용 Python 환경\ncd python && uv venv && uv pip install -r requirements.txt && cd ..\ncp .env.example .env   # (선택) 스톡 API 키 입력",
+   "choice": "c2",
+   "confidence": 0.73,
+   "n_candidates": 5
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion"
+   ],
+   "noul": {
+    "Remotion": 0.95
+   },
+   "regex_hits": [
+    "Remotion"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "jtydhr88/screenwriting-skills": {
+  "category_suggestion": {
+   "choice": "craft",
+   "confidence": 0.99
+  },
+  "checked_at": "2026-09-29T14:47:17Z",
+  "inclusion": {
+   "agent_oriented": 0.94,
+   "makes_video": 0.01
+  },
+  "install_choice": {
+   "candidate": "/plugin marketplace add jtydhr88/screenwriting-skills\n/plugin install screenwriting@screenwriting-skills",
+   "choice": "c1",
+   "confidence": 0.99,
+   "n_candidates": 8
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [],
+   "noul": {},
+   "regex_hits": [],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "kakaxi12/vox-director-codex": {
+  "category_suggestion": {
+   "choice": "explainer",
+   "confidence": 0.76
+  },
+  "checked_at": "2026-09-29T14:47:17Z",
+  "inclusion": {
+   "agent_oriented": 0.96,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": "安装这个 skill：\nhttps://github.com/kakaxi12/vox-director-codex/tree/main/vox-director",
+   "choice": "c1",
+   "confidence": 0.62,
+   "n_candidates": 4
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "noul": {
+    "HyperFrames": 0.77,
+    "Remotion": 0.25,
+    "ffmpeg": 0.8
+   },
+   "regex_hits": [
+    "Remotion",
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "Remotion"
+   ]
+  }
+ },
+ "kangarooking/director-skills": {
+  "category_suggestion": {
+   "choice": "craft",
+   "confidence": 0.36
+  },
+  "checked_at": "2026-09-29T14:47:17Z",
+  "inclusion": {
+   "agent_oriented": 0.96,
+   "makes_video": 0.22
+  },
+  "install_choice": {
+   "candidate": "git clone https://github.com/kangarooking/director-skills.git\n# Codex\nmkdir -p ~/.codex/skills\ncp -R director-skills/ ~/.codex/skills/\n# Claude Code\nmkdir -p ~/.claude/skills\ncp -R director-skills/ ~/.claude/skills/",
+   "choice": "c3",
+   "confidence": 0.47,
+   "n_candidates": 3
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [],
+   "noul": {},
+   "regex_hits": [],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "kangarooking/promo-creator-skills": {
+  "category_suggestion": {
+   "choice": "promo",
+   "confidence": 1.0
+  },
+  "checked_at": "2026-09-29T14:47:18Z",
+  "inclusion": {
+   "agent_oriented": 0.95,
+   "makes_video": 0.94
+  },
+  "install_choice": {
+   "candidate": "npx skills add kangarooking/promo-creator-skills",
+   "choice": "c1",
+   "confidence": 1.0,
+   "n_candidates": 8
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "noul": {
+    "HyperFrames": 0.87,
+    "ffmpeg": 0.74
+   },
+   "regex_hits": [
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "kiki-lgtm-dot/cinematic-product-promo-skill": {
+  "category_suggestion": {
+   "choice": "promo",
+   "confidence": 1.0
+  },
+  "checked_at": "2026-09-29T14:47:18Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.96
+  },
+  "install_choice": {
+   "candidate": "git clone https://github.com/kiki-lgtm-dot/cinematic-product-promo-skill.git\ncd cinematic-product-promo-skill\nln -s \"$(pwd)\" ~/.claude/skills/cinematic-product-promo-skill   # Claude Code\n# or\nln -s \"$(pwd)\" ~/.codex/skills/cinematic-product-promo-skill    # Codex",
+   "choice": "c3",
+   "confidence": 0.5,
+   "n_candidates": 6
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion"
+   ],
+   "noul": {
+    "Remotion": 0.96
+   },
+   "regex_hits": [
+    "Remotion"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "kingselyjoe/video-shotcraft-dsh": {
+  "category_suggestion": {
+   "choice": "promo",
+   "confidence": 0.99
+  },
+  "checked_at": "2026-09-29T14:47:18Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.97
+  },
+  "install_choice": {
+   "candidate": null,
+   "choice": "none",
+   "confidence": 0.57,
+   "n_candidates": 8
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion"
+   ],
+   "noul": {
+    "Remotion": 0.96
+   },
+   "regex_hits": [
+    "Remotion"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "krusemediallc/video-editor-agent": {
+  "category_suggestion": {
+   "choice": "shorts",
+   "confidence": 0.46
+  },
+  "checked_at": "2026-09-29T14:47:19Z",
+  "inclusion": {
+   "agent_oriented": 0.96,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": null,
+   "choice": "none",
+   "confidence": 0.86,
+   "n_candidates": 11
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "noul": {
+    "HyperFrames": 0.91,
+    "ffmpeg": 0.88
+   },
+   "regex_hits": [
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "kurbaitaev/ghost-editor": {
+  "category_suggestion": {
+   "choice": "shorts",
+   "confidence": 0.89
+  },
+  "checked_at": "2026-09-29T14:47:20Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.98
+  },
+  "install_choice": null,
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "HyperFrames"
+   ],
+   "noul": {
+    "HyperFrames": 0.85
+   },
+   "regex_hits": [
+    "HyperFrames"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "leancoderkavy/premiere-pro-mcp": {
+  "category_suggestion": {
+   "choice": "editing",
+   "confidence": 0.75
+  },
+  "checked_at": "2026-09-29T14:47:20Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.87
+  },
+  "install_choice": {
+   "candidate": "npm install -g premiere-pro-mcp",
+   "choice": "c2",
+   "confidence": 0.72,
+   "n_candidates": 25
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [],
+   "noul": {
+    "After Effects": 0.24,
+    "Premiere Pro": 0.26,
+    "ffmpeg": 0.26
+   },
+   "regex_hits": [
+    "ffmpeg",
+    "After Effects",
+    "Premiere Pro"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "ffmpeg",
+    "After Effects",
+    "Premiere Pro"
+   ]
+  }
+ },
+ "ledbetterljoshua/functional-emotions-video": {
+  "category_suggestion": {
+   "choice": "music",
+   "confidence": 1.0
+  },
+  "checked_at": "2026-09-29T14:47:20Z",
+  "inclusion": {
+   "agent_oriented": 0.09,
+   "makes_video": 0.97
+  },
+  "install_choice": {
+   "candidate": null,
+   "choice": "none",
+   "confidence": 0.95,
+   "n_candidates": 2
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "ffmpeg"
+   ],
+   "noul": {
+    "ffmpeg": 0.64,
+    "p5.js": 0.03
+   },
+   "regex_hits": [
+    "ffmpeg",
+    "p5.js"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "p5.js"
+   ]
+  }
+ },
+ "lemomo-ai/lemo-opuscar": {
+  "category_suggestion": {
+   "choice": "story",
+   "confidence": 0.8
+  },
+  "checked_at": "2026-09-29T14:47:20Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.95
+  },
+  "install_choice": {
+   "candidate": null,
+   "choice": "none",
+   "confidence": 0.77,
+   "n_candidates": 4
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "ffmpeg"
+   ],
+   "noul": {
+    "ffmpeg": 0.88
+   },
+   "regex_hits": [
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "leosssvip-dot/remotion-ad-video-skill": {
+  "category_suggestion": {
+   "choice": "promo",
+   "confidence": 0.98
+  },
+  "checked_at": "2026-09-29T14:47:20Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.97
+  },
+  "install_choice": {
+   "candidate": "Install the remotion-ad-video skill from this repository into my available\nskills directory. Use a symlink if my agent supports it; otherwise copy\nskills/remotion-ad-video. After installing, tell me how to reload or restart the\nagent so the skill becomes available.",
+   "choice": "c3",
+   "confidence": 0.98,
+   "n_candidates": 20
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion",
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "noul": {
+    "HeyGen": 0.09,
+    "HyperFrames": 0.79,
+    "Remotion": 0.92,
+    "ffmpeg": 0.86
+   },
+   "regex_hits": [
+    "Remotion",
+    "HyperFrames",
+    "ffmpeg",
+    "HeyGen"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "HeyGen"
+   ]
+  }
+ },
+ "liangdabiao/story-handdrawn-remotion": {
+  "category_suggestion": {
+   "choice": "story",
+   "confidence": 0.94
+  },
+  "checked_at": "2026-09-29T14:47:21Z",
+  "inclusion": {
+   "agent_oriented": 0.89,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": "在workbuddy，codex, claude code，直接命令要求安装skill:https://github.com/liangdabiao/story-handdrawn-remotion",
+   "choice": "c1",
+   "confidence": 0.98,
+   "n_candidates": 4
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "noul": {
+    "Remotion": 0.96,
+    "ffmpeg": 0.89
+   },
+   "regex_hits": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "liangdabiao/story-handdrawn-video": {
+  "category_suggestion": {
+   "choice": "story",
+   "confidence": 0.5
+  },
+  "checked_at": "2026-09-29T14:47:22Z",
+  "inclusion": {
+   "agent_oriented": 0.91,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": "在workbuddy，codex, claude code，直接命令要求安装skill:https://github.com/liangdabiao/story-handdrawn-video",
+   "choice": "c1",
+   "confidence": 0.99,
+   "n_candidates": 5
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion"
+   ],
+   "noul": {
+    "Remotion": 0.93
+   },
+   "regex_hits": [
+    "Remotion"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "liangdabiao/wechat-article-remotion": {
+  "category_suggestion": {
+   "choice": "shorts",
+   "confidence": 0.72
+  },
+  "checked_at": "2026-09-29T14:47:22Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": null,
+   "choice": "none",
+   "confidence": 0.88,
+   "n_candidates": 14
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "noul": {
+    "Remotion": 0.97,
+    "ffmpeg": 0.88
+   },
+   "regex_hits": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "liuliu-66-create/ll-video-decomposer": {
+  "category_suggestion": {
+   "choice": "craft",
+   "confidence": 1.0
+  },
+  "checked_at": "2026-09-29T14:47:22Z",
+  "inclusion": {
+   "agent_oriented": 0.96,
+   "makes_video": 0.07
+  },
+  "install_choice": {
+   "candidate": "从 https://github.com/liuliu-66-create/ll-video-decomposer 安装这个 skill",
+   "choice": "c1",
+   "confidence": 0.87,
+   "n_candidates": 12
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [],
+   "noul": {
+    "ffmpeg": 0.2
+   },
+   "regex_hits": [
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "ffmpeg"
+   ]
+  }
+ },
+ "liyue-aigc/xianxia-cinematic-video-director": {
+  "category_suggestion": {
+   "choice": "story",
+   "confidence": 0.54
+  },
+  "checked_at": "2026-09-29T14:47:22Z",
+  "inclusion": {
+   "agent_oriented": 0.96,
+   "makes_video": 0.12
+  },
+  "install_choice": {
+   "candidate": "git clone https://github.com/liyue-aigc/xianxia-cinematic-video-director.git\nCopy-Item -Recurse -Force `\n  .\\xianxia-cinematic-video-director\\xianxia-cinematic-video-director `\n  \"$env:USERPROFILE\\.codex\\skills\\xianxia-cinematic-video-director\"",
+   "choice": "c2",
+   "confidence": 0.67,
+   "n_candidates": 6
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [],
+   "noul": {},
+   "regex_hits": [],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "louisedesadeleer/cut-video": {
+  "category_suggestion": {
+   "choice": "editing",
+   "confidence": 1.0
+  },
+  "checked_at": "2026-09-29T14:47:23Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": "git clone https://github.com/louisedesadeleer/cut-video.git ~/.claude/skills/cut-video",
+   "choice": "c1",
+   "confidence": 0.79,
+   "n_candidates": 3
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "ffmpeg"
+   ],
+   "noul": {
+    "ffmpeg": 0.98
+   },
+   "regex_hits": [
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "magichourhq/skills": {
+  "category_suggestion": {
+   "choice": "general",
+   "confidence": 0.73
+  },
+  "checked_at": "2026-09-29T14:47:23Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.96
+  },
+  "install_choice": {
+   "candidate": "npx skills add magichourhq/skills --skill magic-hour-image-to-video",
+   "choice": "c1",
+   "confidence": 0.37,
+   "n_candidates": 4
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [],
+   "noul": {},
+   "regex_hits": [],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "manthanpatelll/leadgenman-video-skills": {
+  "category_suggestion": {
+   "choice": "shorts",
+   "confidence": 0.85
+  },
+  "checked_at": "2026-09-29T14:47:24Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.96
+  },
+  "install_choice": {
+   "candidate": "git clone https://github.com/manthanpatelll/leadgenman-video-skills.git\n# Install the /produce engine deps\ncd leadgenman-video-skills/engine\nuv sync\n# Install the plugin in Claude Code\nclaude plugin install /path/to/leadgenman-video-skills",
+   "choice": "c3",
+   "confidence": 0.41,
+   "n_candidates": 4
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "ffmpeg"
+   ],
+   "noul": {
+    "ffmpeg": 0.86
+   },
+   "regex_hits": [
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "marketcalls/story-telling": {
+  "category_suggestion": {
+   "choice": "story",
+   "confidence": 0.93
+  },
+  "checked_at": "2026-09-29T14:47:24Z",
+  "inclusion": {
+   "agent_oriented": 0.96,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": "# GitHub shorthand\nnpx skills add marketcalls/story-telling\n# Full GitHub URL\nnpx skills add https://github.com/marketcalls/story-telling",
+   "choice": "c2",
+   "confidence": 1.0,
+   "n_candidates": 16
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion"
+   ],
+   "noul": {
+    "Remotion": 0.97,
+    "ffmpeg": 0.07
+   },
+   "regex_hits": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "ffmpeg"
+   ]
+  }
+ },
+ "mattivilola/brag-codex": {
+  "category_suggestion": {
+   "choice": "promo",
+   "confidence": 1.0
+  },
+  "checked_at": "2026-09-29T14:47:24Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.96
+  },
+  "install_choice": {
+   "candidate": "mkdir -p \"${CODEX_HOME:-$HOME/.codex}/skills\"\nrsync -a --exclude '.DS_Store' skills/brag/ \"${CODEX_HOME:-$HOME/.codex}/skills/brag/\"",
+   "choice": "c1",
+   "confidence": 1.0,
+   "n_candidates": 8
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "HyperFrames",
+    "ffmpeg",
+    "HeyGen"
+   ],
+   "noul": {
+    "HeyGen": 0.77,
+    "HyperFrames": 0.9,
+    "ffmpeg": 0.79
+   },
+   "regex_hits": [
+    "HyperFrames",
+    "ffmpeg",
+    "HeyGen"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "memex-lab/product-launch-video-skill": {
+  "category_suggestion": {
+   "choice": "promo",
+   "confidence": 1.0
+  },
+  "checked_at": "2026-09-29T14:47:25Z",
+  "inclusion": {
+   "agent_oriented": 0.98,
+   "makes_video": 0.97
+  },
+  "install_choice": {
+   "candidate": "npx skills add memex-lab/product-launch-video-skill --skill product-launch-video",
+   "choice": "c1",
+   "confidence": 1.0,
+   "n_candidates": 8
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "noul": {
+    "Remotion": 0.76,
+    "ffmpeg": 0.32
+   },
+   "regex_hits": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "misbahsy/tiktok-ig-shorts": {
+  "category_suggestion": {
+   "choice": "shorts",
+   "confidence": 0.97
+  },
+  "checked_at": "2026-09-29T14:47:25Z",
+  "inclusion": {
+   "agent_oriented": 0.96,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": "npx skills add misbahsy/tiktok-ig-shorts -s social-talking-head-video -a codex\nnpx skills add misbahsy/tiktok-ig-shorts -s popout-talking-head-video -a codex\nnpx skills add misbahsy/tiktok-ig-shorts -s kinetic-caption-video -a codex\nnpx skills add misbahsy/tiktok-ig-shorts -s anthropic-talking-head-style -a codex",
+   "choice": "c2",
+   "confidence": 0.29,
+   "n_candidates": 5
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "noul": {
+    "HyperFrames": 0.84,
+    "ffmpeg": 0.83
+   },
+   "regex_hits": [
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "molkex/mcp-flow-google": {
+  "category_suggestion": {
+   "choice": "general",
+   "confidence": 0.48
+  },
+  "checked_at": "2026-09-29T14:47:26Z",
+  "inclusion": {
+   "agent_oriented": 0.98,
+   "makes_video": 0.96
+  },
+  "install_choice": {
+   "candidate": "claude mcp add --transport http openflow https://openflowmcp.com/mcp",
+   "choice": "c1",
+   "confidence": 1.0,
+   "n_candidates": 3
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [],
+   "noul": {},
+   "regex_hits": [],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "mrieck/demoday-claude-plugin": {
+  "category_suggestion": {
+   "choice": "promo",
+   "confidence": 1.0
+  },
+  "checked_at": "2026-09-29T14:47:27Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.99
+  },
+  "install_choice": {
+   "candidate": "npx skills add mrieck/demoday-claude-plugin",
+   "choice": "c6",
+   "confidence": 0.99,
+   "n_candidates": 7
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "noul": {
+    "Remotion": 0.91,
+    "ffmpeg": 0.84
+   },
+   "regex_hits": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "naive-kun/naive-video-skill": {
+  "category_suggestion": {
+   "choice": "shorts",
+   "confidence": 0.59
+  },
+  "checked_at": "2026-09-29T14:47:28Z",
+  "inclusion": {
+   "agent_oriented": 0.96,
+   "makes_video": 0.96
+  },
+  "install_choice": {
+   "candidate": "git clone https://github.com/naive-kun/naive-video-skill.git\ncd naive-video-skill\nbash install.sh --codex",
+   "choice": "c1",
+   "confidence": 0.92,
+   "n_candidates": 23
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "noul": {
+    "HyperFrames": 0.89,
+    "Remotion": 0.27,
+    "ffmpeg": 0.78
+   },
+   "regex_hits": [
+    "Remotion",
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "Remotion"
+   ]
+  }
+ },
+ "new-xp/ultrademo": {
+  "category_suggestion": {
+   "choice": "promo",
+   "confidence": 0.99
+  },
+  "checked_at": "2026-09-29T14:47:28Z",
+  "inclusion": {
+   "agent_oriented": 0.95,
+   "makes_video": 0.99
+  },
+  "install_choice": {
+   "candidate": "npx skills add new-xp/ultrademo          # pick YOUR agent when prompted\nnpx skills add new-xp/ultrademo -a claude-code   # or skip the prompt (Claude Code)",
+   "choice": "c1",
+   "confidence": 0.87,
+   "n_candidates": 13
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "noul": {
+    "Premiere Pro": 0.03,
+    "Remotion": 0.92,
+    "ffmpeg": 0.9
+   },
+   "regex_hits": [
+    "Remotion",
+    "ffmpeg",
+    "Premiere Pro"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "Premiere Pro"
+   ]
+  }
+ },
+ "ninestonelee/youtube-shorts-factory": {
+  "category_suggestion": {
+   "choice": "shorts",
+   "confidence": 0.92
+  },
+  "checked_at": "2026-09-29T14:47:29Z",
+  "inclusion": {
+   "agent_oriented": 0.96,
+   "makes_video": 0.66
+  },
+  "install_choice": {
+   "candidate": "# 프로젝트의 .claude/skills/ 디렉토리에 복사\ngit clone https://github.com/ninestonelee/youtube-shorts-factory.git \\\n  .claude/skills/youtube-shorts-factory",
+   "choice": "c2",
+   "confidence": 1.0,
+   "n_candidates": 7
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [],
+   "noul": {},
+   "regex_hits": [],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "nolangz/pixel2motion": {
+  "category_suggestion": {
+   "choice": "motion",
+   "confidence": 1.0
+  },
+  "checked_at": "2026-09-29T14:47:29Z",
+  "inclusion": {
+   "agent_oriented": 0.95,
+   "makes_video": 0.93
+  },
+  "install_choice": {
+   "candidate": null,
+   "choice": "none",
+   "confidence": 0.97,
+   "n_candidates": 8
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [],
+   "noul": {},
+   "regex_hits": [],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "norahe0304-art/30x-video": {
+  "category_suggestion": {
+   "choice": "promo",
+   "confidence": 1.0
+  },
+  "checked_at": "2026-09-29T14:47:29Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": "# one-shot: harvest a brand and build the video\nnpx 30x-web-to-video https://your-brand.com --agent\n# or: install the skill user-wide, then just talk to Claude Code\nnpx 30x-web-to-video --global\n# → open Claude Code anywhere and say: \"make a launch video for your-brand.com\"",
+   "choice": "c1",
+   "confidence": 0.99,
+   "n_candidates": 3
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "noul": {
+    "Remotion": 0.93,
+    "ffmpeg": 0.89
+   },
+   "regex_hits": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "op7418/guizang-product-video-skill": {
+  "category_suggestion": {
+   "choice": "promo",
+   "confidence": 1.0
+  },
+  "checked_at": "2026-09-29T14:47:30Z",
+  "inclusion": {
+   "agent_oriented": 0.96,
+   "makes_video": 0.97
+  },
+  "install_choice": {
+   "candidate": "npx skills add https://github.com/op7418/guizang-product-video-skill --skill guizang-product-video-skill",
+   "choice": "c1",
+   "confidence": 1.0,
+   "n_candidates": 6
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "noul": {
+    "HyperFrames": 0.62,
+    "ffmpeg": 0.91
+   },
+   "regex_hits": [
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "ops120/video-recap-skills-plus": {
+  "category_suggestion": {
+   "choice": "editing",
+   "confidence": 1.0
+  },
+  "checked_at": "2026-09-29T14:47:30Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": "/plugin marketplace add worldwonderer/video-recap-skills\n/plugin install video-recap-skills@video-recap",
+   "choice": "c2",
+   "confidence": 1.0,
+   "n_candidates": 16
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "ffmpeg"
+   ],
+   "noul": {
+    "ffmpeg": 0.97
+   },
+   "regex_hits": [
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "opus-pro/opus-video-studio": {
+  "category_suggestion": {
+   "choice": "promo",
+   "confidence": 0.99
+  },
+  "checked_at": "2026-09-29T14:47:30Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.96
+  },
+  "install_choice": {
+   "candidate": null,
+   "choice": "none",
+   "confidence": 0.21,
+   "n_candidates": 8
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion"
+   ],
+   "noul": {
+    "Remotion": 0.87
+   },
+   "regex_hits": [
+    "Remotion"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "patraxo/ltx2-vidgen-skill": {
+  "category_suggestion": {
+   "choice": "general",
+   "confidence": 0.94
+  },
+  "checked_at": "2026-09-29T14:47:30Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.97
+  },
+  "install_choice": {
+   "candidate": "npx skills add patraxo/ltx2-vidgen-skill        # or: cp -R skills/ltx2-video ~/.claude/skills/\npip install modal && modal token new            # Modal SDK + your account (free — $30/mo credits)",
+   "choice": "c1",
+   "confidence": 0.95,
+   "n_candidates": 5
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [],
+   "noul": {},
+   "regex_hits": [],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "pjecuacion/script-to-video-skill": {
+  "category_suggestion": {
+   "choice": "explainer",
+   "confidence": 0.46
+  },
+  "checked_at": "2026-09-29T14:47:32Z",
+  "inclusion": {
+   "agent_oriented": 0.9,
+   "makes_video": 0.96
+  },
+  "install_choice": {
+   "candidate": null,
+   "choice": "none",
+   "confidence": 0.9,
+   "n_candidates": 2
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "noul": {
+    "HyperFrames": 0.83,
+    "ffmpeg": 0.76
+   },
+   "regex_hits": [
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "pyang5166/gbro-collage-broll": {
+  "category_suggestion": {
+   "choice": "editing",
+   "confidence": 0.53
+  },
+  "checked_at": "2026-09-29T14:47:32Z",
+  "inclusion": {
+   "agent_oriented": 0.95,
+   "makes_video": 0.97
+  },
+  "install_choice": {
+   "candidate": "git clone https://github.com/pyang5166/gbro-collage-broll.git ~/.agents/skills/gbro-collage-broll",
+   "choice": "c1",
+   "confidence": 1.0,
+   "n_candidates": 3
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "ffmpeg"
+   ],
+   "noul": {
+    "HyperFrames": 0.04,
+    "ffmpeg": 0.82
+   },
+   "regex_hits": [
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "HyperFrames"
+   ]
+  }
+ },
+ "pyang5166/gbro-collage-info": {
+  "category_suggestion": {
+   "choice": "explainer",
+   "confidence": 0.41
+  },
+  "checked_at": "2026-09-29T14:47:32Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.97
+  },
+  "install_choice": {
+   "candidate": "git clone https://github.com/pyang5166/gbro-collage-info.git ~/.claude/skills/gbro-collage-info",
+   "choice": "c2",
+   "confidence": 1.0,
+   "n_candidates": 4
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "noul": {
+    "HeyGen": 0.06,
+    "HyperFrames": 0.91,
+    "ffmpeg": 0.72
+   },
+   "regex_hits": [
+    "HyperFrames",
+    "ffmpeg",
+    "HeyGen"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "HeyGen"
+   ]
+  }
+ },
+ "qingyunAGI/qingyun-cine-skill": {
+  "category_suggestion": {
+   "choice": "editing",
+   "confidence": 1.0
+  },
+  "checked_at": "2026-09-29T14:47:32Z",
+  "inclusion": {
+   "agent_oriented": 0.96,
+   "makes_video": 0.92
+  },
+  "install_choice": {
+   "candidate": "git clone https://github.com/qingyunAGI/qingyun-cine-skill.git ~/.codex/skills/qingyun-cine-skill",
+   "choice": "c1",
+   "confidence": 0.93,
+   "n_candidates": 12
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [],
+   "noul": {},
+   "regex_hits": [],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "remotion-dev/skills": {
+  "category_suggestion": {
+   "choice": "out_of_scope",
+   "confidence": 0.59
+  },
+  "checked_at": "2026-09-29T14:47:33Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.56
+  },
+  "install_choice": {
+   "candidate": "npx skills add remotion-dev/skills",
+   "choice": "c1",
+   "confidence": 1.0,
+   "n_candidates": 2
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [],
+   "noul": {
+    "Remotion": 0.19
+   },
+   "regex_hits": [
+    "Remotion"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "Remotion"
+   ]
+  }
+ },
+ "resemble-ai/remotion-resemble-skill": {
+  "category_suggestion": {
+   "choice": "general",
+   "confidence": 0.7
+  },
+  "checked_at": "2026-09-29T14:47:34Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.95
+  },
+  "install_choice": {
+   "candidate": "npx skills add resemble-ai/remotion-resemble-skill",
+   "choice": "c1",
+   "confidence": 1.0,
+   "n_candidates": 4
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion"
+   ],
+   "noul": {
+    "Remotion": 0.85
+   },
+   "regex_hits": [
+    "Remotion"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "riffkit/skill": {
+  "category_suggestion": {
+   "choice": "shorts",
+   "confidence": 0.98
+  },
+  "checked_at": "2026-09-29T14:47:34Z",
+  "inclusion": {
+   "agent_oriented": 0.92,
+   "makes_video": 0.84
+  },
+  "install_choice": {
+   "candidate": "Read https://riffkit.ai/SKILL.md and follow the instructions to set up Riffkit.",
+   "choice": "c1",
+   "confidence": 0.99,
+   "n_candidates": 2
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [],
+   "noul": {},
+   "regex_hits": [],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "runesleo/claude-video-kit": {
+  "category_suggestion": {
+   "choice": "explainer",
+   "confidence": 0.73
+  },
+  "checked_at": "2026-09-29T14:47:34Z",
+  "inclusion": {
+   "agent_oriented": 0.9,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": "git clone https://github.com/runesleo/claude-video-kit.git\ncd claude-video-kit\nnpm ci --prefix remotion\nnpx skills add runesleo/claude-video-kit --skill video-explainer\nnpm run doctor -- --output /tmp/video-explainer-first-success\nnpm run demo -- --output /tmp/video-explainer-first-success\n# npm scripts are thin wrappers — the underlying command works the same:\n#   node scripts/video-explainer.mjs demo --output /tmp/video-explainer-first-success",
+   "choice": "c1",
+   "confidence": 1.0,
+   "n_candidates": 8
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "noul": {
+    "Remotion": 0.97,
+    "ffmpeg": 0.84
+   },
+   "regex_hits": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "santmun/video-vox": {
+  "category_suggestion": {
+   "choice": "shorts",
+   "confidence": 0.95
+  },
+  "checked_at": "2026-09-29T14:47:34Z",
+  "inclusion": {
+   "agent_oriented": 0.96,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": "git clone https://github.com/santmun/video-vox ~/.claude/skills/video-vox\ncd ~/.claude/skills/video-vox && npm install && cp .env.example .env\nnode scripts/doctor.mjs --fix",
+   "choice": "c1",
+   "confidence": 0.85,
+   "n_candidates": 6
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "noul": {
+    "Remotion": 0.93,
+    "ffmpeg": 0.87
+   },
+   "regex_hits": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "sharon-laicc/viral-video-decomposer": {
+  "category_suggestion": {
+   "choice": "craft",
+   "confidence": 1.0
+  },
+  "checked_at": "2026-09-29T14:47:35Z",
+  "inclusion": {
+   "agent_oriented": 0.96,
+   "makes_video": 0.07
+  },
+  "install_choice": {
+   "candidate": "mkdir -p ~/.claude/skills/viral-video-decomposer\ncp -R skill/* ~/.claude/skills/viral-video-decomposer/",
+   "choice": "c12",
+   "confidence": 0.38,
+   "n_candidates": 16
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [],
+   "noul": {},
+   "regex_hits": [],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "shuyicc/MathLens": {
+  "category_suggestion": {
+   "choice": "explainer",
+   "confidence": 1.0
+  },
+  "checked_at": "2026-09-29T14:47:36Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.97
+  },
+  "install_choice": {
+   "candidate": "python init.py ./my_math_problem",
+   "choice": "c3",
+   "confidence": 0.38,
+   "n_candidates": 9
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Manim"
+   ],
+   "noul": {
+    "Manim": 0.93
+   },
+   "regex_hits": [
+    "Manim"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "smit-vanani/claude-promo-video": {
+  "category_suggestion": {
+   "choice": "promo",
+   "confidence": 1.0
+  },
+  "checked_at": "2026-09-29T14:47:36Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": "/promo-video https://your-product.com",
+   "choice": "c1",
+   "confidence": 0.25,
+   "n_candidates": 6
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "noul": {
+    "Remotion": 0.9,
+    "ffmpeg": 0.9
+   },
+   "regex_hits": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "smwbev/framewright": {
+  "category_suggestion": {
+   "choice": "general",
+   "confidence": 0.58
+  },
+  "checked_at": "2026-09-29T14:47:36Z",
+  "inclusion": {
+   "agent_oriented": 0.94,
+   "makes_video": 0.97
+  },
+  "install_choice": {
+   "candidate": "npx skills add smwbev/framewright -g",
+   "choice": "c1",
+   "confidence": 0.49,
+   "n_candidates": 13
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "ffmpeg"
+   ],
+   "noul": {
+    "ffmpeg": 0.97
+   },
+   "regex_hits": [
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "ssrajadh/paperview": {
+  "category_suggestion": {
+   "choice": "explainer",
+   "confidence": 1.0
+  },
+  "checked_at": "2026-09-29T14:47:36Z",
+  "inclusion": {
+   "agent_oriented": 0.96,
+   "makes_video": 0.97
+  },
+  "install_choice": {
+   "candidate": null,
+   "choice": "none",
+   "confidence": 0.39,
+   "n_candidates": 8
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "noul": {
+    "Remotion": 0.92,
+    "ffmpeg": 0.83
+   },
+   "regex_hits": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "sukai213/bilibili-ai-video": {
+  "category_suggestion": {
+   "choice": "explainer",
+   "confidence": 0.69
+  },
+  "checked_at": "2026-09-29T14:47:36Z",
+  "inclusion": {
+   "agent_oriented": 0.92,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": null,
+   "choice": "none",
+   "confidence": 0.45,
+   "n_candidates": 2
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "ffmpeg"
+   ],
+   "noul": {
+    "ffmpeg": 0.93
+   },
+   "regex_hits": [
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "sunxiayi/make-blender-education-video-skill": {
+  "category_suggestion": {
+   "choice": "explainer",
+   "confidence": 1.0
+  },
+  "checked_at": "2026-09-29T14:47:37Z",
+  "inclusion": {
+   "agent_oriented": 0.98,
+   "makes_video": 0.97
+  },
+  "install_choice": {
+   "candidate": "mkdir -p ~/.claude/skills\ncp -R skills/make-blender-education-video ~/.claude/skills/",
+   "choice": "c2",
+   "confidence": 0.41,
+   "n_candidates": 7
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "ffmpeg",
+    "Blender"
+   ],
+   "noul": {
+    "Blender": 0.93,
+    "ffmpeg": 0.92
+   },
+   "regex_hits": [
+    "ffmpeg",
+    "Blender"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "taylorzhou16/video-gen": {
+  "category_suggestion": {
+   "choice": "general",
+   "confidence": 0.68
+  },
+  "checked_at": "2026-09-29T14:47:37Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": "# 复制整个目录到 skills 目录\nmkdir -p ~/.claude/skills/video-gen\ncp -r SKILL.md reference/ video_gen_tools.py video_gen_editor.py config.json.example README.md requirements.txt ~/.claude/skills/video-gen/\n# 安装依赖\ncd ~/.claude/skills/video-gen && pip install -r requirements.txt\n# 配置 API 密钥\ncp config.json.example config.json\n# 编辑 config.json 填入你的 API 密钥",
+   "choice": "c2",
+   "confidence": 0.99,
+   "n_candidates": 9
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "ffmpeg"
+   ],
+   "noul": {
+    "ffmpeg": 0.95
+   },
+   "regex_hits": [
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "toufuim/personal-ip-brand-intro-skill": {
+  "category_suggestion": {
+   "choice": "motion",
+   "confidence": 0.99
+  },
+  "checked_at": "2026-09-29T14:47:38Z",
+  "inclusion": {
+   "agent_oriented": 0.96,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": "請使用 $skill-installer，從下列 GitHub 儲存庫安裝 personal-ip-brand-intro：\nhttps://github.com/toufuim/personal-ip-brand-intro-skill\nSkill 路徑是 personal-ip-brand-intro。",
+   "choice": "c1",
+   "confidence": 0.96,
+   "n_candidates": 6
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion",
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "noul": {
+    "HyperFrames": 0.77,
+    "Remotion": 0.72,
+    "ffmpeg": 0.72
+   },
+   "regex_hits": [
+    "Remotion",
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "trunghaiy/appshot": {
+  "category_suggestion": {
+   "choice": "promo",
+   "confidence": 0.99
+  },
+  "checked_at": "2026-09-29T14:47:38Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.97
+  },
+  "install_choice": {
+   "candidate": "npx skills add trunghaiy/appshot",
+   "choice": "c3",
+   "confidence": 0.64,
+   "n_candidates": 11
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion"
+   ],
+   "noul": {
+    "Remotion": 0.94
+   },
+   "regex_hits": [
+    "Remotion"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "tugrawork-creator/saas-motion-kit": {
+  "category_suggestion": {
+   "choice": "promo",
+   "confidence": 0.99
+  },
+  "checked_at": "2026-09-29T14:47:38Z",
+  "inclusion": {
+   "agent_oriented": 0.89,
+   "makes_video": 0.92
+  },
+  "install_choice": {
+   "candidate": "# 1. get the kit\ngit clone https://github.com/tugrawork-creator/saas-motion-kit && cd saas-motion-kit\n# 2. install the HyperFrames skills for Claude Code (not vendored here)\nnpx skills add heygen-com/hyperframes\n# 3. try the example\ncd examples/acme-suite-loop\nnpx hyperframes preview          # live preview in the Studio\nnpx hyperframes render --quality delivery --resolution landscape-4k --output renders/loop-2160.mp4",
+   "choice": "c3",
+   "confidence": 0.49,
+   "n_candidates": 5
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "HyperFrames",
+    "ffmpeg",
+    "HeyGen"
+   ],
+   "noul": {
+    "HeyGen": 0.57,
+    "HyperFrames": 0.86,
+    "ffmpeg": 0.38
+   },
+   "regex_hits": [
+    "HyperFrames",
+    "ffmpeg",
+    "HeyGen"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "tuzhechen2005/opus-video-skills": {
+  "category_suggestion": {
+   "choice": "general",
+   "confidence": 0.84
+  },
+  "checked_at": "2026-09-29T14:47:38Z",
+  "inclusion": {
+   "agent_oriented": 0.98,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": "git clone https://github.com/tuzhechen2005/opus-video-skills ~/opus-video-skills\nln -s ~/opus-video-skills/skills/painted-animation ~/.claude/skills/painted-animation\nln -s ~/opus-video-skills/skills/kinetic-reel ~/.claude/skills/kinetic-reel",
+   "choice": "c2",
+   "confidence": 0.51,
+   "n_candidates": 4
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "ffmpeg",
+    "p5.js"
+   ],
+   "noul": {
+    "ffmpeg": 0.96,
+    "p5.js": 0.96
+   },
+   "regex_hits": [
+    "ffmpeg",
+    "p5.js"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "vibe-motion/remotion-code-motion-explainer": {
+  "category_suggestion": {
+   "choice": "explainer",
+   "confidence": 0.93
+  },
+  "checked_at": "2026-09-29T14:47:39Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.97
+  },
+  "install_choice": {
+   "candidate": "npx skills add vibe-motion/remotion-code-motion-explainer",
+   "choice": "c1",
+   "confidence": 1.0,
+   "n_candidates": 5
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion"
+   ],
+   "noul": {
+    "Remotion": 0.93
+   },
+   "regex_hits": [
+    "Remotion"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "vibe-motion/remotion-starter": {
+  "category_suggestion": {
+   "choice": "general",
+   "confidence": 0.62
+  },
+  "checked_at": "2026-09-29T14:47:40Z",
+  "inclusion": {
+   "agent_oriented": 0.91,
+   "makes_video": 0.91
+  },
+  "install_choice": {
+   "candidate": null,
+   "choice": "none",
+   "confidence": 0.52,
+   "n_candidates": 3
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion"
+   ],
+   "noul": {
+    "Remotion": 0.95
+   },
+   "regex_hits": [
+    "Remotion"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "vibe-motion/skills": {
+  "category_suggestion": {
+   "choice": "motion",
+   "confidence": 0.9
+  },
+  "checked_at": "2026-09-29T14:47:40Z",
+  "inclusion": {
+   "agent_oriented": 0.95,
+   "makes_video": 0.96
+  },
+  "install_choice": {
+   "candidate": "npx skills add vibe-motion/skills",
+   "choice": "c1",
+   "confidence": 1.0,
+   "n_candidates": 2
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion",
+    "p5.js"
+   ],
+   "noul": {
+    "Remotion": 0.93,
+    "p5.js": 0.55
+   },
+   "regex_hits": [
+    "Remotion",
+    "p5.js"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "video-db/skills": {
+  "category_suggestion": {
+   "choice": "general",
+   "confidence": 0.73
+  },
+  "checked_at": "2026-09-29T14:47:40Z",
+  "inclusion": {
+   "agent_oriented": 0.98,
+   "makes_video": 0.94
+  },
+  "install_choice": {
+   "candidate": null,
+   "choice": "none",
+   "confidence": 0.74,
+   "n_candidates": 5
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "ffmpeg"
+   ],
+   "noul": {
+    "ffmpeg": 0.31
+   },
+   "regex_hits": [
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "wendymardigian-prog/Editor-IA-Pro": {
+  "category_suggestion": {
+   "choice": "general",
+   "confidence": 0.94
+  },
+  "checked_at": "2026-09-29T14:47:41Z",
+  "inclusion": {
+   "agent_oriented": 0.84,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": "git clone https://github.com/wendymardigian-prog/Claude-Editor-Pro.git\ncd Claude-Editor-Pro\nclaude\n/start",
+   "choice": "c1",
+   "confidence": 0.97,
+   "n_candidates": 11
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "noul": {
+    "Remotion": 0.93,
+    "ffmpeg": 0.87
+   },
+   "regex_hits": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "wocha-xiaoli/video-shot-analysis-feishu": {
+  "category_suggestion": {
+   "choice": "craft",
+   "confidence": 1.0
+  },
+  "checked_at": "2026-09-29T14:47:41Z",
+  "inclusion": {
+   "agent_oriented": 0.98,
+   "makes_video": 0.17
+  },
+  "install_choice": {
+   "candidate": "cd ~/.config/opencode/skills\ngit clone https://github.com/wocha-xiaoli/video-shot-analysis-feishu.git",
+   "choice": "c1",
+   "confidence": 0.98,
+   "n_candidates": 8
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [],
+   "noul": {
+    "ffmpeg": 0.2
+   },
+   "regex_hits": [
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "ffmpeg"
+   ]
+  }
+ },
+ "wshuyi/remotion-video-skill": {
+  "category_suggestion": {
+   "choice": "general",
+   "confidence": 0.7
+  },
+  "checked_at": "2026-09-29T14:47:42Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.97
+  },
+  "install_choice": {
+   "candidate": "cp -r remotion-video ~/.claude/skills/",
+   "choice": "c1",
+   "confidence": 1.0,
+   "n_candidates": 5
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "noul": {
+    "Remotion": 0.87,
+    "ffmpeg": 0.6
+   },
+   "regex_hits": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "wyuzhi/qisi-video-remix": {
+  "category_suggestion": {
+   "choice": "craft",
+   "confidence": 1.0
+  },
+  "checked_at": "2026-09-29T14:47:42Z",
+  "inclusion": {
+   "agent_oriented": 0.95,
+   "makes_video": 0.05
+  },
+  "install_choice": {
+   "candidate": "git clone https://github.com/wyuzhi/qisi-video-remix.git \"${CODEX_HOME:-$HOME/.codex}/skills/qisi-video-remix\"",
+   "choice": "c1",
+   "confidence": 1.0,
+   "n_candidates": 5
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [],
+   "noul": {},
+   "regex_hits": [],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "yuwenbin121/book-video-production-skill": {
+  "category_suggestion": {
+   "choice": "shorts",
+   "confidence": 0.99
+  },
+  "checked_at": "2026-09-29T14:47:43Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.96
+  },
+  "install_choice": {
+   "candidate": "Copy-Item -Recurse `\n  .\\skills\\book-video-production `\n  \"$env:USERPROFILE\\.codex\\skills\\book-video-production\"",
+   "choice": "c1",
+   "confidence": 0.96,
+   "n_candidates": 6
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "noul": {
+    "HyperFrames": 0.35,
+    "Remotion": 0.28,
+    "ffmpeg": 0.3
+   },
+   "regex_hits": [
+    "Remotion",
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "Remotion"
+   ]
+  }
+ },
+ "zenstory-ai/video-recap-skills": {
+  "category_suggestion": {
+   "choice": "editing",
+   "confidence": 1.0
+  },
+  "checked_at": "2026-09-29T14:47:44Z",
+  "inclusion": {
+   "agent_oriented": 0.98,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": "git clone https://github.com/zenstory-ai/video-recap-skills.git\ncd video-recap-skills\nmkdir -p .opencode\nln -s ../skills .opencode/skills             # Windows 把 skills\\* 复制到 .opencode\\skills\\\nopencode debug skill                         # 应列出全部 6 个技能",
+   "choice": "c5",
+   "confidence": 0.64,
+   "n_candidates": 25
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "ffmpeg"
+   ],
+   "noul": {
+    "Remotion": 0.16,
+    "ffmpeg": 0.96
+   },
+   "regex_hits": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "Remotion"
+   ]
+  }
+ },
+ "zhenwusw/orca-motion-skill": {
+  "category_suggestion": {
+   "choice": "motion",
+   "confidence": 0.99
+  },
+  "checked_at": "2026-09-29T14:47:44Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.95
+  },
+  "install_choice": {
+   "candidate": "npx skills add zhenwusw/orca-motion-skill -g -a claude-code",
+   "choice": "c1",
+   "confidence": 1.0,
+   "n_candidates": 1
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [],
+   "noul": {},
+   "regex_hits": [],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "zhouyuechuan2025-ui/ai-self-media-video-packaging-skill": {
+  "category_suggestion": {
+   "choice": "shorts",
+   "confidence": 0.52
+  },
+  "checked_at": "2026-09-29T14:47:44Z",
+  "inclusion": {
+   "agent_oriented": 0.96,
+   "makes_video": 0.97
+  },
+  "install_choice": {
+   "candidate": null,
+   "choice": "none",
+   "confidence": 0.67,
+   "n_candidates": 10
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion",
+    "HyperFrames",
+    "ffmpeg"
+   ],
+   "noul": {
+    "HyperFrames": 0.41,
+    "Premiere Pro": 0.02,
+    "Remotion": 0.92,
+    "ffmpeg": 0.91
+   },
+   "regex_hits": [
+    "Remotion",
+    "HyperFrames",
+    "ffmpeg",
+    "Premiere Pro"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "Premiere Pro"
+   ]
+  }
+ },
+ "zlong6943-commits/football-prediction-avatar-video": {
+  "category_suggestion": {
+   "choice": "avatar",
+   "confidence": 0.67
+  },
+  "checked_at": "2026-09-29T14:47:45Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.97
+  },
+  "install_choice": {
+   "candidate": "git clone https://github.com/zlong6943-commits/football-prediction-avatar-video.git ~/.codex/skills/football-prediction-avatar-video",
+   "choice": "c3",
+   "confidence": 0.83,
+   "n_candidates": 5
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "HyperFrames",
+    "HeyGen"
+   ],
+   "noul": {
+    "HeyGen": 0.82,
+    "HyperFrames": 0.73
+   },
+   "regex_hits": [
+    "HyperFrames",
+    "HeyGen"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "znyupup/ai-video-editing-skill": {
+  "category_suggestion": {
+   "choice": "editing",
+   "confidence": 1.0
+  },
+  "checked_at": "2026-09-29T14:47:45Z",
+  "inclusion": {
+   "agent_oriented": 0.97,
+   "makes_video": 0.88
+  },
+  "install_choice": {
+   "candidate": "请从 https://github.com/znyupup/ai-video-editing-skill 克隆仓库，\n阅读 SKILL.md 学习完整工作流，然后帮我把 footage/ 目录下的素材剪成一个旅行vlog。",
+   "choice": "c2",
+   "confidence": 0.39,
+   "n_candidates": 5
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "ffmpeg"
+   ],
+   "noul": {
+    "Premiere Pro": 0.01,
+    "ffmpeg": 0.9
+   },
+   "regex_hits": [
+    "ffmpeg",
+    "Premiere Pro"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": [
+    "Premiere Pro"
+   ]
+  }
+ },
+ "znyupup/knowledge-explainer-skill": {
+  "category_suggestion": {
+   "choice": "explainer",
+   "confidence": 1.0
+  },
+  "checked_at": "2026-09-29T14:47:45Z",
+  "inclusion": {
+   "agent_oriented": 0.91,
+   "makes_video": 0.98
+  },
+  "install_choice": {
+   "candidate": "git clone https://github.com/znyupup/knowledge-explainer-skill\ncd knowledge-explainer-skill\nnpm install\n# macOS: 解 Gatekeeper 限制\nxattr -drs com.apple.quarantine node_modules",
+   "choice": "c2",
+   "confidence": 0.82,
+   "n_candidates": 10
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "noul": {
+    "Remotion": 0.95,
+    "ffmpeg": 0.93
+   },
+   "regex_hits": [
+    "Remotion",
+    "ffmpeg"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ },
+ "zoglmk/codex-video-pipeline": {
+  "category_suggestion": {
+   "choice": "general",
+   "confidence": 0.88
+  },
+  "checked_at": "2026-09-29T14:47:46Z",
+  "inclusion": {
+   "agent_oriented": 0.95,
+   "makes_video": 0.97
+  },
+  "install_choice": {
+   "candidate": null,
+   "choice": "none",
+   "confidence": 0.71,
+   "n_candidates": 4
+  },
+  "model": "jev-1.13.0",
+  "question_version": "2026-09-29.v1",
+  "render_base": {
+   "kept": [
+    "HyperFrames",
+    "ffmpeg",
+    "HeyGen"
+   ],
+   "noul": {
+    "HeyGen": 0.51,
+    "HyperFrames": 0.86,
+    "ffmpeg": 0.83
+   },
+   "regex_hits": [
+    "HyperFrames",
+    "ffmpeg",
+    "HeyGen"
+   ],
+   "veto_threshold": 0.3,
+   "vetoed": []
+  }
+ }
+}

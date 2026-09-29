@@ -51,6 +51,10 @@ def main():
     desc = {d["id"]: d for d in load("descriptions_en.json")}
     lic = load("licenses.json")
     over = load("overrides.json")
+    jpath = ROOT / "data/judgments.json"
+    judg = json.loads(jpath.read_text()) if jpath.exists() else {}
+    dpath = ROOT / "data/review_decisions.json"
+    decisions = json.loads(dpath.read_text()) if dpath.exists() else {}
     glosses = load("glosses.json")
     by_cat = {}
     for i, c in cands.items():
@@ -69,11 +73,19 @@ def main():
             note.append(f"Upstream lists a sub-path: {c['path']}.")
         up_desc = c.get("description_source") or ""
         s = snip.get(i, {})
-        ov = over.get(i, {})
+        ov = {**over.get(i, {}), **decisions.get(i, {})}
         if "install" in ov:
             s = {**s, "install": ov["install"]}
         if "usage" in ov:
             s = {**s, "usage": ov["usage"]}
+        jr = judg.get(i, {}).get("render_base")
+        rb = ov["render_base"] if "render_base" in ov else (jr["kept"] if jr else d["render_base"])
+        judgments = {}
+        if jr:
+            judgments["render_base"] = {"method": "regex match AND Noul>=%s (TypeSafe Jev; our judgment, not upstream's)" % jr["veto_threshold"],
+                                        "model": judg[i].get("model"), "checked_at": judg[i]["checked_at"], "question_version": judg[i]["question_version"],
+                                        "regex_hits": jr["regex_hits"], "noul": jr["noul"], "vetoed": jr["vetoed"],
+                                        "overridden_by_hand": "render_base" in ov}
         inst = None
         if s.get("install"):
             cmd = s["install"]["command"]
@@ -97,13 +109,14 @@ def main():
             "category_en": CAT_EN[c["category_source"]], "category_source": c["category_source"],
             "type": d["type"], "language": e.get("language"), "stars": e["stars"], "stars_checked_at": e["checked_at"],
             "license": e.get("license") if e.get("license") not in (None, "NOASSERTION") else (e.get("license_name") or None),
-            "pushed_at": e["pushed_at"], "archived": e["archived"], "render_base": ov.get("render_base", d["render_base"]),
+            "pushed_at": e["pushed_at"], "archived": e["archived"], "render_base": rb,
             "description_en": d["description_en"],
             "description_zh_source": up_desc if CJK.search(up_desc) else None,
             "license_detail": license_detail, "noncommercial": noncommercial,
             "install": inst, "usage": usg,
             "safety_upstream": c["safety_upstream"], "featured": i in featured,
-            "notes": " ".join(note + ([ov["notes"]] if ov.get("notes") else [])) or None, "judgments": {},
+            "notes": " ".join(note + ([ov["notes"]] if ov.get("notes") else [])) or None, "judgments": judgments,
+            "entry_kind": ov.get("entry_kind", "tool"),
         })
     (ROOT / "data/repos.json").write_text(json.dumps(out, indent=1, ensure_ascii=False) + "\n")
     print(len(out), "featured", sum(r["featured"] for r in out))

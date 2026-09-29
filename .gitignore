@@ -1,0 +1,9 @@
+.claude/state/
+.env*
+experiments/**/raw/
+sources/readmes/
+.DS_Store
+__pycache__/
+.claude/sessions/
+.claude/memory/
+out/

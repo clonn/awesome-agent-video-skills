@@ -1,0 +1,43 @@
+{
+ "preregistered": "2026-09-29",
+ "thresholds": {
+  "E1_auto_accept_conf": 0.9,
+  "E2_hybrid": "regex match AND noul>=0.3",
+  "E3": "Choice if conf>=0.7 else heuristic"
+ },
+ "adopt_rule": "adopt E2/E3 only if holdout metric >= baseline (E2: F1 of hybrid >= regex F1; E3: overall accuracy of hybrid >= heuristic accuracy)",
+ "set_A_extractor_null_choice_found": [
+  "liyue-aigc/xianxia-cinematic-video-director",
+  "Monet-AI-Editor/Monet",
+  "jinjin1/scenewright",
+  "vibe-motion/remotion-code-motion-explainer"
+ ],
+ "set_B_extractor_value_choice_none": [
+  "Mng-dev-ai/explainer-video",
+  "Anil-matcha/zack-d-films-ai-video-generator",
+  "lemomo-ai/lemo-opuscar",
+  "davidcervinka/vibe-editing"
+ ],
+ "ids": [
+  "Anil-matcha/zack-d-films-ai-video-generator",
+  "GordenSun/react-bits-video",
+  "Mng-dev-ai/explainer-video",
+  "Monet-AI-Editor/Monet",
+  "bestagentkits/motion-video-skill",
+  "davidcervinka/vibe-editing",
+  "erduo1998-cell/video-script-builder",
+  "fernandokaraka/remotion-motion-graphics-skill",
+  "geekjourneyx/hyperframes-motion-director",
+  "iart-ai/motion-design-skills",
+  "iart-ai/tiktok-video-skills",
+  "jinjin1/scenewright",
+  "kingselyjoe/video-shotcraft-dsh",
+  "lemomo-ai/lemo-opuscar",
+  "liangdabiao/wechat-article-remotion",
+  "liyue-aigc/xianxia-cinematic-video-director",
+  "manthanpatelll/leadgenman-video-skills",
+  "marketcalls/story-telling",
+  "vibe-motion/remotion-code-motion-explainer",
+  "znyupup/ai-video-editing-skill"
+ ]
+}

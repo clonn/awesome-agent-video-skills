@@ -1,6 +1,6 @@
 # guizang-product-video-skill
 
-[op7418/guizang-product-video-skill](https://github.com/op7418/guizang-product-video-skill) · Claude Skill · 598 stars (checked 2026-09-29) · License: AGPL-3.0
+[op7418/guizang-product-video-skill](https://github.com/op7418/guizang-product-video-skill) · Claude Skill · 751 stars (checked 2026-10-10) · License: AGPL-3.0
 
 Skill that builds software-update promo videos in code by reusing real product components, with scripts, original music and sound effects.
 
@@ -11,7 +11,7 @@ Skill that builds software-update promo videos in code by reusing real product c
 - **Stack:** HyperFrames (our judgment: named in the README and confirmed as actually used; see [methodology](../docs/methodology.md))
 - **Also uses:** ffmpeg
 - **Language:** Python
-- **Last push:** 2026-09-25
+- **Last push:** 2026-10-09
 
 ## Install
 

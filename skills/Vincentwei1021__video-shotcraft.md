@@ -1,6 +1,6 @@
 # video-shotcraft
 
-[Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) · Claude Skill · 9.9k stars (checked 2026-09-29) · License: Apache-2.0
+[Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) · Claude Skill · 11.1k stars (checked 2026-10-10) · License: Apache-2.0
 
 Agent skill with shot recipe cards, motion previews and a template for making cinematic product videos in Remotion.
 
@@ -10,7 +10,7 @@ Agent skill with shot recipe cards, motion previews and a template for making ci
 - **Best for:** Cinematic product promo videos in Remotion, guided by shot recipe cards and a template.
 - **Stack:** Remotion (our judgment: named in the README and confirmed as actually used; see [methodology](../docs/methodology.md))
 - **Language:** TypeScript
-- **Last push:** 2026-09-28
+- **Last push:** 2026-10-05
 
 ## Install
 

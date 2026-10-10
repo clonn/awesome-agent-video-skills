@@ -1,6 +1,6 @@
 # Paper-Cut
 
-[aijiduonadegou/Paper-Cut](https://github.com/aijiduonadegou/Paper-Cut) · Codex Skill · 17 stars (checked 2026-09-29) · License: MIT
+[aijiduonadegou/Paper-Cut](https://github.com/aijiduonadegou/Paper-Cut) · Codex Skill · 18 stars (checked 2026-10-10) · License: MIT
 
 Codex skill for paper-cut style explainer videos, using image-model stills, extracted layers and code animation, with approval gates and QA.
 

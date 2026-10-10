@@ -3,11 +3,14 @@
 import base64
 import json
 import subprocess
+import sys
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+FACTS_ONLY = "--facts-only" in sys.argv
+OLD = {e["id"]: e for e in json.loads((ROOT / "data/enriched.json").read_text())} if FACTS_ONLY else {}
 
 
 def gh(path):
@@ -33,6 +36,12 @@ def one(c):
         "pushed_at": d["pushed_at"], "archived": d["archived"], "default_branch": d["default_branch"],
         "gh_description": d.get("description"),
     })
+    if FACTS_ONLY:  # refresh stars/license/push dates only; keep the cached README and its extracted snippets
+        old = OLD.get(rid, {})
+        for k in ("readme_path", "readme_html_url", "readme_bytes", "readme_error"):
+            if k in old:
+                row[k] = old[k]
+        return row
     rd, rerr = gh(f"repos/{d['full_name']}/readme")
     if rd is None:
         row["readme_error"] = rerr

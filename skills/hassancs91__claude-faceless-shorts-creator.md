@@ -1,6 +1,6 @@
 # claude-faceless-shorts-creator
 
-[hassancs91/claude-faceless-shorts-creator](https://github.com/hassancs91/claude-faceless-shorts-creator) · Claude Skill · 271 stars (checked 2026-09-29) · License: MIT
+[hassancs91/claude-faceless-shorts-creator](https://github.com/hassancs91/claude-faceless-shorts-creator) · Claude Skill · 271 stars (checked 2026-10-10) · License: MIT
 
 Claude Code project for faceless short videos with three pipelines, Remotion code visuals, generative clips and paper collage, plus ElevenLabs captions.
 

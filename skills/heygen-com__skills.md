@@ -1,6 +1,6 @@
 # skills
 
-[heygen-com/skills](https://github.com/heygen-com/skills) · Claude Skill · 458 stars (checked 2026-09-29) · License: MIT
+[heygen-com/skills](https://github.com/heygen-com/skills) · Claude Skill · 473 stars (checked 2026-10-10) · License: MIT
 
 Agent skills for creating avatar videos and video production with HeyGen's API, usable from Claude Code, Codex and other agents.
 

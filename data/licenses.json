@@ -4,321 +4,328 @@
   "spdx_guess": "MIT",
   "noncommercial": false,
   "first_line": "MIT License",
-  "checked_at": "2026-09-29T14:29:24Z"
+  "checked_at": "2026-10-10T03:42:04Z"
  },
  "AKMessi/vex": {
   "file": "LICENSE",
   "spdx_guess": "PolyForm-Noncommercial-1.0.0",
   "noncommercial": true,
   "first_line": "Required Notice: Copyright (c) 2026 Aaryan Kakad",
-  "checked_at": "2026-09-29T14:29:24Z"
+  "checked_at": "2026-10-10T03:42:04Z"
  },
  "AllenAI2014/remotion-guofeng-starter": {
   "file": "LICENSE",
   "spdx_guess": "MIT",
   "noncommercial": false,
   "first_line": "MIT License",
-  "checked_at": "2026-09-29T14:29:24Z"
+  "checked_at": "2026-10-10T03:42:04Z"
  },
  "Anil-matcha/vox-ai-motion-graphics-generator": {
   "file": null,
   "spdx_guess": null,
   "noncommercial": false,
   "note": "no LICENSE file found",
-  "checked_at": "2026-09-29T14:29:24Z"
+  "checked_at": "2026-10-10T03:42:04Z"
  },
  "Anil-matcha/zack-d-films-ai-video-generator": {
   "file": null,
   "spdx_guess": null,
   "noncommercial": false,
   "note": "no LICENSE file found",
-  "checked_at": "2026-09-29T14:29:24Z"
+  "checked_at": "2026-10-10T03:42:04Z"
  },
  "BayramAnnakov/remotion-video-director": {
   "file": null,
   "spdx_guess": null,
   "noncommercial": false,
   "note": "no LICENSE file found",
-  "checked_at": "2026-09-29T14:29:24Z"
+  "checked_at": "2026-10-10T03:42:04Z"
  },
  "darrenli6/JJKoubo": {
   "file": "LICENSE",
   "spdx_guess": "CC-BY-NC",
   "noncommercial": true,
   "first_line": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)",
-  "checked_at": "2026-09-29T14:29:24Z"
+  "checked_at": "2026-10-10T03:42:04Z"
  },
  "GordenSun/react-bits-video": {
   "file": "LICENSE",
   "spdx_guess": "MIT",
   "noncommercial": false,
   "first_line": "MIT License",
-  "checked_at": "2026-09-29T14:29:24Z"
+  "checked_at": "2026-10-10T03:42:04Z"
  },
  "hahadu4520/vlog-cut": {
   "file": "LICENSE",
   "spdx_guess": "PolyForm-Noncommercial-1.0.0",
   "noncommercial": true,
   "first_line": "# PolyForm Noncommercial License 1.0.0",
-  "checked_at": "2026-09-29T14:29:25Z"
+  "checked_at": "2026-10-10T03:42:05Z"
  },
  "hypit-ai/hypit": {
   "file": "LICENSE",
   "spdx_guess": null,
   "noncommercial": false,
   "first_line": "# Open Source License",
-  "checked_at": "2026-09-29T14:29:25Z"
+  "checked_at": "2026-10-10T03:42:05Z"
  },
  "icytear-svg/podcast-to-video": {
   "file": null,
   "spdx_guess": null,
   "noncommercial": false,
   "note": "no LICENSE file found",
-  "checked_at": "2026-09-29T14:29:25Z"
+  "checked_at": "2026-10-10T03:42:05Z"
  },
  "inematds/skill-video-plan-editor": {
   "file": null,
   "spdx_guess": null,
   "noncommercial": false,
   "note": "no LICENSE file found",
-  "checked_at": "2026-09-29T14:29:25Z"
+  "checked_at": "2026-10-10T03:42:05Z"
+ },
+ "JimLiu/baocut": {
+  "file": "LICENSE",
+  "spdx_guess": "Custom (non-commercial terms)",
+  "noncommercial": true,
+  "first_line": "BaoCut Community License",
+  "checked_at": "2026-10-10T03:42:05Z"
  },
  "JimLiu/taohuayuan": {
   "file": null,
   "spdx_guess": null,
   "noncommercial": false,
   "note": "no LICENSE file found",
-  "checked_at": "2026-09-29T14:29:25Z"
+  "checked_at": "2026-10-10T03:42:05Z"
  },
  "jincheng2026/jc-remotion-skills": {
   "file": "LICENSE",
   "spdx_guess": "CC-BY-NC",
   "noncommercial": true,
   "first_line": "Remotion Koubo Skill © 2026 何锦成 (jincheng2026)",
-  "checked_at": "2026-09-29T14:29:25Z"
+  "checked_at": "2026-10-10T03:42:05Z"
  },
  "JohnHeibel/PDoomVideo": {
   "file": null,
   "spdx_guess": null,
   "noncommercial": false,
   "note": "no LICENSE file found",
-  "checked_at": "2026-09-29T14:29:25Z"
+  "checked_at": "2026-10-10T03:42:05Z"
  },
  "kakaxi12/vox-director-codex": {
   "file": null,
   "spdx_guess": null,
   "noncommercial": false,
   "note": "no LICENSE file found",
-  "checked_at": "2026-09-29T14:29:25Z"
+  "checked_at": "2026-10-10T03:42:05Z"
  },
  "krusemediallc/video-editor-agent": {
   "file": null,
   "spdx_guess": null,
   "noncommercial": false,
   "note": "no LICENSE file found",
-  "checked_at": "2026-09-29T14:29:26Z"
+  "checked_at": "2026-10-10T03:42:05Z"
  },
  "lemomo-ai/lemo-opuscar": {
   "file": "LICENSE",
   "spdx_guess": "MIT",
   "noncommercial": false,
   "first_line": "MIT License",
-  "checked_at": "2026-09-29T14:29:26Z"
+  "checked_at": "2026-10-10T03:42:05Z"
  },
  "LetMeHappyCode/auto-video-agent": {
   "file": null,
   "spdx_guess": null,
   "noncommercial": false,
   "note": "no LICENSE file found",
-  "checked_at": "2026-09-29T14:29:26Z"
+  "checked_at": "2026-10-10T03:42:05Z"
  },
  "liangdabiao/story-handdrawn-remotion": {
   "file": null,
   "spdx_guess": null,
   "noncommercial": false,
   "note": "no LICENSE file found",
-  "checked_at": "2026-09-29T14:29:26Z"
+  "checked_at": "2026-10-10T03:42:05Z"
  },
  "liangdabiao/story-handdrawn-video": {
   "file": null,
   "spdx_guess": null,
   "noncommercial": false,
   "note": "no LICENSE file found",
-  "checked_at": "2026-09-29T14:29:26Z"
+  "checked_at": "2026-10-10T03:42:05Z"
  },
  "liangdabiao/wechat-article-remotion": {
   "file": null,
   "spdx_guess": null,
   "noncommercial": false,
   "note": "no LICENSE file found",
-  "checked_at": "2026-09-29T14:29:26Z"
+  "checked_at": "2026-10-10T03:42:05Z"
  },
  "liyue-aigc/xianxia-cinematic-video-director": {
   "file": null,
   "spdx_guess": null,
   "noncommercial": false,
   "note": "no LICENSE file found",
-  "checked_at": "2026-09-29T14:29:26Z"
+  "checked_at": "2026-10-10T03:42:05Z"
  },
  "MegaTroll222/VOX-COLLAGE-BROLL": {
   "file": "LICENSE",
   "spdx_guess": "MIT",
   "noncommercial": false,
   "first_line": "MIT License",
-  "checked_at": "2026-09-29T14:29:26Z"
+  "checked_at": "2026-10-10T03:42:06Z"
  },
  "misbahsy/tiktok-ig-shorts": {
   "file": null,
   "spdx_guess": null,
   "noncommercial": false,
   "note": "no LICENSE file found",
-  "checked_at": "2026-09-29T14:29:26Z"
+  "checked_at": "2026-10-10T03:42:06Z"
  },
  "molkex/mcp-flow-google": {
   "file": "LICENSE",
   "spdx_guess": "MIT",
   "noncommercial": false,
   "first_line": "MIT License",
-  "checked_at": "2026-09-29T14:29:26Z"
+  "checked_at": "2026-10-10T03:42:06Z"
  },
  "Mr-funny/hbg-douyin-code-explainer-video": {
   "file": null,
   "spdx_guess": null,
   "noncommercial": false,
   "note": "no LICENSE file found",
-  "checked_at": "2026-09-29T14:29:26Z"
+  "checked_at": "2026-10-10T03:42:06Z"
  },
  "opus-pro/opus-video-studio": {
   "file": null,
   "spdx_guess": null,
   "noncommercial": false,
   "note": "no LICENSE file found",
-  "checked_at": "2026-09-29T14:29:27Z"
+  "checked_at": "2026-10-10T03:42:06Z"
  },
  "patraxo/ltx2-vidgen-skill": {
   "file": "LICENSE",
   "spdx_guess": "MIT",
   "noncommercial": false,
   "first_line": "MIT License",
-  "checked_at": "2026-09-29T14:29:27Z"
+  "checked_at": "2026-10-10T03:42:06Z"
  },
  "PoetCoderJun/MotionTalk": {
   "file": "LICENSE.md",
   "spdx_guess": "CC-BY-NC",
   "noncommercial": true,
   "first_line": "# Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
-  "checked_at": "2026-09-29T14:29:27Z"
+  "checked_at": "2026-10-10T03:42:06Z"
  },
  "qingyunAGI/qingyun-cine-skill": {
   "file": null,
   "spdx_guess": null,
   "noncommercial": false,
   "note": "no LICENSE file found",
-  "checked_at": "2026-09-29T14:29:27Z"
+  "checked_at": "2026-10-10T03:42:06Z"
  },
  "remotion-dev/skills": {
   "file": null,
   "spdx_guess": null,
   "noncommercial": false,
   "note": "no LICENSE file found",
-  "checked_at": "2026-09-29T14:29:27Z"
+  "checked_at": "2026-10-10T03:42:06Z"
  },
  "Samin12/samin-reel-engine-plugin": {
   "file": "LICENSE",
   "spdx_guess": null,
   "noncommercial": false,
   "first_line": "Copyright (c) 2026 Samin Yasar. All rights reserved.",
-  "checked_at": "2026-09-29T14:29:27Z"
+  "checked_at": "2026-10-10T03:42:06Z"
  },
  "santmun/video-vox": {
   "file": null,
   "spdx_guess": null,
   "noncommercial": false,
   "note": "no LICENSE file found",
-  "checked_at": "2026-09-29T14:29:27Z"
+  "checked_at": "2026-10-10T03:42:06Z"
  },
  "shuyicc/MathLens": {
   "file": null,
   "spdx_guess": null,
   "noncommercial": false,
   "note": "no LICENSE file found",
-  "checked_at": "2026-09-29T14:29:27Z"
+  "checked_at": "2026-10-10T03:42:06Z"
  },
  "sukai213/bilibili-ai-video": {
   "file": null,
   "spdx_guess": null,
   "noncommercial": false,
   "note": "no LICENSE file found",
-  "checked_at": "2026-09-29T14:29:27Z"
+  "checked_at": "2026-10-10T03:42:07Z"
  },
  "taylorzhou16/video-gen": {
   "file": null,
   "spdx_guess": null,
   "noncommercial": false,
   "note": "no LICENSE file found",
-  "checked_at": "2026-09-29T14:29:27Z"
+  "checked_at": "2026-10-10T03:42:07Z"
  },
  "tugrawork-creator/saas-motion-kit": {
   "file": "LICENSE",
   "spdx_guess": "MIT",
   "noncommercial": false,
   "first_line": "MIT License",
-  "checked_at": "2026-09-29T14:29:27Z"
+  "checked_at": "2026-10-10T03:42:07Z"
  },
  "tuzhechen2005/opus-video-skills": {
   "file": "LICENSE",
   "spdx_guess": "MIT",
   "noncommercial": false,
   "first_line": "MIT License",
-  "checked_at": "2026-09-29T14:29:27Z"
+  "checked_at": "2026-10-10T03:42:07Z"
  },
  "VasiniDevi/motion-skills": {
   "file": null,
   "spdx_guess": null,
   "noncommercial": false,
   "note": "no LICENSE file found",
-  "checked_at": "2026-09-29T14:29:27Z"
+  "checked_at": "2026-10-10T03:42:07Z"
  },
  "vibe-motion/skills": {
   "file": null,
   "spdx_guess": null,
   "noncommercial": false,
   "note": "no LICENSE file found",
-  "checked_at": "2026-09-29T14:29:27Z"
+  "checked_at": "2026-10-10T03:42:07Z"
  },
  "Vincentwei1021/video-talkcraft": {
   "file": "LICENSE",
   "spdx_guess": "PolyForm-Noncommercial-1.0.0",
   "noncommercial": true,
   "first_line": "video-talkcraft",
-  "checked_at": "2026-09-29T14:29:27Z"
+  "checked_at": "2026-10-10T03:42:07Z"
  },
  "wendymardigian-prog/Editor-IA-Pro": {
   "file": "LICENSE",
   "spdx_guess": "MIT",
   "noncommercial": false,
   "first_line": "MIT License",
-  "checked_at": "2026-09-29T14:29:28Z"
+  "checked_at": "2026-10-10T03:42:07Z"
  },
  "wshuyi/remotion-video-skill": {
   "file": null,
   "spdx_guess": null,
   "noncommercial": false,
   "note": "no LICENSE file found",
-  "checked_at": "2026-09-29T14:29:28Z"
+  "checked_at": "2026-10-10T03:42:07Z"
  },
  "YeJe-cpu/SeeCut": {
   "file": "LICENSE",
   "spdx_guess": "PolyForm-Noncommercial-1.0.0",
   "noncommercial": true,
   "first_line": "SeeCut（网感口播精剪）",
-  "checked_at": "2026-09-29T14:29:28Z"
+  "checked_at": "2026-10-10T03:42:07Z"
  },
  "zlong6943-commits/football-prediction-avatar-video": {
   "file": null,
   "spdx_guess": null,
   "noncommercial": false,
   "note": "no LICENSE file found",
-  "checked_at": "2026-09-29T14:29:28Z"
+  "checked_at": "2026-10-10T03:42:07Z"
  }
 }

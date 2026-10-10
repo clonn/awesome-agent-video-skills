@@ -1,6 +1,6 @@
 # Raven
 
-[EverMind-AI/Raven](https://github.com/EverMind-AI/Raven) · AI Tool · 4.6k stars (checked 2026-09-29) · License: Apache-2.0
+[EverMind-AI/Raven](https://github.com/EverMind-AI/Raven) · AI Tool · 5.3k stars (checked 2026-10-10) · License: Apache-2.0
 
 Skill inside the larger Raven agent host that directs a two-minute animated film from a repository's Git history.
 
@@ -12,7 +12,7 @@ Skill inside the larger Raven agent host that directs a two-minute animated film
 - **Best for:** Multi-agent projects; only its git-story-film skill makes video, turning a repository's Git history into a short film.
 - **Stack:** other: a bundled hand-drawn canvas animation engine, not Remotion or HyperFrames (per the skill path's README)
 - **Language:** Python
-- **Last push:** 2026-09-29
+- **Last push:** 2026-10-10
 
 ## Install
 

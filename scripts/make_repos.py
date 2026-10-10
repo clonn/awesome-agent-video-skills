@@ -107,6 +107,9 @@ def main():
         if li:
             license_detail = li.get("spdx_guess") or ("Custom license (see LICENSE file)" if li.get("file") else "No license file found")
             noncommercial = bool(li.get("noncommercial"))
+        if "license_override" in ov:
+            license_detail = ov["license_override"]["license_detail"]
+            noncommercial = ov["license_override"]["noncommercial"]
         out.append({
             "id": i, "url": e["url"], "name": name, "owner": owner,
             "category_en": CAT_EN[c["category_source"]], "category_source": c["category_source"],

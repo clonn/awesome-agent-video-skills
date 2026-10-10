@@ -1,6 +1,6 @@
 # reelbench-skills
 
-[eternityspring/reelbench-skills](https://github.com/eternityspring/reelbench-skills) · Claude Skill · 849 stars (checked 2026-09-29) · License: Apache-2.0
+[eternityspring/reelbench-skills](https://github.com/eternityspring/reelbench-skills) · Claude Skill · 877 stars (checked 2026-10-10) · License: Apache-2.0
 
 Collection of Claude Code and Codex skills for video work, including shot-by-shot analysis, synced storyboard videos and metadata cleaning.
 
@@ -10,7 +10,7 @@ Collection of Claude Code and Codex skills for video work, including shot-by-sho
 - **Best for:** Analyzing videos shot by shot and building synced storyboard videos with Claude Code or Codex.
 - **Stack:** No rendering framework named; also uses ffmpeg
 - **Language:** JavaScript
-- **Last push:** 2026-09-21
+- **Last push:** 2026-10-09
 
 ## Install
 

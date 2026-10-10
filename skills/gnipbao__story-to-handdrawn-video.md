@@ -1,6 +1,6 @@
 # story-to-handdrawn-video
 
-[gnipbao/story-to-handdrawn-video](https://github.com/gnipbao/story-to-handdrawn-video) · Claude Skill · 2.1k stars (checked 2026-09-29) · License: MIT
+[gnipbao/story-to-handdrawn-video](https://github.com/gnipbao/story-to-handdrawn-video) · Claude Skill · 2.2k stars (checked 2026-10-10) · License: MIT
 
 Skill that turns Chinese stories or images into portrait hand-drawn animated videos, rendered through Remotion.
 

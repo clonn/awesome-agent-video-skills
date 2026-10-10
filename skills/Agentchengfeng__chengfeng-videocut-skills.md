@@ -1,6 +1,6 @@
 # chengfeng-videocut-skills
 
-[Agentchengfeng/chengfeng-videocut-skills](https://github.com/Agentchengfeng/chengfeng-videocut-skills) · Codex Skill · 3.0k stars (checked 2026-09-29) · License: Apache-2.0
+[Agentchengfeng/chengfeng-videocut-skills](https://github.com/Agentchengfeng/chengfeng-videocut-skills) · Codex Skill · 3.0k stars (checked 2026-10-10) · License: Apache-2.0
 
 Codex plugin installer for a video-cutting agent; provides workflow skills for cutting speech, subtitles, visuals and export, with a separate runtime.
 

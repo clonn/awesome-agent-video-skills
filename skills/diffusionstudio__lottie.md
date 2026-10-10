@@ -1,6 +1,6 @@
 # lottie
 
-[diffusionstudio/lottie](https://github.com/diffusionstudio/lottie) · Claude Skill · 5.5k stars (checked 2026-09-29) · License: MIT
+[diffusionstudio/lottie](https://github.com/diffusionstudio/lottie) · Claude Skill · 5.6k stars (checked 2026-10-10) · License: MIT
 
 Agent skill and player workspace for generating Lottie animations from prompts with Claude Code, Codex or similar coding agents.
 

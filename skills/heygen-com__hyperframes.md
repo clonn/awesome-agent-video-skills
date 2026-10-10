@@ -1,6 +1,6 @@
 # hyperframes
 
-[heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) · Agent Tool · 54.1k stars (checked 2026-09-29) · License: Apache-2.0
+[heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) · Agent Tool · 59.9k stars (checked 2026-10-10) · License: Apache-2.0
 
 Open-source framework that renders HTML, CSS and seekable animations into deterministic MP4 via a CLI, with agent skills and plugins.
 
@@ -11,7 +11,7 @@ Open-source framework that renders HTML, CSS and seekable animations into determ
 - **Stack:** HyperFrames (our judgment: named in the README and confirmed as actually used; see [methodology](../docs/methodology.md))
 - **Also uses:** ffmpeg
 - **Language:** TypeScript
-- **Last push:** 2026-09-29
+- **Last push:** 2026-10-10
 
 ## Install
 

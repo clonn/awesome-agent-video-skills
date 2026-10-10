@@ -1,6 +1,6 @@
 # data-animation-skills
 
-[iart-ai/data-animation-skills](https://github.com/iart-ai/data-animation-skills) · Claude Skill · 6 stars (checked 2026-09-29) · License: MIT
+[iart-ai/data-animation-skills](https://github.com/iart-ai/data-animation-skills) · Claude Skill · 8 stars (checked 2026-10-10) · License: MIT
 
 Skills for coding agents that turn CSV data into animated charts and infographics with accurate numbers on every frame.
 

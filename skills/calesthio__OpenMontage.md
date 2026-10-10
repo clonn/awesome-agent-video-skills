@@ -1,6 +1,6 @@
 # OpenMontage
 
-[calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) · Agent Tool · 61.8k stars (checked 2026-09-29) · License: AGPL-3.0
+[calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) · Agent Tool · 65.9k stars (checked 2026-10-10) · License: AGPL-3.0
 
 Open-source agentic video production system with many pipelines and tools that lets a coding assistant handle research, scripting, assets, editing and composition.
 
@@ -11,7 +11,7 @@ Open-source agentic video production system with many pipelines and tools that l
 - **Stack:** Remotion, HyperFrames, Blender (our judgment: named in the README and confirmed as actually used; see [methodology](../docs/methodology.md))
 - **Also uses:** ffmpeg
 - **Language:** Python
-- **Last push:** 2026-09-06
+- **Last push:** 2026-10-03
 
 ## Install
 

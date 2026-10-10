@@ -1,6 +1,6 @@
 # lanshu-create-ai-presenter-video
 
-[cclank/lanshu-create-ai-presenter-video](https://github.com/cclank/lanshu-create-ai-presenter-video) · Codex Skill · 2.0k stars (checked 2026-09-29) · License: MIT
+[cclank/lanshu-create-ai-presenter-video](https://github.com/cclank/lanshu-create-ai-presenter-video) · Codex Skill · 2.6k stars (checked 2026-10-10) · License: MIT
 
 Guides an agent from a script and one authorized portrait to a checked AI presenter video, with interchangeable voice and video providers.
 
@@ -11,8 +11,8 @@ Guides an agent from a script and one authorized portrait to a checked AI presen
 - **Category:** AI Avatars (upstream's label)
 - **Best for:** Producing a checked presenter video from a script and one authorized portrait, with your choice of providers.
 - **Stack:** No rendering framework named in the README
-- **Language:** Python
-- **Last push:** 2026-09-27
+- **Language:** HTML
+- **Last push:** 2026-10-06
 
 ## Install
 

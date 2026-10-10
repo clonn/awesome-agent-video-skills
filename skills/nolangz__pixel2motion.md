@@ -1,6 +1,6 @@
 # pixel2motion
 
-[nolangz/pixel2motion](https://github.com/nolangz/pixel2motion) · Claude Skill · 2.4k stars (checked 2026-09-29) · License: MIT
+[nolangz/pixel2motion](https://github.com/nolangz/pixel2motion) · Claude Skill · 2.4k stars (checked 2026-10-10) · License: MIT
 
 Codex and Claude skill that converts raster logos into clean SVG, then produces animated logo HTML demos, GIF/video previews and motion checks.
 

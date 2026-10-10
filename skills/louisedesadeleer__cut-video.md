@@ -1,6 +1,6 @@
 # cut-video
 
-[louisedesadeleer/cut-video](https://github.com/louisedesadeleer/cut-video) · Claude Skill · 104 stars (checked 2026-09-29) · License: MIT
+[louisedesadeleer/cut-video](https://github.com/louisedesadeleer/cut-video) · Claude Skill · 108 stars (checked 2026-10-10) · License: MIT
 
 Claude Code skill that removes silences and filler from long recordings using forced-alignment word timing, while keeping laughs and comedic pauses.
 

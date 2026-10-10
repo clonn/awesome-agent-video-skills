@@ -1,6 +1,6 @@
 # lemo-opuscar
 
-[lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) · AI Tool · 585 stars (checked 2026-09-29) · License: MIT
+[lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) · AI Tool · 1.6k stars (checked 2026-10-10) · License: MIT
 
 Library of film-style prompts, each with a short film built entirely in code by Claude, for agents to direct your story.
 
@@ -10,7 +10,7 @@ Library of film-style prompts, each with a short film built entirely in code by 
 - **Best for:** Directing a short film from your own story using ready-made film-style prompts.
 - **Stack:** No rendering framework named; also uses ffmpeg
 - **Language:** JavaScript
-- **Last push:** 2026-09-29
+- **Last push:** 2026-10-09
 
 ## Install
 

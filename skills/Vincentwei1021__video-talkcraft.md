@@ -1,6 +1,6 @@
 # video-talkcraft
 
-[Vincentwei1021/video-talkcraft](https://github.com/Vincentwei1021/video-talkcraft) · Claude Skill · 1.3k stars (checked 2026-09-29) · License: PolyForm-Noncommercial-1.0.0
+[Vincentwei1021/video-talkcraft](https://github.com/Vincentwei1021/video-talkcraft) · Claude Skill · 1.5k stars (checked 2026-10-10) · License: PolyForm-Noncommercial-1.0.0
 
 Agent skill making voiceover-driven explainer videos with word-level sync, motion recipe cards and a camera system.
 
@@ -13,7 +13,7 @@ Agent skill making voiceover-driven explainer videos with word-level sync, motio
 - **Stack:** Remotion (our judgment: named in the README and confirmed as actually used; see [methodology](../docs/methodology.md))
 - **Also uses:** ffmpeg
 - **Language:** HTML
-- **Last push:** 2026-09-22
+- **Last push:** 2026-10-01
 
 ## Install
 

@@ -1,8 +1,10 @@
 # codex-storyboard
 
-[Yuuhann1999/codex-storyboard](https://github.com/Yuuhann1999/codex-storyboard) · Codex Skill · 347 stars (checked 2026-09-29) · License: MIT
+[Yuuhann1999/codex-storyboard](https://github.com/Yuuhann1999/agent-storyboard) · Codex Skill · 358 stars (checked 2026-10-10) · License: MIT
 
 Local storyboard workspace plugin for Codex that manages video projects and shots and fills in generated media from HyperFrames or Remotion.
+
+> Note: Renamed on GitHub: now Yuuhann1999/agent-storyboard.
 
 ## At a glance
 
@@ -10,7 +12,7 @@ Local storyboard workspace plugin for Codex that manages video projects and shot
 - **Best for:** Managing short-video projects and shot lists in a local Codex workspace that fills in generated media.
 - **Stack:** Remotion, HyperFrames (our judgment: named in the README and confirmed as actually used; see [methodology](../docs/methodology.md))
 - **Language:** JavaScript
-- **Last push:** 2026-09-28
+- **Last push:** 2026-09-30
 
 ## Install
 
@@ -41,5 +43,5 @@ MIT. See the repository's license file.
 
 ## Links
 
-- Repository: https://github.com/Yuuhann1999/codex-storyboard
+- Repository: https://github.com/Yuuhann1999/agent-storyboard
 - Catalog: [Short-form & Talking-head](../catalog/short-form-and-talking-head.md)

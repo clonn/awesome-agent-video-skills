@@ -60,5 +60,12 @@
     ],
     "notes": "The entry is the git-story-film skill path (skills/git-story-film) inside the larger Raven repository, not Raven as a whole. Its own README states that it uses a bundled canvas animation engine rather than Remotion or HyperFrames.",
     "stack_note": "a bundled hand-drawn canvas animation engine, not Remotion or HyperFrames (per the skill path's README)"
+  },
+  "JimLiu/baocut": {
+    "license_override": {
+      "license_detail": "Custom license (BaoCut Community License 1.0, source-available)",
+      "noncommercial": false
+    },
+    "notes": "License (read on 2026-10-10): source-available; it permits commercial content creation and internal business use, but commercializing BaoCut itself or its code needs a separate written license."
   }
 }

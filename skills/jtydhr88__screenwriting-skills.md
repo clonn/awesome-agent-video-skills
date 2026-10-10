@@ -1,6 +1,6 @@
 # screenwriting-skills
 
-[jtydhr88/screenwriting-skills](https://github.com/jtydhr88/screenwriting-skills) · Claude Skill · 1.5k stars (checked 2026-09-29) · License: MIT
+[jtydhr88/screenwriting-skills](https://github.com/jtydhr88/screenwriting-skills) · Claude Skill · 1.6k stars (checked 2026-10-10) · License: MIT
 
 Collection of 26 agent skills for screenwriting and television writing, distilled from craft books and scripts.
 
@@ -10,7 +10,7 @@ Collection of 26 agent skills for screenwriting and television writing, distille
 - **Best for:** Planning scripts and television writing with 26 skills; it produces text, not video.
 - **Stack:** No rendering framework named in the README
 - **Language:** Python
-- **Last push:** 2026-09-22
+- **Last push:** 2026-10-03
 
 ## Install
 

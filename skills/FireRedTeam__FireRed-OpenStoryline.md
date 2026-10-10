@@ -1,6 +1,6 @@
 # FireRed-OpenStoryline
 
-[FireRedTeam/FireRed-OpenStoryline](https://github.com/FireRedTeam/FireRed-OpenStoryline) · AI Tool · 3.5k stars (checked 2026-09-29) · License: Apache-2.0
+[FireRedTeam/FireRed-OpenStoryline](https://github.com/FireRedTeam/FireRed-OpenStoryline) · AI Tool · 3.5k stars (checked 2026-10-10) · License: Apache-2.0
 
 Conversational AI video editing agent that plans edits with an LLM, orchestrates tools and reuses style skills.
 

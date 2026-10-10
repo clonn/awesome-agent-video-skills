@@ -1,6 +1,6 @@
 # vox-director
 
-[Alisa0808/vox-director](https://github.com/Alisa0808/vox-director) · Claude Skill · 2.1k stars (checked 2026-09-29) · License: MIT
+[Alisa0808/vox-director](https://github.com/Alisa0808/vox-director) · Claude Skill · 2.2k stars (checked 2026-10-10) · License: MIT
 
 Agent skill that takes a topic and produces a paper-collage explainer video, covering script, keyframes, motion, voice-over, music and captions.
 
@@ -10,7 +10,7 @@ Agent skill that takes a topic and produces a paper-collage explainer video, cov
 - **Best for:** Turning a topic into a paper-collage explainer video, from script through voice-over, music and captions.
 - **Stack:** No rendering framework named; also uses ffmpeg
 - **Language:** Python
-- **Last push:** 2026-08-11
+- **Last push:** 2026-10-05
 
 ## Install
 

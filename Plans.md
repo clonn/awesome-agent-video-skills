@@ -77,7 +77,7 @@ Rules: read the live docs first (https://docs.typesafe.ai/llms.txt, how-to-build
 
 | Task | Content | DoD | Depends | Status |
 |------|---------|-----|---------|--------|
-| 6.1 | `gh repo create` + push | User has approved in the PM session | Phase 5 | pm:依頼中 (user approved 2026-09-29 in PM session: public, clonn/awesome-agent-video-skills, copyright holder "clonn") |
+| 6.1 | `gh repo create` + push | User has approved in the PM session | Phase 5 | cc:完了 (pushed 2026-10-10; user approved 2026-09-29 in PM session: public, clonn/awesome-agent-video-skills, copyright holder "clonn") |
 
 ## Backlog / Optional
 - i18n: zh-TW / zh-CN READMEs from `description_zh_source`.

@@ -256,6 +256,7 @@ Featured tools, each with a card (what it is, install, usage, license, safety).
 | [marketcalls/story-telling](https://github.com/marketcalls/story-telling) | 5 | Claude Skill | Remotion | MIT | Agent skills that generate narrated story videos from a context using Sarvam voiceover, FLUX artwork and a Remotion render. |
 | [ninestonelee/youtube-shorts-factory](https://github.com/ninestonelee/youtube-shorts-factory) | 5 | Claude Skill | - | MIT | Claude Code skill analyzing reference YouTube Shorts, adapting their formula and producing a storyboard and AI Shorts. |
 | [wendymardigian-prog/Editor-IA-Pro](https://github.com/wendymardigian-prog/Editor-IA-Pro) | 5 | Agent Tool | Remotion | MIT | Claude Code project that lets you create and edit videos by describing them, generating Remotion code with Whisper captions. |
+| [as-minds/motionforge-ai](https://github.com/as-minds/motionforge-ai) | — | Claude Skill | Remotion, Manim, HTML/GSAP | MIT | Multi-engine AI motion-graphics Agent Skill with AST determinism linting, 2x2 visual review gate, and mechanical FFmpeg QA. |
 
 ## Credits
 
